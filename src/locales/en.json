@@ -80,6 +80,26 @@
         "icon": "Swords",
         "title": "Roll to Defend Best Units",
         "description": "Rarest defenders and pulls worth keeping long-term."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Roll to Defend Upgrades Guide",
+        "description": "Spend income on the next clear bottleneck instead of spreading it everywhere."
+      },
+      {
+        "icon": "Map",
+        "title": "Roll to Defend Zones Guide",
+        "description": "Buy new zones only after your current defense can clear zombie waves."
+      },
+      {
+        "icon": "Clover",
+        "title": "Roll to Defend Luck & Offline Income",
+        "description": "Stack friend luck and group luck, then reinvest offline income where it matters."
+      },
+      {
+        "icon": "Link2",
+        "title": "Roll to Defend Official Links",
+        "description": "Use the official Roblox game page and D:/Drive community before any external invite."
       }
     ]
   },
@@ -289,6 +309,241 @@
           "use": "Fill empty defense space while income grows",
           "stage": "First session and early income farming",
           "details": "Use early pulls to cover the zombie path until better rolls arrive. Replace them once higher-rarity units can clear the same section faster."
+        }
+      ]
+    },
+    "rollToDoDefendUpgradesGuide": {
+      "eyebrow": "Upgrade Path",
+      "title": "Roll to Defend Upgrades: Fix the Bottleneck That Stopped Your Last Run",
+      "subtitle": "Roll to Defend is built around rolling units, fighting zombie waves, buying zones, using friends luck, and reinvesting offline income. Spend income on the next clear bottleneck instead of spreading it across every option.",
+      "intro": "Use upgrades as a survival tool first and an economy tool second. If zombies are reaching the base, strengthen damage or coverage before buying a new zone. If the defense is stable, then put income into better roll sessions, zone progression, and longer-term income growth.",
+      "columns": {
+        "focus": "Upgrade Focus",
+        "priority": "Priority",
+        "buyWhen": "Buy When",
+        "bestUse": "Best Use",
+        "delayWhen": "Delay When"
+      },
+      "items": [
+        {
+          "upgrade_focus": "Upgrade entry check",
+          "priority": "High",
+          "buy_when": "After rolling and placing units, check the in-game upgrade options before spending all income on more rolls.",
+          "best_use": "Use the upgrade controls inside the Roblox experience and keep purchases tied to the current run goal.",
+          "delay_when": "You have not identified whether the current problem is damage, coverage, roll quality, or zone timing."
+        },
+        {
+          "upgrade_focus": "Core damage",
+          "priority": "High",
+          "buy_when": "Zombies survive long enough to reach your defense or force last-second spending.",
+          "best_use": "Strengthen the unit or setup that already clears the most zombies.",
+          "delay_when": "Enemies are leaking because of placement gaps rather than low kill speed."
+        },
+        {
+          "upgrade_focus": "Coverage and placement",
+          "priority": "High",
+          "buy_when": "Groups slip past even though your main damage unit is performing well.",
+          "best_use": "Improve the way your defense covers the zombie path before chasing another random roll.",
+          "delay_when": "Your current units cannot kill basic waves quickly enough."
+        },
+        {
+          "upgrade_focus": "Roll quality setup",
+          "priority": "Medium",
+          "buy_when": "You have saved income and your friends luck or group extra luck setup is active.",
+          "best_use": "Roll in a prepared session so more income goes into useful unit pulls.",
+          "delay_when": "Your current wave is already failing and needs direct defense upgrades first."
+        },
+        {
+          "upgrade_focus": "Duplicate unit handling",
+          "priority": "Medium",
+          "buy_when": "A duplicate gives a visible improvement over the unit already placed.",
+          "best_use": "Keep the stronger copy in the active defense and use extras only when they create clear upgrade value.",
+          "delay_when": "Replacing a working unit would reduce coverage or leave a lane open."
+        },
+        {
+          "upgrade_focus": "Zone-ready investment",
+          "priority": "Medium",
+          "buy_when": "Current waves clear cleanly and income is building faster than your defense needs it.",
+          "best_use": "Prepare for the next zone by building one reliable damage source and one stable coverage layer.",
+          "delay_when": "A new zone would make the next zombie pressure harder before your defense is ready."
+        },
+        {
+          "upgrade_focus": "Offline income spend",
+          "priority": "Flexible",
+          "buy_when": "You return to the game with offline earnings available.",
+          "best_use": "Spend the returned income on the weakness that ended your last run, then start rolling or pushing zones.",
+          "delay_when": "You have not checked whether damage, coverage, roll quality, or zone timing is the real bottleneck."
+        }
+      ]
+    },
+    "rollToDoDefendZonesGuide": {
+      "eyebrow": "Zone Progression",
+      "title": "Roll to Defend Zones: Buy After Your Defense Is Stable",
+      "subtitle": "Zones are part of the main Roll to Defend loop: roll units, fight zombies, buy zones, and unlock new areas. The best time to expand is after your current setup can clear waves without emergency spending.",
+      "intro": "Treat every zone purchase as a progression checkpoint. A new zone should help your income or placement value, but it can also expose weak damage, poor coverage, or a rushed roll setup. Clear the current pressure first, then expand.",
+      "steps": [
+        {
+          "title": "Stabilize the current zone",
+          "action": "Roll and place units until the current zombie waves clear without panic spending.",
+          "whyItMatters": "Stable clears give you time to save income instead of constantly patching leaks.",
+          "readySignal": "Zombies are cleared before they threaten the base."
+        },
+        {
+          "title": "Check your weakest point",
+          "action": "Decide whether your last problem was damage, coverage, unit quality, or income speed.",
+          "whyItMatters": "Buying a zone before fixing the real weakness makes the next area harder to control.",
+          "readySignal": "You can name the bottleneck and have already improved it."
+        },
+        {
+          "title": "Buy the next zone with backup income",
+          "action": "Purchase a new zone after your defense is stable and you still have enough income to react after the unlock.",
+          "whyItMatters": "Zones push progression, but the first waves after expanding can expose weak spending choices.",
+          "readySignal": "You are not spending your entire balance on the zone alone."
+        },
+        {
+          "title": "Rebuild placement around the new area",
+          "action": "Recheck where zombies travel and focus on the lane or area that now creates the most pressure.",
+          "whyItMatters": "New zones can change which units feel valuable, especially when coverage becomes more important than raw rolling.",
+          "readySignal": "Your best damage source still has useful coverage after the zone unlock."
+        },
+        {
+          "title": "Feed the higher progression loop",
+          "action": "Put the improved income flow back into better rolls, stronger units, and the next zone goal.",
+          "whyItMatters": "Zones are not the end of progression; they feed the roll-and-defend cycle.",
+          "readySignal": "Your income supports upgrades and rolls without breaking the defense."
+        },
+        {
+          "title": "Pause expansion after a rough unlock",
+          "action": "If the new zone makes waves feel worse, stop buying zones and fix the failing defense layer first.",
+          "whyItMatters": "Pausing expansion keeps income available for the damage or coverage problem that appeared after the unlock.",
+          "readySignal": "The new zone clears consistently before you plan the next purchase."
+        }
+      ]
+    },
+    "rollToDoDefendLuckAndOfflineIncome": {
+      "eyebrow": "Luck & Income",
+      "title": "Roll to Defend Luck & Offline Income: Stack Luck, Spend Income Smartly",
+      "subtitle": "Roll to Defend highlights friends luck, group extra luck, and offline income directly in its game description. Put those systems in order before a long roll session.",
+      "intro": "Luck setup belongs before the rolling spree. When you return with offline income, collect it, identify the weakest part of your last run, and reinvest before buying a new zone.",
+      "sections": [
+        {
+          "heading": "Friends luck",
+          "summary": "Play with friends when you are preparing to spend a saved income stack on rolls.",
+          "content": "The game description calls out playing with friends for more luck. Use that bonus during planned roll sessions instead of spending every small income pickup immediately.",
+          "checklist": [
+            "Join the same server as friends before rolling heavily.",
+            "Save income for a focused roll session when possible.",
+            "Roll after the luck setup is active."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Group extra luck",
+          "summary": "Like the experience and join the creator group for the extra luck path shown by the game.",
+          "content": "The Roblox page says to like the game and join the group for extra luck. Treat this as a basic setup step before judging whether your rolls feel strong.",
+          "checklist": [
+            "Open the Roll to Defend Roblox page.",
+            "Like the experience.",
+            "Join the D:/Drive Roblox community connected to the game."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Roll session preparation",
+          "summary": "Prepare luck first, then roll with a clear goal.",
+          "content": "A useful roll session starts with a stable defense, active luck sources, and a clear target: better damage, better coverage, or a replacement for a weak unit.",
+          "checklist": [
+            "Clear the current zone safely.",
+            "Activate friends luck and group extra luck setup.",
+            "Spend rolls toward the weakness that matters most."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Offline income return",
+          "summary": "Collect offline income at the start of the session and turn it into immediate progress.",
+          "content": "Roll to Defend states that you continue to earn income offline. When you return, use that income to fix the last bottleneck before rolling heavily or buying a new zone.",
+          "checklist": [
+            "Collect the returned income first.",
+            "Upgrade damage or coverage if the last wave leaked.",
+            "Buy zones only after the defense is stable."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Best income order after returning",
+          "summary": "Fix survival first, roll second, expand third.",
+          "content": "Offline income is most useful when it keeps the next run from failing for the same reason. Spend on survival if zombies are breaking through, then roll or zone-push once the defense is steady.",
+          "checklist": [
+            "Damage problem: strengthen the main clear unit.",
+            "Coverage problem: improve placement or support units.",
+            "Stable defense: roll with luck or prepare the next zone."
+          ],
+          "defaultOpen": false
+        }
+      ]
+    },
+    "rollToDoDefendOfficialLinks": {
+      "eyebrow": "Official Sources",
+      "title": "Roll to Defend Official Links: Start from the Roblox Game Page",
+      "subtitle": "The safest Roll to Defend entry points are the Roblox experience page and the D:/Drive creator community. Use Roblox-linked routes before trusting external invites, stores, or boards.",
+      "intro": "Start from Roblox before using any community link. The game page provides the experience, store, and server entry points, while the creator community is the group route tied to extra luck.",
+      "links": [
+        {
+          "title": "Roblox experience page",
+          "type": "Game page",
+          "status": "Listed on Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Play Roll to Defend, read the current description, favorite the game, and reach the Store or Servers tabs."
+        },
+        {
+          "title": "D:/Drive creator community",
+          "type": "Roblox community",
+          "status": "Linked from the Roblox experience creator",
+          "href": "https://www.roblox.com/communities/861213399/D-Drive",
+          "useFor": "Join the creator group route connected to the extra luck prompt."
+        },
+        {
+          "title": "Store tab",
+          "type": "Roblox page section",
+          "status": "Available from the Roblox game page",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Check game products from the official Roblox page instead of third-party purchase claims."
+        },
+        {
+          "title": "Servers tab",
+          "type": "Roblox page section",
+          "status": "Available from the Roblox game page",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Join available public servers or choose a server from the Roblox interface."
+        },
+        {
+          "title": "Creator Exchange listing",
+          "type": "Game listing",
+          "status": "Lists D:/Drive as owner and Roll to Defend as the community label",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Check public listing details such as owner, genre, code status, and the listed community label."
+        },
+        {
+          "title": "Discord entry",
+          "type": "Community link",
+          "status": "Use only from a Roblox, in-game, or creator-linked source",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Avoid invite pages that ask for Roblox passwords, scripts, free Robux steps, or unrelated redirects."
+        },
+        {
+          "title": "Trello board",
+          "type": "Roadmap link",
+          "status": "No Trello link is shown on the visible Roblox game page",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Use the Roblox page as the source of record until a Trello is posted from an official creator route."
+        },
+        {
+          "title": "YouTube walkthroughs",
+          "type": "Gameplay media",
+          "status": "Player-created guide content",
+          "href": "https://www.youtube.com/watch?v=NsJK6rOyUEc",
+          "useFor": "Use videos for visual walkthroughs, but confirm links and purchases through Roblox or the creator group."
         }
       ]
     }

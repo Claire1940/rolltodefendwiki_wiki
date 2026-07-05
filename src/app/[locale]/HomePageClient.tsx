@@ -1,23 +1,36 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
   ArrowRight,
   Award,
   BookOpen,
+  Check,
+  ChevronDown,
   Coins,
   Clover,
   Crown,
   Dices,
+  ExternalLink,
+  Gamepad2,
   Heart,
   Info,
+  Link2,
   ListChecks,
   Map,
   MapPin,
   Medal,
+  MessageSquare,
   Moon,
   MoonStar,
+  Newspaper,
+  PauseCircle,
+  RefreshCw,
+  Scale,
+  Server,
   Shield,
+  ShoppingBag,
+  Shuffle,
   Skull,
   Sparkles,
   Star,
@@ -25,8 +38,12 @@ import {
   Target,
   Ticket,
   TicketOff,
+  Trello,
   Trash2,
+  TrendingUp,
   Users,
+  Wrench,
+  Youtube,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -61,6 +78,10 @@ const toolSectionIds = [
   "roll-to-defend-beginner-guide",
   "roll-to-defend-tier-list",
   "roll-to-defend-best-units",
+  "roll-to-defend-upgrades-guide",
+  "roll-to-defend-zones-guide",
+  "roll-to-defend-luck-and-offline-income",
+  "roll-to-defend-official-links",
 ];
 
 // Beginner 步骤图标（按索引，每个步骤不同图标）
@@ -96,6 +117,39 @@ const bestUnitIcons = [Skull, Crown, Star, Shield, MapPin];
 // Current Rewards 卡片图标（按索引）
 const rewardIcons = [Users, Heart, Moon];
 
+// Upgrades 表格 priority 图标（按档位）
+const upgradePriorityIcons: Record<string, typeof Shield> = {
+  High: Shield,
+  Medium: Scale,
+  Flexible: Shuffle,
+};
+
+// Upgrades 表格 priority 标签样式（High 实心 / Medium 半透明 / Flexible 中性，全主题变量）
+const upgradePriorityClass: Record<string, string> = {
+  High: "bg-[hsl(var(--nav-theme))] text-white border-[hsl(var(--nav-theme)/0.5)]",
+  Medium:
+    "bg-[hsl(var(--nav-theme)/0.15)] text-[hsl(var(--nav-theme-light))] border-[hsl(var(--nav-theme)/0.4)]",
+  Flexible: "bg-white/5 text-muted-foreground border-border",
+};
+
+// Zones 步骤图标（6 步各不相同，按索引）
+const zoneStepIcons = [Shield, Target, Coins, RefreshCw, TrendingUp, PauseCircle];
+
+// Luck accordion 各段图标（5 段各不相同，按索引）
+const luckSectionIcons = [Users, Heart, Dices, Moon, Coins];
+
+// Official Links 各卡片图标（8 个各不相同，按 en.json links 顺序）
+const officialLinkIcons = [
+  Gamepad2,
+  Users,
+  ShoppingBag,
+  Server,
+  Newspaper,
+  MessageSquare,
+  Trello,
+  Youtube,
+];
+
 export default function HomePageClient({
   latestArticles,
   moduleLinkMap,
@@ -107,6 +161,20 @@ export default function HomePageClient({
   void locale;
 
   const t = useMessages() as any;
+
+  // Luck accordion 各段初始展开态（从数据 defaultOpen 字段派生，仅挂载时初始化一次）
+  const [openLuckSections, setOpenLuckSections] = useState<
+    Record<number, boolean>
+  >(() => {
+    const sections =
+      t.modules?.rollToDoDefendLuckAndOfflineIncome?.sections || [];
+    const initial: Record<number, boolean> = {};
+    sections.forEach((s: any, i: number) => {
+      initial[i] = !!s.defaultOpen;
+    });
+    return initial;
+  });
+
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.rolltodefendwiki.wiki";
 
@@ -663,6 +731,335 @@ export default function HomePageClient({
                     <p className="text-sm font-medium mb-2">{unit.use}</p>
                     <p className="text-xs text-muted-foreground">{unit.details}</p>
                   </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块 4 与模块 5 之间 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Roll to Defend Upgrades Guide (upgrade-grid) */}
+      <section
+        id="roll-to-defend-upgrades-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.rollToDoDefendUpgradesGuide.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.rollToDoDefendUpgradesGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.rollToDoDefendUpgradesGuide.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 scroll-reveal">
+            {t.modules.rollToDoDefendUpgradesGuide.items.map(
+              (item: any, index: number) => {
+                const PriorityIcon =
+                  upgradePriorityIcons[item.priority] || Scale;
+                const priorityClass =
+                  upgradePriorityClass[item.priority] ||
+                  upgradePriorityClass.Flexible;
+                return (
+                  <div
+                    key={index}
+                    className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-start justify-between gap-3 mb-3">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <Wrench className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                        <h3 className="font-bold">{item.upgrade_focus}</h3>
+                      </div>
+                      <span
+                        className={`inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full border whitespace-nowrap ${priorityClass}`}
+                      >
+                        <PriorityIcon className="w-3 h-3" />
+                        {item.priority}
+                      </span>
+                    </div>
+                    <div className="space-y-2 text-sm">
+                      <p>
+                        <span className="font-medium text-[hsl(var(--nav-theme-light))]">
+                          {t.modules.rollToDoDefendUpgradesGuide.columns.buyWhen}:
+                        </span>{" "}
+                        <span className="text-muted-foreground">
+                          {item.buy_when}
+                        </span>
+                      </p>
+                      <p>
+                        <span className="font-medium text-[hsl(var(--nav-theme-light))]">
+                          {t.modules.rollToDoDefendUpgradesGuide.columns.bestUse}:
+                        </span>{" "}
+                        <span className="text-muted-foreground">
+                          {item.best_use}
+                        </span>
+                      </p>
+                      <p>
+                        <span className="font-medium">
+                          {t.modules.rollToDoDefendUpgradesGuide.columns.delayWhen}:
+                        </span>{" "}
+                        <span className="text-muted-foreground/80">
+                          {item.delay_when}
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块 5 与模块 6 之间 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Roll to Defend Zones Guide (step-by-step) */}
+      <section
+        id="roll-to-defend-zones-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.rollToDoDefendZonesGuide.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.rollToDoDefendZonesGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.rollToDoDefendZonesGuide.intro}
+            </p>
+          </div>
+
+          <div className="space-y-3 md:space-y-4 scroll-reveal">
+            {t.modules.rollToDoDefendZonesGuide.steps.map(
+              (step: any, index: number) => {
+                const StepIcon = zoneStepIcons[index] || Map;
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col md:flex-row gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 md:flex-shrink-0">
+                      <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                        <StepIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <span className="md:hidden text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                        Step {index + 1}
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
+                        <span className="hidden md:inline text-sm font-medium text-muted-foreground mr-2">
+                          Step {index + 1}:
+                        </span>
+                        {step.title}
+                      </h3>
+                      <p className="text-sm md:text-base text-muted-foreground mb-2">
+                        {step.action}
+                      </p>
+                      <p className="text-xs md:text-sm text-muted-foreground/80 italic mb-2">
+                        {step.whyItMatters}
+                      </p>
+                      <div className="flex items-start gap-2 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <p className="text-xs md:text-sm text-muted-foreground">
+                          <span className="font-medium text-[hsl(var(--nav-theme-light))]">
+                            Ready when:
+                          </span>{" "}
+                          {step.readySignal}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块 6 与模块 7 之间 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Roll to Defend Luck & Offline Income (accordion) */}
+      <section
+        id="roll-to-defend-luck-and-offline-income"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.rollToDoDefendLuckAndOfflineIncome.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.rollToDoDefendLuckAndOfflineIncome.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.rollToDoDefendLuckAndOfflineIncome.intro}
+            </p>
+          </div>
+
+          <div className="space-y-3 scroll-reveal">
+            {t.modules.rollToDoDefendLuckAndOfflineIncome.sections.map(
+              (sec: any, index: number) => {
+                const SectionIcon = luckSectionIcons[index] || Dices;
+                const isOpen = !!openLuckSections[index];
+                return (
+                  <div
+                    key={index}
+                    className="bg-white/5 border border-border rounded-xl overflow-hidden"
+                  >
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setOpenLuckSections((prev) => ({
+                          ...prev,
+                          [index]: !prev[index],
+                        }))
+                      }
+                      aria-expanded={isOpen}
+                      className="flex items-center gap-3 w-full p-4 md:p-5 text-left hover:bg-white/[0.03] transition-colors"
+                    >
+                      <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.15)] flex-shrink-0">
+                        <SectionIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold">{sec.heading}</h3>
+                        <p className="text-xs text-muted-foreground">
+                          {sec.summary}
+                        </p>
+                      </div>
+                      <ChevronDown
+                        className={`w-5 h-5 text-muted-foreground transition-transform flex-shrink-0 ${
+                          isOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    {isOpen && (
+                      <div className="px-4 md:px-5 pb-4 md:pb-5 space-y-3">
+                        <p className="text-sm text-muted-foreground">
+                          {sec.content}
+                        </p>
+                        {sec.checklist && sec.checklist.length > 0 && (
+                          <ul className="space-y-1.5">
+                            {sec.checklist.map((task: string, ci: number) => (
+                              <li
+                                key={ci}
+                                className="flex items-start gap-2 text-sm"
+                              >
+                                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                <span className="text-muted-foreground">
+                                  {task}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块 7 与模块 8 之间 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Roll to Defend Official Links (link-grid) */}
+      <section
+        id="roll-to-defend-official-links"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.rollToDoDefendOfficialLinks.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.rollToDoDefendOfficialLinks.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.rollToDoDefendOfficialLinks.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 scroll-reveal">
+            {t.modules.rollToDoDefendOfficialLinks.links.map(
+              (link: any, index: number) => {
+                const LinkIcon = officialLinkIcons[index] || Link2;
+                return (
+                  <a
+                    key={index}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:bg-white/[0.07] transition-colors group"
+                  >
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <LinkIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                        <h3 className="font-bold truncate">{link.title}</h3>
+                      </div>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--nav-theme-light))] transition-colors flex-shrink-0" />
+                    </div>
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        {link.type}
+                      </span>
+                      <span className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border">
+                        {link.status}
+                      </span>
+                    </div>
+                    <p className="text-xs text-muted-foreground">{link.useFor}</p>
+                  </a>
                 );
               },
             )}

@@ -1,0 +1,214 @@
+import { Shield, Map, Target, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cara Mendapatkan Unit Lebih Baik di Roll to Defend: Jalur Unit Terbaik",
+  description: "Pelajari cara mendapatkan unit yang lebih baik di Roll to Defend dengan timing roll, pengaturan keberuntungan, prioritas upgrade, dan aturan penggantian yang rapi untuk run yang lebih kuat.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Better+Units+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend how to get better units** dimulai dari timing roll yang lebih cerdas, bukan dari pengeluaran acak.
+- **Unit terbaik** adalah pull yang menahan lane, membersihkan gelombang, dan sepadan dengan income kamu.
+- **Pengaturan keberuntungan** dari teman dan grup kreator membantu sesi roll yang lebih panjang.
+- **Aturan penggantian** lebih penting daripada hype saat board kamu sudah stabil.
+</Callout>
+
+<Section icon={Shield} title="Apa yang Membuat Unit Lebih Baik di Roll to Defend">
+
+<Callout type="tip" title="Baca Pull-nya, Bukan Hype-nya">
+Unit yang lebih baik bukan sekadar lebih langka. Unit yang lebih baik adalah unit yang langsung memperkuat board kamu, mencegah zombie lolos, dan memberi income kamu hasil yang nyata.
+</Callout>
+
+Cara tercepat untuk membuang resource adalah menganggap setiap pull yang terlihat keren sebagai upgrade. Dalam game defense berbasis roll, unit terbaik adalah yang memperbaiki kelemahan kamu saat ini. Jika barisan kamu lemah, kamu butuh coverage yang lebih baik. Jika musuh bertahan terlalu lama, kamu butuh damage lebih besar. Jika kamu sudah membersihkan gelombang dengan aman, upgrade berikutnya harus menaikkan batas kemampuan board, bukan membuat lubang baru.
+
+| Sinyal | Artinya | Tindakan |
+|---|---|---|
+| Rarity tertinggi di inventaris | Batas kemampuan terbaik saat ini | Pasang lebih dulu dan lindungi |
+| Cakupan lane yang panjang | Lebih banyak hit per gelombang | Pertahankan daripada filler jarak pendek |
+| Duplikat dengan nilai yang jelas | Potensi peningkatan nyata | Upgrade hanya jika board jadi lebih kuat |
+| Unit filler yang lemah | Dukungan sementara | Ganti setelah stabil kembali |
+
+<CardGrid cols={3}>
+  <Card title="Pertahankan">
+    - **Dampak tertinggi**
+    - Membantu membersihkan gelombang lebih cepat
+    - Tetap relevan di berbagai zona
+  </Card>
+  <Card title="Ganti">
+    - **Nilai gelombang rendah**
+    - Cakupan lane pendek
+    - Tidak lagi memberi kontribusi yang cukup
+  </Card>
+  <Card title="Tunggu">
+    - **Board masih goyah**
+    - Jangan reroll terlalu cepat
+    - Simpan income untuk sesi yang lebih baik
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Rutinitas Roll untuk Mendapatkan Unit Lebih Baik">
+
+<Callout type="info" title="Rutinitas Roll Awal">
+Lakukan roll dalam beberapa burst yang terkontrol, bukan dalam mode panik. Tujuan kamu adalah mengubah income menjadi board yang lebih kuat, lalu berhenti begitu board sudah bisa bertahan sendiri.
+</Callout>
+
+Kalau kamu ingin unit yang lebih baik secara konsisten, sesi permainan harus disiapkan sebelum kamu mulai roll besar-besaran. Artinya, pertahanan harus stabil, income harus cukup untuk pulih, dan kamu harus tahu dengan jelas apa yang sedang kamu incar. Roll tanpa rencana biasanya menghasilkan tumpukan unit ekstra yang tidak menyelesaikan masalah sebenarnya.
+
+<Steps>
+  <Step num="1" title="Stabilkan board saat ini">
+    Pastikan unit yang sudah ada mampu membersihkan pola gelombang saat ini. Jika zombie lolos, perbaiki kebocoran sebelum mengejar pull baru.
+  </Step>
+  <Step num="2" title="Simpan budget roll">
+    Sisihkan sebagian income agar satu streak buruk tidak mengosongkan ekonomi kamu. Unit yang lebih baik lebih mudah dikejar jika kamu bisa roll dalam batch.
+  </Step>
+  <Step num="3" title="Aktifkan pengaturan keberuntungan kamu">
+    Bergabunglah bersama teman dan gunakan jalur grup jika memungkinkan. Bonus seperti itu paling berguna saat sesi roll yang panjang, bukan setelah semuanya habis dibelanjakan.
+  </Step>
+  <Step num="4" title="Roll untuk upgrade board">
+    Habiskan sampai kamu menemukan unit yang meningkatkan cakupan lane, membersihkan gelombang, atau keduanya. Jangan terus roll hanya karena tombolnya masih ada.
+  </Step>
+  <Step num="5" title="Berhenti saat sudah stabil">
+    Setelah pull baru menyelesaikan bottleneck saat ini, berhenti sejenak. Simpan siklus roll berikutnya untuk masalah nyata berikutnya.
+  </Step>
+</Steps>
+
+| Jendela Roll | Penggunaan Terbaik | Kesalahan Umum |
+|---|---|---|
+| Board aman | Mengejar unit yang lebih kuat | Roll sebelum kamu bisa bertahan di gelombang berikutnya |
+| Keberuntungan aktif | Mendorong pull berkualitas lebih tinggi | Lupa menyiapkan teman atau bonus grup |
+| Setelah upgrade | Mengunci carry baru | Terlalu lama mempertahankan filler yang lemah di field |
+| Kembali setelah offline | Menggunakan income dengan tujuan | Membakar uang yang dipulihkan untuk reroll yang tidak perlu |
+
+Butuh titik awal yang aman? Gunakan halaman pengalaman Roblox resmi di sini: [Mainkan Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend).
+
+</Section>
+
+<Section icon={Sparkles} title="Keberuntungan, Income, dan Timing Zona">
+
+<Callout type="success" title="Tumpuk Boost yang Tepat">
+Keberuntungan dari teman, keberuntungan grup, dan income offline bekerja paling baik saat kamu menganggap semuanya sebagai satu loop: persiapkan, roll, stabilkan, lalu perluas.
+</Callout>
+
+Banyak pemain meminta unit yang lebih baik padahal masalah sebenarnya adalah timing. Jika income kamu terlalu kecil, roll kamu terlalu terpencar, atau ekspansi zona terjadi terlalu cepat, kamu tidak pernah memberi board kesempatan untuk bernapas. Unit yang lebih baik akan muncul lebih alami saat ekonomi kamu diatur di sekitar satu tujuan sesi.
+
+| Boost atau Resource | Waktu Terbaik Dipakai | Mengapa Membantu |
+|---|---|---|
+| Keberuntungan teman | Sebelum sesi roll yang panjang | Membuat batch roll besar lebih bernilai |
+| Keberuntungan grup | Sebelum kamu menghabiskan income | Memberi keunggulan pasif pada pengaturan sesi |
+| Income offline | Di awal sesi setelah kembali | Memberi kamu daya beli langsung |
+| Income zona | Setelah pertahanan kamu stabil | Mengubah progres menjadi lebih banyak roll di masa depan |
+
+Aturan paling jelas itu sederhana: jangan beli zona hanya karena kamu bisa. Beli saat unit kamu saat ini sudah mampu menahan tekanan gelombang. Jika board masih goyah, zona baru hanya akan membuat pertahanan kamu makin tipis. Jika board sudah stabil, zona bisa menghasilkan income lebih besar, yang kemudian membiayai roll yang lebih baik nanti.
+
+| Situasi | Langkah Terbaik | Target Unit Lebih Baik |
+|---|---|---|
+| Gelombang bocor | Perbaiki pertahanan dulu | Dapatkan wave clearer yang lebih kuat |
+| Gelombang stabil | Roll untuk upgrade | Cari pull dengan dampak lebih tinggi |
+| Income bertambah | Simpan, lalu roll batch | Tingkatkan kualitas per roll |
+| Zona baru terbuka | Bangun ulang di sekitar lane | Temukan unit yang bisa menahan area baru |
+
+Komunitas kreator resmi juga layak kamu simpan: [Bergabung dengan D:/Drive di Roblox](https://www.roblox.com/communities/861213399/D-Drive).
+
+</Section>
+
+<Section icon={Target} title="Prioritas Upgrade dan Aturan Penggantian">
+
+<Callout type="warning" title="Jangan Buang Pull yang Kuat">
+Unit yang lebih baik hanya berguna kalau kamu menempatkannya dengan benar. Mengganti unit yang stabil dengan unit yang lebih mencolok bisa membuat board kamu lebih buruk, bukan lebih baik.
+</Callout>
+
+Di sinilah pemain sering kehilangan momentum. Mereka mendapat sesuatu yang menarik, lalu terlalu cepat menukar, dan tiba-tiba cakupan lane runtuh. Aturan penggantian yang baik menjaga board terkuat tetap di field sambil tetap memberi ruang untuk upgrade. Artinya, kamu membandingkan fungsi, bukan hanya rarity.
+
+<Checklist
+  id="unit-replacement-checklist"
+  title="Gunakan checklist ini sebelum mengganti unit:"
+  items={[
+    "Apakah unit baru membersihkan gelombang lebih cepat daripada yang sekarang?",
+    "Apakah unit ini meningkatkan cakupan lane, bukan justru memperpendeknya?",
+    "Apakah swap ini akan meninggalkan celah di garis pertahanan?",
+    "Apakah upgrade ini menyelesaikan bottleneck nyata yang kamu hadapi pada gelombang terakhir?",
+    "Apakah ekonomi kamu mampu membiayai penggantian ini tanpa merusak siklus roll berikutnya?"
+  ]}
+/>
+
+| Masalah | Solusi Unit Lebih Baik | Prioritas |
+|---|---|---|
+| Zombie lolos lewat satu lane | Tambah coverage | Tinggi |
+| Musuh bertahan terlalu lama | Tambah damage | Tinggi |
+| Board penuh filler lemah | Ganti unit terlemah dulu | Sedang |
+| Income terbuang | Berhenti roll terlalu cepat | Sedang |
+| Zona baru terasa tidak stabil | Gunakan carry yang lebih konsisten | Tinggi |
+
+Kebiasaan yang berguna adalah memberi label pada setiap pull berdasarkan tugasnya. Satu unit bisa menjadi pembersih utama. Unit lain bisa menjadi penahan lane. Unit lain mungkin hanya dukungan sementara. Begitu sebuah pull tidak lagi punya tugas, ia menjadi kandidat untuk diganti. Itu membuat board kamu lebih ramping dan membuat setiap roll berikutnya lebih bermakna.
+
+| Tipe Pull | Penggunaan Terbaik | Diganti Saat |
+|---|---|---|
+| Main carry | Membersihkan gelombang inti | Carry yang lebih kuat menyelesaikan lane yang sama |
+| Penahan lane | Cakupan dan stabilitas | Unit yang lebih baik bisa menahan ruang itu sendirian |
+| Unit support | Tambalan sementara | Ekonomi kamu mampu membiayai upgrade sungguhan |
+| Unit filler | Slot darurat | Pull yang lebih baik muncul |
+
+</Section>
+
+<Section icon={Swords} title="Praktik Terbaik Sebelum Mengejar Pull Berikutnya">
+
+<Callout type="tip" title="Pikirkan dalam Run, Bukan dalam Roll">
+Unit yang lebih baik lebih mudah didapat saat setiap sesi punya tujuan: bertahan, upgrade, perluas, lalu ulangi.
+</Callout>
+
+Kebiasaan terkuat bukanlah roll lebih banyak. Kebiasaan terkuat adalah roll dengan lebih baik. Mulailah setiap sesi dengan memutuskan apa yang paling dibutuhkan board. Jika jawabannya damage, jangan habiskan semua income untuk zona tambahan. Jika jawabannya coverage, jangan terus reroll untuk unit yang terlihat keren tetapi gagal di tes lane.
+
+Loop game ini menghargai disiplin. Roll unit, lawan zombie, beli zona, dan kumpulkan income offline hanya setelah kamu tahu uang itu seharusnya menyelesaikan apa. Itu mengubah setiap pull menjadi keputusan, bukan perjudian.
+
+| Tujuan Sesi | Prioritas Terbaik | Yang Tidak Boleh Dilakukan |
+|---|---|---|
+| Bertahan di gelombang saat ini | Perkuat stabilitas board | Terlalu cepat ekspansi |
+| Tingkatkan carry kamu | Mengejar unit yang lebih kuat | Mempertahankan filler bernilai rendah |
+| Bangun income | Lindungi clear yang konsisten | Menghabiskan setiap koin segera |
+| Siapkan zona berikutnya | Seimbangkan damage dan coverage | Tukar unit tanpa rencana |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan Tautan Resmi">
+
+<Callout type="info" title="Sumber Aman untuk Disimpan">
+Gunakan halaman yang terhubung ke Roblox terlebih dahulu. Itu akan menjaga riset kamu tetap fokus pada entri game resmi dan komunitas kreator yang terkait dengan pengalaman ini.
+</Callout>
+
+| Resource | Link | Penggunaan Terbaik |
+|---|---|---|
+| Pengalaman Roblox resmi | [Roll to Defend](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Bermain, cek halaman game, dan akses tab sisi Roblox |
+| Komunitas kreator | [D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur komunitas yang terhubung dengan game |
+| Daftar publik | [Entri Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Referensi cepat untuk detail game publik |
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan unit yang lebih baik di Roll to Defend?",
+    answer: "Bangun board yang stabil terlebih dahulu, simpan budget roll, gunakan keberuntungan dari teman dan grup jika memungkinkan, lalu roll sampai kamu menemukan unit yang memperbaiki bottleneck saat ini."
+  },
+  {
+    question: "Haruskah saya langsung mengganti setiap unit yang lemah?",
+    answer: "Tidak. Ganti unit berdasarkan dampaknya. Pertahankan apa pun yang masih menahan lane atau membersihkan gelombang sampai pull baru benar-benar memperbaiki board."
+  },
+  {
+    question: "Apakah keberuntungan lebih penting daripada income?",
+    answer: "Keduanya bekerja bersama. Keberuntungan meningkatkan kualitas sesi roll, sementara income memberi kamu cukup percobaan agar sesi itu benar-benar berarti."
+  },
+  {
+    question: "Kapan saya harus membeli zona baru?",
+    answer: "Beli zona setelah pertahanan kamu saat ini stabil. Jika board kamu sudah bocor, perbaiki damage atau coverage dulu, lalu perluas nanti."
+  }
+]} />
+
+</Section>

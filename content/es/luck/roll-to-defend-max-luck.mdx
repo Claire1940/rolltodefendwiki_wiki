@@ -1,0 +1,198 @@
+import { Map, Shield, Sparkles, Target, Trophy, AlertTriangle, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: guía de configuración para maximizar la suerte en las tiradas",
+  description: "Maximiza la suerte en Roll to Defend apilando bonificaciones de amigos y grupo, programando las tiradas después de obtener ingresos offline y evitando mejoras inútiles y compras tempranas de zonas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Max+Luck+Setup+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **roll to defend max luck** empieza con las bonificaciones de amigo y de grupo antes de gastar ingresos en tiradas.
+- **Los ingresos offline** se aprovechan mejor para arreglar tu capa de defensa más débil antes del siguiente empuje.
+- **El momento de tirar** importa más que spamear al azar; prepárate primero y luego tira en lotes.
+- **Las compras de zonas** deben esperar hasta que tu defensa limpie oleadas sin gastar de emergencia.
+- **El mejor resultado** llega al apilar suerte y luego reinvertir en unidades y cobertura.
+</Callout>
+
+<Section icon={Sparkles} title="Fuentes de suerte máxima en Roll to Defend">
+
+La forma más limpia de mejorar la **suerte máxima en Roll to Defend** es tratar la suerte como una capa de preparación, no como un bono aleatorio. La descripción pública del juego señala tres fuentes prácticas que sí puedes controlar: jugar con amigos, unirte al grupo D:/Drive después de darle like al juego y usar los ingresos offline para financiar mejores sesiones de tiradas.
+
+Abre primero la [página oficial de Roll to Defend en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend), y luego verifica la comunidad del creador a través del [grupo D:/Drive de Roblox](https://www.roblox.com/communities/861213399/D-Drive). Mantén el orden simple: prepara la suerte, tira y después gasta el retorno en el siguiente cuello de botella.
+
+<Callout type="tip" title="Lo que realmente aumenta tu suerte efectiva">
+Concéntrate en bonificaciones visibles y repetibles. La suerte de amigo y la suerte de grupo ayudan a tu sesión de tiradas. Los ingresos offline te permiten llegar con más moneda, lo que significa más oportunidades para conseguir mejores unidades.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Suerte de amigo">
+    - **Mejor uso:** sesiones de tiradas planificadas
+    - **Ventaja:** fácil de activar
+    - **Riesgo:** ninguno si ya tienes un equipo
+  </Card>
+  <Card title="Suerte de grupo">
+    - **Mejor uso:** cada sesión seria
+    - **Ventaja:** paso de preparación sencillo
+    - **Riesgo:** la ignoran los jugadores que corren directo a tirar
+  </Card>
+  <Card title="Ingresos offline">
+    - **Mejor uso:** sesiones de remontada
+    - **Ventaja:** te da más moneda para trabajar
+    - **Riesgo:** se desperdicia si compras zonas demasiado pronto
+  </Card>
+</CardGrid>
+
+| Fuente de suerte | Qué hace | Mejor momento para usarla | Prioridad |
+|---|---|---|---|
+| Bono de amigo | Mejora tu sesión de tiradas con amigos | Antes de un lote largo de tiradas | **Alta** |
+| Bono de grupo | Añade una capa extra y repetible de suerte | En cada sesión después de unirte al grupo | **Alta** |
+| Ingresos offline | Devuelve moneda mientras estás ausente | Al iniciar sesión, antes de mejoras o tiradas | **Alta** |
+| Tiradas aleatorias | Te da resultados sin preparación | Solo después de activar tu acumulación de suerte | **Media** |
+
+<Callout type="warning" title="No inviertas el orden">
+Si tiras primero y arreglas tu preparación después, normalmente gastarás más moneda para obtener el mismo resultado. Construye primero la acumulación de suerte y luego deja que las tiradas trabajen para ti.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo acumular suerte antes de tirar">
+
+La mejor sesión de tiradas empieza antes del primer clic. Trata tu partida como un pequeño ciclo de preparación: elimina la presión actual, recoge ingresos, activa tus fuentes de suerte y solo entonces gasta tus tiradas. Esa secuencia mantiene la sesión eficiente y reduce la posibilidad de quemar moneda mientras tu defensa aún es inestable.
+
+<Callout type="info" title="Regla de la sesión">
+Cuando tu tablero está inestable, las bonificaciones de suerte importan menos que sobrevivir. Primero estabilízate y luego persigue la mejor tirada.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Recoge tu retorno">
+    Inicia sesión, reclama los ingresos offline y comprueba si tu última partida falló por daño, cobertura o mal momento.
+  </Step>
+  <Step num="2" title="Activa la preparación de suerte">
+    Juega con amigos cuando sea posible y asegúrate de haber entrado ya en el grupo del creador vinculado al juego.
+  </Step>
+  <Step num="3" title="Estabiliza el tablero">
+    Mantén colocadas tus unidades actuales y vigila los puntos de fuga. Una defensa estable protege los ingresos que estás a punto de gastar.
+  </Step>
+  <Step num="4" title="Gasta las tiradas en lotes">
+    Tira con un objetivo en mente, como reemplazar una unidad débil o encontrar una base más fuerte para la siguiente zona.
+  </Step>
+</Steps>
+
+| Paso | Acción | Por qué importa | Señal de fallo |
+|---|---|---|---|
+| 1 | Recoge ingresos offline | Te da más intentos de tirada | Ignoras la moneda devuelta |
+| 2 | Activa los bonos de amigo y grupo | Mejora tu preparación de tiradas | Tiras solo sin prepararte |
+| 3 | Estabiliza la defensa | Evita que las fugas consuman tus recursos | Los zombis llegan a la base con frecuencia |
+| 4 | Tira en lotes | Mantiene las decisiones enfocadas | Spameas tiradas sin objetivo |
+
+<Callout type="tip" title="Tirar en lotes funciona mejor">
+Gasta las tiradas en un bloque controlado en lugar de hacer tiradas de pánico una por una. Es más fácil juzgar si mejoraste tu preparación cuando la sesión tiene un inicio y un final claros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gasta los ingresos sin desperdiciar tu suerte">
+
+La suerte solo se siente fuerte cuando tu defensa puede aguantar lo suficiente como para aprovechar la nueva tirada. Por eso importa el orden de gasto. Si los zombis están rompiendo la defensa, tu primer gasto normalmente debería arreglar el daño o la cobertura. Si el tablero está estable, entonces puedes empujar hacia mejores tiradas o una nueva zona.
+
+<Callout type="success" title="Mejor lógica de gasto">
+Arregla el cuello de botella que terminó tu última partida. Esa regla evita que la suerte se desperdicie en la ruta de mejora equivocada.
+</Callout>
+
+| Situación | Primer gasto | Segundo gasto | Evitar |
+|---|---|---|---|
+| Los zombis se cuelan pronto | Mejora de daño | Mejor colocación | Comprar nuevas zonas |
+| La cobertura del camino es débil | Arreglo de soporte o colocación | Sesión extra de tiradas | Sobrecargar una sola línea |
+| La defensa es estable | Más tiradas | Mejor núcleo de unidad | Mejoras pequeñas al azar |
+| Acabas de volver | Reinvención de ingresos offline | Tiradas basadas en suerte | Gastar en todo por pánico |
+
+Una regla práctica es tratar los ingresos como un puente entre sesiones. Si la última partida falló porque estabas demasiado débil, dirige más moneda a la unidad que realmente aguanta la oleada. Si falló porque tu campo estaba demasiado vacío, mejora la cobertura antes de buscar una tirada rara.
+
+| Prioridad de reinversión | Mejor opción | Cuándo retrasarla |
+|---|---|---|
+| 1 | Daño principal | Cuando el problema sea la cobertura de carril |
+| 2 | Cobertura y colocación | Cuando todavía no puedas limpiar oleadas básicas |
+| 3 | Ampliación de la sesión de tiradas | Cuando el tablero ya esté estable |
+| 4 | Crecimiento de zona | Cuando el área siguiente provoque fugas |
+
+<Callout type="warning" title="Comprar zonas puede bajar la eficiencia">
+Comprar una zona demasiado pronto puede estirar tu defensa antes de que esté lista. Si la configuración actual sigue teniendo fugas, esa compra suele ralentizar el progreso en lugar de acelerarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Errores que reducen tu suerte efectiva">
+
+La mayoría de los jugadores no pierde suerte; pierde eficiencia. Tiran antes de configurar bonificaciones, compran zonas antes de arreglar oleadas débiles o gastan los ingresos devueltos en el problema equivocado. Corrige esos hábitos y tus resultados mejorarán sin necesidad de hacer suposiciones arriesgadas.
+
+<Callout type="info" title="Usa esta lista antes de cada sesión de tiradas">
+Revisa tu preparación en el mismo orden cada vez. La constancia hace que tu acumulación de suerte sea más fácil de repetir.
+</Callout>
+
+<Checklist
+  id="luck-session-checklist"
+  title="Lista previa a las tiradas"
+  items={[
+    "Reclama los ingresos offline antes de gastar nada",
+    "Confirma que la suerte de amigo esté activa cuando sea posible",
+    "Únete al grupo D:/Drive vinculado al juego",
+    "Estabiliza tu defensa actual antes de tirar",
+    "Gasta las tiradas solo después de saber tu objetivo"
+  ]}
+/>
+
+| Error | Por qué perjudica | Mejor solución |
+|---|---|---|
+| Tirar demasiado pronto | Desperdicias moneda antes de prepararte | Prepara primero la sesión |
+| Ignorar los ingresos offline | Pierdes valor de reinversión gratis | Reclámalo al iniciar sesión |
+| Comprar zonas demasiado pronto | Expones capas débiles de la defensa | Expande solo después de limpiar con estabilidad |
+| Repartir demasiado las mejoras | Nada se vuelve lo bastante fuerte | Resuelve primero el cuello de botella principal |
+| Tirar sin objetivo | No puedes medir el progreso | Elige una meta por sesión |
+
+Otro error común es tratar la suerte como sustituto de la defensa. No lo es. La suerte te ayuda a conseguir una mejor tirada, pero esa tirada todavía necesita un tablero estable y suficientes ingresos para importar. Si la defensa colapsa antes de que la mejora dé resultado, la sesión nunca estuvo realmente preparada.
+
+<Callout type="warning" title="La suerte no arregla una mala estructura">
+Una mejor tirada es genial, pero no puede rescatar un tablero que ya se está rompiendo. Construye la defensa y luego deja que la acumulación de suerte haga su trabajo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Lee esta sección después de tus primeras sesiones">
+Las respuestas de abajo son más útiles cuando las comparas con tus propios fallos de oleadas y el flujo de recursos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo la mejor preparación de tiradas en roll to defend max luck?",
+    answer: "Empieza con los bonos de amigo y de grupo, y luego recoge ingresos offline antes de tirar. Ese orden te da más intentos y una sesión más limpia."
+  },
+  {
+    question: "¿Debería comprar una zona antes de tirar para conseguir mejores unidades?",
+    answer: "Solo si tu defensa ya está estable. Si tu tablero actual tiene fugas, gasta primero en daño o cobertura, no en expansión."
+  },
+  {
+    question: "¿Qué debería hacer cuando regreso con ingresos offline?",
+    answer: "Reclámalo de inmediato, identifica la debilidad que arruinó tu última partida y reinvierte antes de buscar la siguiente sesión de tiradas."
+  },
+  {
+    question: "¿Tirar en solitario es malo para roll to defend max luck?",
+    answer: "Tirar en solitario sigue siendo útil, pero normalmente es más débil que una sesión preparada con suerte de amigo y el bono de grupo activo."
+  }
+]} />
+
+<Callout type="success" title="Idea principal">
+Si quieres mejores tiradas, piensa en capas: primero la preparación, segundo la defensa, tercero las tiradas y por último la expansión. Ese orden mantiene eficiente tu acumulación de suerte.
+</Callout>
+
+</Section>

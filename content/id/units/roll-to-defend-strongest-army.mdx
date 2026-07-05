@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pasukan Terkuat Roll to Defend: Daftar Tier Unit Terbaik",
+  description: "Pelajari cara membangun pasukan terkuat di Roll to Defend dengan prioritas unit, waktu ekspansi zona, bonus keberuntungan, dan loop pendapatan untuk progres yang lebih aman.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Strongest+Army+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **pasukan terkuat roll to defend** dimulai dari satu penyerang inti yang andal, bukan kumpulan pull lemah yang tersebar.
+- **Cakupan lebih penting daripada sensasi** saat musuh lolos lewat jalur kosong dan unit terbaikmu tidak bisa menjangkau seluruh lintasan.
+- **Bonus keberuntungan** paling penting setelah pertahananmu sudah mampu bertahan dari gelombang dan kamu siap melakukan roll besar-besaran.
+- **Waktu ekspansi zona** harus mengikuti kestabilan, bukan kepanikan, agar area berikutnya tidak berubah menjadi wipe yang lebih cepat.
+- **Pendapatan offline** paling efektif saat dipakai untuk memperbaiki bottleneck terakhir yang membuat run sebelumnya gagal.
+</Callout>
+
+<Section icon={Shield} title="Bangun pasukan terkuat Roll to Defend">
+
+Pasukan terkuat Roll to Defend bukan hanya soal pull langka. Ini tentang membangun pertahanan yang membersihkan gelombang, melindungi base, dan menjaga loop pendapatan tetap berjalan tanpa pemborosan.
+
+<Callout type="info" title="Prinsip Inti">
+Pasukanmu menjadi lebih kuat ketika **damage**, **cakupan**, **ekonomi**, dan **timing** meningkat bersama-sama. Jika salah satunya tertinggal, seluruh run akan terasa lebih lemah.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Inti Damage">
+    - **Pembersih gelombang utama**
+    - Fokus pada unit yang paling cepat mengakhiri gelombang
+    - Terus tingkatkan bagian yang sudah menjalankan tugasnya
+  </Card>
+  <Card title="Lapisan Cakupan">
+    - **Kontrol jalur**
+    - Isi titik buta dan jalur panjang
+    - Hentikan kebocoran sebelum mencapai base
+  </Card>
+  <Card title="Loop Ekonomi">
+    - **Pertumbuhan pendapatan**
+    - Ubah gelombang yang stabil menjadi lebih banyak roll dan upgrade yang lebih baik
+    - Hindari menghabiskan uang di semua tempat sekaligus
+  </Card>
+  <Card title="Kontrol Timing">
+    - **Ekspansi cerdas**
+    - Beli zona hanya setelah susunan saat ini aman
+    - Gunakan pendapatan offline sebagai alat pemulihan
+  </Card>
+</CardGrid>
+
+| Tahap | Tujuan utama | Kebiasaan belanja terbaik |
+|---|---|---|
+| Awal permainan | Mendapatkan satu defender yang stabil | Tetap belanja secara sempit dan praktis |
+| Pertengahan permainan | Memperkuat pembersih gelombang tercepat | Tambahkan dukungan hanya setelah kebocoran berhenti |
+| Akhir permainan | Mengembangkan inti terbaik dan mempertahankan zona | Hindari membagi pendapatan ke terlalu banyak upgrade |
+| Pemulihan | Memperbaiki titik kegagalan terakhir | Belanjakan di tempat run benar-benar gagal |
+
+<Callout type="tip" title="Jalur Resmi">
+Gunakan halaman resmi Roblox terlebih dahulu, lalu komunitas kreator yang terkait dengan game ini.
+
+| Link | Kegunaan |
+|---|---|
+| [Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Membuka experience, memeriksa halaman saat ini, dan mengakses tab dalam game |
+| [Komunitas kreator D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur grup yang terhubung ke prompt luck ekstra |
+
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cara memberi peringkat unit tanpa membuang pendapatan">
+
+Jika kamu ingin pasukan terkuat, beri peringkat unit berdasarkan apa yang mereka lakukan di lapangan, bukan berdasarkan seberapa keren pull-nya terlihat. Unit dengan rarity lebih rendah yang menutup jalur dengan baik bisa mengungguli unit lebih kuat yang ditempatkan di posisi yang salah.
+
+<Callout type="warning" title="Jangan Menilai Hanya dari Rarity">
+Pull langka memang menarik, tetapi pull langka yang gagal menutup jalur tetap merupakan investasi lemah untuk run saat ini.
+</Callout>
+
+| Faktor penilaian | Mengapa penting | Tanda yang baik |
+|---|---|---|
+| Output damage | Membersihkan gelombang lebih cepat | Musuh hilang sebelum mencapai titik tekanan |
+| Cakupan jalur | Menghentikan kebocoran di lebih banyak bagian peta | Unit menjangkau jalur panjang atau choke point penting |
+| Efisiensi biaya | Melindungi pendapatanmu | Unit memberi nilai tinggi untuk biaya roll atau upgrade |
+| Scaling | Menjaga nilai di zona selanjutnya | Unit tetap berguna setelah beberapa gelombang awal |
+| Stabilitas | Mengurangi kebutuhan pengawasan manual | Pertahanan berjalan tanpa perbaikan manual terus-menerus |
+
+| Disimpan atau diganti? | Simpan | Ganti |
+|---|---|---|
+| Pull solid pertama | Ya, jika menjadi fondasi set-up kamu | Hanya jika muncul unit pembersih yang jelas lebih kuat |
+| Duplikat pengisi | Mungkin, jika masih membantu cakupan | Jika mengurangi kontrol jalur atau memperlambat progres |
+| Pull langka | Ya, hampir selalu | Jangan pernah menukarnya dengan opsi yang lebih lemah |
+| Starter awal | Sementara | Begitu defender yang lebih baik sudah online |
+
+<Callout type="success" title="Aturan Praktis">
+Saat dua unit terlihat hampir seimbang, simpan yang melindungi lebih banyak jalur atau membersihkan gelombang dengan lebih konsisten. Pasukan terbaik adalah yang paling sedikit kalah.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gunakan urutan build langkah demi langkah">
+
+Cara teraman untuk berkembang adalah mengikuti loop yang bisa diulang. Pasang defender pertamamu, stabilkan gelombang, lalu reinvest ke bagian set-up yang benar-benar memperlambatmu.
+
+<Callout type="success" title="Urutan Build Terbaik">
+Pasukan yang stabil biasanya tumbuh dalam urutan ini: **defender inti dulu**, **cakupan kedua**, **upgrade ketiga**, **zona terakhir**.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Amankan satu penyerang yang andal">
+    Roll sampai kamu mendapat satu unit yang bisa membawa gelombang awal. Tujuan pertamamu bukan kesempurnaan; tujuanmu adalah bertahan hidup plus menjaga momentum.
+  </Step>
+  <Step num="2" title="Tempatkan untuk cakupan">
+    Letakkan unit di tempat yang bisa mengenai rentang jalur terpanjang atau choke paling berbahaya. Unit bagus di posisi yang salah tetap akan kurang optimal.
+  </Step>
+  <Step num="3" title="Belanjakan pada bottleneck">
+    Jika zombie bertahan terlalu lama, beli damage. Jika mereka lolos di sepanjang jalur, beli cakupan atau atur ulang support. Perbaiki masalah yang sebenarnya terlebih dahulu.
+  </Step>
+  <Step num="4" title="Beli zona setelah stabil">
+    Lakukan ekspansi hanya saat gelombang saat ini bersih terselesaikan. Zona baru seharusnya terasa seperti kemajuan, bukan ujian stres yang tidak sanggup kamu bayar.
+  </Step>
+  <Step num="5" title="Reinvest setelah pendapatan kembali">
+    Saat pendapatan offline atau payout gelombang yang lebih kuat masuk, gunakan untuk menambal kelemahan yang membuat run terakhirmu gagal.
+  </Step>
+</Steps>
+
+| Sinyal ekspansi | Ekspansi sekarang? | Mengapa |
+|---|---|---|
+| Base aman | Ya | Pertahananmu bisa menyerap tekanan baru |
+| Gelombang bocor | Tidak | Perbaiki damage atau cakupan terlebih dahulu |
+| Pendapatan meningkat | Biasanya ya | Kamu bisa pulih setelah unlock |
+| Run terakhir gagal parah | Belum | Ulangi perbaikannya sebelum maju lagi |
+
+<Callout type="tip" title="Keuntungan Kecil">
+Jika kamu ragu apakah harus upgrade atau ekspansi, pilih opsi yang menjaga pertahanan saat ini tetap stabil untuk satu siklus gelombang lagi.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Keberuntungan, zona, dan pendapatan">
+
+Roll to Defend memberi penghargaan kepada pemain yang bersiap sebelum membelanjakan. Bonus keberuntungan, pendapatan offline, dan timing zona semuanya bekerja lebih baik ketika pertahananmu sudah memiliki inti yang stabil.
+
+<Callout type="tip" title="Waktu Terbaik">
+Gunakan bonus keberuntungan sebelum sesi roll yang direncanakan, dan gunakan pendapatan offline sebelum rebuild besar atau dorongan zona.
+</Callout>
+
+<Checklist
+  id="army-growth-goals"
+  title="Target Harian Pasukan:"
+  items={[
+    "Pertahankan satu defender inti yang stabil di lapangan",
+    "Tambahkan cakupan di tempat zombie paling sering lolos",
+    "Gabung bonus grup sebelum sesi roll besar",
+    "Kumpulkan pendapatan offline sebelum membeli zona baru",
+    "Belanjakan pendapatan ekstra pada bottleneck terakhir"
+  ]}
+/>
+
+| Sumber nilai | Membantu apa | Penggunaan terbaik |
+|---|---|---|
+| Bonus teman | Sesi roll yang lebih baik | Simpan untuk pull yang lebih besar |
+| Bonus grup | Set-up luck ekstra | Aktifkan sebelum roll besar-besaran |
+| Pendapatan offline | Mata uang untuk mengejar ketertinggalan | Perbaiki kelemahan yang merusak run terakhirmu |
+| Pertahanan stabil | Lebih banyak waktu untuk menghasilkan | Biayai upgrade dan zona berikutnya |
+
+| Pilihan timing | Paling baik saat | Mengapa berhasil |
+|---|---|---|
+| Roll sekarang | Pertahananmu stabil | Kamu bisa memakai pendapatan tanpa panik |
+| Upgrade sekarang | Zombie mulai bocor | Run saat ini butuh bantuan segera |
+| Ekspansi sekarang | Gelombang saat ini bersih | Zona baru lebih kecil kemungkinannya menghukummu |
+| Simpan pendapatan | Kamu belum yakin bottleneck-nya | Menunggu mencegah belanja yang sia-sia |
+
+<Callout type="success" title="Prioritas Pendapatan">
+Jika kamu kembali dengan pendapatan offline, belanjakan dalam urutan ini: **perbaikan survival**, **peningkatan unit**, **ekspansi zona**. Urutan itu menjaga progres tetap mulus.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan kesalahan umum">
+
+Pemain biasanya membuat beberapa kesalahan yang sama saat mengejar pasukan terkuat: mereka membeli terlalu cepat, membagi pendapatan terlalu tipis, atau mengabaikan cakupan jalur. Bereskan itu dan game akan jauh lebih mudah dibaca.
+
+<Callout type="info" title="Pola Kesalahan Umum">
+Sebagian besar run yang lemah tidak gagal karena satu pull buruk. Mereka gagal karena uang, penempatan, dan timing semuanya sedikit meleset pada saat yang sama.
+</Callout>
+
+| Kesalahan | Apa akibatnya | Langkah yang lebih baik |
+|---|---|---|
+| Mengejar setiap pull | Anggaran lemah dan upgrade berantakan | Fokus dulu pada satu carry inti |
+| Membeli zona terlalu cepat | Gelombang lebih sulit sebelum kamu siap | Stabilkan dulu sebelum ekspansi |
+| Mengabaikan cakupan | Musuh lolos melalui jalur | Tempatkan unit di area yang menutup lebih banyak jalur |
+| Menghabiskan pendapatan offline secara acak | Progres lambat dan tidak merata | Gunakan pada titik kegagalan terakhir |
+| Melewatkan set-up luck | Nilai sesi roll lebih rendah | Aktifkan bonus sebelum roll besar |
+
+<FAQ items={[
+  {
+    question: "Apa yang membuat pasukan terkuat di Roll to Defend?",
+    answer: "Pasukan terkuat adalah set-up yang menggabungkan damage, cakupan, ekonomi, dan timing. Pull langka membantu, tetapi pertahanan yang stabil membantu lebih banyak."
+  },
+  {
+    question: "Haruskah saya membeli zona baru sebelum upgrade unit?",
+    answer: "Biasanya tidak. Beli zona setelah gelombang saat ini bisa dibersihkan dengan aman. Jika pertahanan goyah, upgrade bottleneck terlebih dahulu."
+  },
+  {
+    question: "Apakah bonus keberuntungan layak dipakai?",
+    answer: "Ya, terutama saat kamu sudah memiliki pertahanan yang stabil dan pendapatan yang cukup untuk membuat sesi roll benar-benar berarti."
+  },
+  {
+    question: "Apa yang harus saya lakukan terlebih dahulu dengan pendapatan offline?",
+    answer: "Gunakan untuk penyebab kegagalan run sebelumnya, seperti damage, cakupan, atau stabilitas gelombang, sebelum mendorong lebih jauh."
+  }
+]} />
+
+<Callout type="success" title="Kesimpulan Akhir">
+Pasukan Roll to Defend terbaik bukan yang paling mencolok. Pasukan terbaik adalah yang membersihkan gelombang dengan rapi, berkembang seiring pendapatan, dan melakukan ekspansi hanya saat sudah siap.
+</Callout>
+
+</Section>

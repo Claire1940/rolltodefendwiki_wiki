@@ -1,0 +1,183 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Upgrades de Roll to Defend: melhor ordem, timing e dicas",
+  description: "Use a ordem certa de upgrades em Roll to Defend para corrigir gargalos de dano, cobertura e renda, e então sincronize rolagens e avanços de zona para runs mais suaves.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Roll+to+Defend+Upgrades",
+  date: "2026-07-05",
+  author: "Equipe do Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guia rápido">
+- **upgrades de roll to defend** funcionam melhor quando resolvem exatamente o gargalo que está atrasando sua run atual.
+- **Dano primeiro** geralmente vence quando os zumbis sobrevivem tempo demais ou alcançam sua linha de defesa.
+- **Cobertura em segundo lugar** importa quando os inimigos passam por pontos cegos em vez de sobrecarregar com força bruta.
+- **Economia e zonas** devem vir depois que sua defesa limpa as ondas com consistência.
+- **Bônus de sorte** ajudam sua sessão de rolagem, mas não substituem uma build estável.
+</Callout>
+
+<Section icon={Shield} title="Por que os upgrades importam em Roll to Defend">
+
+O sistema de upgrades não é uma atividade secundária em Roll to Defend. Ele é a válvula de pressão que impede sua run de desmoronar quando as ondas ficam mais difíceis, o campo fica lotado ou sua renda começa a ficar atrás do ritmo de progresso. A forma mais clara de pensar em upgrades é simples: compre aquilo que remove o maior obstáculo neste momento, não aquilo que parece empolgante no papel.
+
+<CardGrid cols={3}>
+  <Card title="Dano">
+    - Limpa ondas mais rápido
+    - Melhor para zumbis que vazam no fim
+    - Mais forte quando sua linha já está bem posicionada
+  </Card>
+  <Card title="Cobertura">
+    - Preenche pontos cegos
+    - Melhor para corredores com vazamentos
+    - Ajuda boas unidades a fazerem seu trabalho por mais tempo
+  </Card>
+  <Card title="Economia">
+    - Sustenta mais rolagens
+    - Melhor quando a defesa está estável
+    - Transforma uma boa run em uma run melhor
+  </Card>
+</CardGrid>
+
+| Caminho de upgrade | Melhor quando | Pular quando |
+|---|---|---|
+| Dano | Os zumbis sobrevivem tempo demais | O problema real é um posicionamento ruim |
+| Cobertura | Os inimigos passam por um corredor | Você ainda está perdendo até para ondas básicas |
+| Economia | Sua defesa já está estável | Você precisa de defesa de emergência agora |
+| Timing da zona | Você tem renda sobrando e limpezas limpas | A zona atual ainda parece instável |
+
+<Callout type="tip" title="Regra editorial">
+Mantenha uma regra na cabeça: melhore primeiro o elo mais fraco. Se o elo fraco mudar depois de uma onda, sua próxima compra também deve mudar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="upgrades de roll to defend: gaste na ordem certa">
+
+A ordem de upgrades mais confiável é a que segue o estado da sua run, não uma lista fixa de compras. Quando sua defesa está instável, gaste como um sobrevivente. Quando sua defesa está estável, gaste como um construtor. Essa divisão evita que você desperdice renda em upgrades que não ajudam em nada a onda à sua frente.
+
+<Steps>
+  <Step num="1" title="Identifique o gargalo">
+    Verifique se a run está falhando por dano, cobertura, velocidade de renda ou timing inicial da zona.
+  </Step>
+  <Step num="2" title="Estabilize a onda atual">
+    Corrija primeiro o corredor que está vazando, porque todo o resto fica mais valioso assim que você impede a perda imediata.
+  </Step>
+  <Step num="3" title="Compre a melhor melhoria de curto prazo">
+    Faça upgrade na unidade ou no sistema que vai mudar visivelmente a próxima onda, não naquele que só parece mais forte depois.
+  </Step>
+  <Step num="4" title="Reavalie após a próxima limpeza">
+    Se o problema mudar de dano para cobertura, mude seu plano de gastos antes de comprar novamente.
+  </Step>
+  <Step num="5" title="Reinvista só depois que a run estiver estável">
+    Quando as ondas forem limpas com consistência, direcione a renda para rolagens, zonas ou crescimento de economia.
+  </Step>
+</Steps>
+
+| Sinal do problema | Primeiro gasto ideal | Por que funciona |
+|---|---|---|
+| Os zumbis sobrevivem tempo demais | Upgrade de dano | Encerra a onda mais cedo |
+| Os zumbis passam por um corredor | Upgrade de cobertura | Reduz vazamentos e gastos em pânico |
+| A renda parece lenta demais | Upgrade de economia | Melhora o poder de compra futuro |
+| A nova zona parece arriscada | Segure a renda | A expansão é cedo demais |
+
+<Callout type="warning" title="Disciplina de gasto">
+Não compre upgrades só porque a renda está disponível. Se a onda atual ainda estiver instável, uma compra chamativa pode atrasar você em vez de salvar a run.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Matriz de prioridade: dano, cobertura e suporte">
+
+Um bom plano de upgrades em Roll to Defend é, na prática, uma matriz de prioridade. Dano, cobertura, sorte, renda offline e zonas todos importam, mas não importam na mesma medida em todos os momentos. Os jogadores mais espertos tratam cada um como uma ferramenta para um problema específico.
+
+| Caminho | O que melhora | Fase ideal | Principal risco |
+|---|---|---|---|
+| Dano | Limpezas mais rápidas | Do início ao meio da run | Comprar demais enquanto os corredores ainda estão abertos |
+| Cobertura | Corredores mais seguros | Meio da run | Corrigir espaço enquanto ignora dano fraco |
+| Economia | Mais gastos futuros | Runs estáveis | Demorar demais para se pagar |
+| Avanço de zona | Progresso e escala | Runs estáveis no fim | Tornar a próxima onda difícil cedo demais |
+
+Os sistemas de suporte embutidos no jogo podem ajudar, mas devem ficar atrás do plano de defesa, não na frente dele. Amigos podem dar mais sorte durante as rolagens, e o caminho do grupo do criador também adiciona sorte extra. A renda offline ainda oferece um bom ponto de retorno depois de uma pausa, o que é útil porque permite recomeçar com um orçamento melhor.
+
+| Sistema de suporte | O que ajuda | O que não faz |
+|---|---|---|
+| Sorte de amigos | Melhores sessões de rolagem | Não corrige um corredor quebrado |
+| Sorte do grupo | Configuração de rolagem mais forte | Não substitui um upgrade de dano |
+| Renda offline | Retorno mais rápido após uma pausa | Não garante um avanço de zona seguro |
+
+<Callout type="info" title="Sistemas de suporte">
+Sorte e renda offline são aceleradores. Eles ajudam você a chegar mais rápido ao próximo bom upgrade, mas não transformam sozinhos uma configuração fraca em uma forte.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Um ciclo de sessão limpo para progredir melhor">
+
+O melhor ciclo de progressão a longo prazo é simples o bastante para repetir em toda sessão. Primeiro, encontre o vazamento. Depois, conserte o vazamento. Em seguida, role em busca de um upgrade relevante e, só então, pense em zonas ou em maiores avanços de economia. Essa sequência mantém seus gastos focados e protege você da armadilha comum de expandir cedo demais.
+
+<Checklist
+  id="roll-to-defend-progress-loop"
+  title="Checklist da sessão"
+  items={[
+    "Verifique qual problema realmente causou a falha da última onda.",
+    "Gaste em dano ou cobertura antes de comprar upgrades de luxo extras.",
+    "Use a sorte de amigos e a sorte do grupo antes de uma sessão de rolagem planejada.",
+    "Colete a renda offline primeiro e só depois decida se vai rolar ou expandir.",
+    "Compre uma nova zona apenas depois que sua defesa atual limpar as ondas com consistência."
+  ]}
+/>
+
+| Erro comum | Hábito melhor | Resultado |
+|---|---|---|
+| Comprar upgrades aleatórios | Corrija o gargalo atual | Melhoria mais rápida |
+| Expandir cedo demais | Estabilize primeiro | Progressão mais segura |
+| Rolar sem objetivo | Role para uma fraqueza específica | Menos renda desperdiçada |
+| Ignorar a renda offline | Reinvista imediatamente ao voltar | Retorno mais forte |
+
+<Callout type="success" title="Melhor hábito">
+Uma defesa estável torna cada compra futura mais valiosa. Na prática, isso significa que seu próximo upgrade deve melhorar a sobrevivência antes de melhorar a ambição.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Links oficiais e FAQ">
+
+Em 2026-07-05, a forma mais segura de acompanhar Roll to Defend é começar primeiro pelos caminhos ligados ao Roblox e usar outras listagens apenas como referência. Isso mantém seu plano de upgrades ancorado no jogo ao vivo, e não em comentários desatualizados.
+
+| Fonte | Melhor uso | Link |
+|---|---|---|
+| Página do jogo no Roblox | Jogar a experiência, conferir a descrição atual e acessar abas do jogo | [Página oficial do jogo no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidade D:/Drive | Seguir o caminho do grupo do criador ligado a sorte extra | [Comunidade oficial do Roblox](https://www.roblox.com/communities/861213399/D-Drive) |
+| Listagem do Creator Exchange | Revisar detalhes públicos da listagem e rótulos da comunidade | [Listagem de Roll to Defend](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="info" title="Regra de referência">
+Use os caminhos oficiais do Roblox primeiro quando quiser informações atuais e ligadas ao jogo. Essa é a forma mais limpa de evitar conselhos de upgrade desatualizados.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que devo melhorar primeiro em Roll to Defend?",
+    answer: "Comece pelo gargalo que realmente está fazendo a run falhar. Se os zumbis sobrevivem tempo demais, compre dano. Se eles passam pelos corredores, compre cobertura. Essa é a regra central por trás dos upgrades de roll to defend."
+  },
+  {
+    question: "Devo gastar em zonas antes dos upgrades?",
+    answer: "Normalmente, não. Compre uma zona só depois que sua defesa atual limpar as ondas com consistência e ainda houver renda suficiente para reagir ao próximo pico de pressão."
+  },
+  {
+    question: "Os bônus de sorte substituem o planejamento de upgrades?",
+    answer: "Não. A sorte de amigos e a sorte do grupo podem melhorar sua sessão de rolagem, mas não corrigem um corredor fraco ou uma configuração com baixo dano."
+  },
+  {
+    question: "Quando devo gastar a renda offline?",
+    answer: "Gaste assim que voltar, mas só depois de identificar o que segurou a última run. A renda offline é mais forte quando corrige primeiro o problema real."
+  }
+]} />
+
+</Section>

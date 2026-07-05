@@ -1,0 +1,207 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend dari noob ke pro: Panduan Penyiapan Langkah demi Langkah",
+  description: "Pelajari alur pemula tercepat untuk Roll to Defend, mulai dari roll pertama dan penempatan unit hingga timing zone, pengaturan luck, dan perencanaan income offline.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Noob+to+Pro+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend dari noob ke pro** dimulai dengan penempatan unit yang stabil, bukan pengeluaran acak.
+- **Roll dulu, lalu tempatkan** defender terkuatmu sebelum mengejar zone baru.
+- **Luck teman, luck grup, dan income offline** semuanya penting untuk progres yang lebih lancar.
+- **Tingkatkan bottleneck** yang memang menyebabkan bocor, bukan semua menu sekaligus.
+- **Beli zone cukup terlambat** agar pertahananmu saat ini bisa bertahan dari gelombang berikutnya.
+</Callout>
+
+<Section icon={Map} title="Alur Inti dan Prioritas Pertamamu">
+
+Mulailah dengan alur yang benar-benar mendorong progres: roll unit, tempatkan mereka, hancurkan zombie, bangun income, lalu baru perluas. Urutan itu menjaga run tetap stabil. Jika kamu terlalu cepat menghabiskan uang untuk zone atau sistem sampingan, kamu akan berakhir dengan field yang lemah dan tidak ada uang untuk memperbaikinya.
+
+Pembukaan yang paling aman itu sederhana: amankan satu defender kuat, tutup jalur utama, dan biarkan game memberikan income yang cukup untuk keputusan berikutnya. Jika pertahananmu tidak bisa bertahan dari gelombang dasar, roll berikutnya atau pembelian zone berikutnya kemungkinan terlalu dini.
+
+| Aksi Pertama | Mengapa Penting | Hasil yang Baik |
+|---|---|---|
+| Roll unit | Memberimu lonjakan kekuatan pertama yang nyata | Kamu cepat mendapat defender yang bisa dipakai |
+| Tempatkan unit | Mengubah keberuntungan mentah menjadi pertahanan nyata | Zombie mulai mati sebelum mencapai base |
+| Tahan income | Mencegah pemborosan di alur awal | Kamu menyimpan dana untuk upgrade berikutnya |
+| Amati bocor | Menunjukkan bottleneck yang sebenarnya | Kamu tahu apakah masalahnya damage atau penempatan |
+
+<CardGrid cols={3}>
+  <Card title="Roll">
+    - **Prioritas:** tinggi
+    - Cari pull terbaik yang bisa kamu pertahankan di awal
+    - Hindari menghabiskan income untuk peningkatan kecil
+  </Card>
+  <Card title="Tempatkan">
+    - **Prioritas:** tertinggi
+    - Letakkan defender di tempat mereka bisa menyerang paling lama
+    - Unit kuat yang tidak melakukan apa-apa adalah nilai yang terbuang
+  </Card>
+  <Card title="Tahan">
+    - **Prioritas:** tinggi
+    - Simpan untuk peningkatan nyata berikutnya
+    - Jangan membeli setiap opsi hanya karena tersedia
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Aturan Game Awal">
+Jika pembelian baru tidak secara jelas meningkatkan daya tahan, simpan uangmu. Clear yang stabil lebih berharga daripada pengeluaran yang terlihat heboh.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bangun Pertahanan Awal yang Stabil">
+
+Pertahanan awalmu harus melakukan satu tugas: mencegah bocor tanpa panik belanja terus-menerus. Artinya kamu butuh coverage, lalu damage, lalu upgrade yang memperkuat lane terlemah. Kesalahan yang paling sering dilakukan pemain adalah mengejar roll tambahan saat board yang ada masih belum cukup dibangun.
+
+Gunakan beberapa gelombang berikutnya untuk menguji apakah setup-mu benar-benar bertahan. Jika zombie bertahan terlalu lama, masalahnya biasanya penempatan yang buruk atau unit yang lemah, bukan zone yang hilang. Perbaiki itu terlebih dahulu.
+
+| Pilihan Pertahanan | Penggunaan Terbaik | Kekuatan | Risiko |
+|---|---|---|---|
+| Satu carry kuat | Damage jalur utama | Cara tercepat untuk stabil | Bisa gagal jika coverage terlalu sempit |
+| Penempatan seimbang | Kontrol gelombang umum | Lebih aman untuk pemain baru | Awalnya mungkin terasa lebih lambat |
+| Unit filler tambahan | Coverage darurat | Cara murah untuk menambal celah | Akan kalah berguna nanti |
+| Fokus upgrade awal | Memperbaiki bottleneck | Bagus untuk run yang bocor | Buruk jika kamu meng-upgrade hal yang salah |
+
+<Steps>
+  <Step num="1" title="Amankan jalur">
+    Tempatkan unit terbaikmu di posisi yang bisa menyerang paling lama. Coverage lebih penting daripada posisi yang sempurna.
+  </Step>
+  <Step num="2" title="Uji tekanan gelombang">
+    Biarkan beberapa gelombang berjalan sebelum mengubah semuanya. Kamu perlu melihat apa yang benar-benar rusak.
+  </Step>
+  <Step num="3" title="Perbaiki kelemahan sebenarnya">
+    Jika musuh bocor, tentukan apakah masalahnya damage, jangkauan, atau coverage yang terlalu sedikit.
+  </Step>
+  <Step num="4" title="Hentikan overinvestasi">
+    Jangan upgrade tiga hal lemah sekaligus. Dorong satu perbaikan yang menyelesaikan masalah terbanyak.
+  </Step>
+  <Step num="5" title="Periksa ulang setelah gelombang berikutnya">
+    Setiap gelombang yang stabil memberimu gambaran yang lebih jelas tentang langkah selanjutnya.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kesalahan Umum">
+Jangan memperlakukan setiap gelombang seperti sesi belanja baru. Jika board sudah kalah, pengeluaran acak biasanya hanya memperburuk keadaan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Keputusan Roll: Simpan, Ganti, dan Hemat">
+
+Progress yang baik di Roll to Defend datang dari tahu apa yang harus dipertahankan. Pull yang lebih kuat hanya bernilai jika benar-benar mengubah board dengan cara yang berarti. Simpan unit yang meningkatkan daya tahan, ganti yang sudah tidak memberi kontribusi, dan hemat saat setup saat ini sudah stabil.
+
+Anggap inventory-mu sebagai daftar pemain aktif, bukan rak piala. Unit yang dulu terlihat hebat bisa menjadi beban setelah board-mu membaik. Tujuannya bukan mengoleksi semuanya; tujuannya adalah menjaga bagian yang membantu run bertahan lebih lama dan clear lebih cepat.
+
+| Keputusan | Kapan Dipakai | Tujuan Pemain | Hasil |
+|---|---|---|---|
+| Simpan | Unit itu jelas lebih kuat daripada filler yang kamu pakai sekarang | Membangun inti yang lebih baik | Gelombang lebih bersih dan panik berkurang |
+| Ganti | Pull baru menutupi peran yang sama dengan lebih baik | Meningkatkan efisiensi | Lebih banyak kekuatan per slot |
+| Hemat | Board sudah bisa bertahan dengan nyaman | Menjaga sumber daya | Roll masa depan lebih fleksibel |
+| Tunda | Langkah berikutnya justru melemahkan pertahanan | Menghindari komitmen berlebihan | Lebih sedikit run gagal |
+
+| Kualitas Pull | Simpan atau Ganti? | Alasan |
+|---|---|---|
+| Pull rare berdampak tinggi | **Simpan** | Biasanya langsung memperbaiki board |
+| Unit filler awal | **Ganti nanti** | Berguna sekarang, lebih lemah seiring progres |
+| Duplikat dari peran yang lebih lemah | **Bergantung situasi** | Simpan hanya jika benar-benar memperbaiki coverage |
+| Pull kuat yang belum dipakai | **Simpan dan tempatkan** | Nilai hanya berarti saat aktif |
+
+<Callout type="info" title="Pola Pikir Roster">
+Unit yang lebih kuat hanya berarti saat ia berada di field. Tetap aktifkan bagian terbaikmu dan biarkan yang lemah pensiun tepat waktu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Luck, Income Offline, dan Sesi yang Lebih Baik">
+
+Pengaturan luck adalah bagian dari run, bukan bonus yang kamu pikirkan nanti. Jika game memberi social luck dan group-based luck, gunakan sistem itu sebelum sesi roll terbesar. Intinya adalah menumpuk keuntunganmu sebelum kamu menghabiskan sebagian besar income untuk pull.
+
+Income offline juga harus diperlakukan sebagai alat perencanaan. Saat kamu kembali, ambil dulu, identifikasi bottleneck dari run sebelumnya, lalu belanjakan dengan tujuan jelas. Itu mencegah sesi berikutnya mengulang kegagalan yang sama.
+
+| Sistem | Waktu Terbaik untuk Dipakai | Manfaat Utama | Kebiasaan yang Baik |
+|---|---|---|---|
+| Luck teman | Sebelum sesi roll besar | Setup roll yang lebih baik | Gabung dengan teman sebelum belanja |
+| Luck grup | Sebelum roll berulang | Nilai progres tambahan | Gunakan di awal sesi |
+| Income offline | Saat login kembali | Reinvestasi langsung | Perbaiki titik lemah terakhir dulu |
+| Income yang disimpan | Setelah gelombang stabil | Fleksibilitas | Roll hanya saat board siap |
+
+| Urutan Belanja | Prioritas | Alasan |
+|---|---|---|
+| Perbaiki survival | **1** | Mencegah bocor yang mudah |
+| Tingkatkan coverage | **2** | Membuat board lebih andal |
+| Roll untuk upgrade | **3** | Paling bagus saat pertahanan sudah stabil |
+| Dorong zone | **4** | Paling efektif setelah board siap |
+
+<Callout type="success" title="Alur Sesi Terbaik">
+Ambil income offline, aktifkan pengaturan luck-mu, perbaiki titik lemah, lalu roll dengan tujuan yang jelas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Timing Zone, Checklist, dan FAQ">
+
+Membeli zone seharusnya terasa seperti hadiah atas stabilitas, bukan tindakan putus asa. Jika board-mu masih bocor, zone baru bisa membuat bagian berikutnya lebih sulit, bukan lebih mudah. Langkah paling aman adalah memperluas hanya setelah pertahananmu punya ruang bernapas yang cukup untuk menghadapi gelombang berikutnya tanpa belanja darurat.
+
+Itu tidak berarti kamu tidak boleh membeli zone lebih awal. Artinya zone harus mendukung progresmu, bukan membongkar board yang lemah. Jika unlock zone meningkatkan income atau memberimu penempatan yang lebih baik, itu layak dilakukan setelah pertahanan inti sudah menjalankan tugasnya.
+
+| Timing Zone | Sinyal | Aksi |
+|---|---|---|
+| Terlalu awal | Bocor masih sering terjadi | Tahan pembelian |
+| Siap | Gelombang selesai dengan bersih | Beli zone berikutnya |
+| Setelah unlock | Tekanan naik tetapi tetap terkendali | Bangun ulang penempatan |
+| Terlalu memaksa | Pertahanan memburuk setelah ekspansi | Pause dan perbaiki board |
+
+<Checklist
+  id="noob-to-pro-core"
+  title="Checklist Progres Noob-to-Pro:"
+  items={[
+    "Roll cukup untuk mendapatkan defender nyata di field",
+    "Tempatkan unit terbaikmu di tempat yang bisa menyerang paling lama",
+    "Pantau apakah damage atau coverage yang menyebabkan bocor",
+    "Gunakan luck teman dan luck grup sebelum sesi roll besar",
+    "Ambil income offline dan belanjakan untuk titik terlemah",
+    "Beli zone hanya setelah pertahananmu stabil"
+  ]}
+/>
+
+| Tautan Resmi | Penggunaan Terbaik |
+|---|---|
+| [Roblox Game Page](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Meluncurkan experience dan memeriksa halaman utama |
+| [D:/Drive Community](https://www.roblox.com/communities/861213399/D-Drive) | Menemukan grup yang terkait dengan bonus luck |
+| [Creator Exchange Listing](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Meninjau detail listing publik dan kepemilikan |
+
+<FAQ items={[
+  {
+    question: "Apa cara tercepat untuk berubah dari noob ke pro di Roll to Defend?",
+    answer: "Ikuti alur inti: roll unit yang bisa dipakai, tempatkan segera, stabilkan tekanan gelombang, lalu reinvest income ke bagian board yang paling lemah."
+  },
+  {
+    question: "Haruskah saya membeli zone segera setelah bisa?",
+    answer: "Biasanya tidak. Beli zone saat pertahananmu sudah cukup stabil untuk bertahan dari tekanan setelah ekspansi."
+  },
+  {
+    question: "Bagaimana sebaiknya saya menghabiskan income offline?",
+    answer: "Gunakan untuk memperbaiki bottleneck yang membuat run sebelumnya kesulitan, lalu roll atau ekspansi hanya setelah board sudah stabil."
+  },
+  {
+    question: "Apa yang lebih penting di awal: roll atau penempatan?",
+    answer: "Penempatan. Pull kuat yang tidak ditempatkan dengan baik hampir tidak berguna, sementara setup yang solid bisa membawa unit yang lebih lemah lebih lama."
+  }
+]} />
+
+<Callout type="tip" title="Aturan Akhir">
+Jika board gagal, selesaikan kegagalannya dulu. Jika board stabil, barulah belanjakan untuk roll, zone, atau pertumbuhan jangka panjang.
+</Callout>
+
+</Section>

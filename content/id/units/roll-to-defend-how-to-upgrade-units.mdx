@@ -1,0 +1,200 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cara Meningkatkan Unit di roll to defend: Jalur Upgrade Terbaik",
+  description: "Pelajari jalur upgrade terbaik di roll to defend, termasuk perbaikan bottleneck, waktu pembelian zone, pengaturan luck, dan reinvestasi pendapatan offline.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Upgrade+Path",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- Upgrade **roll to defend** bekerja paling baik saat kamu memperbaiki bottleneck yang sedang terjadi, bukan semua sistem sekaligus.
+- **Kerusakan inti** biasanya harus didahulukan jika zombie lolos melalui pertahananmu.
+- **Upgrade jangkauan** paling penting ketika jalur bertahan terlalu lama atau menyisakan titik buta.
+- **Luck dan pendapatan** harus mendukung upgrade, bukan menggantikan rencana pertahanan yang stabil.
+</Callout>
+
+<Section icon={Map} title="Prioritas Upgrade roll to defend">
+
+Mulailah dengan menganggap upgrade sebagai alat pengendali kerusakan. Di roll to defend, pembelian terbaik adalah yang mencegah run terakhirmu runtuh lagi. Jika zombie sudah mencapai markas, jawabannya bukan setelan yang lebih cantik; melainkan yang lebih kuat.
+
+<CardGrid cols={3}>
+  <Card title="Kerusakan Inti">
+    - **Terbaik saat** gelombang bertahan terlalu lama
+    - **Tujuan**: membunuh zombie lebih cepat
+    - **Prioritas**: pertama untuk sebagian besar run yang gagal
+  </Card>
+  <Card title="Jangkauan">
+    - **Terbaik saat** jalur bocor
+    - **Tujuan**: mencakup lebih banyak waktu di jalur
+    - **Prioritas**: kedua saat masalahnya ada pada penempatan
+  </Card>
+  <Card title="Pengaturan Roll">
+    - **Terbaik saat** pertahanan sudah stabil
+    - **Tujuan**: meningkatkan hasil pull berikutnya
+    - **Prioritas**: setelah peluang bertahan sudah aman
+  </Card>
+</CardGrid>
+
+| Fokus Upgrade | Dibeli Saat | Hasil Terbaik | Lewati Saat |
+|---|---|---|---|
+| Kerusakan inti | Zombie bertahan cukup lama untuk mengancam markas | Bersih lebih cepat, lebih sedikit penyelamatan darurat | Jalur gagal karena unit ditempatkan dengan buruk |
+| Jangkauan | Satu unit kuat sudah bekerja baik, tetapi jalur masih bocor | Kontrol jalur lebih baik, gelombang lebih stabil | Gelombang dasar sudah mengalahkan kerusakanmu |
+| Pengaturan roll | Pertahananmu stabil dan pendapatan mengalir | Pull masa depan lebih baik dan sesi lebih kuat | Kamu masih kalah dari gelombang yang mudah |
+| Investasi siap zone | Gelombang saat ini bersih tanpa belanja panik | Ekspansi ke area baru lebih aman | Zone baru akan membuka kelemahan pertahanan |
+
+<Callout type="tip" title="Aturan Prioritas">
+Jika run sedang gagal, beli upgrade yang menyelesaikan masalah bertahan hidup terlebih dahulu. Jika run sudah stabil, beli upgrade yang memperbaiki sesi berikutnya.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cara Mendiagnosis Bottleneck">
+
+Cara tercepat membuang pendapatan adalah meng-upgrade lapisan yang salah. Unit kuat yang ditempatkan dengan buruk tetap akan berkinerja rendah. Begitu pula, menambah zone tidak akan memperbaiki garis depan yang lemah. Diagnosis dulu sebelum mengeluarkan uang.
+
+| Gejala | Biasanya Berarti | Perbaikan Terbaik |
+|---|---|---|
+| Zombie cepat mencapai markas | Kerusakan inti terlalu rendah | Upgrade sumber kerusakan utama terlebih dahulu |
+| Satu jalur selalu lemah | Jangkauan tidak merata | Perbaiki penempatan atau tambahkan unit pendukung |
+| Gelombang awalnya baik lalu runtuh | Ekonomi terlalu tipis | Simpan pendapatan lebih lama dan upgrade bottleneck |
+| Zone baru langsung terasa lebih buruk | Ekspansi terlalu cepat | Hentikan pembelian zone dan stabilkan pertahanan |
+| Roll terasa tidak produktif | Setup belum siap | Gunakan bonus luck sebelum sesi roll berikutnya |
+
+<Callout type="warning" title="Kesalahan Umum">
+Jangan membeli zone baru hanya karena kamu mampu. Jika setup saat ini masih goyah, ekspansi hanya membuat tekanannya makin sulit dikelola.
+</Callout>
+
+**Gunakan filter sederhana ini sebelum setiap pembelian:**
+- **Masalah kerusakan**: zombie hidup terlalu lama
+- **Masalah jangkauan**: jalur bocor atau unit tidak cukup lama aktif di jalur
+- **Masalah roll**: pull saat ini menahan kemajuanmu
+- **Masalah progresi**: pertahanan stabil, jadi pertumbuhan adalah tujuan
+
+| Masalah | Belanja Untuk | Mengapa Berhasil |
+|---|---|---|
+| Masalah kerusakan | Serangan yang lebih kuat atau pull carry terbaik yang tersedia | Ini memperpendek gelombang dan mengurangi tekanan |
+| Masalah jangkauan | Penempatan, dukungan, atau kontrol jalur | Ini meningkatkan waktu aktif efektif setiap unit |
+| Masalah roll | Setup luck dan timing yang lebih baik | Ini meningkatkan nilai roll berikutnya |
+| Masalah progresi | Zone atau reinvestasi pendapatan | Ini mengubah stabilitas menjadi pertumbuhan jangka panjang |
+
+</Section>
+
+<Section icon={Shield} title="Urutan Upgrade Terbaik Berdasarkan Tahap Run">
+
+Setelah bottleneck jelas, ikuti tangga upgrade yang konsisten. Urutannya sedikit berubah tergantung tahap, tetapi logikanya tetap sama: stabilkan dulu, perkuat kedua, ekspansi terakhir.
+
+<Steps>
+  <Step num="1" title="Stabilkan gelombang saat ini">
+    Belanjakan pada upgrade yang mencegah kebocoran sekarang juga. Jika pertahananmu gagal, bertahan hidup mengalahkan segalanya.
+  </Step>
+  <Step num="2" title="Kunci unit terbaikmu">
+    Pertahankan pull terkuat yang terlihat di lapangan dan bangun di sekitarnya, bukan menyebar sumber daya ke filler yang lemah.
+  </Step>
+  <Step num="3" title="Perbaiki jangkauan jalur">
+    Setelah kerusakan sudah cukup, investasikan pada kontrol jalur agar satu unit kuat tidak harus memikul seluruh peta sendirian.
+  </Step>
+  <Step num="4" title="Siapkan sesi roll">
+    Saat run sudah stabil, gunakan luck teman dan luck grup sebelum roll lagi supaya pendapatan masuk ke pull yang lebih baik.
+  </Step>
+  <Step num="5" title="Baru ekspansi setelah itu">
+    Beli zone berikutnya setelah setup saat ini aman membersihkan gelombang dan masih menyisakan cukup pendapatan untuk bereaksi.
+  </Step>
+</Steps>
+
+| Tahap Run | Belanja Utama | Belanja Sekunder | Hindari |
+|---|---|---|---|
+| Awal game | Kerusakan inti | Jangkauan dasar | Terlalu cepat mengejar zone |
+| Pertengahan game | Carry yang lebih baik | Stabilitas jalur | Over-upgrade unit filler |
+| Akhir game | Upgrade pull terbaik | Reinvestasi pendapatan | Menghabiskan semua upgrade pada lapisan yang sama |
+| Pemulihan setelah run buruk | Bottleneck yang gagal | Tidak ada apa pun sampai diperbaiki | Mengulang build yang sama secara buta |
+
+<Callout type="info" title="Tangga Upgrade">
+Run yang stabil sebaiknya bergerak dari kerusakan, ke jangkauan, ke roll dengan dukungan luck, lalu ke ekspansi zone. Urutan itu membuat setiap pembelian baru tetap berguna.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zone, Luck, dan Pendapatan Offline">
+
+roll to defend menambah nilai lewat luck sosial dan pendapatan offline, jadi waktu upgrade bukan cuma soal kekuatan tempur. Sesi terbaik dimulai dengan setup yang tepat dan berakhir dengan siklus reinvestasi yang lebih rapi.
+
+| Sistem | Yang Harus Dilakukan | Mengapa Penting |
+|---|---|---|
+| Luck teman | Roll bersama teman saat sesi yang direncanakan | Ini mendukung pull yang lebih baik saat kamu membelanjakan pendapatan yang disimpan |
+| Luck grup | Suka gamenya dan bergabung ke grup kreator | Ini menambah satu jalur luck yang terkonfirmasi sebelum roll |
+| Pendapatan offline | Kumpulkan saat kamu kembali | Ini memberimu budget upgrade baru tanpa membangun dari nol |
+| Waktu zone | Beli zone hanya setelah stabil | Ini mencegah ekspansi menciptakan masalah yang lebih sulit |
+
+**Tautan resmi yang layak dipakai lebih dulu:**
+- [Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend)
+- [Komunitas D:/Drive Roblox](https://www.roblox.com/communities/861213399/D-Drive)
+
+| Jika Kamu Punya Ini | Langkah Terbaik Berikutnya | Alasannya |
+|---|---|---|
+| Pertahanan stabil dan pendapatan tersimpan | Roll dengan bonus luck aktif | Pull yang lebih baik menciptakan run berikutnya yang lebih kuat |
+| Unit kuat tapi jangkauan buruk | Upgrade penempatan atau support | Kerusakan yang bagus tetap butuh waktu mengenai target |
+| Pendapatan penuh setelah jeda | Perbaiki bottleneck terakhir dulu | Pendapatan offline paling baik dipakai untuk kelemahan yang mengakhiri run |
+| Gelombang aman dan sumber daya sisa | Dorong ke zone berikutnya | Ekspansi lebih aman setelah markas tenang |
+
+<Callout type="success" title="Waktu Terbaik">
+Gunakan luck sebelum roll, lalu gunakan pendapatan offline setelah kembali, dan baru setelah itu tentukan apakah zone memang langkah berikutnya yang tepat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist dan FAQ">
+
+Jika kamu ingin rutinitas upgrade yang rapi, buat sesi berikutnya sesederhana mungkin. Bangun lagi logika yang sama setiap run: identifikasi kelemahan, beli perbaikannya, dan berhenti belanja saat pertahanan sudah stabil.
+
+<Callout type="tip" title="Pemeriksaan Akhir">
+Sebelum meninggalkan sesi, pastikan kunjungan berikutnya dimulai dengan rencana yang jelas: kerusakan dulu, jangkauan kedua, ekspansi terakhir.
+</Callout>
+
+<Checklist
+  id="upgrade-goals"
+  title="Checklist Sesi Upgrade:"
+  items={[
+    "Identifikasi bottleneck saat ini sebelum membelanjakan uang",
+    "Tetap gunakan pull terkuat yang tersedia secara aktif",
+    "Beli jangkauan hanya setelah kerusakan inti stabil",
+    "Aktifkan luck teman dan luck grup sebelum roll besar",
+    "Belanjakan pendapatan offline pada kelemahan yang mengakhiri run terakhir"
+  ]}
+/>
+
+| Keputusan | Tanda Baik | Tanda Buruk |
+|---|---|---|
+| Upgrade kerusakan | Gelombang kini bersih dengan aman | Kamu masih belum bisa menahan tekanan dasar |
+| Upgrade jangkauan | Jalur tidak lagi bocor | Kamu hanya mengganti satu masalah dengan masalah lain |
+| Upgrade setup luck | Kamu merencanakan sesi roll yang serius | Kamu roll secara acak tanpa target |
+| Beli zone | Pertahanan sudah tenang | Gelombang berikutnya akan membuka titik lemah |
+
+<FAQ items={[
+  {
+    question: "Apa yang harus saya upgrade dulu di roll to defend?",
+    answer: "Mulailah dari bottleneck. Dalam sebagian besar run yang gagal, itu berarti kerusakan inti dulu, lalu jangkauan, lalu roll yang didukung luck."
+  },
+  {
+    question: "Haruskah saya membeli zone sebelum meng-upgrade unit?",
+    answer: "Hanya jika pertahanan saat ini sudah stabil. Jika zombie masih bocor, perbaiki run sebelum ekspansi."
+  },
+  {
+    question: "Bagaimana luck teman dan luck grup masuk ke upgrade?",
+    answer: "Gunakan keduanya sebelum sesi roll yang direncanakan agar pendapatan yang kamu simpan masuk ke pull yang lebih kuat, bukan belanja acak."
+  },
+  {
+    question: "Apa penggunaan terbaik untuk pendapatan offline?",
+    answer: "Belanjakan pada kelemahan yang mengakhiri run terakhir, lalu kembali ke roll atau progresi zone setelah pertahanan aman."
+  }
+]} />
+
+</Section>

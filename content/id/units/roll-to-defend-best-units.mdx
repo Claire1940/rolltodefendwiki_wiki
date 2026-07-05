@@ -1,0 +1,237 @@
+import { Shield, Swords, Target, Trophy, Sparkles, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "unit terbaik roll to defend: Pilihan S-Tier & Tips Upgrade",
+  description: "Bandingkan pull terkuat di Roll to Defend, kenali nilai S-tier, dan pelajari kapan harus menyimpan, menempatkan, meng-upgrade, serta mengganti unit agar run berjalan lebih lancar.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Best+Units+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **unit terbaik roll to defend** biasanya adalah pull dengan rarity tertinggi, terutama yang sudah bisa mengamankan satu jalur.
+- **Nilai simpan** bergantung pada damage, coverage, dan seberapa baik unit menstabilkan zona kamu saat ini.
+- **Urutan upgrade** sebaiknya memperbaiki bottleneck terlebih dahulu, lalu memakai sisa income untuk roll atau ekspansi.
+- **Pengaturan luck** paling efektif saat kamu roll bersama teman dan bonus grup creator aktif.
+</Callout>
+
+<Section icon={Shield} title="Unit Terbaik Roll to Defend: Apa yang Harus Disimpan Dulu">
+
+Cara paling aman menangani **unit terbaik Roll to Defend** adalah menyimpan pull terkuat yang terlihat, menempatkannya lebih awal, dan mengganti filler hanya setelah pertahananmu stabil. Game ini lebih menghargai coverage jalur yang jelas daripada tangkapan layar inventaris yang terlihat keren.
+
+<Callout type="tip" title="Aturan Menyimpan">
+Anggap rarity sebagai filter pertama, lalu bandingkan seberapa besar tekanan yang dihilangkan unit dari jalur zombie.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Pull Divine">
+    - **Prioritas simpan tertinggi**
+    - Nilai jangka panjang terbaik
+    - Biasanya layak dijadikan fondasi
+  </Card>
+  <Card title="Pull Rarity Tertinggi Saat Ini">
+    - **Slot terbaik yang tersedia**
+    - Penopang kuat untuk early dan mid-game
+    - Ganti filler dengan rarity lebih rendah terlebih dahulu
+  </Card>
+  <Card title="Pull Penstabil Zona">
+    - **Terbaik untuk progres**
+    - Membantu area baru tetap aman
+    - Sering lebih berguna daripada sekadar damage mentah
+  </Card>
+</CardGrid>
+
+| Situasi | Tindakan | Alasan berhasil |
+|---|---|---|
+| Kamu mendapat pull Divine | Simpan | Rarity tinggi biasanya memberi hasil jangka panjang terbaik |
+| Kamu hanya punya satu unit kuat | Langsung tempatkan | Kekuatan yang tidak dipakai tidak berguna melawan gelombang zombie |
+| Unit yang lebih lemah tidak lagi menahan jalur | Ganti | Coverage dan daya tahan lebih penting daripada rasa sayang |
+| Sebuah pull menstabilkan zona baru | Prioritaskan | Keamanan zona mendukung income dan roll berikutnya |
+| Duplikat mengalahkan unit aktifmu | Tukar masuk | Nilai field yang lebih baik harus selalu menang |
+
+Mulailah dari [halaman game resmi Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) dan [komunitas creator D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) saat kamu ingin rute yang paling aman dan terhubung langsung ke game.
+
+</Section>
+
+<Section icon={Trophy} title="Logika Tier: Nilai Unit, Bukan Hype">
+
+Daftar tier unit yang bagus lebih menekankan pada seberapa besar sebuah pull mengubah run kamu, bukan sekadar rasa senang. Gameplay publik menunjukkan setidaknya satu pull rarity tinggi yang bernama, **Stellar Pirate**, sebagai contoh menonjol dari unit yang layak dipertahankan.
+
+<Callout type="info" title="Aturan Tiering">
+Urutkan unit berdasarkan kontrol jalur, nilai tahap, dan berapa lama mereka tetap relevan setelah kamu membuka zona yang lebih kuat.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="S-Tier">
+    - **Core carry**
+    - Menjaga run tetap stabil
+    - Layak dijadikan fondasi
+  </Card>
+  <Card title="A-Tier">
+    - **Pertahanan utama**
+    - Cukup kuat untuk menahan gelombang
+    - Bagus untuk sebagian besar sesi
+  </Card>
+  <Card title="B-Tier">
+    - **Penahan awal**
+    - Berguna saat income bertambah
+    - Ganti saat pull yang lebih baik datang
+  </Card>
+  <Card title="C-Tier">
+    - **Filler sementara**
+    - Hanya untuk mengisi ruang kosong
+    - Tukar secepat mungkin
+  </Card>
+</CardGrid>
+
+| Tier | Contoh | Penggunaan terbaik | Simpan? |
+|---|---|---|---|
+| S | Stellar Pirate, pull Divine | Carry jangka panjang dan kontrol jalur | Ya |
+| A | Pull rarity tertinggi saat ini | Pertahanan utama selama progres normal | Ya |
+| B | Pull damage awal | Bersihkan gelombang awal dan setup | Kadang-kadang |
+| C | Filler yang kalah kualitas | Hanya untuk menutup slot kosong | Tidak, jika ada opsi yang lebih baik |
+
+| Faktor | Yang dicari | Bobot |
+|---|---|---|
+| Damage | Membersihkan zombie sebelum lolos | Tinggi |
+| Coverage | Menahan lebih banyak bagian jalur | Tinggi |
+| Rarity | Ceiling jangka panjang lebih baik | Sedang |
+| Nilai zona | Tetap berguna setelah ekspansi | Tinggi |
+| Reinvestasi | Membantu roll atau upgrade berikutnya | Sedang |
+
+<Callout type="warning" title="Kesalahan Umum">
+Jangan menyimpan unit yang lebih lemah hanya karena itu adalah roll bagus pertamamu. Jika unit itu tidak lagi menyelesaikan masalah nyata, unit tersebut hanya jadi beban.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Jalur Upgrade: Ke Mana Menghabiskan Income Dulu">
+
+Income di Roll to Defend sebaiknya diarahkan ke titik terlemah yang benar-benar menyebabkan bocor terakhir. Jika zombie sudah mencapai base, perbaiki damage atau coverage sebelum mengejar roll tambahan atau zona baru.
+
+<Callout type="warning" title="Urutan Pengeluaran">
+Jika gelombang saat ini tidak stabil, upgrade datang sebelum ekspansi. Membeli zona terlalu cepat bisa membuat setup kamu melampaui batasnya.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Identifikasi bottleneck">
+    Tentukan apakah run gagal karena damage, coverage, kualitas roll, atau timing zona yang buruk.
+  </Step>
+  <Step num="2" title="Perbaiki pertahanan aktif">
+    Belanjakan pada unit atau penempatan yang sudah paling banyak menghabisi zombie, lalu tambal jalur yang bocor.
+  </Step>
+  <Step num="3" title="Roll dengan tujuan">
+    Simpan income untuk sesi roll yang fokus setelah pertahananmu stabil dan setup luck-mu aktif.
+  </Step>
+  <Step num="4" title="Ekspansi hanya setelah stabil">
+    Beli zona berikutnya saat setup saat ini sudah bersih dan kamu masih punya cukup income untuk bereaksi.
+  </Step>
+</Steps>
+
+| Fokus Upgrade | Prioritas | Beli Saat | Tunda Saat |
+|---|---|---|---|
+| Core damage | Tinggi | Zombie bertahan terlalu lama | Bocor disebabkan penempatan yang buruk |
+| Coverage | Tinggi | Jalur lolos melalui celah | Damage utama masih terlalu lemah |
+| Setup kualitas roll | Sedang | Kamu sudah menabung income dan bonus luck aktif | Gelombang saat ini sudah gagal |
+| Penanganan duplikat | Sedang | Salinan baru jelas meningkatkan field | Salinan itu menghilangkan coverage yang berguna |
+| Pengeluaran siap zona | Sedang | Gelombang selesai tanpa panik belanja | Ekspansi akan membuat gelombang berikutnya lebih sulit |
+
+Aturan praktis: perbaiki survivability dulu, lalu tingkatkan loop ekonomi. Itu menjaga pull terkuatmu tetap berguna, alih-alih membiarkannya terjebak di balik pola belanja yang buruk.
+
+</Section>
+
+<Section icon={Sparkles} title="Luck, Income, dan Timing Zona">
+
+Roll to Defend memberi beberapa keuntungan sederhana yang bisa ditumpuk sebelum sesi serius: bermain dengan teman, bergabung dengan grup creator, dan memakai offline income untuk reset setelah jeda. Sistem-sistem itu paling kuat saat kamu menggunakannya dengan urutan yang tepat.
+
+<Callout type="success" title="Urutan Sesi Terbaik">
+Kumpulkan offline income terlebih dahulu, aktifkan setup luck-mu, lalu roll dengan tujuan yang jelas untuk run tersebut.
+</Callout>
+
+| Sistem | Timing Terbaik | Kesalahan yang Harus Dihindari |
+|---|---|---|
+| Luck teman | Sebelum sesi roll panjang | Roll dulu, setup belakangan |
+| Luck grup | Sebelum menilai kualitas pull | Mengabaikan bonus grup creator |
+| Offline income | Di awal sesi | Menghabiskannya sebelum memeriksa bottleneck |
+| Pembelian zona | Setelah clear yang stabil | Ekspansi saat pertahanan goyah |
+| Reinvestasi | Setelah titik lemah diperbaiki | Membagi income ke semuanya |
+
+Gunakan checklist ini sebelum run serius:
+
+<Checklist
+  id="roll-to-defend-session-checklist"
+  title="Checklist Sesi:"
+  items={[
+    "Masuk ke server yang sama dengan teman jika kamu ingin bonus luck aktif.",
+    "Sukai game ini dan bergabunglah dengan komunitas D:/Drive sebelum banyak roll.",
+    "Kumpulkan offline income terlebih dahulu agar kamu tahu budget sebenarnya.",
+    "Belanjakan pada kelemahan yang mengakhiri run terakhirmu.",
+    "Beli zona berikutnya hanya setelah pertahananmu clear dengan bersih."
+  ]}
+/>
+
+Pola ekonomi terbaik itu sederhana: bertahan, roll, lalu ekspansi. Jika kamu terlalu sering membalik urutan itu, unit terkuatmu tetap akan berakhir mendukung run yang buruk, bukan membawa kemenangan.
+
+</Section>
+
+<Section icon={Map} title="Aturan Unit Praktis untuk Progres Lebih Cepat">
+
+Pilihan unit terbaik bergantung pada tahap run kamu. Di awal, kamu butuh penahan yang andal. Di mid-game, kamu butuh carry yang benar-benar kuat. Nanti, kamu butuh pull yang mencegah zona baru runtuh begitu kamu membukanya.
+
+<Callout type="tip" title="Aturan Tahap">
+Unit yang terlihat biasa saja di atas kertas masih bisa menjadi pilihan terbaik jika unit itu mencegah bocor di titik yang paling penting.
+</Callout>
+
+| Tahap Game | Yang Diprioritaskan | Yang Harus Dihindari | Hasil Terbaik |
+|---|---|---|---|
+| Early game | Coverage jalur, penempatan mudah | Terlalu banyak investasi pada pull yang mencolok | Gelombang awal yang bersih |
+| Mid game | Rarity terlihat paling kuat | Mengisi board dengan unit lemah | Inti pertahanan yang stabil |
+| Dorongan zona | Stabilitas dan kontrol jalur | Membeli zona terlalu cepat | Ekspansi yang lebih aman |
+| Sesi kembali | Memperbaiki bottleneck lama | Menghabiskan semua income untuk roll | Pemulihan lebih cepat |
+| Late game | Nilai simpan jangka panjang | Mengganti unit bagus terlalu awal | Efisiensi run yang lebih baik |
+
+| Jenis Unit | Peran | Simpan atau Ganti |
+|---|---|---|
+| Pull Divine | Carry utama | Simpan |
+| Pull rarity tertinggi saat ini | Penopang andal | Simpan |
+| Pull damage awal | Dukungan sementara | Ganti nanti |
+| Filler yang kalah kualitas | Penutup slot kosong | Ganti |
+| Pull penstabil zona | Dukungan ekspansi | Simpan jika melindungi run |
+
+Jika kamu ingin aturan keputusan yang jelas, pakai ini: simpan unit yang memperbaiki bagian terburuk dari pertahananmu, bukan unit yang hanya terlihat lebih langka secara terpisah.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="Pertanyaan Umum">
+Gunakan jawaban ini sebagai filter keputusan cepat saat kamu tidak yakin unit mana yang harus disimpan.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa unit terbaik di Roll to Defend?",
+    answer: "Unit terbaik biasanya adalah pull dengan rarity tertinggi dan unit apa pun yang jelas menstabilkan satu jalur. Pull Divine atau penstabil zona yang kuat umumnya layak disimpan dibanding filler."
+  },
+  {
+    question: "Apakah rarity Divine selalu pilihan terbaik?",
+    answer: "Tidak selalu dalam setiap situasi, tetapi Divine adalah filter pertama yang paling aman. Jika unit dengan rarity lebih rendah menyelesaikan masalah jalurmu saat ini dengan lebih baik, simpan performer yang lebih baik itu sampai kamu menggantikannya."
+  },
+  {
+    question: "Kapan saya harus membeli zona berikutnya?",
+    answer: "Beli zona berikutnya setelah pertahananmu saat ini selesai dengan bersih tanpa panik belanja. Jika gelombangnya masih tidak stabil, perbaiki damage atau coverage dulu."
+  },
+  {
+    question: "Apa yang harus saya lakukan dengan offline income?",
+    answer: "Kumpulkan di awal sesi, perbaiki kelemahan yang mengakhiri run terakhirmu, lalu belanjakan sisanya untuk roll atau ekspansi."
+  }
+]} />
+
+</Section>

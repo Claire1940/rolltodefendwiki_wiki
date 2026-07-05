@@ -1,0 +1,183 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejor orden, momento y consejos para las mejoras de Roll to Defend",
+  description: "Usa el orden correcto de mejoras en Roll to Defend para resolver cuellos de botella de daño, cobertura e ingresos, y luego sincroniza los rolls y los avances de zona para que las partidas sean más fluidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Roll+to+Defend+Upgrades",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de roll to defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **las mejoras de roll to defend** funcionan mejor cuando resuelven el cuello de botella exacto que está frenando tu partida actual.
+- **el daño primero** suele ganar cuando los zombis sobreviven demasiado tiempo o llegan a tu línea de defensa.
+- **la cobertura en segundo lugar** importa cuando los enemigos se cuelan por puntos ciegos en lugar de abrumarte con fuerza bruta.
+- **la economía y las zonas** deberían venir solo después de que tu defensa limpie las oleadas con soltura.
+- **los bonos de suerte** ayudan en tu sesión de rolls, pero no reemplazan una configuración estable.
+</Callout>
+
+<Section icon={Shield} title="Por qué las mejoras importan en Roll to Defend">
+
+El sistema de mejoras no es una actividad secundaria en Roll to Defend. Es la válvula de presión que evita que tu partida se derrumbe cuando las oleadas se vuelven más difíciles, el campo se llena demasiado o tus ingresos empiezan a quedarse atrás respecto al ritmo de progreso. La forma más clara de pensar en las mejoras es simple: compra lo que elimine el mayor obstáculo en este momento, no lo que se vea emocionante sobre el papel.
+
+<CardGrid cols={3}>
+  <Card title="Daño">
+    - Elimina oleadas más rápido
+    - Ideal para zombis que se cuelan al final
+    - Más fuerte cuando tu línea ya está bien colocada
+  </Card>
+  <Card title="Cobertura">
+    - Cubre puntos ciegos
+    - Ideal para carriles con fugas
+    - Ayuda a que las buenas unidades hagan su trabajo durante más tiempo
+  </Card>
+  <Card title="Economía">
+    - Facilita más rolls
+    - Ideal cuando la defensa es estable
+    - Convierte una buena partida en una mejor
+  </Card>
+</CardGrid>
+
+| Ruta de mejora | Cuándo es mejor | Cuándo saltarla |
+|---|---|---|
+| Daño | Los zombis sobreviven demasiado tiempo | El problema real es una mala colocación |
+| Cobertura | Los enemigos se cuelan por un carril | Sigues perdiendo contra oleadas básicas |
+| Economía | Tu defensa ya es estable | Necesitas defensa de emergencia ahora mismo |
+| Momento de zona | Te sobra ingreso y limpias sin problemas | La zona actual todavía se siente inestable |
+
+<Callout type="tip" title="Regla editorial">
+Ten una regla en la cabeza: mejora primero el eslabón más débil. Si el eslabón débil cambia después de una oleada, tu siguiente compra también debería cambiar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejoras de roll to defend: gasta en el orden correcto">
+
+El orden de mejoras más fiable es el que sigue el estado de tu partida, no una lista de compras fija. Cuando tu defensa es inestable, gasta como un superviviente. Cuando tu defensa es estable, gasta como un constructor. Esa división evita que desperdicies ingresos en mejoras que no hacen nada por la oleada que tienes delante.
+
+<Steps>
+  <Step num="1" title="Identifica el cuello de botella">
+    Comprueba si la partida está fallando por daño, cobertura, velocidad de ingresos o por un momento de zona demasiado temprano.
+  </Step>
+  <Step num="2" title="Estabiliza la oleada actual">
+    Arregla primero el carril que está teniendo fugas, porque todas las demás mejoras se vuelven más valiosas una vez que detienes la pérdida inmediata.
+  </Step>
+  <Step num="3" title="Compra la mejor mejora a corto plazo">
+    Mejora la unidad o el sistema que vaya a cambiar de forma visible la siguiente oleada, no el que solo parezca más fuerte más adelante.
+  </Step>
+  <Step num="4" title="Reevalúa después de la siguiente limpieza">
+    Si el problema cambia de daño a cobertura, cambia tu plan de gasto antes de volver a comprar.
+  </Step>
+  <Step num="5" title="Reinvierte solo cuando la partida sea estable">
+    Una vez que las oleadas se limpien con soltura, traslada los ingresos a rolls, zonas o crecimiento de la economía.
+  </Step>
+</Steps>
+
+| Señal del problema | Primer gasto ideal | Por qué funciona |
+|---|---|---|
+| Los zombis sobreviven demasiado tiempo | Mejora de daño | Termina la oleada antes |
+| Los zombis se cuelan por un carril | Mejora de cobertura | Reduce fugas y compras por pánico |
+| Los ingresos parecen demasiado lentos | Mejora de economía | Mejora tu poder de compra futuro |
+| Una zona nueva se siente arriesgada | Conserva el ingreso | Es demasiado pronto para expandirse |
+
+<Callout type="warning" title="Disciplina de gasto">
+No compres mejoras solo porque tienes ingresos disponibles. Si la oleada actual sigue inestable, una compra vistosa puede ralentizarte en lugar de salvar la partida.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Matriz de prioridades: daño, cobertura y apoyo">
+
+Un buen plan de mejoras en Roll to Defend es, en realidad, una matriz de prioridades. Daño, cobertura, suerte, ingreso offline y zonas importan, pero no importan por igual en cada momento. Los jugadores más inteligentes tratan cada uno como una herramienta para un problema concreto.
+
+| Ruta | Qué mejora | Fase ideal | Riesgo principal |
+|---|---|---|---|
+| Daño | Limpiezas más rápidas | De inicio a mitad de partida | Comprar de más mientras los carriles siguen abiertos |
+| Cobertura | Carriles más seguros | Mitad de partida | Arreglar el espacio e ignorar un daño débil |
+| Economía | Más gasto futuro | Partidas estables | Tardar demasiado en amortizarse |
+| Avance de zona | Progresión y escala | Final de partida estable | Hacer la siguiente oleada más difícil demasiado pronto |
+
+Los sistemas de apoyo integrados del juego pueden ayudar, pero deben ir detrás del plan de defensa, no por delante. Los amigos pueden darte más suerte al hacer rolls, y la ruta del grupo del creador también añade suerte extra. El ingreso offline también te da un buen punto de retorno después de un descanso, lo cual es útil porque te permite reiniciar con un mejor presupuesto.
+
+| Sistema de apoyo | En qué ayuda | En qué no ayuda |
+|---|---|---|
+| Suerte de amigos | Mejores sesiones de rolls | No arregla un carril roto |
+| Suerte del grupo | Una configuración de rolls más fuerte | No reemplaza una mejora de daño |
+| Ingreso offline | Regreso más rápido tras un descanso | No garantiza un avance de zona seguro |
+
+<Callout type="info" title="Sistemas de apoyo">
+La suerte y el ingreso offline son aceleradores. Te ayudan a llegar antes a la siguiente buena mejora, pero no hacen fuerte por sí solos a un equipo débil.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Un ciclo de sesión limpio para avanzar mejor">
+
+El mejor ciclo de progreso a largo plazo es lo bastante simple como para repetirlo en cada sesión. Primero, encuentra la fuga. Luego, arregla la fuga. Después, haz rolls para conseguir una mejora significativa y, solo entonces, piensa en zonas o en avances más grandes de economía. Esa secuencia mantiene tu gasto enfocado y te protege de la trampa habitual de expandirte demasiado pronto.
+
+<Checklist
+  id="roll-to-defend-progress-loop"
+  title="Lista de comprobación de la sesión"
+  items={[
+    "Comprueba qué problema causó realmente el fallo de la última oleada.",
+    "Gasta en daño o cobertura antes de comprar mejoras de lujo extra.",
+    "Usa la suerte de amigos y la suerte del grupo antes de una sesión de rolls planificada.",
+    "Recoge primero el ingreso offline y luego decide si hacer rolls o expandirte.",
+    "Compra una nueva zona solo cuando tu defensa actual limpie las oleadas con soltura."
+  ]}
+/>
+
+| Error común | Hábito mejor | Resultado |
+|---|---|---|
+| Comprar mejoras al azar | Arregla el cuello de botella actual | Mejora más rápida |
+| Expandirse demasiado pronto | Estabiliza primero | Progreso más seguro |
+| Hacer rolls sin objetivo | Haz rolls para una debilidad concreta | Menos ingresos desperdiciados |
+| Ignorar el ingreso offline | Reinvierte de inmediato al volver | Un regreso más fuerte |
+
+<Callout type="success" title="Mejor hábito">
+Una defensa estable hace que cada compra futura sea más valiosa. En la práctica, eso significa que tu siguiente mejora debería aumentar la supervivencia antes que la ambición.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Enlaces oficiales y preguntas frecuentes">
+
+A fecha de 2026-07-05, la forma más segura de seguir Roll to Defend es empezar por las rutas vinculadas a Roblox y usar las demás fichas solo como referencia. Así mantienes tu plan de mejoras anclado en el juego en vivo en lugar de en rumores a medio actualizar.
+
+| Fuente | Mejor uso | Enlace |
+|---|---|---|
+| Página del juego en Roblox | Jugar la experiencia, comprobar la descripción actual y acceder a pestañas del juego | [Página oficial del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidad D:/Drive | Seguir la ruta del grupo del creador vinculada a suerte extra | [Comunidad oficial de Roblox](https://www.roblox.com/communities/861213399/D-Drive) |
+| Ficha de Creator Exchange | Revisar los detalles públicos de la ficha y las etiquetas de la comunidad | [Ficha de Roll to Defend](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="info" title="Regla de referencia">
+Usa primero las rutas oficiales de Roblox cuando quieras información actual vinculada al juego. Esa es la forma más limpia de evitar consejos de mejoras desactualizados.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debería mejorar primero en Roll to Defend?",
+    answer: "Empieza por el cuello de botella que realmente está haciendo fallar la partida. Si los zombis sobreviven demasiado tiempo, compra daño. Si se cuelan, compra cobertura. Esa es la regla central detrás de las mejoras de roll to defend."
+  },
+  {
+    question: "¿Debería gastar en zonas antes que en mejoras?",
+    answer: "Normalmente no. Compra una zona solo cuando tu defensa actual limpie las oleadas con soltura y todavía te quede suficiente ingreso para reaccionar al siguiente pico de presión."
+  },
+  {
+    question: "¿Los bonos de suerte sustituyen la planificación de mejoras?",
+    answer: "No. La suerte de amigos y la suerte del grupo pueden mejorar tu sesión de rolls, pero no arreglan un carril débil ni una configuración con poco daño."
+  },
+  {
+    question: "¿Cuándo debería gastar el ingreso offline?",
+    answer: "Gástalo en cuanto vuelvas, pero solo después de identificar qué frenó la última partida. El ingreso offline es más fuerte cuando primero corrige el problema real."
+  }
+]} />
+
+</Section>

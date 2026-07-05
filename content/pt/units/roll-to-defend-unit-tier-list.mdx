@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tier list de Roll to Defend: melhores unidades e guia de classificação",
+  description: "A tier list de Roll to Defend classifica as melhores invocações por raridade, controle de ondas e valor de zona, com regras práticas de manter ou substituir para cada fase.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Tier+List+Guide",
+  date: "2026-07-05",
+  author: "Equipe Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **a tier list de roll to defend** classifica as invocações por raridade, controle de ondas e valor de zona, e não apenas por rótulos chamativos.
+- **Stellar Pirate** é o exemplo nomeado mais claro de item raro para manter, enquanto qualquer **invocação Divine** deve ser protegida.
+- **defensores principais** devem resolver vazamentos primeiro; se uma unidade não consegue estabilizar as ondas, ela cai de valor rapidamente.
+- **avanços de zona** funcionam melhor depois que sua defesa atual está estável e a renda consegue suportar o desbloqueio.
+</Callout>
+
+<Section icon={Trophy} title="Tier List de Roll to Defend: Regras de Classificação">
+
+Use esta tier list como um sistema prático de manter ou substituir. O objetivo não é fingir que toda unidade tem uma tabela pública de dano; o objetivo é tomar decisões melhores com as invocações que você realmente tem. Em **Roll to Defend**, a unidade mais forte é aquela que limpa ondas, protege a renda e ainda faz sentido quando você abre uma nova zona.
+
+<Callout type="tip" title="Regra de Classificação">
+Mantenha unidades que melhoram **sobrevivência**, **cobertura** ou **progressão**. Substitua unidades que só parecem raras, mas não ajudam sua partida.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tier S">
+    - **invocações Divine**
+    - **Stellar Pirate**
+    - Manutenção de longo prazo
+    - Melhor valor de carry
+  </Card>
+  <Card title="Tier A">
+    - Invocação atual de maior raridade
+    - Espaço principal de defesa
+    - Limpeza de ondas estável
+    - Forte flexibilidade de fase
+  </Card>
+  <Card title="Tier B/C">
+    - Preenchedores iniciais
+    - Ajuda de cobertura
+    - Substituir mais tarde
+    - Usar apenas enquanto constrói
+  </Card>
+</CardGrid>
+
+| Tier | Melhor Uso | Regra de Manutenção | Por que isso importa |
+|---|---|---|---|
+| **S** | Carry principal, âncora do fim de jogo | Manter imediatamente | Invocações de alto valor reduzem rolls desperdiçados e tornam futuras melhorias mais limpas |
+| **A** | Defensor central, suporte de zona | Manter se resolver vazamentos | Forte o suficiente para segurar o campo enquanto você constrói renda |
+| **B** | Defesa inicial, cobertura de rota | Manter até ser substituído | Bom para estabilizar ondas iniciais sem comprometer recursos demais |
+| **C** | Preenchedor temporário | Substituir primeiro | Espaços fracos limitam o progresso e desaceleram a eficiência dos rolls |
+
+| Ponto de Entrada Oficial | Uso | Link |
+|---|---|---|
+| Página do Jogo no Roblox | Jogar a experiência, conferir abas, verificar atualizações | [Abrir no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidade D:/Drive | Entrar na rota do grupo do criador ligada a sorte extra | [Abrir a comunidade](https://www.roblox.com/communities/861213399/D-Drive) |
+| Listagem do Criador | Confirmar detalhes públicos da listagem e a identidade do jogo | [Abrir a listagem](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+</Section>
+
+<Section icon={Target} title="Como Classificar uma Nova Invocação">
+
+Quando uma nova unidade entra no seu inventário, classifique-a sempre com as mesmas quatro verificações. Isso mantém a tier list prática e impede que você supervalorize unidades que só parecem boas em um vácuo. Se uma invocação vence em raridade, mas perde no impacto real em campo, ela não é automaticamente sua melhor opção.
+
+<Callout type="info" title="O Que Mais Importa">
+Uma boa invocação precisa fazer bem pelo menos uma destas coisas: **limpar ondas**, **cobrir rotas fracas** ou **apoiar a próxima zona**.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Verifique a raridade primeiro">
+    Comece pela raridade, porque invocações de maior raridade geralmente merecem mais atenção. Se a invocação for uma **Divine** ou a sua raridade visível mais alta, ela deve ser avaliada antes de qualquer unidade de preenchimento.
+  </Step>
+  <Step num="2" title="Observe o impacto nas ondas">
+    Pergunte se a unidade realmente impede vazamentos. Uma unidade que parece impressionante, mas deixa zumbis passarem, não merece ficar perto do topo.
+  </Step>
+  <Step num="3" title="Meça a cobertura">
+    Uma unidade forte deve ajudar o caminho, não apenas o placar. Se ela cobre uma rota fraca ou compra tempo para a linha de frente, ela ganha valor.
+  </Step>
+  <Step num="4" title="Teste o valor de progressão">
+    Se a unidade ainda ajuda depois de um desbloqueio de zona, ela sobe na classificação. Unidades que sobrevivem às mudanças de progressão são mais fáceis de construir em torno.
+  </Step>
+</Steps>
+
+| Verificação | Pergunte isto | Mantenha se |
+|---|---|---|
+| **Raridade** | É uma das suas melhores invocações? | É Divine ou sua raridade atual mais alta |
+| **Limpeza de Ondas** | Ela impede vazamentos? | Melhora a sobrevivência em lutas reais |
+| **Cobertura** | Ela protege rotas fracas? | Resolve um problema de caminho |
+| **Progressão** | Ela ainda vai importar depois? | Continua útil após mudanças de zona |
+
+<Callout type="warning" title="Evite Este Erro">
+Não classifique uma unidade acima só porque ela é rara. Uma invocação rara que nunca resolve a pressão das ondas pode ficar atrás de um defensor de menor raridade que realmente carrega partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades por Fase do Jogo">
+
+A melhor unidade em **Roll to Defend** muda conforme a fase da partida. No início, você quer estabilidade. No meio do jogo, você quer uma unidade que impeça suas defesas de desmoronarem quando a pressão aumenta. No fim do jogo, você quer a invocação que continua valiosa depois que sua economia e o número de zonas crescem.
+
+<Callout type="warning" title="Lógica da Fase">
+Uma unidade perfeita para o começo pode perder força depois. Classifique pelo **valor da fase**, não apenas pela força da primeira impressão.
+</Callout>
+
+| Fase do Jogo | Prioridade | Melhor Tipo de Unidade | Erro Comum |
+|---|---|---|---|
+| **Iniciante** | Sobreviver às primeiras ondas | Invocação atual de maior raridade | Comprar zonas cedo demais |
+| **Meio de Jogo** | Estabilizar a cobertura | Carry forte ou estabilizador de zona | Manter preenchedores fracos por tempo demais |
+| **Fim de Jogo** | Escalar para novas zonas | Invocação Divine, âncora de longo prazo | Dividir recursos entre unidades demais |
+
+| Tipo de Unidade | Melhor Papel | Posicionamento no Tier | Observações |
+|---|---|---|---|
+| **Stellar Pirate** | Invocação rara de carry | **S** | O exemplo nomeado mais claro de alta raridade para manter primeiro |
+| **Qualquer Invocação Divine** | Candidata a defensora principal | **S** | Proteja-a, a menos que apareça uma opção mais forte depois |
+| **Invocação Atual de Maior Raridade** | Unidade central de campo | **A** | Normalmente é sua melhor defensora ativa até algo mais forte aparecer |
+| **Invocação Estabilizadora de Zona** | Segura novas áreas | **A/B** | Valiosa quando a expansão cria nova pressão |
+| **Invocação de Cobertura Inicial de Rotas** | Suporte temporário de rota | **B** | Útil enquanto a renda cresce e o elenco melhora |
+
+Uma forma clara de pensar nisso: se a unidade ajuda você a segurar o mapa, ela merece uma posição mais alta do que uma unidade que só parece boa na tela do inventário. Essa regra única evita a maioria das más melhorias.
+
+</Section>
+
+<Section icon={Shield} title="Prioridade de Melhorias e Zonas">
+
+Tier lists só são úteis se orientarem seus gastos. Neste jogo, suas melhorias devem apoiar a unidade que já resolve o maior problema. Se as ondas estão vazando, fortaleça a defesa. Se a defesa está estável, avance para rolls, zonas e crescimento de longo prazo.
+
+<Callout type="success" title="Melhor Ordem de Gastos">
+Resolva primeiro o gargalo, depois gaste a renda extra em rolls e só então avance para a próxima zona.
+</Callout>
+
+<Checklist
+  id="roll-to-defend-priority-list"
+  title="Checklist Pré-Melhoria"
+  items={[
+    "Identifique se o problema atual é dano, cobertura, raridade ou tempo de zona.",
+    "Mantenha sua melhor invocação ativa antes de gastar renda em novos rolls.",
+    "Compre uma zona apenas quando sua defesa conseguir sobreviver à pressão do desbloqueio.",
+    "Use a renda offline para corrigir a última fraqueza, não para criar uma nova."
+  ]}
+/>
+
+| Situação | Gastar Em | Por quê | Segure Se |
+|---|---|---|---|
+| **Vazamentos na base** | Dano | A sobrevivência vem primeiro | A cobertura já é o problema real |
+| **Uma rota quebra** | Cobertura ou posicionamento | Corrige o problema do caminho | O dano bruto não é o gargalo |
+| **Limpezas estáveis** | Rolls | Melhora a qualidade do inventário | A defesa ainda está instável |
+| **Reserva de renda pronta** | Zonas | Expande a progressão | Você não consegue sustentar a próxima onda |
+
+| Escolha de Gastos | Melhor Momento | Resultado | Risco |
+|---|---|---|---|
+| **Mais rolls** | Depois de estabilizar as ondas | Melhor qualidade de invocação | Desperdiçar renda se a defesa estiver fraca |
+| **Compra de zona** | Depois de limpezas consistentes | Mais espaço de progressão | Esticar demais a configuração |
+| **Foco em melhorias** | Quando um gargalo é óbvio | Melhoria mais rápida | Espalhar recursos demais |
+
+O hábito mais seguro é simples: se sua configuração atual está falhando, gaste como um defensor. Se ela já está estável, gaste como um construtor.
+
+</Section>
+
+<Section icon={Sparkles} title="Erros Comuns, Depois FAQ">
+
+As tier lists mais úteis também mostram o que não fazer. Decisões ruins geralmente vêm de correr para zonas cedo demais, manter preenchedores fracos por tempo demais ou tratar raridade como atalho para utilidade. Um elenco forte é construído removendo opções fracas no momento certo.
+
+<Callout type="info" title="Nota do Editor">
+Se uma unidade não ajuda sua partida atual, ela não deve ficar no mesmo tier que as unidades que realmente estão carregando ondas.
+</Callout>
+
+| Erro | Por que faz mal | Melhor ação |
+|---|---|---|
+| **Manter preenchedores de baixo impacto** | Bloqueia o valor de invocações mais fortes | Substitua assim que unidades melhores chegarem |
+| **Comprar zonas cedo demais** | Cria pressão antes que a defesa esteja pronta | Estabilize primeiro, expanda depois |
+| **Ignorar cobertura** | Deixa zumbis passarem por rotas fracas | Dê mais peso ao controle de rota |
+| **Gastar toda a renda de uma vez** | Não sobra espaço para reagir | Mantenha uma reserva para o próximo gargalo |
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor unidade na tier list de roll to defend?",
+    answer: "A escolha mais segura de topo é uma invocação Divine, com Stellar Pirate como o exemplo nomeado mais claro para manter primeiro."
+  },
+  {
+    question: "Devo manter toda invocação rara?",
+    answer: "Não. Mantenha unidades raras que melhorem a limpeza de ondas, a cobertura ou a progressão. Se uma invocação rara não resolve um problema real, ela perde valor."
+  },
+  {
+    question: "Quando devo comprar uma nova zona?",
+    answer: "Compre uma nova zona depois que sua defesa atual estiver estável e você ainda tiver renda suficiente para reagir à próxima onda."
+  },
+  {
+    question: "A sorte muda como devo classificar as unidades?",
+    answer: "A sorte ajuda suas sessões de roll, mas a tier list ainda deve focar no valor real de batalha, e não apenas em melhores chances de roll."
+  }
+]} />
+
+<Callout type="tip" title="Conclusão Final">
+Use a **tier list de roll to defend** como um filtro de decisão: mantenha sua melhor raridade, promova a unidade que impede vazamentos e substitua tudo que só parece bom no papel.
+</Callout>
+
+</Section>

@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Daftar Tier Roll to Defend: Unit Terbaik dan Panduan Peringkat",
+  description: "Daftar tier Roll to Defend memberi peringkat pull terbaik berdasarkan kelangkaan, kontrol gelombang, dan nilai zona, dengan aturan praktis untuk dipertahankan atau diganti di setiap tahap.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Tier+List+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **daftar tier roll to defend** memberi peringkat pull berdasarkan kelangkaan, kontrol gelombang, dan nilai zona, bukan hanya berdasarkan label yang terlihat keren.
+- **Stellar Pirate** adalah nama unit langka yang paling jelas untuk dipertahankan, sementara setiap **pull Divine** harus dijaga.
+- **Defender utama** harus menyelesaikan bocor terlebih dahulu; jika sebuah unit tidak bisa menstabilkan gelombang, nilainya cepat turun.
+- **Dorongan zona** paling efektif setelah pertahanan saat ini stabil dan pendapatan cukup untuk menahan pembukaan.
+</Callout>
+
+<Section icon={Trophy} title="Daftar Tier Roll to Defend: Aturan Peringkat">
+
+Gunakan daftar tier ini sebagai sistem praktis untuk mempertahankan atau mengganti unit. Tujuannya bukan berpura-pura bahwa setiap unit punya tabel damage publik; tujuannya adalah membuat keputusan yang lebih baik dengan pull yang benar-benar kamu miliki. Di **Roll to Defend**, unit terkuat adalah yang mampu membersihkan gelombang, melindungi pendapatan, dan tetap masuk akal saat kamu membuka zona baru.
+
+<Callout type="tip" title="Aturan Peringkat">
+Pertahankan unit yang meningkatkan **bertahan hidup**, **jangkauan**, atau **progresi**. Ganti unit yang hanya terlihat langka tetapi tidak membantu run-mu.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tier S">
+    - **Pull Divine**
+    - **Stellar Pirate**
+    - Dipertahankan jangka panjang
+    - Nilai carry terbaik
+  </Card>
+  <Card title="Tier A">
+    - Pull saat ini dengan kelangkaan tertinggi
+    - Slot pertahanan utama
+    - Pembersihan gelombang yang stabil
+    - Fleksibilitas kuat di berbagai tahap
+  </Card>
+  <Card title="Tier B/C">
+    - Pengisi awal
+    - Bantuan jangkauan
+    - Ganti nanti
+    - Gunakan hanya saat membangun
+  </Card>
+</CardGrid>
+
+| Tier | Penggunaan Terbaik | Aturan Pertahankan | Mengapa Penting |
+|---|---|---|---|
+| **S** | Carry utama, penopang late game | Pertahankan segera | Pull bernilai tinggi mengurangi roll yang terbuang dan membuat upgrade berikutnya lebih rapi |
+| **A** | Defender inti, dukungan zona | Pertahankan jika menyelesaikan bocor | Cukup kuat untuk menahan medan sambil kamu membangun pendapatan |
+| **B** | Pertahanan awal, cakupan jalur | Pertahankan sampai diganti | Bagus untuk menstabilkan gelombang awal tanpa komitmen sumber daya berlebihan |
+| **C** | Pengisi sementara | Ganti lebih dulu | Slot yang lemah membatasi progres dan memperlambat efisiensi roll |
+
+| Pintu Masuk Resmi | Penggunaan | Tautan |
+|---|---|---|
+| Halaman Game Roblox | Mainkan pengalaman, cek tab, verifikasi pembaruan | [Buka di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Komunitas D:/Drive | Bergabung dengan jalur grup kreator yang terkait dengan luck tambahan | [Buka komunitasnya](https://www.roblox.com/communities/861213399/D-Drive) |
+| Daftar Kreator | Konfirmasi detail listing publik dan identitas game | [Buka listingnya](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+</Section>
+
+<Section icon={Target} title="Cara Memberi Peringkat pada Pull Baru">
+
+Saat unit baru masuk ke inventori kamu, beri peringkat dengan empat pengecekan yang sama setiap kali. Ini membuat daftar tier tetap praktis dan mencegah kamu terlalu menilai tinggi unit yang hanya terlihat bagus di ruang hampa. Jika sebuah pull menang dalam kelangkaan tetapi kalah dalam dampak nyata di medan, itu belum tentu pilihan terbaikmu.
+
+<Callout type="info" title="Yang Paling Penting">
+Pull yang bagus harus melakukan setidaknya satu dari ini dengan baik: **membersihkan gelombang**, **menutup jalur lemah**, atau **mendukung zona berikutnya**.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Cek kelangkaan dulu">
+    Mulailah dari kelangkaan, karena pull dengan kelangkaan lebih tinggi biasanya lebih layak mendapat perhatian. Jika pull itu **Divine** atau kelangkaan tertinggi yang kamu lihat, pull tersebut harus dievaluasi sebelum unit pengisi mana pun.
+  </Step>
+  <Step num="2" title="Perhatikan dampak pada gelombang">
+    Tanyakan apakah unit itu benar-benar menghentikan bocor. Unit yang terlihat mengesankan tetapi masih membiarkan zombie lolos tidak pantas berada di bagian atas.
+  </Step>
+  <Step num="3" title="Ukur jangkauan">
+    Unit yang kuat harus membantu jalur, bukan hanya papan skor. Jika unit itu menutup jalur lemah atau memberi waktu bagi garis depan, nilainya meningkat.
+  </Step>
+  <Step num="4" title="Uji nilai progresi">
+    Jika unit itu masih membantu setelah zona dibuka, peringkatnya lebih tinggi. Unit yang tetap berguna saat progresi berubah lebih mudah dijadikan fondasi.
+  </Step>
+</Steps>
+
+| Pengecekan | Tanyakan Ini | Pertahankan Jika |
+|---|---|---|
+| **Kelangkaan** | Apakah ini salah satu pull terbaikmu? | Itu adalah Divine atau kelangkaan tertinggi yang kamu miliki saat ini |
+| **Pembersihan Gelombang** | Apakah itu menghentikan bocor? | Itu meningkatkan bertahan hidup dalam pertarungan nyata |
+| **Jangkauan** | Apakah itu melindungi jalur lemah? | Itu menutup masalah pada jalur |
+| **Progresi** | Apakah unit ini masih penting nanti? | Itu tetap berguna setelah perubahan zona |
+
+<Callout type="warning" title="Hindari Kesalahan Ini">
+Jangan menaikkan peringkat unit hanya karena langka. Pull langka yang tidak pernah menyelesaikan tekanan gelombang bisa kalah oleh defender dengan kelangkaan lebih rendah yang benar-benar membawa run.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Unit Terbaik Menurut Tahap Game">
+
+Unit terbaik di **Roll to Defend** berubah sesuai tahap run. Di awal, kamu butuh stabilitas. Di pertengahan game, kamu butuh unit yang mencegah pertahanan runtuh saat tekanan meningkat. Di late game, kamu butuh pull yang tetap bernilai setelah ekonomi dan jumlah zonamu bertambah.
+
+<Callout type="warning" title="Logika Tahap">
+Unit yang sempurna untuk pembuka bisa turun nilainya nanti. Nilai berdasarkan **tahap game**, bukan hanya kekuatan kesan pertama.
+</Callout>
+
+| Tahap Game | Prioritas | Jenis Unit Terbaik | Kesalahan Umum |
+|---|---|---|---|
+| **Pemula** | Bertahan dari gelombang pertama | Pull saat ini dengan kelangkaan tertinggi | Membeli zona terlalu cepat |
+| **Pertengahan Game** | Menstabilkan jangkauan | Carry kuat atau penstabil zona | Terlalu lama mempertahankan pengisi lemah |
+| **Late Game** | Menyelaraskan dengan zona baru | Pull Divine, penopang jangka panjang | Membagi sumber daya ke terlalu banyak unit |
+
+| Jenis Unit | Peran Terbaik | Penempatan Tier | Catatan |
+|---|---|---|---|
+| **Stellar Pirate** | Pull carry langka | **S** | Contoh nama dengan kelangkaan tinggi yang paling jelas untuk dipertahankan lebih dulu |
+| **Pull Divine Apa Pun** | Kandidat defender utama | **S** | Lindungi kecuali ada opsi yang lebih kuat muncul nanti |
+| **Pull Saat Ini dengan Kelangkaan Tertinggi** | Unit inti di medan | **A** | Biasanya defender aktif terbaikmu sampai ada yang lebih kuat muncul |
+| **Pull Penstabil Zona** | Menahan area baru | **A/B** | Berharga saat ekspansi menciptakan tekanan baru |
+| **Pull Cakupan Jalur Awal** | Dukungan jalur sementara | **B** | Berguna saat pendapatan bertambah dan roster membaik |
+
+Cara berpikir yang sederhana: jika unit itu membantumu menahan peta, unit itu pantas berada lebih tinggi daripada unit yang hanya terlihat bagus di layar inventori. Satu aturan ini mencegah sebagian besar upgrade yang buruk.
+
+</Section>
+
+<Section icon={Shield} title="Prioritas Upgrade dan Zona">
+
+Daftar tier hanya berguna jika mengarahkan pengeluaran. Di game ini, upgrade kamu harus mendukung unit yang sudah menyelesaikan masalah terbesar. Jika gelombang bocor, perkuat pertahanan. Jika pertahanan stabil, bergeraklah ke roll, zona, dan pertumbuhan jangka panjang.
+
+<Callout type="success" title="Urutan Pengeluaran Terbaik">
+Selesaikan bottleneck dulu, lalu belanjakan pendapatan tambahan untuk roll, dan baru setelah itu dorong zona berikutnya.
+</Callout>
+
+<Checklist
+  id="roll-to-defend-priority-list"
+  title="Checklist Pra-Upgrade"
+  items={[
+    "Identifikasi apakah masalah saat ini adalah damage, jangkauan, kelangkaan, atau waktu zona.",
+    "Tetap aktifkan pull terbaikmu sebelum kamu menghabiskan pendapatan untuk roll baru.",
+    "Beli zona hanya saat pertahananmu bisa menahan tekanan pembukaan.",
+    "Gunakan pendapatan offline untuk memperbaiki kelemahan terakhir, bukan untuk menciptakan kelemahan baru."
+  ]}
+/>
+
+| Situasi | Dibelanjakan untuk | Mengapa | Tahan Dulu Jika |
+|---|---|---|---|
+| **Bocor di base** | Damage | Bertahan hidup paling penting dulu | Jangkauan sebenarnya yang menjadi masalah |
+| **Satu jalur jebol** | Jangkauan atau penempatan | Perbaiki masalah jalur | Damage mentah bukan bottleneck |
+| **Pembersihan stabil** | Roll | Tingkatkan kualitas inventori | Pertahanannya masih goyah |
+| **Stack pendapatan siap** | Zona | Perluas progresi | Kamu tidak bisa menahan gelombang berikutnya |
+
+| Pilihan Pengeluaran | Waktu Terbaik | Hasil | Risiko |
+|---|---|---|---|
+| **Lebih banyak roll** | Setelah gelombang stabil | Kualitas pull lebih baik | Pendapatan terbuang jika pertahanan lemah |
+| **Pembelian zona** | Setelah pembersihan konsisten | Ruang progresi lebih besar | Setup menjadi terlalu melebar |
+| **Fokus upgrade** | Saat satu bottleneck terlihat jelas | Peningkatan lebih cepat | Sumber daya terlalu tersebar |
+
+Kebiasaan paling aman itu sederhana: jika setup kamu saat ini gagal, belanjalah seperti defender. Jika sudah stabil, belanjalah seperti builder.
+
+</Section>
+
+<Section icon={Sparkles} title="Kesalahan Umum, Lalu FAQ">
+
+Daftar tier yang paling berguna juga menunjukkan apa yang sebaiknya tidak dilakukan. Keputusan buruk biasanya datang dari terlalu cepat membuka zona, terlalu lama mempertahankan pengisi lemah, atau menganggap kelangkaan sebagai jalan pintas untuk kegunaan. Roster yang kuat dibangun dengan membuang opsi lemah pada waktu yang tepat.
+
+<Callout type="info" title="Catatan Editor">
+Jika sebuah unit tidak membantu run kamu saat ini, unit itu tidak boleh berada di tier yang sama dengan unit yang benar-benar membawa gelombang.
+</Callout>
+
+| Kesalahan | Mengapa Merugikan | Langkah yang Lebih Baik |
+|---|---|---|
+| **Mempertahankan pengisi beroutput rendah** | Menghalangi pull yang lebih kuat untuk memberi nilai | Ganti setelah unit yang lebih baik datang |
+| **Membeli zona terlalu dini** | Menciptakan tekanan sebelum pertahanan siap | Stabilkan dulu, lalu ekspansi |
+| **Mengabaikan jangkauan** | Membiarkan zombie lolos lewat jalur lemah | Naikkan prioritas kontrol jalur |
+| **Menghabiskan semua pendapatan sekaligus** | Tidak ada ruang untuk bereaksi | Simpan cadangan untuk bottleneck berikutnya |
+
+<FAQ items={[
+  {
+    question: "Apa unit terbaik di daftar tier roll to defend?",
+    answer: "Pilihan tier atas yang paling aman adalah pull Divine, dengan Stellar Pirate sebagai contoh nama yang paling jelas untuk dipertahankan lebih dulu."
+  },
+  {
+    question: "Haruskah saya mempertahankan setiap pull langka?",
+    answer: "Tidak. Pertahankan unit langka yang meningkatkan pembersihan gelombang, jangkauan, atau progresi. Jika pull langka tidak menyelesaikan masalah nyata, nilainya akan turun."
+  },
+  {
+    question: "Kapan saya harus membeli zona baru?",
+    answer: "Beli zona baru setelah pertahanan saat ini stabil dan kamu masih punya pendapatan yang cukup untuk bereaksi terhadap gelombang berikutnya."
+  },
+  {
+    question: "Apakah luck mengubah cara saya memberi peringkat unit?",
+    answer: "Luck membantu sesi roll kamu, tetapi daftar tier tetap harus fokus pada nilai nyata di medan perang, bukan hanya peluang roll yang lebih baik."
+  }
+]} />
+
+<Callout type="tip" title="Inti Akhir">
+Gunakan **daftar tier roll to defend** sebagai filter keputusan: pertahankan rarity terbaikmu, naikkan unit yang menghentikan bocor, dan ganti apa pun yang hanya terlihat bagus di atas kertas.
+</Callout>
+
+</Section>

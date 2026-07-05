@@ -1,0 +1,198 @@
+import { Map, Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de zonas de Role para Defender: timing de compra e dicas de progressão",
+  description: "Aprenda quando comprar zonas em Role para Defender, como estabilizar a defesa primeiro e como evitar desperdiçar renda em uma expansão apressada.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Zone+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Role para Defender"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **guia de zonas de Role para Defender**: compre zonas só depois que sua defesa atual limpar as ondas sem gastar em pânico.
+- **Melhor momento**: expanda quando você tiver renda sobrando, cobertura estável e um caminho claro para se recuperar.
+- **Erro comum**: correr para comprar zonas cedo demais pode expor dano fraco e cobertura fina nas rotas.
+- **Prioridade inteligente**: corrija o gargalo da sua última tentativa antes de liberar a próxima área.
+- **Regra rápida**: se sua equipe ainda está deixando inimigos passarem, a zona ainda não está pronta.
+</Callout>
+
+<Section icon={Map} title="Guia de zonas de Role para Defender: noções básicas de timing de compra">
+
+As zonas em Role para Defender devem parecer uma recompensa pela estabilidade, não um conserto desesperado para uma run instável. A melhor expansão acontece depois que sua configuração atual limpa as ondas com tanta segurança que você pode parar, pensar e gastar com intenção.
+
+Um bom avanço de zona faz sua defesa crescer sem forçar uma redefinição no fluxo de recursos. Se uma nova área deixar você sem upgrades, qualidade de unidades ou opções de recuperação, mantenha o terreno atual e construa primeiro uma base mais forte.
+
+<CardGrid cols={3}>
+  <Card title="Manter a Zona Atual">
+    - **Limpezas estáveis**
+    - Mais tempo para juntar renda
+    - Melhor quando sua rota ainda está sob controle
+  </Card>
+  <Card title="Comprar a Próxima Zona">
+    - **A pressão das ondas é administrável**
+    - Valor extra de progressão
+    - Melhor quando você consegue se recuperar depois de gastar
+  </Card>
+  <Card title="Adiar a Expansão">
+    - **A defesa está vazando**
+    - A renda está muito baixa
+    - Melhor quando a última run terminou em pânico
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Melhor Regra">
+Trate cada compra de zona como um ponto de controle. Se você não consegue nomear o gargalo que fez sua última run falhar, provavelmente ainda não está pronto para expandir.
+</Callout>
+
+| Decisão | Melhor Quando | Risco Principal | Resultado Esperado |
+| --- | --- | --- | --- |
+| Manter | As ondas estão sendo limpas com fluidez | Acesso mais lento ao mapa | Uma reserva mais forte para o próximo avanço |
+| Comprar | Você tem uma sobra de renda | Nova pressão pode expor pontos fracos | Progressão melhor se a defesa sobreviver |
+| Esperar | Você ainda está tapando vazamentos | Ficar para trás no crescimento | Maior estabilidade de run no longo prazo |
+
+</Section>
+
+<Section icon={Target} title="Como decidir a próxima zona">
+
+Use um processo repetível em vez de adivinhar. A próxima zona deve ser um movimento planejado que siga a qualidade da sua defesa, não uma reação a uma onda ruim.
+
+<Steps>
+  <Step num="1" title="Estabilize a rota atual">
+    Garanta que sua configuração atual limpe o caminho principal sem gastar em emergência. Se você ainda estiver correndo atrás do prejuízo, a zona deve continuar travada por enquanto.
+  </Step>
+  <Step num="2" title="Identifique o gargalo">
+    Decida se o problema foi dano, cobertura ou velocidade de renda. O ajuste certo depende do que realmente desacelerou a run.
+  </Step>
+  <Step num="3" title="Verifique sua reserva de recuperação">
+    Mantenha renda suficiente em reserva para reagir depois de comprar a zona. Uma liberação limpa ainda precisa de espaço para uma onda ruim.
+  </Step>
+  <Step num="4" title="Expanda e rebalanceie">
+    Compre a zona e, em seguida, reavalie imediatamente o posicionamento e os gastos. O mapa mudou, então suas prioridades de defesa também podem mudar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Não Acelere Demais">
+Se você liberar uma zona só porque pode pagar, talvez troque progresso de curto prazo por um ciclo de defesa mais fraco. Expanda para ganhar força, não para aliviar a pressão.
+</Callout>
+
+| Ponto de Verificação | Sinal de Pronto | Sinal de Não Pronto |
+| --- | --- | --- |
+| Limpeza da onda | Os zumbis caem antes de alcançar a faixa crítica | Os inimigos continuam passando |
+| Gastos | Você ainda tem dinheiro após os upgrades | Cada compra deixa você sem recursos |
+| Posicionamento | As unidades cobrem a rota importante | Ficam lacunas depois de cada onda |
+| Recuperação | Um erro ainda é sobrevivível | Um vazamento derruba a run |
+
+</Section>
+
+<Section icon={Shield} title="Monte uma defesa pronta para zonas">
+
+Um plano forte de zonas começa pela forma da defesa. Antes de pensar na próxima liberação, garanta que seu layout atual consiga absorver a pressão extra que normalmente vem com a expansão.
+
+A abordagem mais confiável é simples: fortaleça o que já está funcionando e depois preencha os buracos ao redor. Isso geralmente é melhor do que espalhar recursos por opções fracas demais.
+
+<CardGrid cols={3}>
+  <Card title="Dano">
+    - **Limpa ondas mais difíceis**
+    - Reduz o risco de vazamentos
+    - Melhor quando os inimigos estão sobrevivendo por tempo demais
+  </Card>
+  <Card title="Cobertura">
+    - **Cobre o caminho**
+    - Protege rotas fracas
+    - Melhor quando os zumbis escapam pelos espaços
+  </Card>
+  <Card title="Renda">
+    - **Sustenta compras futuras**
+    - Alimenta o próximo ciclo de melhorias
+    - Melhor quando a defesa já parece estável
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="zone-ready-checklist"
+  title="Checklist de Pronto para Zona"
+  items={[
+    "As ondas atuais são limpas sem gasto constante em pânico",
+    "Sua unidade ou configuração de rota mais forte está fazendo seu trabalho por completo",
+    "Você sabe qual gargalo fez a última run falhar",
+    "Você ainda tem renda suficiente para reagir depois de comprar a zona",
+    "Seu posicionamento ainda faz sentido depois que o mapa se expande"
+  ]}
+/>
+
+<Callout type="info" title="Lógica de Upgrade">
+Gaste primeiro na fraqueza que causou a última derrota. Se os inimigos estão sobrevivendo, melhore o dano. Se eles estão escapando da sua formação, melhore a cobertura.
+</Callout>
+
+| Prioridade | Gastar Primeiro | Gastar Depois | Objetivo |
+| --- | --- | --- | --- |
+| 1 | Corrigir dano | Melhorias cosméticas | Parar vazamentos |
+| 2 | Corrigir cobertura | Compras extras de conforto | Controlar a rota |
+| 3 | Crescimento de renda | Comprar demais cedo demais | Sustentar a próxima zona |
+| 4 | Expansão | Gastos de recuperação em pânico | Manter o progresso estável |
+
+</Section>
+
+<Section icon={Swords} title="Ritme a expansão conforme as ondas">
+
+A progressão de zonas funciona melhor quando suas decisões acompanham o ritmo das ondas. Se o jogo estiver pressionando forte, desacelere e reforce. Se as ondas estiverem sob controle, use esse espaço para avançar.
+
+O objetivo não é liberar todas as zonas o mais rápido possível. O objetivo é fazer com que cada liberação seja útil. Um caminho mais lento e limpo muitas vezes supera uma sequência apressada de compras ruins que obrigam você a reconstruir tudo duas vezes.
+
+<Callout type="success" title="Progressão Mais Limpa">
+Uma subida de zonas mais constante geralmente traz melhores resultados, porque cada liberação acontece depois que sua defesa já está pronta para se beneficiar dela.
+</Callout>
+
+| Situação da Onda | Movimento Recomendado | Por Que Funciona |
+| --- | --- | --- |
+| As ondas iniciais parecem fáceis | Economize e se prepare | Cria uma reserva de liberação mais segura |
+| As ondas do meio começam a vazar | Mantenha a zona | Permite corrigir o problema real |
+| As ondas estão estáveis e rápidas | Compre a próxima zona | Converte segurança em progresso |
+| A nova zona parece pesada | Pare de expandir | Evita um ciclo de recursos quebrado |
+
+Um hábito útil é gastar de cima para baixo a partir do gargalo. Comece pelo problema que fez a run parecer instável e depois avance para melhorias que fortaleçam sua próxima investida. Isso mantém sua rota de zonas eficiente e evita desperdício.
+
+Na dúvida, faça uma pergunta: essa compra de zona vai deixar os próximos cinco minutos mais fáceis ou só vai aumentar o mapa? Se a resposta for apenas "aumentar", espere e construa primeiro.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ do Guia de Zonas de Role para Defender">
+
+<Callout type="tip" title="Respostas Rápidas">
+Use as respostas abaixo para manter suas decisões de zona consistentes de uma run para a outra.
+</Callout>
+
+| Pergunta | Resposta Curta |
+| --- | --- |
+| Quando devo comprar uma nova zona? | Compre depois que sua defesa atual limpar com segurança e ainda houver renda de recuperação sobrando. |
+| E se eu já puder pagar uma zona agora? | Poder pagar não basta; verifique primeiro se sua defesa está estável. |
+| Devo melhorar ou expandir primeiro? | Corrija o gargalo que causou o último vazamento antes de avançar para uma nova área. |
+| Qual é a regra mais segura a seguir? | Se você ainda está gastando em pânico, a zona não está pronta. |
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor ritmo para o guia de zonas de Role para Defender?",
+    answer: "O melhor ritmo é uma progressão controlada. Limpe as ondas atuais, corrija a parte mais fraca da sua formação e então compre a próxima zona quando sua defesa ainda conseguir respirar depois do gasto."
+  },
+  {
+    question: "Devo comprar uma zona cedo em algum momento?",
+    answer: "Às vezes, sim, mas só se sua defesa atual já estiver estável e você ainda tiver recursos suficientes para se recuperar. Expandir cedo é arriscado quando sua linha ainda está instável."
+  },
+  {
+    question: "O que devo melhorar antes de expandir?",
+    answer: "Melhore a parte da sua formação que causou a última falha. Isso geralmente é dano, cobertura ou suporte de renda, dependendo do que a pressão da onda expôs."
+  },
+  {
+    question: "Como sei que uma zona está cedo demais?",
+    answer: "Se a próxima liberação força gastos em pânico, cria vazamentos ou não deixa margem para erros, ela está cedo demais. Uma boa zona deve melhorar a progressão, não bagunçá-la."
+  }
+]} />
+
+</Section>

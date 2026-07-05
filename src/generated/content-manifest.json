@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "roll-to-defend-codes",
+        "file": "roll-to-defend-codes"
+      }
+    ],
+    "currency": [
+      {
+        "slug": "roll-to-defend-brains",
+        "file": "roll-to-defend-brains"
+      },
+      {
+        "slug": "roll-to-defend-coins",
+        "file": "roll-to-defend-coins"
+      },
+      {
+        "slug": "roll-to-defend-farming-guide",
+        "file": "roll-to-defend-farming-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-brains",
+        "file": "roll-to-defend-how-to-get-more-brains"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-coins",
+        "file": "roll-to-defend-how-to-get-more-coins"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-to-defend-beginner-guide",
+        "file": "roll-to-defend-beginner-guide"
+      },
+      {
+        "slug": "roll-to-defend-best-strategy",
+        "file": "roll-to-defend-best-strategy"
+      },
+      {
+        "slug": "roll-to-defend-full-guide",
+        "file": "roll-to-defend-full-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-play",
+        "file": "roll-to-defend-how-to-play"
+      },
+      {
+        "slug": "roll-to-defend-noob-to-pro",
+        "file": "roll-to-defend-noob-to-pro"
+      },
+      {
+        "slug": "roll-to-defend-pro-to-master",
+        "file": "roll-to-defend-pro-to-master"
+      },
+      {
+        "slug": "roll-to-defend-tips",
+        "file": "roll-to-defend-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "roll-to-defend-discord",
+        "file": "roll-to-defend-discord"
+      },
+      {
+        "slug": "roll-to-defend-items",
+        "file": "roll-to-defend-items"
+      },
+      {
+        "slug": "roll-to-defend-loot",
+        "file": "roll-to-defend-loot"
+      },
+      {
+        "slug": "roll-to-defend-potions",
+        "file": "roll-to-defend-potions"
+      },
+      {
+        "slug": "roll-to-defend-skill-tree",
+        "file": "roll-to-defend-skill-tree"
+      },
+      {
+        "slug": "roll-to-defend-update",
+        "file": "roll-to-defend-update"
+      },
+      {
+        "slug": "roll-to-defend-upgrades",
+        "file": "roll-to-defend-upgrades"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "roll-to-defend-best-luck-strategy",
+        "file": "roll-to-defend-best-luck-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-luck",
+        "file": "roll-to-defend-how-to-get-more-luck"
+      },
+      {
+        "slug": "roll-to-defend-jackpot-spin",
+        "file": "roll-to-defend-jackpot-spin"
+      },
+      {
+        "slug": "roll-to-defend-max-luck",
+        "file": "roll-to-defend-max-luck"
+      },
+      {
+        "slug": "roll-to-defend-vip",
+        "file": "roll-to-defend-vip"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "roll-to-defend-best-rebirth-strategy",
+        "file": "roll-to-defend-best-rebirth-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-rebirth",
+        "file": "roll-to-defend-how-to-rebirth"
+      },
+      {
+        "slug": "roll-to-defend-rebirth-fast",
+        "file": "roll-to-defend-rebirth-fast"
+      },
+      {
+        "slug": "roll-to-defend-rebirth",
+        "file": "roll-to-defend-rebirth"
+      }
+    ],
+    "units": [
+      {
+        "slug": "roll-to-defend-best-units",
+        "file": "roll-to-defend-best-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-better-units",
+        "file": "roll-to-defend-how-to-get-better-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-upgrade-units",
+        "file": "roll-to-defend-how-to-upgrade-units"
+      },
+      {
+        "slug": "roll-to-defend-op-units",
+        "file": "roll-to-defend-op-units"
+      },
+      {
+        "slug": "roll-to-defend-strongest-army",
+        "file": "roll-to-defend-strongest-army"
+      },
+      {
+        "slug": "roll-to-defend-unit-tier-list",
+        "file": "roll-to-defend-unit-tier-list"
+      }
+    ],
+    "zones": [
+      {
+        "slug": "roll-to-defend-all-zones",
+        "file": "roll-to-defend-all-zones"
+      },
+      {
+        "slug": "roll-to-defend-best-zone",
+        "file": "roll-to-defend-best-zone"
+      },
+      {
+        "slug": "roll-to-defend-how-to-buy-zones",
+        "file": "roll-to-defend-how-to-buy-zones"
+      },
+      {
+        "slug": "roll-to-defend-how-to-switch-zones",
+        "file": "roll-to-defend-how-to-switch-zones"
+      },
+      {
+        "slug": "roll-to-defend-zone-guide",
+        "file": "roll-to-defend-zone-guide"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "roll-to-defend-codes",
+        "file": "roll-to-defend-codes"
+      }
+    ],
+    "currency": [
+      {
+        "slug": "roll-to-defend-brains",
+        "file": "roll-to-defend-brains"
+      },
+      {
+        "slug": "roll-to-defend-coins",
+        "file": "roll-to-defend-coins"
+      },
+      {
+        "slug": "roll-to-defend-farming-guide",
+        "file": "roll-to-defend-farming-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-brains",
+        "file": "roll-to-defend-how-to-get-more-brains"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-coins",
+        "file": "roll-to-defend-how-to-get-more-coins"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-to-defend-beginner-guide",
+        "file": "roll-to-defend-beginner-guide"
+      },
+      {
+        "slug": "roll-to-defend-best-strategy",
+        "file": "roll-to-defend-best-strategy"
+      },
+      {
+        "slug": "roll-to-defend-full-guide",
+        "file": "roll-to-defend-full-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-play",
+        "file": "roll-to-defend-how-to-play"
+      },
+      {
+        "slug": "roll-to-defend-noob-to-pro",
+        "file": "roll-to-defend-noob-to-pro"
+      },
+      {
+        "slug": "roll-to-defend-pro-to-master",
+        "file": "roll-to-defend-pro-to-master"
+      },
+      {
+        "slug": "roll-to-defend-tips",
+        "file": "roll-to-defend-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "roll-to-defend-discord",
+        "file": "roll-to-defend-discord"
+      },
+      {
+        "slug": "roll-to-defend-items",
+        "file": "roll-to-defend-items"
+      },
+      {
+        "slug": "roll-to-defend-loot",
+        "file": "roll-to-defend-loot"
+      },
+      {
+        "slug": "roll-to-defend-potions",
+        "file": "roll-to-defend-potions"
+      },
+      {
+        "slug": "roll-to-defend-skill-tree",
+        "file": "roll-to-defend-skill-tree"
+      },
+      {
+        "slug": "roll-to-defend-update",
+        "file": "roll-to-defend-update"
+      },
+      {
+        "slug": "roll-to-defend-upgrades",
+        "file": "roll-to-defend-upgrades"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "roll-to-defend-best-luck-strategy",
+        "file": "roll-to-defend-best-luck-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-luck",
+        "file": "roll-to-defend-how-to-get-more-luck"
+      },
+      {
+        "slug": "roll-to-defend-jackpot-spin",
+        "file": "roll-to-defend-jackpot-spin"
+      },
+      {
+        "slug": "roll-to-defend-max-luck",
+        "file": "roll-to-defend-max-luck"
+      },
+      {
+        "slug": "roll-to-defend-vip",
+        "file": "roll-to-defend-vip"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "roll-to-defend-best-rebirth-strategy",
+        "file": "roll-to-defend-best-rebirth-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-rebirth",
+        "file": "roll-to-defend-how-to-rebirth"
+      },
+      {
+        "slug": "roll-to-defend-rebirth-fast",
+        "file": "roll-to-defend-rebirth-fast"
+      },
+      {
+        "slug": "roll-to-defend-rebirth",
+        "file": "roll-to-defend-rebirth"
+      }
+    ],
+    "units": [
+      {
+        "slug": "roll-to-defend-best-units",
+        "file": "roll-to-defend-best-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-better-units",
+        "file": "roll-to-defend-how-to-get-better-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-upgrade-units",
+        "file": "roll-to-defend-how-to-upgrade-units"
+      },
+      {
+        "slug": "roll-to-defend-op-units",
+        "file": "roll-to-defend-op-units"
+      },
+      {
+        "slug": "roll-to-defend-strongest-army",
+        "file": "roll-to-defend-strongest-army"
+      },
+      {
+        "slug": "roll-to-defend-unit-tier-list",
+        "file": "roll-to-defend-unit-tier-list"
+      }
+    ],
+    "zones": [
+      {
+        "slug": "roll-to-defend-all-zones",
+        "file": "roll-to-defend-all-zones"
+      },
+      {
+        "slug": "roll-to-defend-best-zone",
+        "file": "roll-to-defend-best-zone"
+      },
+      {
+        "slug": "roll-to-defend-how-to-buy-zones",
+        "file": "roll-to-defend-how-to-buy-zones"
+      },
+      {
+        "slug": "roll-to-defend-how-to-switch-zones",
+        "file": "roll-to-defend-how-to-switch-zones"
+      },
+      {
+        "slug": "roll-to-defend-zone-guide",
+        "file": "roll-to-defend-zone-guide"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "roll-to-defend-codes",
+        "file": "roll-to-defend-codes"
+      }
+    ],
+    "currency": [
+      {
+        "slug": "roll-to-defend-brains",
+        "file": "roll-to-defend-brains"
+      },
+      {
+        "slug": "roll-to-defend-coins",
+        "file": "roll-to-defend-coins"
+      },
+      {
+        "slug": "roll-to-defend-farming-guide",
+        "file": "roll-to-defend-farming-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-brains",
+        "file": "roll-to-defend-how-to-get-more-brains"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-coins",
+        "file": "roll-to-defend-how-to-get-more-coins"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-to-defend-beginner-guide",
+        "file": "roll-to-defend-beginner-guide"
+      },
+      {
+        "slug": "roll-to-defend-best-strategy",
+        "file": "roll-to-defend-best-strategy"
+      },
+      {
+        "slug": "roll-to-defend-full-guide",
+        "file": "roll-to-defend-full-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-play",
+        "file": "roll-to-defend-how-to-play"
+      },
+      {
+        "slug": "roll-to-defend-noob-to-pro",
+        "file": "roll-to-defend-noob-to-pro"
+      },
+      {
+        "slug": "roll-to-defend-pro-to-master",
+        "file": "roll-to-defend-pro-to-master"
+      },
+      {
+        "slug": "roll-to-defend-tips",
+        "file": "roll-to-defend-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "roll-to-defend-discord",
+        "file": "roll-to-defend-discord"
+      },
+      {
+        "slug": "roll-to-defend-items",
+        "file": "roll-to-defend-items"
+      },
+      {
+        "slug": "roll-to-defend-loot",
+        "file": "roll-to-defend-loot"
+      },
+      {
+        "slug": "roll-to-defend-potions",
+        "file": "roll-to-defend-potions"
+      },
+      {
+        "slug": "roll-to-defend-skill-tree",
+        "file": "roll-to-defend-skill-tree"
+      },
+      {
+        "slug": "roll-to-defend-update",
+        "file": "roll-to-defend-update"
+      },
+      {
+        "slug": "roll-to-defend-upgrades",
+        "file": "roll-to-defend-upgrades"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "roll-to-defend-best-luck-strategy",
+        "file": "roll-to-defend-best-luck-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-luck",
+        "file": "roll-to-defend-how-to-get-more-luck"
+      },
+      {
+        "slug": "roll-to-defend-jackpot-spin",
+        "file": "roll-to-defend-jackpot-spin"
+      },
+      {
+        "slug": "roll-to-defend-max-luck",
+        "file": "roll-to-defend-max-luck"
+      },
+      {
+        "slug": "roll-to-defend-vip",
+        "file": "roll-to-defend-vip"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "roll-to-defend-best-rebirth-strategy",
+        "file": "roll-to-defend-best-rebirth-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-rebirth",
+        "file": "roll-to-defend-how-to-rebirth"
+      },
+      {
+        "slug": "roll-to-defend-rebirth-fast",
+        "file": "roll-to-defend-rebirth-fast"
+      },
+      {
+        "slug": "roll-to-defend-rebirth",
+        "file": "roll-to-defend-rebirth"
+      }
+    ],
+    "units": [
+      {
+        "slug": "roll-to-defend-best-units",
+        "file": "roll-to-defend-best-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-better-units",
+        "file": "roll-to-defend-how-to-get-better-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-upgrade-units",
+        "file": "roll-to-defend-how-to-upgrade-units"
+      },
+      {
+        "slug": "roll-to-defend-op-units",
+        "file": "roll-to-defend-op-units"
+      },
+      {
+        "slug": "roll-to-defend-strongest-army",
+        "file": "roll-to-defend-strongest-army"
+      },
+      {
+        "slug": "roll-to-defend-unit-tier-list",
+        "file": "roll-to-defend-unit-tier-list"
+      }
+    ],
+    "zones": [
+      {
+        "slug": "roll-to-defend-all-zones",
+        "file": "roll-to-defend-all-zones"
+      },
+      {
+        "slug": "roll-to-defend-best-zone",
+        "file": "roll-to-defend-best-zone"
+      },
+      {
+        "slug": "roll-to-defend-how-to-buy-zones",
+        "file": "roll-to-defend-how-to-buy-zones"
+      },
+      {
+        "slug": "roll-to-defend-how-to-switch-zones",
+        "file": "roll-to-defend-how-to-switch-zones"
+      },
+      {
+        "slug": "roll-to-defend-zone-guide",
+        "file": "roll-to-defend-zone-guide"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "roll-to-defend-codes",
+        "file": "roll-to-defend-codes"
+      }
+    ],
+    "currency": [
+      {
+        "slug": "roll-to-defend-brains",
+        "file": "roll-to-defend-brains"
+      },
+      {
+        "slug": "roll-to-defend-coins",
+        "file": "roll-to-defend-coins"
+      },
+      {
+        "slug": "roll-to-defend-farming-guide",
+        "file": "roll-to-defend-farming-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-brains",
+        "file": "roll-to-defend-how-to-get-more-brains"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-coins",
+        "file": "roll-to-defend-how-to-get-more-coins"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-to-defend-beginner-guide",
+        "file": "roll-to-defend-beginner-guide"
+      },
+      {
+        "slug": "roll-to-defend-best-strategy",
+        "file": "roll-to-defend-best-strategy"
+      },
+      {
+        "slug": "roll-to-defend-full-guide",
+        "file": "roll-to-defend-full-guide"
+      },
+      {
+        "slug": "roll-to-defend-how-to-play",
+        "file": "roll-to-defend-how-to-play"
+      },
+      {
+        "slug": "roll-to-defend-noob-to-pro",
+        "file": "roll-to-defend-noob-to-pro"
+      },
+      {
+        "slug": "roll-to-defend-pro-to-master",
+        "file": "roll-to-defend-pro-to-master"
+      },
+      {
+        "slug": "roll-to-defend-tips",
+        "file": "roll-to-defend-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "roll-to-defend-discord",
+        "file": "roll-to-defend-discord"
+      },
+      {
+        "slug": "roll-to-defend-items",
+        "file": "roll-to-defend-items"
+      },
+      {
+        "slug": "roll-to-defend-loot",
+        "file": "roll-to-defend-loot"
+      },
+      {
+        "slug": "roll-to-defend-potions",
+        "file": "roll-to-defend-potions"
+      },
+      {
+        "slug": "roll-to-defend-skill-tree",
+        "file": "roll-to-defend-skill-tree"
+      },
+      {
+        "slug": "roll-to-defend-update",
+        "file": "roll-to-defend-update"
+      },
+      {
+        "slug": "roll-to-defend-upgrades",
+        "file": "roll-to-defend-upgrades"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "roll-to-defend-best-luck-strategy",
+        "file": "roll-to-defend-best-luck-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-more-luck",
+        "file": "roll-to-defend-how-to-get-more-luck"
+      },
+      {
+        "slug": "roll-to-defend-jackpot-spin",
+        "file": "roll-to-defend-jackpot-spin"
+      },
+      {
+        "slug": "roll-to-defend-max-luck",
+        "file": "roll-to-defend-max-luck"
+      },
+      {
+        "slug": "roll-to-defend-vip",
+        "file": "roll-to-defend-vip"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "roll-to-defend-best-rebirth-strategy",
+        "file": "roll-to-defend-best-rebirth-strategy"
+      },
+      {
+        "slug": "roll-to-defend-how-to-rebirth",
+        "file": "roll-to-defend-how-to-rebirth"
+      },
+      {
+        "slug": "roll-to-defend-rebirth-fast",
+        "file": "roll-to-defend-rebirth-fast"
+      },
+      {
+        "slug": "roll-to-defend-rebirth",
+        "file": "roll-to-defend-rebirth"
+      }
+    ],
+    "units": [
+      {
+        "slug": "roll-to-defend-best-units",
+        "file": "roll-to-defend-best-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-get-better-units",
+        "file": "roll-to-defend-how-to-get-better-units"
+      },
+      {
+        "slug": "roll-to-defend-how-to-upgrade-units",
+        "file": "roll-to-defend-how-to-upgrade-units"
+      },
+      {
+        "slug": "roll-to-defend-op-units",
+        "file": "roll-to-defend-op-units"
+      },
+      {
+        "slug": "roll-to-defend-strongest-army",
+        "file": "roll-to-defend-strongest-army"
+      },
+      {
+        "slug": "roll-to-defend-unit-tier-list",
+        "file": "roll-to-defend-unit-tier-list"
+      }
+    ],
+    "zones": [
+      {
+        "slug": "roll-to-defend-all-zones",
+        "file": "roll-to-defend-all-zones"
+      },
+      {
+        "slug": "roll-to-defend-best-zone",
+        "file": "roll-to-defend-best-zone"
+      },
+      {
+        "slug": "roll-to-defend-how-to-buy-zones",
+        "file": "roll-to-defend-how-to-buy-zones"
+      },
+      {
+        "slug": "roll-to-defend-how-to-switch-zones",
+        "file": "roll-to-defend-how-to-switch-zones"
+      },
+      {
+        "slug": "roll-to-defend-zone-guide",
+        "file": "roll-to-defend-zone-guide"
+      }
+    ]
+  }
+}

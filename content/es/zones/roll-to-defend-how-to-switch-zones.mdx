@@ -1,0 +1,202 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roll to Defend: cómo cambiar de zonas: Guía de sincronización de zonas",
+  description: "Aprende el ciclo más seguro para cambiar de zonas en Roll to Defend: consigue unidades más fuertes, detecta cuellos de botella, gasta los ingresos con criterio y expande solo cuando la defensa aguante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Zone+Luck+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **cómo cambiar de zonas en Roll to Defend** funciona mejor cuando tu carril actual es estable y tu reserva de ingresos es saludable.
+- Los **cambios de zona** deben resolver un cuello de botella, no crear uno nuevo para tu línea de defensa.
+- Los **bonos de suerte** de amigos y del grupo se aprovechan mejor antes de una sesión de tiradas enfocada.
+- La **prioridad de mejoras** debe seguir el problema que realmente no pudiste superar, no un orden aleatorio del menú.
+</Callout>
+
+<Section icon={Map} title="Roll to Defend: cómo cambiar de zonas">
+
+Esta guía sobre cómo cambiar de zonas en Roll to Defend parte de una regla: expande solo después de que tu configuración actual limpie las oleadas con margen de sobra. Si los zombis siguen colándose, una nueva zona suele añadir presión más rápido de lo que aporta valor.
+
+<Callout type="tip" title="Ciclo temprano">
+Trata cada partida como un ciclo: tira unidades, coloca a tus mejores defensores, aguanta la línea y compra zonas cuando el mapa esté estable.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Consigue un núcleo utilizable con las tiradas">
+    Obtén uno o dos defensores que realmente cubran el camino. Una tirada floja puede quedarse en el inventario; una buena tirada debería colocarse de inmediato.
+  </Step>
+  <Step num="2" title="Estabiliza la ruta de las oleadas">
+    Asegúrate de que los zombis se eliminen antes de llegar al punto de peligro. Si las filtraciones continúan, corrige la colocación o el daño antes de expandirte.
+  </Step>
+  <Step num="3" title="Guarda un colchón para la zona">
+    Mantén suficiente ingreso para reaccionar después de la compra. La compra de una zona no debería vaciar tanto tu saldo que la siguiente oleada se convierta en una carrera desesperada.
+  </Step>
+  <Step num="4" title="Cambia de zona solo después de una limpieza limpia">
+    Compra la siguiente zona cuando la actual se sienta controlada, no cuando esperes que la nueva área solucione mágicamente la partida.
+  </Step>
+</Steps>
+
+| Etapa | Objetivo principal | Qué haces | Señal de salida |
+|---|---|---|---|
+| Tiradas tempranas | Construir un núcleo | Tira hasta conseguir un defensor que valga la pena colocar | Una unidad puede sostener un carril |
+| Estabilizar | Detener filtraciones | Mejora la colocación y la cobertura | Las oleadas se limpian con tiempo de sobra |
+| Expandir | Impulsar el progreso | Compra la siguiente zona con ingresos de reserva | La defensa sigue sintiéndose segura |
+| Reinvertir | Aumentar la producción | Gasta las ganancias en el siguiente cuello de botella | La nueva zona está bajo control |
+
+<CardGrid cols={3}>
+  <Card title="Primero el daño">
+    - Mejor cuando los zombis sobreviven demasiado
+    - Prioriza limpiezas más fuertes antes que tiradas extra
+    - Útil para oleadas difíciles y presión de jefes
+  </Card>
+  <Card title="Primero la cobertura">
+    - Mejor cuando los enemigos se cuelan por los carriles laterales
+    - Mejora la colocación antes de gastar en más zonas
+    - Muy fuerte cuando una unidad está cargando con demasiado
+  </Card>
+  <Card title="Construcción equilibrada">
+    - Mejor cuando tu defensa ya es estable
+    - Mezcla calidad de tiradas, colocación y crecimiento de ingresos
+    - Más segura para jugadores que quieren un progreso constante
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Reglas de sincronización de zonas que mantienen estables las partidas">
+
+<Callout type="warning" title="No apresures el botón de compra">
+Una nueva zona puede exponer rápido una cobertura débil. Si tu defensa actual aún necesita gasto de emergencia, aguanta la línea y corrige eso primero.
+</Callout>
+
+La forma más segura de pensar en el cambio de zonas es simple: pregunta qué problema resuelve la siguiente zona. Si la respuesta es “más progreso” y no “mi defensa actual ya está estable”, espera un poco más.
+
+| Señal | ¿Listo? | Qué significa |
+|---|---|---|
+| Las oleadas se limpian pronto | Sí | Tu configuración actual tiene margen |
+| Los zombis se cuelan a menudo | No | El daño o la colocación necesitan atención |
+| El ingreso se acumula | Sí | Puedes comprar una zona sin pánico |
+| El saldo sigue siendo bajo | No | Primero necesitas un mejor colchón |
+| La unidad principal se siente infrautilizada | Tal vez | La cobertura puede importar más que el poder bruto |
+| Cada oleada se siente al límite | No | Expandirse ahora es demasiado arriesgado |
+
+| Problema | Mejor solución antes de cambiar | Por qué ayuda |
+|---|---|---|
+| Poco daño | Mejora a tu defensor principal | Las limpiezas más rápidas reducen la presión |
+| Cobertura débil | Recoloca las unidades | Más tiempo en el camino significa más daño |
+| Poco ingreso | Retrasa la expansión | Necesitas una mejor reserva |
+| Mal momento | Mantén la compra de zona | Expandirse con prisa suele encadenar pérdidas |
+
+Un cambio de zona limpio suele seguir el mismo patrón: limpia la oleada actual, revisa el cuello de botella, confirma tu ingreso sobrante y entonces compra el área siguiente. Ese orden mantiene la partida en marcha sin convertir el progreso en una tarea de reparación.
+
+</Section>
+
+<Section icon={Sparkles} title="Preparación de la suerte, amigos y bonos de grupo">
+
+<Callout type="info" title="Mejor momento para las tiradas">
+Usa las fuentes de suerte antes de una sesión de tiradas planificada, no después de haber gastado ya los ingresos que necesitabas para conseguir mejores resultados.
+</Callout>
+
+Roll to Defend les da a los jugadores un motivo claro para prepararse antes de tirar. Los amigos añaden suerte, la ruta del grupo añade suerte extra y los ingresos fuera de línea te dan un nuevo montón de recursos cuando vuelves. Pon esas piezas en orden y tus sesiones se sentirán mucho más limpias.
+
+| Fuente de suerte | Qué aporta | Mejor momento para usarla |
+|---|---|---|
+| Amigos | Más suerte al tirar | Antes de una sesión larga de tiradas |
+| Grupo | Suerte extra de la ruta del creador | Antes de gastar los ingresos ahorrados |
+| Ingresos fuera de línea | Ingresos ganados mientras estabas ausente | Al inicio de una sesión de regreso |
+
+| Plan de sesión | Beneficio | Riesgo |
+|---|---|---|
+| Tirar de inmediato | Acción rápida | Puedes malgastar ingresos en tiradas débiles |
+| Preparar primero | Mejor valor de las tiradas | Inicio más lento, mejor recompensa |
+| Expandir primero | Progreso más rápido del mapa | Puede dejar la defensa demasiado débil |
+
+Empieza por la página oficial del juego en Roblox y luego usa la ruta de la comunidad del creador vinculada al juego. Eso mantiene tu configuración en los puntos de entrada más seguros y evita tratar enlaces aleatorios como si formaran parte del ciclo de juego.
+
+- Juega en la página oficial de [Roblox game page](https://www.roblox.com/games/129559579789369/Roll-to-Defend)
+- Consulta la [comunidad D:/Drive](https://www.roblox.com/communities/861213399/D-Drive)
+- Trata los ingresos fuera de línea como un bono de reinicio, no como una razón para saltarte las comprobaciones de defensa
+
+</Section>
+
+<Section icon={Target} title="Prioridad de mejoras y orden de gasto">
+
+<Callout type="success" title="Gasta con un propósito">
+La mejor mejora es la que arregla la partida que acabas de perder. El daño, la cobertura y el momento deben decidir a dónde va el ingreso siguiente.
+</Callout>
+
+Las mejoras en Roll to Defend funcionan mejor cuando apoyan el cuello de botella, no cuando persiguen todas las opciones a la vez. Si los enemigos están rompiendo la defensa, la respuesta suele ser más daño o mejor cobertura. Si el campo está estable, entonces puedes invertir en la calidad de las tiradas o en el progreso de zona.
+
+| Cuello de botella | Mejor gasto | Cuándo conviene esperar |
+|---|---|---|
+| Daño bajo | Fortalece a tu defensor principal | Cuando las filtraciones se deben a la colocación |
+| Cobertura débil | Mejora la colocación de las unidades | Cuando las oleadas ya mueren demasiado rápido |
+| Mala calidad de tiradas | Ahorra para una sesión de tiradas enfocada | Cuando la oleada actual es inestable |
+| Momento de zona arriesgado | Guarda ingresos y espera | Cuando la siguiente zona te dejaría demasiado expuesto |
+| Bajo retorno del ingreso | Refuerza el carril más débil | Cuando aún no has identificado el problema |
+
+<Checklist
+  id="zone-switch-checklist"
+  title="Antes de comprar la siguiente zona:"
+  items={[
+    "Tus oleadas actuales se limpian sin gastar por pánico",
+    "Sabes si el verdadero cuello de botella es el daño o la cobertura",
+    "Te queda suficiente ingreso para reaccionar después de la compra",
+    "Tu mejor defensor sigue siendo relevante en la siguiente zona"
+  ]}
+/>
+
+| Orden de gasto | Prioridad | Motivo |
+|---|---|---|
+| Asegurar la supervivencia | Alta | Mantiene viva la partida |
+| Mejorar la cobertura | Alta | Evita filtraciones desde nuevas rutas |
+| Preparar las tiradas | Media | Hace más eficientes los resultados futuros |
+| Impulsar zonas | Media | Añade progreso después de la estabilidad |
+| Reinvertir ingresos | Alta | Mantiene el ciclo en movimiento |
+
+Un buen hábito es gastar solo después de responder una pregunta: ¿qué frenó la última limpieza limpia? Una vez que lo sabes, la siguiente compra se justifica mucho más fácil.
+
+</Section>
+
+<Section icon={Trophy} title="Enlaces oficiales y preguntas frecuentes">
+
+<Callout type="info" title="Puntos de referencia seguros">
+Usa primero las páginas oficiales vinculadas a Roblox. Si un enlace no pasa por el juego o por la comunidad del creador, trátalo con cautela.
+</Callout>
+
+| Lugar oficial | Uso |
+|---|---|
+| [Página del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Jugar, leer la descripción, acceder a la tienda y a los servidores |
+| [Comunidad D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Unirse a la ruta del grupo del creador vinculada a la suerte extra |
+| [Ficha de Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Verificar detalles públicos del listado y metadatos del juego |
+
+<FAQ items={[
+  {
+    question: "¿Cuándo debo cambiar de zona en Roll to Defend?",
+    answer: "Cambia de zona después de que tus oleadas actuales se limpien con claridad y todavía tengas suficiente ingreso para recuperarte si la siguiente área resulta más difícil de lo esperado."
+  },
+  {
+    question: "¿Qué debo arreglar primero si los zombis se están colando?",
+    answer: "Corrige el cuello de botella que causó la filtración. Si el daño es demasiado bajo, mejora a tu defensor principal. Si el camino está muy abierto, mejora la cobertura antes de comprar otra zona."
+  },
+  {
+    question: "¿Debo tirar primero o gastar primero los ingresos fuera de línea?",
+    answer: "Gasta los ingresos fuera de línea en la debilidad que frenó tu última partida y luego tira con la suerte de amigos o del grupo una vez que tu defensa esté estable."
+  },
+  {
+    question: "¿Importan los bonos de amigos y del grupo para las tiradas?",
+    answer: "Sí. El juego destaca la suerte de amigos y la suerte extra del grupo del creador, así que son pasos útiles de preparación antes de una sesión de tiradas enfocada."
+  }
+]} />
+
+</Section>

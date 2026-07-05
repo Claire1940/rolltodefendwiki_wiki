@@ -1,0 +1,236 @@
+import { Map, Shield, Target, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: cómo renacer paso a paso",
+  description: "Usa el ciclo actual de Roll to Defend para evaluar el momento del renacer, estabilizar unidades, acumular suerte y convertir los ingresos offline en una progresión más segura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Rebirth+Step-by-Step",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **cómo renacer en Roll to Defend**: Trata el reinicio como una decisión de tiempo, no como una jugada de pánico.
+- **Ciclo principal**: Rueda unidades, combate zombis, compra zonas y reinvierte ingresos solo cuando la línea esté estable.
+- **Mejor momento**: Reinicia después de que tu defensa se estanque, no mientras tu unidad más fuerte siga cargando la partida.
+- **Regla de impulso**: Guarda los ingresos offline y los bonos de suerte para el siguiente empuje, no para arreglos de emergencia.
+</Callout>
+
+<Section icon={Map} title="cómo renacer en Roll to Defend">
+
+Para **cómo renacer en Roll to Defend**, piensa en el renacer como el momento en el que dejas de tapar fugas y empiezas a convertir una partida estable en un ciclo más fuerte. El ciclo público actual es simple: rueda unidades, colócalas, combate oleadas de zombis, compra zonas y usa la suerte y los ingresos offline para seguir avanzando.
+
+A julio de 2026, la forma más segura es reiniciar solo cuando tu partida sea lo bastante estable como para justificar el salto. Si tus unidades todavía están perdiendo terreno, necesitas otra ronda de mejoras antes de reiniciar el ciclo.
+
+**Resumen del ciclo principal**
+
+| Situación | Mejor movimiento | Por qué funciona |
+| --- | --- | --- |
+| Las primeras oleadas se sienten inestables | Coloca primero unidades más fuertes | La cobertura importa más que la velocidad |
+| Una línea sigue filtrándose | Arregla la colocación o el daño | Quieres una base estable antes de reiniciar |
+| Los ingresos crecen con claridad | Ahorra y espera | Una banca más fuerte hace que la siguiente partida sea más fluida |
+| Aparece una tirada fuerte | Quédate con ella y construye a su alrededor | Las unidades de alto valor elevan el techo rápidamente |
+
+<CardGrid cols={3}>
+  <Card title="Estabiliza primero">
+    - **Detén las fugas**
+    - Mantén la línea
+    - Construye una base segura
+  </Card>
+  <Card title="Reinicia después">
+    - **No te apresures**
+    - Usa tus mejores tiradas
+    - Expande solo cuando estés listo
+  </Card>
+  <Card title="Reinvierte con inteligencia">
+    - **Gasta con propósito**
+    - Protege tus ingresos
+    - Convierte una buena partida en la siguiente
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regla principal">
+Si la partida actual aún necesita gasto de emergencia, es demasiado pronto para tratar la sesión como un punto de renacer. Primero corrige el cuello de botella y luego sigue adelante.
+</Callout>
+
+| Pregunta de reinicio | Buena respuesta | Mala respuesta |
+| --- | --- | --- |
+| ¿Tu defensa puede limpiar oleadas sin entrar en pánico? | Sí | No |
+| ¿Sigues teniendo que vigilar cada línea? | No | Sí |
+| ¿Ya usaste bien tus mejores tiradas? | Sí | No |
+| ¿La siguiente sesión empezará con más poder? | Sí | No realmente |
+
+</Section>
+
+<Section icon={Target} title="Señales de preparación para renacer">
+
+El mejor momento para reiniciar sale de leer bien la partida. Roll to Defend recompensa a los jugadores que saben si el punto débil es el daño, la cobertura, la preparación de la suerte o el flujo de ingresos. Si puedes identificar el cuello de botella de un vistazo, estás mucho más cerca de un reinicio inteligente.
+
+Usa la lista de verificación de abajo como filtro práctico. Si te saltas más de un elemento, sigue jugando hasta que la partida esté realmente lista.
+
+<Callout type="tip" title="Lee la partida, no el hype">
+Un buen punto de renacer suele sentirse calmado, no dramático. Si la línea está firme y tus ingresos están creciendo, estás cerca. Si la base sigue bajo presión, continúa en la partida.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Comprueba la estabilidad de las oleadas">
+    Observa si los zombis se eliminan antes de obligarte a gastar de emergencia. Si la defensa sigue corriendo de un lado a otro, sigue construyendo.
+  </Step>
+  <Step num="2" title="Identifica el cuello de botella">
+    Decide si el problema real es el daño, la colocación, la calidad de la unidad o los ingresos. Normalmente, solo uno de esos debe ser tu siguiente prioridad.
+  </Step>
+  <Step num="3" title="Confirma que tus mejores tiradas están en juego">
+    Asegúrate de que tus unidades más fuertes estén realmente colocadas y trabajando. Una unidad rara sin usar no ayuda al plan de reinicio.
+  </Step>
+  <Step num="4" title="Guarda recursos para el siguiente ciclo">
+    Conserva suficientes ingresos para empezar la siguiente partida con impulso. Renacer se siente mejor cuando la sesión siguiente está financiada.
+  </Step>
+</Steps>
+
+<CardGrid cols={4}>
+  <Card title="Daño">
+    Tu atacante principal es demasiado débil.
+  </Card>
+  <Card title="Cobertura">
+    Hay una línea abierta o poco protegida.
+  </Card>
+  <Card title="Ingresos">
+    No puedes sostener el siguiente empuje.
+  </Card>
+  <Card title="Suerte">
+    Tu configuración de tiradas no está optimizada.
+  </Card>
+</CardGrid>
+
+| Señal de preparación | Significado | Acción |
+| --- | --- | --- |
+| Las oleadas terminan limpias | La defensa es estable | Empieza a preparar el reinicio |
+| Solo una línea se filtra | Problema de colocación | Arregla primero la cobertura |
+| Las nuevas tiradas superan a las unidades viejas | La brecha de poder está resuelta | Sigue progresando |
+| Los ingresos crecen sin pánico | La economía está sana | Ahorra para el siguiente ciclo |
+
+<Checklist
+  id="rebirth-readiness"
+  title="Lista de verificación de preparación para renacer:"
+  items={[
+    "Mi defensa limpia oleadas sin gasto constante de emergencia",
+    "Mi unidad o configuración más fuerte ya está en uso",
+    "Sé si el verdadero cuello de botella es el daño, la cobertura o los ingresos",
+    "Tengo recursos suficientes para hacer que la siguiente partida sea más fuerte",
+    "No estoy reiniciando solo porque la sesión se siente lenta"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Prioridad de mejoras antes de reiniciar">
+
+Una vez que la partida está estable, la siguiente tarea es gastar bien. El ciclo oficial pone la tirada, el combate, la compra de zonas y los ingresos offline en la misma cadena de progresión, así que tus mejoras siempre deberían resolver primero el problema más visible.
+
+No repartas recursos entre todas las opciones. Eso suele dejarte con una defensa débil, una cartera vacía y un punto de reinicio que llegó demasiado pronto.
+
+<Callout type="warning" title="No compres de más">
+Si gastas en zonas o tiradas extra antes de que la defensa esté lista, puedes hacer que la siguiente oleada sea más difícil de sobrevivir. Corrige primero la capa más débil.
+</Callout>
+
+| Prioridad de mejora | Cuándo comprar | Mejor resultado |
+| --- | --- | --- |
+| Daño | Los zombis sobreviven demasiado | Limpiezas más rápidas |
+| Cobertura | Una línea sigue filtrándose | Defensa más segura |
+| Calidad de tirada | Tienes una banca estable | Mejores tiradas |
+| Zonas | Las oleadas actuales están estables | Progresión más fuerte |
+| Gastar ingresos offline | Acabas de volver | Recuperación inmediata |
+
+| Prioridad | ¿Gastar ahora? | Por qué |
+| --- | --- | --- |
+| Fuente principal de daño | Sí, si las oleadas son lentas | Reduce la presión rápido |
+| Tirada extra aleatoria | A veces | Solo si la defensa está estable |
+| Desbloqueo de zona | Más tarde, si la partida está inestable | Las zonas exponen configuraciones débiles |
+| Reemplazar una buena unidad | Normalmente no | Puedes perder cobertura |
+| Ahorrar para la siguiente sesión | Sí | Mantiene el impulso para el momento del renacer |
+
+La regla práctica es simple: si la partida falla por fugas, compra defensa; si falla por poco daño, compra daño; si sobrevive sin problemas, ahorra para el siguiente ciclo.
+
+</Section>
+
+<Section icon={Sparkles} title="Suerte, zonas e ingresos offline">
+
+Roll to Defend te da tres sistemas que importan mucho cuando planeas un reinicio: bonos de suerte, progreso de zonas e ingresos offline. Usados en el orden correcto, hacen que la siguiente partida sea mucho más fluida.
+
+El flujo más seguro es activar tu configuración de suerte, recoger ingresos y luego avanzar solo después de que la defensa actual esté estable. Así evitas que tus mejores ganancias se desperdicien en decisiones apresuradas.
+
+<Callout type="success" title="Mejor flujo">
+Juega con amigos, únete a la ruta del grupo del creador y recoge ingresos offline antes de hacer tu próxima gran tirada o empuje de zona.
+</Callout>
+
+| Sistema | En qué ayuda | Mejor uso |
+| --- | --- | --- |
+| Suerte de amigos | Mejores sesiones de tiradas | Rueda cuando tu banca esté lista |
+| Suerte de grupo | Ruta de suerte extra | Únete antes de sesiones largas |
+| Ingresos offline | Recursos de regreso | Gástalos en el punto más débil |
+| Zonas | Progreso y ritmo | Cómpralas después de que la defensa sea estable |
+
+La página pública del juego y la comunidad del creador son los puntos de partida más seguros para el ciclo actual:
+
+| Fuente oficial | Para qué usarla | Enlace |
+| --- | --- | --- |
+| Página del juego en Roblox | Jugar, favoritos, tienda, servidores | [Roll to Defend en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidad D:/Drive | Ruta de suerte de grupo | [Comunidad D:/Drive en Roblox](https://www.roblox.com/communities/861213399/D-Drive) |
+| Listado público | Contexto adicional y titularidad | [Listado de Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="info" title="Orden de la sesión de regreso">
+Recoge primero los ingresos offline, corrige después el último punto de fallo y solo entonces decide si rodar, comprar una zona o preparar un reinicio al estilo renacer.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y objetivos rápidos">
+
+Usa esta sección como filtro final antes de reiniciar una sesión. Si puedes responder estas preguntas con claridad, tu siguiente partida debería empezar desde una posición más fuerte.
+
+<Callout type="tip" title="Comprobación final">
+Un reinicio inteligente no consiste en empezar de cero antes. Consiste en asegurarte de que la siguiente partida tenga más poder, más estabilidad y menos tiradas desperdiciadas.
+</Callout>
+
+<Checklist
+  id="fast-goals"
+  title="Objetivos rápidos antes de reiniciar:"
+  items={[
+    "Estabiliza el patrón actual de oleadas",
+    "Quédate con la mejor unidad que hayas conseguido",
+    "Corrige la línea más débil o la fuente de daño más baja",
+    "Guarda recursos para la siguiente partida",
+    "Usa la suerte y los ingresos offline antes de la progresión importante"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Qué significa renacer en roll to defend how to rebirth?",
+    answer: "Usa el renacer como el punto en el que dejas de parchear la partida actual y empiezas un ciclo más fuerte. El momento correcto llega después de que tu defensa esté estable."
+  },
+  {
+    question: "¿Debo reiniciar en cuanto consiga una tirada rara?",
+    answer: "No siempre. Una tirada rara es valiosa, pero importa más cuando la defensa actual ya está estable y la partida puede sostener el siguiente paso."
+  },
+  {
+    question: "¿Merece la pena guardar los ingresos offline para más tarde?",
+    answer: "Sí. Los ingresos offline son más fuertes cuando los gastas en la debilidad que terminó tu última partida, porque eso hace que la siguiente sesión sea más limpia."
+  },
+  {
+    question: "¿Cuál es el orden más seguro antes de un nuevo ciclo?",
+    answer: "Estabiliza la defensa, confirma que tu mejor unidad está activa, recoge ingresos y luego decide si rodar, comprar zonas o reiniciar."
+  }
+]} />
+
+<Callout type="info" title="Conclusión">
+Si tu partida actual todavía necesita gasto constante de rescate, espera. Si está estable, tu siguiente ciclo puede empezar con una ventaja real.
+</Callout>
+
+</Section>

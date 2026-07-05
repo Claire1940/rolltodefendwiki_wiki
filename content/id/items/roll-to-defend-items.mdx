@@ -1,0 +1,187 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Panduan Pemula, Upgrade, Zona & Tips",
+  description: "Bangun run yang lebih kuat di Roll to Defend dengan alur sesi awal yang jelas, urutan upgrade yang cerdas, waktu zona yang tepat, pengaturan keberuntungan, dan perencanaan pendapatan offline.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/24184d/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Roll to Defend** dimulai dengan menggulir unit, menempatkan defender, dan menstabilkan gelombang zombie sebelum mengejar ekspansi.
+- **Nilai awal terbaik** datang dari satu setelan yang kuat, bukan belanja acak di setiap menu.
+- **Waktu zona sangat penting**; perluas setelah pertahananmu bersih saat melawan gelombang dan pendapatanmu bisa menahan dorongan berikutnya.
+- **Bonus keberuntungan** dari teman dan grup paling baik digunakan sebelum sesi gulir yang panjang.
+- **Pendapatan offline** sebaiknya dibelanjakan untuk menutupi kelemahan yang mengakhiri run terakhirmu.
+</Callout>
+
+<Section icon={Map} title="Alur Inti Roll to Defend dan Setelan Awal">
+
+Roll to Defend memberi penghargaan pada alur sederhana: gulir unit, tempatkan defender, habisi zombie, lalu ubah pendapatan menjadi progres yang lebih kuat. Jika kamu mencoba melakukan semuanya sekaligus, run biasanya cepat jadi berantakan.
+
+<Callout type="tip" title="Prioritas Utama">
+Bangun papan yang stabil sebelum mengejar pull sempurna. Defender yang bisa dipakai di medan lebih berharga daripada unit yang lebih baik tetapi hanya diam tidak digunakan.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Gulir Dulu">
+    Mulailah dengan menggulir sampai kamu mendapatkan defender yang benar-benar bisa menahan jalur. Tujuannya adalah stabilitas, bukan berjudi demi kesempurnaan.
+  </Card>
+  <Card title="Langsung Tempatkan">
+    Letakkan unit terkuatmu di tempat ia bisa menembak paling lama. Unit yang aktif lebih baik daripada unit yang lebih kuat tetapi tidak pernah menyerang.
+  </Card>
+  <Card title="Segera Reinvestasi">
+    Gunakan pendapatan awal untuk menjaga alur tetap bergerak. Waktu aktif yang lebih banyak biasanya lebih baik daripada menahan terlalu banyak untuk satu pembelian besar.
+  </Card>
+</CardGrid>
+
+| 10 Menit Pertama | Yang Harus Dilakukan | Tujuan | Hindari |
+| --- | --- | --- | --- |
+| Gulir awal | Dapatkan satu atau dua defender yang bisa dipakai | Hentikan kebocoran awal | Menghabiskan semua pendapatan untuk reroll |
+| Penempatan pertama | Tutupi bagian jalur terpanjang | Maksimalkan waktu memberi damage | Menumpuk unit di tempat yang terlalu banyak tumpang tindih |
+| Gelombang awal | Awasi jalur yang lemah | Temukan titik lemah sebenarnya | Mengabaikan kebocoran sampai markas tertekan |
+| Siklus belanja pertama | Reinvestasi setelah papan stabil | Jaga progres tetap mulus | Menabung terlalu lama tanpa upgrade papan |
+| Keputusan zona pertama | Perluas hanya jika pembersihan terasa aman | Jaga momentum | Membeli zona sebelum pertahanan siap |
+
+</Section>
+
+<Section icon={Shield} title="Penempatan, Gelombang, dan Prioritas Pertahanan">
+
+Kebanyakan pemain kehilangan tempo karena menempatkan unit tanpa rencana jalur yang jelas. Pendekatan yang lebih aman adalah memikirkan kontrol gelombang terlebih dahulu dan variasi unit kemudian.
+
+<Callout type="warning" title="Aturan Pertahanan">
+Jika zombie bocor, perbaiki cakupan atau damage sebelum kamu mulai mengejar zona baru atau guliran acak lainnya.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Peta jalurnya">
+    Letakkan defender terbaikmu di tempat ia bisa menyerang paling lama. Waktu serang yang panjang biasanya lebih baik daripada penempatan yang terlihat keren.
+  </Step>
+  <Step num="2" title="Tutupi choke point">
+    Tambahkan dukungan di tempat zombie melambat atau berkumpul. Titik itu memberi nilai paling besar dari setiap unit.
+  </Step>
+  <Step num="3" title="Simpan cadangan">
+    Jangan habiskan setiap koin begitu kamu mendapatkannya. Simpan cukup pendapatan untuk bereaksi jika gelombang berikutnya lebih berat.
+  </Step>
+  <Step num="4" title="Ganti slot lemah">
+    Saat unit yang lebih kuat muncul, ganti dulu filler yang paling lemah. Papan yang rapi lebih mudah dikelola daripada papan yang penuh sesak.
+  </Step>
+</Steps>
+
+| Fase Game | Fokus Terbaik | Yang Paling Penting | Kesalahan Umum |
+| --- | --- | --- | --- |
+| Awal game | Bertahan dasar | Satu penyerang stabil dan cakupan yang rapi | Terlalu cepat membangun terlalu lebar |
+| Pertengahan game | Efisiensi gelombang | Damage per slot yang lebih baik dan penempatan yang lebih cerdas | Mempertahankan unit lemah terlalu lama |
+| Akhir game | Kualitas papan | Defender kuat dengan ruang mati minimal | Memperluas sebelum garis inti siap |
+
+<Callout type="success" title="Aturan Praktis yang Baik">
+Unit yang meningkatkan kontrol jalur biasanya lebih berharga daripada unit yang hanya terlihat lebih kuat di atas kertas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrade dan Waktu Zona">
+
+Upgrade seharusnya menyelesaikan hal yang benar-benar menghentikan run terakhirmu. Jika masalahnya damage, tingkatkan damage. Jika zombie lolos, perbaiki cakupan. Jika keduanya baik-baik saja, barulah lihat zona dan ekonomi.
+
+<Callout type="success" title="Urutan Upgrade">
+Belanjakan untuk titik penghambat terlebih dahulu. Itu menjaga run tetap bergerak alih-alih menyebar pendapatan ke semua opsi sekaligus.
+</Callout>
+
+| Titik Penghambat | Beli Dulu | Mengapa Membantu | Tunda Jika |
+| --- | --- | --- | --- |
+| Damage rendah | Upgrade serangan inti | Membersihkan gelombang lebih cepat | Kebocoran disebabkan penempatan yang buruk, bukan pukulan yang lemah |
+| Cakupan lemah | Perbaikan penempatan atau support | Mencegah zombie menyusup lewat celah | Unit utamamu sudah membunuh gelombang dengan cepat |
+| Guliran lambat | Pengaturan sesi gulir dan dukungan pendapatan | Meningkatkan kualitas pull berikutnya | Gelombang saat ini masih butuh pertahanan langsung |
+| Skalabilitas buruk | Investasi yang lebih siap untuk zona | Membantu progres jangka panjang | Markas sedang tidak stabil saat ini |
+
+| Sinyal Zona | Beli Zona? | Alasan | Tindak Lanjut Terbaik |
+| --- | --- | --- | --- |
+| Gelombang selesai bersih | Ya, biasanya | Pertahananmu bisa menyerap ekspansi | Bangun ulang penempatan di sekitar area baru |
+| Pendapatan terasa nyaman | Mungkin | Kamu bisa pulih setelah unlock | Simpan cadangan untuk keadaan darurat |
+| Kebocoran sering terjadi | Tidak | Zona baru bisa memperparah tekanan | Perbaiki damage atau cakupan dulu |
+| Papan stabil dan fleksibel | Ya | Ekspansi punya peluang lebih baik untuk memberi hasil | Dorong langkah progres berikutnya |
+
+<Callout type="info" title="Waktu Zona">
+Zona baru seharusnya terasa seperti hadiah atas stabilitas, bukan tambalan untuk ketidakstabilan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Keberuntungan, Pendapatan Offline, dan Persiapan Sesi">
+
+Bonus sosial dan penghasilan offline dalam game paling berguna saat direncanakan, bukan dianggap sebagai tambahan acak. Siapkan semuanya sebelum sesi panjang, lalu belanjakan hasilnya dengan tujuan yang jelas.
+
+<Callout type="info" title="Perencanaan Sesi">
+Gunakan bonus keberuntungan sebelum kamu banyak menggulir, dan gunakan pendapatan offline untuk memperbaiki masalah yang mengakhiri sesi terakhirmu.
+</Callout>
+
+<Checklist
+  id="session-prep"
+  title="Daftar Cek Pra-Gulir:"
+  items={[
+    "Bergabunglah ke server bersama teman sebelum sesi gulir yang serius",
+    "Like game-nya dan bergabunglah dengan grup kreator untuk jalur keberuntungan ekstra",
+    "Bersihkan pertahanan saat ini agar kamu tidak menggulir dalam tekanan",
+    "Simpan cukup pendapatan untuk bereaksi setelah pull yang buruk",
+    "Tentukan apakah kamu butuh damage, cakupan, atau progres zona"
+  ]}
+/>
+
+| Sumber | Efek | Waktu Terbaik untuk Digunakan | Catatan |
+| --- | --- | --- | --- |
+| Teman | Keberuntungan lebih baik untuk sesi gulir | Sebelum membelanjakan pendapatan yang disimpan | Paling efektif saat kamu siap menggulir dalam jumlah banyak |
+| Grup kreator | Jalur keberuntungan ekstra yang terikat pada pengaturan sosial game | Sebelum dorongan progres besar | Bergabunglah sebelum menilai kualitas pull-mu |
+| Pendapatan offline | Menghasilkan saat kamu pergi | Saat kamu kembali ke game | Belanjakan untuk menutupi kelemahan yang menghambat progres |
+| Sesi kembali | Jendela pemulihan langsung | Tepat setelah login kembali | Perbaiki pertahanan dulu, lalu gulir atau perluas |
+
+<Callout type="tip" title="Urutan Praktis">
+Masalah damage dulu, masalah cakupan kedua, ekspansi ketiga. Urutan itu menjaga ekonomi agar tidak runtuh.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan Referensi Cepat">
+
+<Callout type="tip" title="Referensi Cepat">
+Jika kamu hanya mengingat satu hal, ingat ini: stabilkan papan, lalu belanjakan pendapatan pada titik penghambat berikutnya.
+</Callout>
+
+| Kesalahan | Langkah yang Lebih Baik | Mengapa Berhasil |
+| --- | --- | --- |
+| Terlalu cepat menggulir tanpa pertahanan | Tempatkan unit yang bisa dipakai dulu | Kamu mendapat nilai dari setiap gelombang sambil membangun pendapatan |
+| Membeli zona terlalu cepat | Tunggu sampai pembersihan stabil | Ekspansi lebih aman saat papan sudah bertahan |
+| Terus mempertahankan filler yang lemah | Ganti dulu unit yang berdampak rendah | Papan yang lebih rapi lebih mudah diskalakan |
+| Mengabaikan pengaturan keberuntungan sosial | Siapkan teman dan bonus grup terlebih dahulu | Guliran yang lebih baik lebih mudah saat sesi direncanakan |
+| Membiarkan pendapatan offline tidak dipakai | Reinvestasi saat kembali | Uang yang kembali harus memperbaiki titik penghambat terakhir |
+
+<FAQ
+  items={[
+    {
+      question: "Apa yang harus saya lakukan terlebih dahulu di Roll to Defend?",
+      answer: "Gulir untuk mendapatkan setidaknya satu defender yang bisa dipakai, letakkan di jalur terpanjang, dan pastikan gelombang awal terkendali sebelum mengejar hal lain."
+    },
+    {
+      question: "Haruskah saya membeli zona segera setelah bisa?",
+      answer: "Biasanya tidak. Beli zona setelah pertahananmu saat ini stabil dan pendapatanmu bisa bertahan dari tekanan tambahan."
+    },
+    {
+      question: "Apakah teman dan keberuntungan grup layak disiapkan?",
+      answer: "Ya, terutama sebelum sesi gulir yang panjang. Gunakan bonus itu saat kamu siap membelanjakan pendapatan yang disimpan untuk pull yang berarti."
+    },
+    {
+      question: "Bagaimana saya harus membelanjakan pendapatan offline?",
+      answer: "Gunakan untuk memperbaiki kelemahan yang mengakhiri run terakhirmu. Jika damage gagal, tingkatkan damage. Jika zombie lolos, perbaiki cakupan."
+    }
+  ]}
+/>
+
+</Section>

@@ -1,0 +1,175 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panduan Lengkap Roll to Defend: Unit, Zona, dan Tips Keberuntungan",
+  description: "Panduan lengkap Roll to Defend mencakup unit, peningkatan, zona, keberuntungan, dan pendapatan offline agar kamu bisa membangun run Roblox yang lebih kuat dengan jalur awal game yang rapi.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **panduan lengkap roll to defend**: Mulailah dengan mendapatkan unit yang kuat, lalu stabilkan gelombang sebelum mengejar zona.
+- **Pengaturan keberuntungan**: Bermainlah bersama teman dan bergabunglah ke D:/Drive sebelum sesi roll yang panjang untuk bonus yang tercantum.
+- **Irama terbaik**: Prioritaskan damage dulu, jangkauan kedua, ekspansi ketiga, lalu manfaatkan kembali pendapatan offline.
+- **Hindari pemborosan**: Jangan membeli zona baru jika zombie sudah mulai lolos melalui garis pertahananmu saat ini.
+</Callout>
+
+<Section icon={Map} title="Panduan Lengkap Roll to Defend: Siklus Inti">
+
+<Callout type="tip" title="Siklus Inti">
+Gunakan halaman pengalaman Roblox sebagai titik acuan, lalu bangun setiap keputusan di sekitar kualitas roll, kontrol gelombang, dan ekspansi yang aman.
+</Callout>
+
+| Phase | Best move | Result |
+|---|---|---|
+| Roll | Pertahankan pull terkuatmu | Damage awal lebih tinggi |
+| Place | Tutupi jalur terpanjang | Lebih sedikit kebocoran |
+| Clear | Pantau di mana zombie bertahan | Temukan jalur yang lemah |
+| Expand | Beli zona hanya saat sudah stabil | Progres lebih aman |
+| Reinvest | Habiskan pendapatan offline pada titik terlemah | Pemulihan lebih cepat |
+
+| Signal | Meaning | Action |
+|---|---|---|
+| Kebocoran di markas | Damage terlalu rendah | Tingkatkan carry utama |
+| Satu jalur runtuh | Jangkauan lemah | Pindahkan posisi atau tambahkan dukungan |
+| Gelombang bersih selesai | Kamu bisa berkembang | Simpan untuk roll atau zona |
+
+Awal yang paling aman itu sederhana: roll untuk mendapatkan defender yang berguna, tempatkan mereka di posisi paling efektif, dan perluas hanya setelah gelombang saat ini tidak lagi terasa berbahaya.
+
+</Section>
+
+<Section icon={Shield} title="Pengaturan Sesi Pertama dan Kontrol Gelombang">
+
+<Callout type="warning" title="Aturan Pertama">
+Jangan menghabiskan sumber daya seolah setiap roll lebih penting daripada bertahan hidup; kalau pertahananmu tipis, zona berikutnya hanya akan membuat masalah terdengar lebih keras.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Roll starter yang berguna">
+    Habiskan pendapatan awal untuk pull yang benar-benar bisa menahan jalur. Rarity yang lebih tinggi memang berguna, tetapi tujuan utamanya adalah unit yang mulai membunuh sebelum gelombang menumpuk.
+  </Step>
+  <Step num="2" title="Tempatkan sebelum mengejar">
+    Letakkan defender terbaik di tempat yang bisa ia serang paling lama. Pull yang tidak dipakai hanyalah item menu yang cantik.
+  </Step>
+  <Step num="3" title="Awasi titik kebocoran pertama">
+    Jika zombie lolos melalui satu jalur, perbaiki jalur itu terlebih dahulu. Game ini lebih menghargai clear yang stabil daripada ekspansi yang terburu-buru.
+  </Step>
+  <Step num="4" title="Reinvestasi dengan tujuan">
+    Masukkan lonjakan pendapatan berikutnya ke damage, jangkauan, atau pull yang lebih baik. Jangan membagi sumber daya secara rata jika satu masalah jelas jauh lebih besar.
+  </Step>
+</Steps>
+
+| First-Session Check | What to Watch | Stop If |
+|---|---|---|
+| Cek damage | Gelombang dasar bertahan terlalu lama | Carry-mu tidak mampu menipiskan gerombolan |
+| Cek jangkauan | Satu jalur diabaikan | Ada jalur yang terus bocor |
+| Cek ekonomi | Pendapatan naik tetapi pertahanan mandek | Kamu menabung terlalu banyak |
+| Cek ekspansi | Zona lebih mahal daripada keamanan | Area baru akan merusak set-up-mu |
+
+Jika pembukaan gagal, atur ulang fokusmu: perbaiki jalur, tingkatkan pull, dan bangun ulang siklusnya sebelum membeli ruang tambahan.
+
+</Section>
+
+<Section icon={Sparkles} title="Keberuntungan, Teman, dan Nilai Pull">
+
+<Callout type="success" title="Stack Keberuntungan">
+Sesi roll yang paling rapi terjadi setelah kamu mengaktifkan sumber keberuntungan yang tercantum, karena pengaturan yang lebih baik membuat setiap lonjakan pendapatan jadi lebih bernilai.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Solo">
+    - **Terbaik untuk belajar**
+    - Lebih mudah menguji penempatan
+    - Cocok saat kamu ingin run yang tenang
+  </Card>
+  <Card title="Teman">
+    - **Gunakan sebelum roll yang panjang**
+    - Selaras dengan loop keberuntungan teman
+    - Lebih baik untuk sesi berkelompok
+  </Card>
+  <Card title="Grup">
+    - **Bergabung ke D:/Drive**
+    - Mengikuti prompt keberuntungan ekstra
+    - Bekerja dengan baik sebelum pengeluaran besar
+  </Card>
+</CardGrid>
+
+| Sumber Keberuntungan | Penggunaan Terbaik | Manfaatnya |
+|---|---|---|
+| Teman | Sesi roll terencana | Pengaturan kualitas pull yang lebih baik |
+| Grup D:/Drive | Sebelum dorongan progres panjang | Jalur keberuntungan ekstra yang ditampilkan game |
+| Pendapatan offline | Setelah kembali ke game | Lebih banyak roll dan upgrade yang lebih aman |
+
+Keberuntungan paling penting saat pertahananmu sudah stabil. Jika run saat ini goyah, perbaiki run-nya terlebih dahulu dan anggap keberuntungan sebagai pengganda, bukan tombol penyelamat.
+
+</Section>
+
+<Section icon={Target} title="Upgrade, Zona, dan Progres yang Aman">
+
+<Callout type="warning" title="Prioritas Upgrade">
+Beli upgrade yang menghapus bottleneck saat ini, bukan yang terlihat paling mencolok di menu.
+</Callout>
+
+<Checklist
+  id="roll-to-defend-priority-list"
+  title="Checklist Progres:"
+  items={[
+    "Perbaiki jalur yang pertama kali bocor",
+    "Tingkatkan unit yang menghabisi zombie paling banyak",
+    "Tambahkan jangkauan sebelum membeli zona berisiko",
+    "Gunakan pendapatan offline pada titik terlemah",
+    "Simpan ekspansi untuk clear yang stabil"
+  ]}
+/>
+
+| Priority | When to Buy | Why It Wins |
+|---|---|---|
+| Damage | Zombie bertahan terlalu lama | Memotong gelombang dengan cepat |
+| Coverage | Satu jalur terus lolos | Menutup celah jalur |
+| Zone | Gelombang saat ini sudah stabil | Mendorong progres dengan aman |
+| Belanja pendapatan offline | Kamu kembali dengan simpanan hasil | Memperbaiki titik lemah terakhir |
+
+Pembelian zona yang bagus seharusnya terasa membosankan dalam arti yang baik: tanpa panik, tanpa kebocoran, tanpa pengeluaran penyelamatan yang dipaksakan. Jika area baru justru membuat semuanya lebih buruk, hentikan ekspansi dan pulihkan dulu lapisan pertahanan.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan Tautan Resmi">
+
+<Callout type="info" title="Pemeriksaan Akhir Terbaik">
+Gunakan jalur resmi Roblox terlebih dahulu, lalu anggap halaman luar sebagai materi pendukung, bukan sumber kebenaran utamamu.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa cara paling aman untuk memulai di panduan lengkap roll to defend?",
+    answer: "Roll untuk starter yang berguna, tempatkan segera, lalu beli zona hanya setelah gelombang saat ini selesai tanpa pengeluaran panik."
+  },
+  {
+    question: "Apakah keberuntungan dari teman dan grup D:/Drive layak digunakan?",
+    answer: "Ya. Game ini menyorot keberuntungan teman dan jalur grup sebagai keuntungan set-up yang nyata sebelum sesi roll yang panjang."
+  },
+  {
+    question: "Haruskah saya membeli zona sebelum upgrade?",
+    answer: "Tidak saat zombie masih bocor. Tingkatkan damage atau jangkauan dulu, lalu perluas setelah pertahanan stabil."
+  },
+  {
+    question: "Apakah saya perlu menunggu kode untuk berkembang?",
+    answer: "Tidak. Siklus inti sudah memberi kamu nilai roll, pengaturan keberuntungan, dan pendapatan offline, jadi progres tidak boleh bergantung pada kode."
+  }
+]} />
+
+| Official Entry Point | Use |
+|---|---|
+| [Halaman game Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Luncurkan pengalaman, cek deskripsi langsung, dan akses tab Roblox |
+| [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur grup kreator yang terkait dengan prompt keberuntungan |
+| [Daftar CreatorExchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Verifikasi detail daftar publik dan info pemilik |
+
+</Section>

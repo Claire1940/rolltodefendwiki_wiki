@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Sparkles, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Role para Defender: Melhores Unidades, Melhorias e Dicas de Zona",
+  description: "Use este guia de Role para Defender para priorizar unidades, acertar o timing das melhorias, comprar zonas com segurança, acumular sorte e reinvestir a renda offline em runs mais fortes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Role para Defender"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Role para Defender** recompensa rolagens inteligentes, posicionamento limpo e controle estável das ondas mais do que gastos aleatórios.
+- **Melhor regra no início**: mantenha sua melhor rolagem útil e depois construa cobertura antes de correr atrás de uma nova zona.
+- **Prioridade de melhoria** deve seguir o gargalo que realmente está causando vazamentos, e não cada opção chamativa.
+- **Sorte e renda offline** importam mais quando você as guarda para sessões de rolagem focadas e reinvestimento seguro.
+</Callout>
+
+<Section icon={Map} title="Loop Inicial de Role para Defender">
+
+Role para Defender funciona melhor quando você trata cada sessão como um loop simples: rolar, posicionar, sobreviver e então expandir. Se suas primeiras rolagens ficarem sem uso, sua economia desacelera e os zumbis ganham pressão de graça. O objetivo não é gastar tudo imediatamente. O objetivo é montar um núcleo de defesa estável e então deixar a renda e as rolagens crescerem a partir daí.
+
+<CardGrid cols={3}>
+  <Card title="Role Primeiro">
+    - **Comece com valor**
+    - Mantenha a melhor rolagem útil
+    - Evite desperdiçar a renda inicial
+  </Card>
+  <Card title="Posicione Imediatamente">
+    - **Use suas unidades**
+    - Cubra os trechos mais longos do caminho
+    - Corrija rápido as rotas vazias
+  </Card>
+  <Card title="Expanda Depois">
+    - **Compre zonas com controle**
+    - Expanda só depois da estabilidade
+    - Proteja a renda antes de escalar
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra Inicial">
+Se uma unidade mais forte não está em campo, ela não está ajudando sua run. Coloque a defesa primeiro e só depois se preocupe com a perfeição.
+</Callout>
+
+| Prioridade Inicial | O Que Fazer | Por Que Importa |
+|---|---|---|
+| Boa rolagem | Mantenha a melhor unidade visível | Ela dá o caminho mais rápido para clears estáveis |
+| Cobertura | Posicione unidades onde os zumbis ficam expostos | Mais tempo de atividade significa mais valor de dano |
+| Renda | Guarde o suficiente para continuar rolando | Rolar cedo demais com pouco valor pode travar o progresso |
+| Timing da zona | Espere até as ondas parecerem controladas | Expandir cedo pode criar vazamentos evitáveis |
+
+</Section>
+
+<Section icon={Shield} title="Como Sobreviver às Primeiras Ondas">
+
+As primeiras ondas ensinam o verdadeiro ritmo do jogo. Se os zumbis estão passando, o problema geralmente é um de três pontos: dano fraco, posicionamento ruim ou compra cedo demais. Corrija primeiro o gargalo. Essa abordagem mantém sua run estável e faz cada melhoria posterior valer mais.
+
+<Steps>
+  <Step num="1" title="Role por um defensor utilizável">
+    Mantenha a unidade mais forte que melhore o clear atual da onda. Uma unidade provisória de preenchimento é aceitável, mas só se ela realmente cobrir o caminho.
+  </Step>
+  <Step num="2" title="Posicione as unidades antes de gastar de novo">
+    Não fique correndo atrás de outra rolagem enquanto seu tabuleiro está vazio. Sua defesa precisa de unidades em campo mais do que de outra rolagem ainda não aberta.
+  </Step>
+  <Step num="3" title="Observe o ponto de vazamento">
+    Acompanhe onde os zumbis sobrevivem por mais tempo. Essa rota mostra se você precisa de mais dano, melhor alcance ou um ângulo de posicionamento diferente.
+  </Step>
+  <Step num="4" title="Reinvista quando a onda estiver estável">
+    Quando os clears estiverem confortáveis, converta a renda extra em mais rolagens ou na próxima melhoria segura, em vez de acumular para sempre.
+  </Step>
+  <Step num="5" title="Expanda só depois que o loop estiver firme">
+    Compre uma nova zona quando sua configuração atual conseguir lidar com a pressão sem gastos de emergência constantes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Não trate cada pico de curto prazo como motivo para expandir. Se sua defesa mal está se segurando, uma nova zona pode piorar o mesmo problema.
+</Callout>
+
+| Situação | Melhor Resposta | Risco Se Ignorar |
+|---|---|---|
+| Zumbis vazando cedo | Fortaleça o posicionamento ou o dano | Você perde ritmo e renda |
+| O tabuleiro parece vazio | Role menos, posicione mais | Boas rolagens ficam sem uso |
+| A onda limpa com facilidade | Guarde para a próxima melhoria | Comprar demais reduz a flexibilidade |
+| Nova zona disponível | Espere a estabilidade | A expansão pode expor uma defesa fraca |
+
+</Section>
+
+<Section icon={Target} title="Melhores Unidades e Regras para Manter">
+
+O conselho mais seguro sobre unidades é simples: mantenha o que melhora a sobrevivência, a cobertura ou a escala futura. Você não precisa de números ocultos para tomar boas decisões. A regra mais forte e visível continua sendo a mais prática: uma rolagem de valor maior com impacto real no campo de batalha vence sempre uma unidade de preenchimento mais fraca.
+
+<CardGrid cols={4}>
+  <Card title="Rolações de Alta Raridade">
+    - **Mantenha primeiro**
+    - Melhor valor de longo prazo
+    - Geralmente vale a pena construir em torno dela
+  </Card>
+  <Card title="Estabilizadores de Zona">
+    - **Seguram o novo terreno**
+    - Evitam vazamentos após a expansão
+    - Mais importantes que dano chamativo
+  </Card>
+  <Card title="Unidades de Cobertura do Caminho">
+    - **Corrigem rotas fracas**
+    - Aumentam o tempo de atividade efetiva
+    - Fortes no início e no meio do jogo
+  </Card>
+  <Card title="Preenchimento Temporário">
+    - **Troque mais tarde**
+    - Serve para slots vazios
+    - Não é uma âncora de longo prazo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Prioridade para Manter">
+Na dúvida, mantenha a unidade que faz melhor um destes trabalhos: limpar ondas, segurar uma zona ou cobrir uma rota exposta.
+</Callout>
+
+| Tipo de Rolar | Manter? | Melhor Uso |
+|---|---|---|
+| Maior raridade visível | Sim | Construa sua defesa principal em torno dela |
+| Cobertura estável da rota | Sim | Impede que os zumbis passem |
+| Cópia fraca | Talvez | Mantenha só se trouxer valor real |
+| Preenchimento de baixo impacto | Não | Troque assim que algo melhor aparecer |
+
+| Verificação da Decisão | Pergunte a Si Mesmo | Ação |
+|---|---|---|
+| Dano | Esta unidade limpa mais rápido? | Mantenha se sim |
+| Cobertura | Ela protege uma rota fraca? | Mantenha se sim |
+| Escala | Ela continuará útil depois? | Mantenha se sim |
+| Preenchimento | Ela só ocupa espaço? | Troque |
+
+</Section>
+
+<Section icon={Sparkles} title="Melhorias, Zonas e Renda">
+
+As melhorias devem resolver o problema real, e não apenas consumir moeda. Se o dano estiver falhando, melhore o dano. Se os zumbis estão escapando por brechas, melhore a cobertura ou o valor de posicionamento. Se as ondas estiverem estáveis, direcione a renda para a próxima rotação segura ou para avançar de zona. Essa é a forma mais limpa de evitar desperdício de recursos.
+
+<Callout type="info" title="Lógica de Melhoria">
+Gaste no gargalo que interrompeu sua última run. Isso geralmente é mais eficiente do que dividir o dinheiro entre todas as opções ao mesmo tempo.
+</Callout>
+
+| Foco da Melhoria | Prioridade | Quando Comprar | Quando Segurar |
+|---|---|---|---|
+| Dano principal | Alta | Inimigos sobrevivem tempo demais | O problema real é cobertura |
+| Cobertura | Alta | Zumbis vazam por brechas | O dano já está baixo demais |
+| Preparação de rolagem | Média | Você pode preparar uma sessão focada | A onda atual está falhando |
+| Tratamento de duplicata | Média | A duplicata é claramente melhor | Ela reduz o controle do tabuleiro |
+| Gasto de renda offline | Flexível | Você volta com ganhos guardados | Você ainda não encontrou o gargalo |
+
+| Timing da Zona | Luz Verde | Sinal de Alerta |
+|---|---|---|
+| Ondas atuais | Limpam sem pânico | Exigem gastos de emergência constantes |
+| Tabuleiro de defesa | Tem um núcleo estável | Parece vazio ou sobrecarregado |
+| Nível de renda | Deixa espaço após a compra | É drenado pela compra da zona |
+| Próxima investida | Melhora o progresso | Aumenta a chance de vazamentos |
+
+| Locais Oficiais para Consultar | Uso | Link |
+|---|---|---|
+| Página do jogo no Roblox | Jogar, favoritar e abrir a experiência | [Roll to Defend on Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidade D:/Drive | Acesso ao grupo e atualizações ligadas ao criador | [D:/Drive Roblox community](https://www.roblox.com/communities/861213399/D-Drive) |
+| Lista do criador | Detalhes públicos do jogo e contexto de propriedade | [Creator Exchange listing](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="tip" title="Dica de Economia">
+Se sua renda está crescendo, mas seu tabuleiro está instável, pare de expandir e corrija a defesa primeiro. Economia só é útil quando a run sobrevive tempo suficiente para gastá-la.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Configuração de Sorte, Checklist e FAQ">
+
+A configuração de sorte importa mais quando você está pronto para gastar uma grande quantidade de renda em rolagens. É aí que amigos, bônus de grupo e uma redefinição limpa das prioridades podem realmente melhorar a sessão. A renda offline deve ser tratada da mesma forma: colete primeiro e depois use para consertar o que quebrou na sua última run.
+
+<Checklist
+  id="roll-to-defend-luck-checklist"
+  title="Checklist da Sessão:"
+  items={[
+    "Entre em um servidor amigável antes da sua sessão principal de rolagens",
+    "Curta o jogo e entre no grupo D:/Drive se quiser o caminho extra de sorte",
+    "Colete a renda offline antes de gastar em novas rolagens",
+    "Corrija dano ou cobertura antes de comprar a próxima zona",
+    "Guarde um pouco de moeda para que uma rolagem ruim não trave a run"
+  ]}
+/>
+
+<Callout type="success" title="Melhor Rotina">
+Comece com estabilidade, ative sua configuração de sorte, role com propósito e só então converta a renda no próximo avanço.
+</Callout>
+
+| Fonte de Sorte | Uso Prático | Melhor Momento |
+|---|---|---|
+| Amigos | Role com jogadores confiáveis | Antes de uma sessão grande |
+| Acesso ao grupo | Use o caminho de sorte ligado ao criador | Antes de gastar a renda |
+| Renda offline | Reconstrua depois de uma pausa | No início da sessão |
+| Moeda guardada | Mantenha suas opções abertas | Antes de uma expansão arriscada |
+
+<FAQ items={[
+  {
+    question: "Qual é a prioridade inicial mais segura em Role para Defender?",
+    answer: "Mantenha a melhor rolagem útil, posicione-a imediatamente e só então decida se vai rolar mais ou comprar uma zona."
+  },
+  {
+    question: "Devo comprar zonas assim que elas forem desbloqueadas?",
+    answer: "Normalmente, não. Compre zonas depois que sua defesa atual estiver estável e você ainda tiver renda suficiente para reagir se as próximas ondas vierem mais fortes."
+  },
+  {
+    question: "O que devo melhorar primeiro?",
+    answer: "Melhore o gargalo que causou a última falha, geralmente dano ou cobertura. Não espalhe os gastos por todas as opções ao mesmo tempo."
+  },
+  {
+    question: "Como devo usar a renda offline?",
+    answer: "Colete primeiro, corrija a fraqueza que prejudicou sua run anterior e depois gaste o restante em rolagens ou progresso seguro."
+  }
+]} />
+
+</Section>

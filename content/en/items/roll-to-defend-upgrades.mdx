@@ -1,0 +1,183 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend upgrades: Best Order, Timing, and Tips",
+  description: "Use the right upgrade order in Roll to Defend to fix damage, coverage, and income bottlenecks, then time rolls and zone pushes for smoother runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Roll+to+Defend+Upgrades",
+  date: "2026-07-05",
+  author: "roll to defend Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **roll to defend upgrades** work best when they solve the exact bottleneck that is slowing your current run.
+- **Damage first** usually wins when zombies survive too long or reach your defense line.
+- **Coverage second** matters when enemies slip through blind spots instead of overwhelming raw power.
+- **Economy and zones** should follow only after your defense clears waves cleanly.
+- **Luck bonuses** help your roll session, but they do not replace a stable build.
+</Callout>
+
+<Section icon={Shield} title="Why Upgrades Matter in Roll to Defend">
+
+The upgrade system is not a side activity in Roll to Defend. It is the pressure valve that keeps your run from collapsing when waves get harder, your field gets crowded, or your income starts to lag behind the pace of progress. The cleanest way to think about upgrades is simple: buy the thing that removes the biggest obstacle right now, not the thing that looks exciting on paper.
+
+<CardGrid cols={3}>
+  <Card title="Damage">
+    - Clears waves faster
+    - Best for late-leaking zombies
+    - Strongest when your line is already placed well
+  </Card>
+  <Card title="Coverage">
+    - Fills blind spots
+    - Best for leaked lanes
+    - Helps good units do their job longer
+  </Card>
+  <Card title="Economy">
+    - Supports more rolls
+    - Best when defense is stable
+    - Turns a good run into a better one
+  </Card>
+</CardGrid>
+
+| Upgrade path | Best when | Skip when |
+|---|---|---|
+| Damage | Zombies survive too long | The real problem is bad placement |
+| Coverage | Enemies slip past a lane | You are still losing to basic waves |
+| Economy | Your defense is already stable | You need emergency defense right now |
+| Zone timing | You have spare income and clean clears | The current zone still feels shaky |
+
+<Callout type="tip" title="Editorial Rule">
+Keep one rule in your head: upgrade the weakest link first. If the weak link changes after a wave, your next purchase should change too.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="roll to defend upgrades: Spend in the Right Order">
+
+The most reliable upgrade order is the one that follows your run state, not a fixed shopping list. When your defense is unstable, spend like a survivor. When your defense is stable, spend like a builder. That split keeps you from wasting income on upgrades that do nothing for the wave in front of you.
+
+<Steps>
+  <Step num="1" title="Identify the bottleneck">
+    Check whether the run is failing because of damage, coverage, income speed, or early zone timing.
+  </Step>
+  <Step num="2" title="Stabilize the current wave">
+    Fix the lane that is leaking first, because every other upgrade becomes more valuable once you stop the immediate loss.
+  </Step>
+  <Step num="3" title="Buy the best short-term improvement">
+    Upgrade the unit or system that will visibly change the next wave, not the one that only looks stronger later.
+  </Step>
+  <Step num="4" title="Re-evaluate after the next clear">
+    If the problem changes from damage to coverage, switch your spending plan before buying again.
+  </Step>
+  <Step num="5" title="Reinvest only after the run is stable">
+    Once waves clear cleanly, shift income into rolls, zones, or economy growth.
+  </Step>
+</Steps>
+
+| Problem signal | Best first spend | Why it works |
+|---|---|---|
+| Zombies survive too long | Damage upgrade | Ends the wave sooner |
+| Zombies slip past a lane | Coverage upgrade | Reduces leaks and panic spending |
+| Income feels too slow | Economy upgrade | Improves future buying power |
+| New zone feels risky | Hold income | Expansion is too early |
+
+<Callout type="warning" title="Spend Discipline">
+Do not buy upgrades just because income is available. If the current wave is still unstable, a flashy purchase can slow you down instead of saving the run.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Priority Matrix: Damage, Coverage, and Support">
+
+A good upgrade plan in Roll to Defend is really a priority matrix. Damage, coverage, luck, offline income, and zones all matter, but they do not matter equally in every moment. The smartest players treat each one as a tool for a specific problem.
+
+| Path | What it improves | Best phase | Main risk |
+|---|---|---|---|
+| Damage | Faster clears | Early to mid run | Overbuying while lanes are still open |
+| Coverage | Safer lanes | Mid run | Fixing space while ignoring weak damage |
+| Economy | More future spending | Stable runs | Taking too long to pay off |
+| Zone push | Progression and scale | Late stable runs | Making the next wave harder too soon |
+
+The game’s built-in support systems can help, but they should sit behind the defense plan, not in front of it. Friends can give you more luck while rolling, and the creator group path adds extra luck as well. Offline income also gives you a strong return point after a break, which is useful because it lets you restart with a better budget.
+
+| Support system | What it helps | What it does not do |
+|---|---|---|
+| Friends luck | Better roll sessions | It does not fix a broken lane |
+| Group luck | Stronger rolling setup | It does not replace a damage upgrade |
+| Offline income | Faster comeback after a break | It does not guarantee a safe zone push |
+
+<Callout type="info" title="Support Systems">
+Luck and offline income are accelerators. They help you reach the next good upgrade faster, but they do not make a weak setup strong on their own.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="A Clean Session Loop for Better Progress">
+
+The best long-term progression loop is simple enough to repeat every session. First, find the leak. Then, fix the leak. After that, roll for a meaningful upgrade, and only then think about zones or larger economy pushes. That sequence keeps your spending focused and protects you from the common trap of expanding too early.
+
+<Checklist
+  id="roll-to-defend-progress-loop"
+  title="Session Checklist"
+  items={[
+    "Check which problem actually caused the last wave to fail.",
+    "Spend on damage or coverage before buying extra luxury upgrades.",
+    "Use friends luck and group luck before a planned roll session.",
+    "Collect offline income first, then decide whether to roll or expand.",
+    "Buy a new zone only after your current defense clears waves cleanly."
+  ]}
+/>
+
+| Common mistake | Better habit | Result |
+|---|---|---|
+| Buying random upgrades | Fix the current bottleneck | Faster improvement |
+| Expanding too early | Stabilize first | Safer progression |
+| Rolling without a goal | Roll for one specific weakness | Less wasted income |
+| Ignoring offline income | Reinvest immediately on return | Stronger comeback |
+
+<Callout type="success" title="Best Habit">
+A stable defense makes every future purchase more valuable. In practice, that means your next upgrade should improve survivability before it improves ambition.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Official Links and FAQ">
+
+As of 2026-07-05, the safest way to track Roll to Defend is to start with Roblox-linked routes first, then use other listings only as reference points. That keeps your upgrade plan grounded in the live game rather than in half-updated chatter.
+
+| Source | Best use | Link |
+|---|---|---|
+| Roblox game page | Play the experience, check the current description, and reach in-game tabs | [Official Roblox game page](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| D:/Drive community | Follow the creator group path tied to extra luck | [Official Roblox community](https://www.roblox.com/communities/861213399/D-Drive) |
+| Creator Exchange listing | Review public listing details and community labels | [Roll to Defend listing](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="info" title="Reference Rule">
+Use official Roblox routes first when you want current, game-linked information. That is the cleanest way to avoid outdated upgrade advice.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What should I upgrade first in Roll to Defend?",
+    answer: "Start with the bottleneck that is actually causing the run to fail. If zombies survive too long, buy damage. If they slip through, buy coverage. That is the core rule behind roll to defend upgrades."
+  },
+  {
+    question: "Should I spend on zones before upgrades?",
+    answer: "Not usually. Buy a zone only after your current defense clears waves cleanly and you still have enough income to react to the next pressure spike."
+  },
+  {
+    question: "Do luck bonuses replace upgrade planning?",
+    answer: "No. Friends luck and group luck can improve your roll session, but they do not fix a weak lane or a low-damage setup."
+  },
+  {
+    question: "When should I spend offline income?",
+    answer: "Spend it as soon as you return, but only after you identify what held the last run back. Offline income is strongest when it fixes the real problem first."
+  }
+]} />
+
+</Section>

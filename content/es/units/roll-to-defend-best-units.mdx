@@ -1,0 +1,237 @@
+import { Shield, Swords, Target, Trophy, Sparkles, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejores unidades de Roll to Defend: selecciones de nivel S y consejos de mejora",
+  description: "Compara las tiradas más fuertes de Roll to Defend, identifica el valor de nivel S y aprende cuándo conservar, colocar, mejorar y reemplazar unidades para que las partidas sean más fluidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Best+Units+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **las mejores unidades de roll to defend** suelen ser tus tiradas de mayor rareza, especialmente cualquier cosa que ya asegure una línea.
+- **El valor de conservar** depende del daño, la cobertura y de lo bien que una unidad estabiliza tu zona actual.
+- **El orden de mejora** debe resolver primero el cuello de botella y luego gastar el ingreso extra en tiradas o expansión.
+- **La configuración de suerte** funciona mejor cuando tiras con amigos y la bonificación del grupo de creadores está activa.
+</Callout>
+
+<Section icon={Shield} title="Mejores unidades de Roll to Defend: qué conservar primero">
+
+La forma más segura de manejar las **mejores unidades de Roll to Defend** es conservar la tirada visible más fuerte, colocarla temprano y reemplazar el relleno solo cuando tu defensa ya sea estable. Este juego recompensa más una cobertura clara de las líneas que las capturas llamativas del inventario.
+
+<Callout type="tip" title="Regla para conservar">
+Trata la rareza como tu primer filtro y luego compara cuánta presión quita una unidad del camino de los zombis.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tiradas Divinas">
+    - **Prioridad máxima para conservar**
+    - Mejor valor a largo plazo
+    - Normalmente vale la pena construir alrededor de ellas
+  </Card>
+  <Card title="Tirada actual de mayor rareza">
+    - **Mejor espacio disponible**
+    - Ancla fuerte para el inicio y la mitad de la partida
+    - Reemplaza primero el relleno de menor rareza
+  </Card>
+  <Card title="Tirada que estabiliza la zona">
+    - **La mejor para progresar**
+    - Ayuda a que una nueva área se mantenga segura
+    - A menudo es más útil que el daño bruto por sí solo
+  </Card>
+</CardGrid>
+
+| Situación | Acción | Por qué funciona |
+|---|---|---|
+| Sacas una tirada Divina | Consérvala | La rareza alta suele dar el mejor retorno a largo plazo |
+| Solo tienes una unidad fuerte | Colócala de inmediato | El poder sin usar no hace nada contra las oleadas de zombis |
+| Una unidad más débil ya no aguanta una línea | Reemplázala | La cobertura y la supervivencia importan más que el apego |
+| Una tirada estabiliza una nueva zona | Priorízala | La seguridad de la zona respalda ingresos y tiradas futuras |
+| Un duplicado supera a tu unidad activa | Cámbialo | Un mejor valor en el campo siempre debe ganar |
+
+Empieza desde la [página oficial del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) y la [comunidad de creadores D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) cuando quieras la ruta más segura vinculada al juego.
+
+</Section>
+
+<Section icon={Trophy} title="Lógica de niveles: clasifica las unidades por valor, no por hype">
+
+Una buena lista de niveles de unidades tiene menos que ver con la emoción bruta y más con cuánto cambia una tirada tu partida. El gameplay público muestra al menos una tirada de alta rareza con nombre, **Stellar Pirate**, como un ejemplo destacado del tipo de unidad que vale la pena conservar.
+
+<Callout type="info" title="Regla de clasificación">
+Clasifica las unidades por control de líneas, valor en la etapa y cuánto tiempo siguen siendo relevantes después de desbloquear zonas más fuertes.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Nivel S">
+    - **Llevar principal**
+    - Mantiene estables las partidas
+    - Vale la pena construir alrededor de él
+  </Card>
+  <Card title="Nivel A">
+    - **Defensa principal**
+    - Suficientemente fuerte para anclar oleadas
+    - Bueno para la mayoría de sesiones
+  </Card>
+  <Card title="Nivel B">
+    - **Sujeción temprana**
+    - Útil mientras crecen los ingresos
+    - Reemplázalo cuando lleguen mejores tiradas
+  </Card>
+  <Card title="Nivel C">
+    - **Relleno temporal**
+    - Solo para cubrir espacio vacío
+    - Cámbialo en cuanto sea posible
+  </Card>
+</CardGrid>
+
+| Nivel | Ejemplo | Mejor uso | ¿Conservar? |
+|---|---|---|---|
+| S | Stellar Pirate, tiradas Divinas | Llevar a largo plazo y control de líneas | Sí |
+| A | Tirada actual de mayor rareza | Defensa principal durante la progresión normal | Sí |
+| B | Tirada de daño inicial | Limpieza de oleadas tempranas y preparación | A veces |
+| C | Relleno superado | Solo cobertura de espacio vacío | No, si hay mejores opciones |
+
+| Factor | Qué buscar | Peso |
+|---|---|---|
+| Daño | Elimina zombis antes de que se filtren | Alto |
+| Cobertura | Cubre más del camino | Alto |
+| Rareza | Mejor techo a largo plazo | Medio |
+| Valor de zona | Sigue siendo útil tras la expansión | Alto |
+| Reinversión | Ayuda en futuras tiradas o mejoras | Medio |
+
+<Callout type="warning" title="Error común">
+No conserves una unidad más débil solo porque fue tu primera buena tirada. Si ya no resuelve un problema real, es peso muerto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de mejora: dónde gastar primero los ingresos">
+
+En Roll to Defend, los ingresos deben ir al punto más débil que realmente causó tu última fuga. Si los zombis están llegando a la base, arregla el daño o la cobertura antes de buscar más tiradas o una nueva zona.
+
+<Callout type="warning" title="Orden de gasto">
+Si la oleada actual es inestable, las mejoras van antes que la expansión. Comprar una zona demasiado pronto puede llevar tu configuración más allá de su límite.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Identifica el cuello de botella">
+    Decide si la partida falló por daño, cobertura, calidad de tirada o mal momento para la zona.
+  </Step>
+  <Step num="2" title="Arregla la defensa activa">
+    Gasta en la unidad o colocación que ya elimina más zombis, y luego corrige la línea que se filtra.
+  </Step>
+  <Step num="3" title="Tira con un propósito">
+    Guarda ingresos para una sesión de tiradas enfocada después de que tu defensa sea estable y tu configuración de suerte esté activa.
+  </Step>
+  <Step num="4" title="Expande solo después de la estabilidad">
+    Compra la siguiente zona cuando la configuración actual limpie con claridad y todavía tengas ingresos suficientes para reaccionar.
+  </Step>
+</Steps>
+
+| Enfoque de mejora | Prioridad | Cuándo comprar | Cuándo retrasarlo |
+|---|---|---|---|
+| Daño principal | Alto | Los zombis sobreviven demasiado | Las fugas se deben a una mala colocación |
+| Cobertura | Alto | Las líneas se cuelan por huecos | El daño principal sigue siendo demasiado débil |
+| Configuración de calidad de tiradas | Medio | Tienes ingresos ahorrados y bonos de suerte activos | La oleada actual ya está fallando |
+| Manejo de duplicados | Medio | La nueva copia mejora claramente el campo | Elimina cobertura útil |
+| Gasto listo para zona | Medio | Las oleadas se limpian sin gastar en pánico | La expansión haría más difícil la siguiente oleada |
+
+Una regla práctica: arregla primero la supervivencia y luego mejora el bucle económico. Así mantienes útiles tus tiradas más fuertes en lugar de dejarlas atrapadas detrás de un mal patrón de gasto.
+
+</Section>
+
+<Section icon={Sparkles} title="Suerte, ingresos y momento de la zona">
+
+Roll to Defend te da algunas ventajas simples para apilar antes de una sesión seria: jugar con amigos, unirte al grupo de creadores y usar los ingresos offline para reiniciar tras un descanso. Esos sistemas son más fuertes cuando los usas en el orden correcto.
+
+<Callout type="success" title="Mejor orden de sesión">
+Recoge primero los ingresos offline, activa tu configuración de suerte y luego tira con un objetivo claro para la partida.
+</Callout>
+
+| Sistema | Mejor momento | Error a evitar |
+|---|---|---|
+| Suerte de amigos | Antes de una sesión larga de tiradas | Tirar primero y preparar después |
+| Suerte de grupo | Antes de juzgar la calidad de tu tirada | Ignorar la bonificación del grupo de creadores |
+| Ingresos offline | Al inicio de la sesión | Gastarlos antes de revisar el cuello de botella |
+| Compra de zona | Tras limpiezas estables | Expandir con una defensa tambaleante |
+| Reinversión | Después de arreglar el punto débil | Dividir ingresos entre todo |
+
+Usa esta lista antes de una partida seria:
+
+<Checklist
+  id="roll-to-defend-session-checklist"
+  title="Lista de verificación de la sesión:"
+  items={[
+    "Únete al mismo servidor que tus amigos si quieres que la bonificación de suerte esté activa.",
+    "Dale like al juego y únete a la comunidad D:/Drive antes de tirar en serio.",
+    "Recoge primero los ingresos offline para saber cuál es tu presupuesto real.",
+    "Gasta en la debilidad que acabó con tu última partida.",
+    "Compra la siguiente zona solo después de que tu defensa limpie con claridad."
+  ]}
+/>
+
+El mejor patrón económico es simple: sobrevivir, tirar y luego expandirse. Si inviertes ese orden con demasiada frecuencia, tu unidad más fuerte termina apoyando una mala partida en lugar de cargarla.
+
+</Section>
+
+<Section icon={Map} title="Reglas prácticas para unidades y progreso más rápido">
+
+La mejor elección de unidad depende de la etapa de tu partida. Al principio, quieres un soporte confiable. En la mitad del juego, quieres un auténtico carry. Más adelante, quieres la tirada que evita que las nuevas zonas se derrumben en cuanto las desbloqueas.
+
+<Callout type="tip" title="Regla de etapa">
+Una unidad que parece promedio sobre el papel todavía puede ser tu mejor opción si evita fugas justo en el punto que importa.
+</Callout>
+
+| Etapa del juego | Qué priorizar | Qué evitar | Mejor resultado |
+|---|---|---|---|
+| Inicio | Cobertura del camino, colocación fácil | Sobreinvertir en tiradas llamativas | Primeras oleadas limpias |
+| Mitad del juego | La rareza visible más fuerte | Llenar el tablero con unidades débiles | Núcleo de defensa estable |
+| Empuje de zona | Estabilidad y control de líneas | Comprar una zona demasiado pronto | Expansión más segura |
+| Sesión de regreso | Corregir cuellos de botella antiguos | Gastar todos los ingresos en tiradas | Recuperación más rápida |
+| Final | Valor de conservación a largo plazo | Reemplazar buenas unidades demasiado pronto | Mejor eficiencia de la partida |
+
+| Tipo de unidad | Rol | ¿Conservar o reemplazar? |
+|---|---|---|
+| Tirada Divina | Llevar principal | Conservar |
+| Tirada actual de mayor rareza | Ancla confiable | Conservar |
+| Tirada de daño inicial | Apoyo temporal | Reemplazar más tarde |
+| Relleno superado | Cobertura de espacio vacío | Reemplazar |
+| Tirada que estabiliza la zona | Apoyo para expansión | Conservar si protege la partida |
+
+Si quieres una regla clara de decisión, usa esto: conserva la unidad que mejora la peor parte de tu defensa, no la que simplemente parece más rara de forma aislada.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<Callout type="info" title="Preguntas comunes">
+Usa estas respuestas como un filtro rápido cuando no estés seguro de qué unidad conservar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores unidades en Roll to Defend?",
+    answer: "Las mejores unidades suelen ser tus tiradas de mayor rareza y cualquier unidad que estabilice claramente una línea. Una tirada Divina o un estabilizador de zona fuerte normalmente merece conservarse por encima del relleno."
+  },
+  {
+    question: "¿La rareza Divina siempre es la mejor opción?",
+    answer: "No siempre en todas las situaciones, pero Divina es el filtro inicial más seguro. Si una unidad de menor rareza resuelve mejor tu problema actual en la línea, conserva la que rinda mejor hasta que la reemplaces."
+  },
+  {
+    question: "¿Cuándo debería comprar la siguiente zona?",
+    answer: "Compra la siguiente zona después de que tu defensa actual limpie con claridad sin gastar en pánico. Si la oleada sigue inestable, arregla primero el daño o la cobertura."
+  },
+  {
+    question: "¿Qué debo hacer con los ingresos offline?",
+    answer: "Recógelos al inicio de tu sesión, corrige la debilidad que terminó tu última partida y solo después gasta el resto en tiradas o expansión."
+  }
+]} />
+
+</Section>

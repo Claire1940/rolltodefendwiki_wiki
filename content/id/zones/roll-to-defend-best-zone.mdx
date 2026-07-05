@@ -1,0 +1,229 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Zona Terbaik Roll to Defend: Panduan Prioritas Zona & Tips",
+  description: "Beli zona dengan urutan yang tepat, lindungi pendapatan, dan hindari ekspansi berlebihan dengan panduan prioritas zona Roll to Defend yang praktis untuk run 2026 yang lebih kuat.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/24143f/fff?text=Zone+Priority+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend best zone** berarti unlock berikutnya yang meningkatkan progres tanpa merusak pertahanan yang sedang kamu miliki.
+- **Beli setelah stabil**: perluas hanya saat gelombang zombie bisa dihabisi tanpa panik menghabiskan resource.
+- **Upgrade bottleneck**: perbaiki damage, coverage, atau income sebelum mengejar zona lain.
+- **Sediakan dana cadangan** agar area baru tidak membuatmu tak bisa merespons.
+- **Bangun ulang setelah unlock** karena tekanan zona sering mengubah nilai jalur dan prioritas penempatan.
+</Callout>
+
+<Section icon={Map} title="Prioritas Zona Terbaik Roll to Defend">
+
+Di Roll to Defend, zona terbaik bukanlah unlock yang paling murah. Zona terbaik adalah zona yang meningkatkan progresmu sementara pertahanan saat ini masih bisa membersihkan gelombang dengan rapi. Anggap setiap ekspansi sebagai keputusan tempo, bukan kebiasaan belanja.
+
+<Callout type="tip" title="Referensi Resmi">
+Diperiksa pada 2026-07-05: titik awal paling aman adalah [halaman pengalaman Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) dan [komunitas kreator D:/Drive](https://www.roblox.com/communities/861213399/D-Drive).
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Beli Aman">
+    - **Gelombang stabil**
+    - Pendapatan cadangan tersedia
+    - Pertahanan masih menutup jalur
+  </Card>
+  <Card title="Beli untuk Tumbuh">
+    - **Pendapatan meningkat**
+    - Ada ruang penempatan baru
+    - Jalur upgrade jelas setelah unlock
+  </Card>
+  <Card title="Tunda Dulu">
+    - **Leak masih terjadi**
+    - Dana cadangan kurang
+    - Damage atau coverage lemah
+  </Card>
+</CardGrid>
+
+| Status Zona | Langkah Terbaik | Level Risiko | Alasan |
+|---|---|---|---|
+| Pertahanan stabil | Beli zona berikutnya | Rendah | Progres terus berjalan tanpa memaksa pengeluaran darurat |
+| Gelombang ketat | Perbaiki bottleneck dulu | Sedang | Ekspansi bisa membuka kelemahan damage atau coverage |
+| Jalur bocor | Tahan income | Tinggi | Ruang baru tidak menyelesaikan pertahanan yang gagal |
+| Roll kuat, penempatan lemah | Bangun ulang layout | Sedang | Nilai zona naik hanya saat unit bisa memanfaatkan ruang |
+
+<Callout type="tip" title="Aturan Utama">
+Jika zona baru tidak meningkatkan daya tahan, aliran income, atau penempatan unit, berarti itu belum zona terbaik.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kapan Membeli Zona Berikutnya">
+
+Timing zona yang tepat dimulai dari membaca gelombang terakhir, bukan dompetmu. Jika zombie masih lolos, pembelian berikutnya biasanya harus memprioritaskan kekuatan pertahanan dulu. Jika jalurnya stabil, ekspansi menjadi cara yang bersih untuk melaju lebih jauh.
+
+<Callout type="warning" title="Jangan Terburu-buru">
+Membeli zona terlalu cepat sering menciptakan lonjakan kekuatan palsu. Kamu membuka lebih banyak ruang, tetapi pertahananmu jadi lebih tipis dan income-mu terkunci untuk pemulihan.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Periksa stabilitas gelombang">
+    Tanyakan satu hal: apakah gelombang terakhir selesai dengan bersih, atau kamu terlalu banyak menghabiskan resource untuk memperbaiki bocor?
+  </Step>
+  <Step num="2" title="Identifikasi bottleneck">
+    Tentukan apakah masalahnya damage, coverage, kualitas roll, atau kecepatan income.
+  </Step>
+  <Step num="3" title="Simpan income cadangan">
+    Simpan resource yang cukup untuk merespons setelah unlock. Zona tanpa dana pemulihan adalah jebakan.
+  </Step>
+  <Step num="4" title="Beli zona">
+    Perluas hanya setelah setup saat ini bisa bertahan dari sedikit tekanan tanpa rusak.
+  </Step>
+  <Step num="5" title="Bangun ulang layout">
+    Cek ulang cakupan jalur, lalu tempatkan defender terkuat di posisi yang paling penting.
+  </Step>
+</Steps>
+
+| Sinyal Kesiapan | Beli Zona? | Catatan |
+|---|---|---|
+| Gelombang selesai lebih cepat | Ya | Kamu punya ruang untuk berekspansi dengan aman |
+| Satu jalur goyah | Mungkin nanti | Tambal jalurnya sebelum ekspansi |
+| Income meningkat | Ya | Ekspansi bisa menskalakan run-mu |
+| Semua cash dibutuhkan untuk perbaikan | Tidak | Pemulihan harus diprioritaskan |
+
+<Callout type="warning" title="Filter Praktis">
+Jika jawabanmu untuk “apa yang gagal di run terakhir?” tidak jelas, terus farming dulu sebelum membuka zona berikutnya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Upgrade vs Pengeluaran untuk Zona">
+
+Pengeluaran untuk zona bekerja paling baik saat kamu tahu masalah utamamu adalah power, penempatan, atau ekonomi. Pembelian zona yang kuat seharusnya mengikuti build yang stabil, bukan menggantikannya. Itu membuat loop income-mu lebih kuat dan roll-mu lebih berguna.
+
+<Callout type="info" title="Belanja dengan Urutan yang Tepat">
+Game awal biasanya lebih mengutamakan upgrade bertahan hidup terlebih dahulu. Pertumbuhan zona menjadi lebih kuat setelah pertahananmu saat ini sudah bisa berdiri sendiri.
+</Callout>
+
+| Situasi | Belanja Dulu | Belanja Kedua | Alasan Terbaik |
+|---|---|---|---|
+| Zombie mencapai base | Damage | Zona | Bertahan hidup adalah prioritas |
+| Unit membunuh lambat tapi menahan jalur | Upgrade damage | Ekonomi | Bersih-bersih lebih cepat melindungi run-mu |
+| Satu jalur terbuka | Coverage | Zona | Penempatan lebih penting daripada ruang |
+| Income sehat | Zona | Kualitas roll | Pertumbuhan bisa menskalakan dengan aman |
+| Run terbaru berakhir karena bocor | Perbaiki pertahanan | Ekspansi | Selesaikan kegagalan yang berulang |
+
+<CardGrid cols={4}>
+  <Card title="Damage Dulu">
+    - Paling kuat saat gelombang terlalu lama bertahan
+    - Terbaik untuk meredakan tekanan langsung
+  </Card>
+  <Card title="Coverage Dulu">
+    - Terbaik saat unit ditempatkan kurang tepat
+    - Memperbaiki masalah kontrol jalur
+  </Card>
+  <Card title="Zona Dulu">
+    - Terbaik saat pertahanan sudah stabil
+    - Membantu menskalakan fase berikutnya
+  </Card>
+  <Card title="Income Dulu">
+    - Terbaik saat progres lambat
+    - Mendukung lebih banyak roll dan pembelian ke depan
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Aturan Editor">
+Jika zona berikutnya hanya terlihat bagus karena setup saat ini sedang gagal, berarti kamu sedang menyelesaikan masalah yang salah.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Urutan Zona Terbaik per Tahap Game">
+
+Jalur zona terbaik berubah seiring run-mu berkembang. Di awal, kamu butuh stabilitas. Di tengah, kamu butuh progres yang lebih rapi. Di akhir, kamu ingin setiap zona mendukung loop roll, penempatan, dan income yang lebih kuat.
+
+<Callout type="success" title="Pola Progres yang Baik">
+Run yang sehat biasanya terlihat seperti ini: stabilkan, ekspansi, bangun ulang, lalu ekspansi lagi.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Zona Early Game">
+    - **Tujuan:** bertahan hidup dan mempelajari jalur
+    - **Fokus:** coverage dasar dan pembersihan gelombang yang stabil
+  </Card>
+  <Card title="Zona Mid Game">
+    - **Tujuan:** meningkatkan efisiensi income
+    - **Fokus:** defender yang lebih kuat dan jarak penempatan yang lebih rapi
+  </Card>
+  <Card title="Zona Late Game">
+    - **Tujuan:** menskalakan loop terkuat
+    - **Fokus:** nilai maksimum dari setiap unlock
+  </Card>
+</CardGrid>
+
+| Tahap Game | Tujuan Zona | Yang Harus Diperhatikan | Prioritas |
+|---|---|---|---|
+| Awal | Stabilkan | Bocor, penempatan lemah | Pertahanan tinggi |
+| Tengah | Skalakan | Aliran income, kualitas roll | Pertumbuhan seimbang |
+| Akhir | Optimalkan | Efisiensi ruang, kontrol jalur | Ekspansi bernilai tinggi |
+| Pemulihan | Reset | Pola gelombang yang gagal | Perbaiki dulu |
+
+<Callout type="success" title="Logika Prioritas Zona">
+Saat dua pilihan terlihat setara, ambil yang paling dulu meningkatkan jalur terkuatmu atau memperbaiki kebocoran terbesarmu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist dan FAQ">
+
+Gunakan bagian ini sebagai pemeriksaan terakhir sebelum kamu membeli zona berikutnya. Ini membuat keputusan tetap sederhana: bertahan dulu, ekspansi kedua, dan selalu sisakan ruang untuk merespons.
+
+<Callout type="tip" title="Kebiasaan Sebelum Upgrade">
+Pembelian zona yang bagus adalah hasil checklist yang rapi, bukan tebakan beruntung.
+</Callout>
+
+<Checklist
+  id="zone-priority-checklist"
+  title="Checklist Pembelian Zona:"
+  items={[
+    "Gelombang saat ini selesai tanpa panik menghabiskan resource",
+    "Income cadangan masih tersedia setelah unlock",
+    "Titik bocor utama sudah diidentifikasi",
+    "Zona baru menambah nilai pada penempatan atau progres",
+    "Kamu tahu apa yang harus diperbaiki jika gelombang berikutnya lebih sulit"
+  ]}
+/>
+
+| Sumber Resmi | Fungsi | Tautan |
+|---|---|---|
+| Halaman pengalaman Roblox | Meluncurkan game dan memastikan detail terkini | [Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Komunitas kreator | Mengecek jalur grup D:/Drive | [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) |
+
+<FAQ items={[
+  {
+    question: "Apa zona terbaik di Roll to Defend?",
+    answer: "Zona terbaik adalah yang meningkatkan progres tanpa memaksa pengeluaran darurat untuk pertahanan. Jika setup saat ini stabil, unlock berikutnya biasanya lebih bernilai."
+  },
+  {
+    question: "Haruskah saya membeli zona sebelum meng-upgrade unit saya?",
+    answer: "Biasanya tidak jika gelombang masih bocor. Upgrade dulu saat damage atau coverage lemah. Beli zona dulu hanya jika pertahananmu sudah stabil."
+  },
+  {
+    question: "Bagaimana cara tahu kalau saya terlalu cepat berekspansi?",
+    answer: "Kamu mungkin terlalu cepat berekspansi saat setiap zona baru membuat run-mu terasa lebih lemah, bukan lebih kuat, dan kamu terus menghabiskan income hanya untuk pulih."
+  },
+  {
+    question: "Apakah zona terbaik berubah berdasarkan tahap game?",
+    answer: "Ya. Early game mengutamakan stabilitas, mid game mengutamakan scaling, dan late game mengutamakan pertumbuhan yang efisien. Pilihan yang tepat tergantung bottleneck-mu."
+  }
+]} />
+
+<Callout type="tip" title="Inti Akhir">
+Untuk Roll to Defend, zona terbaik adalah yang menjaga pertahanan tetap stabil, income tetap mengalir, dan sesi roll berikutnya tetap berguna.
+</Callout>
+
+</Section>

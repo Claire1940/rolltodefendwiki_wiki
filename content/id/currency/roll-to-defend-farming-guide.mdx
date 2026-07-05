@@ -1,0 +1,193 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panduan Farming Roll to Defend: Keberuntungan, Pendapatan, dan Zona",
+  description: "Panduan farming Roll to Defend untuk membangun loop yang lebih kuat: roll dengan lebih cerdas, kumpulkan keberuntungan, atur waktu upgrade zona, dan ubah pendapatan offline menjadi progres yang lebih cepat.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Roll+to+Defend+Farming+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **panduan farming roll to defend** berpusat pada satu loop: roll, stabilkan, lalu reinvest sebelum mengejar ekspansi.
+- **Pengaturan keberuntungan** paling efektif sebelum sesi panjang, terutama saat bonus teman dan grup aktif.
+- **Pendapatan offline** seharusnya menutup bottleneck yang mengakhiri run terakhirmu, bukan membiayai pengeluaran acak.
+- **Timing zona** paling aman saat pertahananmu saat ini bisa menyelesaikan gelombang tanpa belanja panik.
+</Callout>
+
+<Section icon={Map} title="Dasar-Dasar Farming Roll to Defend">
+
+Farming di Roll to Defend bukan soal roll tanpa henti. Run terkuat mengikuti pola sederhana: dapatkan defender yang berguna di lapangan, jaga zombie tetap terkendali, lalu ubah pendapatan menjadi upgrade berikutnya yang benar-benar memajukan run. Jika kamu terlalu cepat menghabiskan uang untuk ekspansi, kamu biasanya menciptakan lebih banyak tekanan daripada nilai.
+
+<CardGrid cols={3}>
+  <Card title="Roll">
+    - **Tujuan utama**
+    - Membangun inti unit yang lebih kuat
+    - Menghindari belanja inventaris yang sia-sia
+  </Card>
+  <Card title="Tahan">
+    - **Tujuan utama**
+    - Menjaga gelombang tetap stabil
+    - Melindungi aliran pendapatanmu
+  </Card>
+  <Card title="Reinvest">
+    - **Tujuan utama**
+    - Menempatkan uang ke bottleneck berikutnya
+    - Meningkatkan efisiensi farming di masa depan
+  </Card>
+</CardGrid>
+
+| Bagian Loop | Fungsinya | Waktu Terbaik |
+|---|---|---|
+| Roll unit | Membentuk inti pertahananmu | Di awal setiap sesi |
+| Tempatkan defender | Menutup jalur zombie | Tepat setelah pull yang kuat |
+| Reinvest pendapatan | Meningkatkan progres ke depan | Setelah siklus gelombang stabil |
+| Beli zona | Memperluas progresi | Hanya setelah pertahanan stabil |
+
+<Callout type="tip" title="Farming Loop, Bukan Lobby">
+Jika pertahananmu goyah, lanjutkan farming di area saat ini dulu. Run yang stabil biasanya menghasilkan nilai lebih besar daripada unlock yang terburu-buru.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hal Terbaik yang Perlu Difarming Terlebih Dahulu">
+
+Prioritas farming terbaik bergantung pada kondisi run-mu. Progres awal harus melindungi kelangsungan hidupmu. Mid-game harus meningkatkan coverage dan damage. Late-game bisa bergeser ke roll yang lebih kuat, nilai zona yang lebih baik, dan reinvestment pendapatan offline yang lebih bersih. Tujuannya adalah konsistensi, bukan belanja yang mencolok.
+
+| Tahap Game | Fokus Terbaik | Hindari | Mengapa Penting |
+|---|---|---|---|
+| Awal | Kualitas roll dan penempatan | Membeli zona terlalu cepat | Kamu butuh fondasi yang stabil sebelum ekspansi |
+| Tengah | Damage, coverage, dan timing | Menyebar pendapatan terlalu tipis | Satu upgrade kuat lebih baik daripada tiga yang lemah |
+| Akhir | Pendapatan offline dan reinvestment terarah | Reroll acak | Efisiensi lebih penting daripada volume |
+
+| Situasi | Belanjakan Untuk | Tunda Dulu |
+|---|---|---|
+| Zombie lolos lewat lane | Coverage atau damage | Zona baru |
+| Gelombang selesai dengan nyaman | Roll yang lebih baik | Belanja panik |
+| Pendapatan menumpuk saat offline | Perbaikan bottleneck | Pilihan kosmetik |
+| Kamu sudah punya inti yang stabil | Ekspansi terkontrol | Membeli kekuatan berlebihan |
+
+<Callout type="warning" title="Jangan Farming Terlalu Lebar">
+Jika setiap upgrade hanya mendapat sedikit uang, tidak ada yang mendapat cukup. Fokus dulu pada bagian terlemah dari run.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rute Farming Langkah demi Langkah">
+
+Gunakan rute ini saat kamu menginginkan pola farming yang rapi dan bisa diulang. Urutannya penting karena setiap langkah mendukung langkah berikutnya. Jika kamu mengubah urutannya terlalu cepat, biasanya kamu akan membayarnya dengan pertumbuhan yang lebih lambat atau pertahanan yang lebih lemah.
+
+<Steps>
+  <Step num="1" title="Mulai dengan Roll yang Kuat">
+    Roll sampai kamu mendapatkan defender yang benar-benar mengubah gelombang awal. Jangan menahan pendapatan awal saat zombie sudah mulai menekan lane.
+  </Step>
+  <Step num="2" title="Tempatkan Unit untuk Coverage Maksimal">
+    Letakkan unit terbaikmu di tempat yang bisa mengenai jalur terpanjang atau paling ramai. Penempatan yang bagus sering kali sama pentingnya dengan hasil pull itu sendiri.
+  </Step>
+  <Step num="3" title="Stabilkan Siklus Gelombang Saat Ini">
+    Perhatikan di mana musuh bertahan paling lama. Titik lemah itu memberi tahu apakah kamu butuh lebih banyak damage, coverage yang lebih baik, atau upgrade yang lebih cerdas.
+  </Step>
+  <Step num="4" title="Reinvest ke Bottleneck">
+    Belanjakan pendapatan untuk masalah yang memperlambat run terakhirmu. Jika pertahananmu bocor, perbaiki itu dulu sebelum roll lagi.
+  </Step>
+  <Step num="5" title="Beli Zona Hanya Setelah Stabil">
+    Ekspansi saat setup saat ini bisa menyelesaikan gelombang dengan bersih. Jika area baru memaksamu belanja darurat, berarti kamu terlalu cepat ekspansi.
+  </Step>
+</Steps>
+
+| Langkah | Tanda Sukses | Kegagalan Umum |
+|---|---|---|
+| Roll | Defender yang lebih baik di lapangan | Mengejar terlalu banyak pull |
+| Tempatkan | Coverage di seluruh lane | Penempatan yang menumpuk atau terbuang |
+| Stabilkan | Gelombang selesai dengan sisa ruang | Perbaikan kebocoran terus-menerus |
+| Reinvest | Bottleneck lebih jelas | Belanja yang tersebar |
+| Ekspansi | Zona baru terasa masih bisa dikelola | Unlock sebelum siap |
+
+<Callout type="success" title="Aturan Sederhana">
+Jika run stabil, percepat. Jika run bocor, perlambat dan perbaiki kebocoran sebelum farming lebih keras.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Keberuntungan, Pendapatan Offline, dan Timing Zona">
+
+Roll to Defend memberi reward kepada pemain yang bersiap sebelum belanja besar. Bonus keberuntungan, pendapatan offline, dan timing zona paling efektif saat semuanya menjadi bagian dari satu rencana, bukan tindakan terpisah. Perlakukan keberuntungan sebagai dorongan untuk setup yang bagus, bukan pengganti setup itu sendiri.
+
+| Sumber Farming | Membantu Dalam Hal | Waktu Terbaik Dipakai |
+|---|---|---|
+| Bonus teman | Sesi roll yang lebih kuat | Sebelum blok farming yang lebih panjang |
+| Bonus grup | Nilai keberuntungan tambahan | Sebelum sesi reroll yang direncanakan |
+| Pendapatan offline | Lebih banyak uang saat kembali | Di awal login berikutnya |
+| Pertahanan stabil | Reinvestment yang lebih aman | Sebelum unlock zona |
+
+| Kondisi Run | Langkah Terbaik | Langkah Buruk |
+|---|---|---|
+| Tidak bocor | Simpan dan rencanakan upgrade berikutnya | Membeli semua opsi secara berlebihan |
+| Bocor | Perbaiki coverage atau damage | Terburu-buru membuka zona baru |
+| Zona baru stabil | Perkuat dan ekspansi dengan hati-hati | Unlock berantai terlalu cepat |
+| Kembali dari offline | Ambil pendapatan dulu | Belanja sebelum memeriksa bottleneck |
+
+| Titik Mulai Resmi | Gunakan |
+|---|---|
+| https://www.roblox.com/games/129559579789369/Roll-to-Defend | Mulai experience dan cek halaman game saat ini |
+| https://www.roblox.com/communities/861213399/D-Drive | Bergabung dengan jalur komunitas kreator yang terkait dengan keberuntungan ekstra |
+
+<Callout type="tip" title="Timing Mengalahkan Impuls">
+Sesi roll yang lebih baik dimulai sebelum kamu menekan roll. Atur keberuntungan, cek pertahanan, lalu belanja dengan tujuan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kesalahan Umum, Checklist, dan FAQ">
+
+Kesalahan farming terbesar biasanya sederhana: belanja terlalu menyebar, ekspansi terlalu cepat, dan mengabaikan bottleneck yang sebenarnya. Farming yang rapi adalah soal menjaga momentum. Jika kamu menjaga run tetap stabil, upgrade berikutnya akan lebih mudah dicapai.
+
+<Callout type="info" title="Checklist Sebelum Farming">
+Pastikan hal-hal ini benar sebelum sesi panjang:
+</Callout>
+
+<Checklist
+  id="farm-session-checklist"
+  title="Checklist Siap Sesi:"
+  items={[
+    "Kamu punya defender di lapangan yang bisa membawa gelombang awal",
+    "Coverage lane saat ini cukup stabil untuk menghindari belanja panik",
+    "Pengaturan keberuntunganmu aktif sebelum sesi roll besar berikutnya",
+    "Kamu tahu apakah damage, coverage, atau zona yang benar-benar menjadi bottleneck"
+  ]}
+/>
+
+| Kesalahan | Perbaikan yang Lebih Baik |
+|---|---|
+| Membeli zona terlalu cepat | Stabilkan dulu pertahanan saat ini |
+| Belanja ke semua opsi | Fokuskan pendapatan ke satu masalah nyata |
+| Reroll tanpa setup | Gunakan bonus keberuntungan sebelum sesi besar |
+| Mengabaikan pendapatan offline | Reinvest ke titik terlemah terakhir |
+
+<FAQ items={[
+  {
+    question: "Apa yang harus saya farming terlebih dahulu di Roll to Defend?",
+    answer: "Mulailah dengan defender yang stabil, lalu lindungi aliran pendapatanmu. Pilihan farming awal terbaik adalah upgrade yang mencegah zombie memaksamu belanja darurat."
+  },
+  {
+    question: "Haruskah saya beli zona atau roll unit lebih dulu?",
+    answer: "Roll dan stabilkan dulu. Beli zona setelah pertahanan saat ini bisa menyelesaikan gelombang secara konsisten, karena ekspansi lebih aman saat inti pertahananmu sudah bekerja."
+  },
+  {
+    question: "Apakah pendapatan offline penting untuk farming?",
+    answer: "Ya. Pendapatan offline paling kuat saat digunakan untuk memperbaiki kelemahan yang mengakhiri run terakhirmu. Ambil dulu, lalu belanjakan sebelum ekspansi."
+  },
+  {
+    question: "Bagaimana bonus keberuntungan membantu farming?",
+    answer: "Bonus keberuntungan paling membantu saat sesi roll yang direncanakan. Gunakan setelah pertahananmu stabil agar nilai ekstra itu mengarah ke pull yang berguna."
+  }
+]} />
+
+</Section>

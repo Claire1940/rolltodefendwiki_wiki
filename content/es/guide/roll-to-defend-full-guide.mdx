@@ -1,0 +1,175 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía completa de Rodar para defender: unidades, zonas y consejos de suerte",
+  description: "La guía completa de Rodar para defender cubre unidades, mejoras, zonas, suerte e ingresos offline para que puedas construir mejores partidas de Roblox con un buen camino al inicio.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Rodar para defender"
+}
+
+<Callout type="info" title="Guía rápida">
+- **guía completa de Rodar para defender**: empieza rodando unidades fuertes y luego estabiliza las oleadas antes de ir a por zonas.
+- **Configuración de suerte**: juega con amigos y únete a D:/Drive antes de sesiones largas de rodadas para obtener las bonificaciones indicadas.
+- **Mejor ritmo**: daño primero, cobertura después, expansión al final y, luego, recicla los ingresos offline.
+- **Evita desperdiciar**: no compres una nueva zona si ya se te están filtrando zombis por la línea actual.
+</Callout>
+
+<Section icon={Map} title="Guía completa de Rodar para defender: bucle principal">
+
+<Callout type="tip" title="Bucle principal">
+Usa la página de la experiencia de Roblox como referencia y, a partir de ahí, construye cada decisión en torno a la calidad de la rodada, el control de oleadas y una expansión segura.
+</Callout>
+
+| Fase | Mejor movimiento | Resultado |
+|---|---|---|
+| Rodar | Quédate con tu mejor tirada | Más daño al inicio |
+| Colocar | Cubre el camino más largo | Menos filtraciones |
+| Limpiar | Sigue dónde sobreviven los zombis | Encuentra la línea débil |
+| Expandir | Compra zonas solo cuando estés estable | Progresión más segura |
+| Reinvertir | Gasta los ingresos offline en el cuello de botella | Recuperación más rápida |
+
+| Señal | Significado | Acción |
+|---|---|---|
+| Filtraciones en la base | El daño es demasiado bajo | Mejora tu carry principal |
+| Una línea se derrumba | La cobertura es débil | Reubica o añade apoyo |
+| Las oleadas se limpian sin problemas | Ya puedes crecer | Guarda para rodadas o zonas |
+
+La apertura más segura es sencilla: rueda por defensores útiles, colócalos donde más importan y solo expándete cuando las oleadas actuales dejen de sentirse peligrosas.
+
+</Section>
+
+<Section icon={Shield} title="Configuración de la primera sesión y control de oleadas">
+
+<Callout type="warning" title="Primera regla">
+No gastes como si cada rodada importara más que sobrevivir; si tu defensa es frágil, tu próxima zona solo hará que el problema suene más fuerte.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Rueda un inicio útil">
+    Invierte los ingresos iniciales en una tirada que de verdad pueda sostener la línea. Una rareza más alta es útil, pero el objetivo real es una unidad que empiece a matar antes de que la oleada se acumule.
+  </Step>
+  <Step num="2" title="Coloca antes de perseguir">
+    Pon al mejor defensor donde pueda atacar durante más tiempo. Una tirada sin usar no es más que un bonito elemento del menú.
+  </Step>
+  <Step num="3" title="Observa el primer punto de filtración">
+    Si los zombis se cuelan por un camino, corrige primero ese camino. El juego recompensa más las limpiezas estables que la expansión apresurada.
+  </Step>
+  <Step num="4" title="Reinvierte con intención">
+    Dedica el siguiente pico de ingresos al daño, la cobertura o a una mejor tirada. No dividas los recursos por igual cuando un problema es claramente mayor.
+  </Step>
+</Steps>
+
+| Comprobación de la primera sesión | Qué vigilar | Detente si |
+|---|---|---|
+| Revisión de daño | Las oleadas básicas sobreviven demasiado | Tu carry no puede reducir el grupo |
+| Revisión de cobertura | Se ignora un camino | Una línea sigue filtrándose |
+| Revisión de economía | Los ingresos crecen pero la defensa se estanca | Estás ahorrando demasiado |
+| Revisión de expansión | Las zonas cuestan más que la seguridad | Una nueva área rompería tu configuración |
+
+Si el inicio falla, reinicia el enfoque: arregla la línea, mejora la tirada y reconstruye el bucle antes de comprar más espacio.
+
+</Section>
+
+<Section icon={Sparkles} title="Suerte, amigos y valor de la tirada">
+
+<Callout type="success" title="Suma de suerte">
+Las sesiones de rodada más limpias ocurren después de activar las fuentes de suerte indicadas, porque una mejor preparación hace que cada pico de ingresos valga más.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Solo">
+    - **Mejor para aprender**
+    - Más fácil de probar colocaciones
+    - Buena opción si quieres una partida tranquila
+  </Card>
+  <Card title="Amigos">
+    - **Úsalo antes de rodadas largas**
+    - Encaja con el ciclo de suerte por amigos
+    - Mejor para sesiones en grupo
+  </Card>
+  <Card title="Grupo">
+    - **Únete a D:/Drive**
+    - Sigue la indicación de suerte extra
+    - Funciona bien antes de gastar mucho
+  </Card>
+</CardGrid>
+
+| Fuente de suerte | Mejor uso | Qué ayuda |
+|---|---|---|
+| Amigos | Sesiones de rodada planificadas | Mejor configuración de la calidad de la tirada |
+| Grupo D:/Drive | Antes de empujes largos de progreso | Ruta de suerte extra que el juego muestra |
+| Ingresos offline | Después de volver al juego | Más rodadas y mejoras más seguras |
+
+La suerte importa más cuando tu defensa ya es estable. Si la partida actual es inestable, primero arregla la partida y trata la suerte como un multiplicador, no como un botón de rescate.
+
+</Section>
+
+<Section icon={Target} title="Mejoras, zonas y progresión segura">
+
+<Callout type="warning" title="Prioridad de mejoras">
+Compra la mejora que elimine el cuello de botella actual, no la que se vea más llamativa en el menú.
+</Callout>
+
+<Checklist
+  id="roll-to-defend-priority-list"
+  title="Lista de progreso:"
+  items={[
+    "Arregla primero la línea que se filtra",
+    "Mejora la unidad que limpia más zombis",
+    "Añade cobertura antes de comprar una zona arriesgada",
+    "Usa los ingresos offline en el punto más débil",
+    "Guarda la expansión para limpiezas estables"
+  ]}
+/>
+
+| Prioridad | Cuándo comprar | Por qué funciona |
+|---|---|---|
+| Daño | Los zombis sobreviven demasiado | Reduce la oleada rápidamente |
+| Cobertura | Una línea sigue colándose | Cierra los huecos del camino |
+| Zona | Las oleadas actuales son estables | Impulsa el progreso con seguridad |
+| Gastar ingresos offline | Vuelves con ganancias guardadas | Repara el último punto débil |
+
+Una buena compra de zona debería sentirse aburrida en el buen sentido: sin pánico, sin filtraciones y sin gastar en rescates forzados. Si la nueva área empeora todo, pausa la expansión y restaura primero la capa defensiva.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y enlaces oficiales">
+
+<Callout type="info" title="Última comprobación">
+Usa primero las rutas oficiales de Roblox y trata las páginas externas como material de apoyo, no como tu principal fuente de verdad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más segura de empezar en la guía completa de Rodar para defender?",
+    answer: "Rueda un inicio útil, colócalo de inmediato y solo compra una zona después de que las oleadas actuales se limpien sin gastar por pánico."
+  },
+  {
+    question: "¿Vale la pena usar la suerte de amigos y el grupo D:/Drive?",
+    answer: "Sí. El juego destaca la suerte por amigos y la ruta del grupo como ventajas reales de preparación antes de una sesión larga de rodadas."
+  },
+  {
+    question: "¿Debería comprar zonas antes que mejoras?",
+    answer: "No cuando se están filtrando zombis. Mejora primero el daño o la cobertura, y luego expándete cuando la defensa esté estable."
+  },
+  {
+    question: "¿Necesito esperar códigos para progresar?",
+    answer: "No. El bucle principal ya te da valor de rodada, configuración de suerte e ingresos offline, así que el progreso no debería depender de códigos."
+  }
+]} />
+
+| Punto de entrada oficial | Uso |
+|---|---|
+| [Página del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Inicia la experiencia, revisa la descripción en vivo y accede a las pestañas de Roblox |
+| [Comunidad D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Únete a la ruta del grupo del creador vinculada a la indicación de suerte |
+| [Ficha de CreatorExchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Verifica los detalles públicos de la ficha y la información del propietario |
+
+</Section>

@@ -1,0 +1,231 @@
+import { Coins, Shield, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Koin Roll to Defend: Pendapatan, Roll, dan Urutan Upgrade",
+  description: "Pelajari cara membangun pendapatan koin di Roll to Defend, membelanjakannya pada upgrade yang tepat, dan mengatur waktu roll serta zone tanpa membuang progres.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1f1147/fff?text=Coins+Income+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Koin Roll to Defend** tumbuh paling cepat saat kamu lebih dulu melindungi pendapatan dan membelanjakan setelah gelombang stabil.
+- **Kebiasaan awal terbaik** adalah roll, tempatkan, dan bersihkan sebelum membeli zone tambahan.
+- **Bonus keberuntungan** dari teman dan grup D:/Drive meningkatkan sesi roll yang panjang.
+- **Pendapatan offline** harus diambil sebelum keputusan pengeluaran berikutnya.
+- **Hindari ekspansi berlebihan** saat pertahananmu masih terlihat bocor.
+</Callout>
+
+<Section icon={Coins} title="Koin Roll to Defend: Dasar Ekonomi">
+
+Dalam panduan ini, **koin** berarti pendapatan yang bisa dibelanjakan untuk roll, upgrade, dan progres zone. Ekonomi terkuat bukanlah yang paling banyak membelanjakan; melainkan yang tetap menjaga gelombang tetap terkendali sementara setiap dolar ekstra mendorong lonjakan kekuatan berikutnya.
+
+Roll to Defend memberi imbalan pada loop sederhana: roll unit, tempatkan unit, bertahan dari gelombang, lalu investasikan kembali. Jika kamu membelanjakan terlalu cepat, kamu memperlambat scaling milikmu sendiri. Jika kamu menunggu terlalu lama, kamu kehilangan kesempatan untuk mengubah run yang stabil menjadi unit yang lebih baik dan pendapatan yang lebih kuat.
+
+**Sorotan Video:**
+- Bangun pendapatan sebelum mengejar ekspansi
+- Gunakan bonus keberuntungan sebelum sesi roll yang panjang
+- Perbaiki kebocoran sebelum membeli zone berikutnya
+- Belanjakan pendapatan offline pada titik terlemah
+
+<CardGrid cols={3}>
+  <Card title="Pendapatan Dulu">
+    - Lindungi pembersihan gelombang saat ini
+    - Ubah setiap ronde aman menjadi daya beli yang lebih besar
+    - Jangan membeli progres hanya karena tersedia
+  </Card>
+  <Card title="Penempatan Kedua">
+    - Unit yang kuat hanya berarti jika sudah berada di field
+    - Coverage yang baik mengurangi pengeluaran darurat
+    - Penempatan yang lemah membuang bahkan hasil pull langka
+  </Card>
+  <Card title="Ekspansi Terakhir">
+    - Zone berguna ketika pertahanan sudah stabil
+    - Area baru seharusnya meningkatkan progres, bukan menimbulkan panik
+    - Lakukan ekspansi setelah jalur utama selalu terlindungi
+  </Card>
+</CardGrid>
+
+| Sumber Koin | Fungsinya | Penggunaan Terbaik |
+|---|---|---|
+| Pendapatan gelombang | Membiayai roll dan upgrade | Setelah setiap pembersihan yang aman |
+| Pendapatan offline | Mengembalikan nilai saat kamu pergi | Di awal sesi |
+| Keberuntungan teman | Meningkatkan sesi roll yang panjang | Saat kamu menabung untuk pengeluaran besar |
+| Keberuntungan grup | Menambah bonus setup yang andal | Sebelum roll untuk unit yang lebih kuat |
+
+<Callout type="tip" title="Aturan Ekonomi Awal">
+Jika pertahananmu masih bocor, setiap koin ekstra harus masuk ke survival, bukan ekspansi. Run yang stabil menciptakan nilai masa depan yang lebih besar daripada yang mencolok tetapi rapuh.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Urutan Pengeluaran Koin Terbaik">
+
+Urutan pengeluaran paling aman itu sederhana: perbaiki survival dulu, tingkatkan kualitas unit kedua, lalu beli zone hanya setelah run terasa terkendali. Urutan itu mencegah mata uangmu terjebak pada upgrade yang salah di waktu yang salah.
+
+Saat kamu merasa mentok, ajukan satu pertanyaan: **apa yang menghentikan run terakhir?** Jika jawabannya damage, belanjakan untuk damage. Jika jawabannya coverage, perkuat penempatan atau support. Jika jawabannya pull yang lemah, simpan untuk jendela roll yang lebih baik.
+
+<Steps>
+  <Step num="1" title="Stabilkan gelombang saat ini">
+    Pastikan zombie tidak lolos melewati garis pertahananmu. Jangan anggap mata uang apa pun sebagai cadangan sampai pertahanan dapat membersihkan jalur tanpa pengeluaran panik.
+  </Step>
+  <Step num="2" title="Perbaiki hambatan yang sebenarnya">
+    Belanjakan pada masalah yang benar-benar menyebabkan kebocoran. Masalah damage dan masalah coverage itu berbeda, jadi hindari pengeluaran yang serba rata.
+  </Step>
+  <Step num="3" title="Roll pada jendela keberuntungan yang bagus">
+    Gunakan keberuntungan teman dan bonus grup creator sebelum sesi roll yang panjang. Itulah saat paling bersih untuk mengubah pendapatan yang ditabung menjadi unit yang lebih kuat.
+  </Step>
+  <Step num="4" title="Beli zone setelah stabil">
+    Lakukan ekspansi hanya ketika setup saat ini mampu menahan tekanan. Zone baru seharusnya meningkatkan progres, bukan memaksa perbaikan darurat.
+  </Step>
+</Steps>
+
+| Pilihan Pengeluaran | Waktu Terbaik | Kapan Harus Dilewati |
+|---|---|---|
+| Upgrade pertahanan | Zombie bertahan terlalu lama | Masalahnya adalah penempatan yang buruk, bukan damage yang lemah |
+| Roll unit | Kamu punya pendapatan tersimpan dan keberuntungan aktif | Gelombang saat ini sudah gagal |
+| Pembelian zone | Pertahanan stabil dan pendapatan sehat | Zone akan menguras seluruh budgetmu |
+| Menyimpan koin | Kamu belum mengidentifikasi bottleneck | Kamu sudah tahu persis apa yang harus ditingkatkan |
+
+<Callout type="warning" title="Jangan Beli Berlebihan">
+Zone baru bisa terlihat seperti progres, tetapi jika itu membuka kelemahan pertahanan, kamu akan menghabiskan lebih banyak koin untuk memperbaiki kesalahan. Tunda ekspansi sampai loop saat ini bersih.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roll, Upgrade, atau Zone?">
+
+Setelah kamu memahami ekonominya, pertanyaan sebenarnya menjadi ke mana koin harus pergi berikutnya. Jawabannya berubah tergantung keadaan run, tetapi logikanya tetap sama: pilih pembelian yang menghilangkan penghambat terbesar.
+
+Gunakan **roll** saat unit yang lebih kuat jelas akan memperbaiki field-mu. Gunakan **upgrade** saat setup saat ini sudah bagus tetapi belum cukup kuat. Gunakan **zone** saat pertahanan yang ada sudah stabil dan kamu ingin ruang progres yang lebih besar.
+
+| Opsi | Cocok Untuk | Risiko Utama | Putusan |
+|---|---|---|---|
+| Roll | Mengejar unit yang lebih kuat | Pull bernilai rendah | Terbaik saat pertahananmu sudah bisa bertahan |
+| Upgrade | Memperbaiki jalur yang lemah atau celah damage | Terlalu cepat membelanjakan | Perbaikan pertama terbaik saat gelombang bocor |
+| Zone | Mendorong progres | Melebihi budget | Terbaik hanya setelah stabilitas terbukti |
+| Simpan | Menunggu keputusan yang lebih baik | Pertumbuhan jangka pendek lebih lambat | Cerdas saat bottleneck belum jelas |
+
+<CardGrid cols={3}>
+  <Card title="Roll dengan Cerdas">
+    - Roll saat pendapatanmu bisa menopang sesi
+    - Targetkan upgrade yang terlihat di field
+    - Jangan roll hanya agar terlihat sibuk
+  </Card>
+  <Card title="Upgrade dengan Cerdas">
+    - Upgrade unit atau jalur yang sudah paling penting
+    - Anggap upgrade sebagai perbaikan, bukan taruhan
+    - Hindari menyebar nilai ke terlalu banyak titik lemah
+  </Card>
+  <Card title="Zone dengan Cerdas">
+    - Beli zone saat pertahanan siap menahannya
+    - Sisakan cadangan agar gelombang berikutnya tidak menghancurkanmu
+    - Biarkan ekspansi mengikuti kekuatan, bukan menggantikannya
+  </Card>
+</CardGrid>
+
+| Masalah Run Terakhir | Langkah Koin Terbaik | Mengapa Ini Berhasil |
+|---|---|---|
+| Zombie bocor lewat satu jalur | Upgrade coverage | Ini memperbaiki celah yang sebenarnya |
+| Unit saat ini terasa terlalu lemah | Roll untuk pull yang lebih kuat | Unit yang lebih baik menaikkan batas kekuatan |
+| Gelombang stabil tetapi lambat | Simpan untuk sesi yang lebih besar | Nilai lebih besar datang dari timing |
+| Pertahanan siap untuk ruang tambahan | Beli zone | Progres sekarang aman |
+
+<Callout type="info" title="Aturan Keputusan">
+Jika kamu bisa menyebutkan bottleneck dalam satu kalimat, pengeluaran koin berikutnya mungkin sudah jelas. Jika tidak bisa, simpan dan evaluasi ulang sebelum membeli apa pun.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rute Farming yang Lebih Aman untuk Lebih Banyak Koin">
+
+Rute farming terbaik adalah loop yang bisa diulang, bukan ledakan satu kali. Mulailah dengan mengambil pendapatan offline, lalu roll saat setup keberuntungan terkuatmu aktif, lalu belanjakan hanya setelah pertahanan membuktikan bahwa ia bisa bertahan. Ritme itu menjaga ekonomimu agar tidak mandek di antara sesi.
+
+Pendekatan ini berhasil karena Roll to Defend memiliki sistem pacing bawaan: gelombang, tekanan zone, nilai roll, dan gain offline saling memengaruhi satu sama lain. Saat satu bagian lemah, seluruh run terasa lebih lambat. Saat satu bagian kuat, setiap koin jadi lebih panjang nilainya.
+
+| Fase Farming | Aksi | Tujuan |
+|---|---|---|
+| Awal | Ambil pendapatan offline | Memulai dengan daya beli penuh |
+| Tengah | Roll setelah bonus keberuntungan aktif | Meningkatkan kualitas unit secara efisien |
+| Akhir | Investasikan kembali ke titik terlemah | Mencegah run runtuh |
+| Dorong | Beli zone hanya jika pertahanan tetap stabil | Mengubah kekuatan menjadi progres |
+
+<Steps>
+  <Step num="1" title="Mulai dengan pendapatan offline">
+    Klaim dulu nilai yang kembali kepadamu. Itu memberimu budget paling bersih untuk sisa sesi.
+  </Step>
+  <Step num="2" title="Periksa titik kegagalan terakhir">
+    Tentukan apakah masalah terakhir adalah damage, coverage, atau kualitas unit. Itu memberi tahu ke mana koinmu harus pergi.
+  </Step>
+  <Step num="3" title="Aktifkan setup keberuntunganmu">
+    Gunakan teman dan grup D:/Drive sebelum sesi roll yang panjang agar mata uangmu masuk ke pull yang lebih baik.
+  </Step>
+  <Step num="4" title="Belanjakan hanya setelah stabil">
+    Jika pertahanan bertahan, roll atau ekspansi. Jika gagal, perbaiki kegagalannya dulu.
+  </Step>
+</Steps>
+
+<Checklist
+  id="coin-farming-checklist"
+  title="Checklist Farming Koin"
+  items={[
+    "Ambil pendapatan offline sebelum membelanjakan apa pun",
+    "Roll setelah keberuntungan teman dan grup aktif",
+    "Pastikan unit terkuatmu ditempatkan dan menutupi jalur utama",
+    "Tunda pembelian zone jika gelombang terakhir terasa goyah",
+    "Investasikan kembali koin ke bottleneck yang persis memperlambat run"
+  ]}
+/>
+
+<Callout type="success" title="Loop yang Bisa Diulang">
+Rute farming yang baik harus terasa membosankan dengan cara yang berguna. Ambil, roll, stabilkan, investasikan kembali, lalu ekspansi. Begitulah koinmu tetap produktif di banyak sesi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Link Resmi dan FAQ">
+
+Jaga titik awalmu tetap bersih. Gunakan halaman Roblox terlebih dahulu, lalu komunitas creator, lalu listing publik atau rute panduan apa pun yang kamu percaya. Itu membuat perencanaan koinmu tetap terhubung ke tempat yang benar-benar menjadi lokasi game ini.
+
+| Link Resmi | Penggunaan Terbaik | Catatan |
+|---|---|---|
+| [Halaman Game Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Meluncurkan game, memeriksa pengalaman, dan membuka tab bawaan Roblox | Titik masuk paling aman |
+| [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur grup creator yang terkait dengan bonus keberuntungan ekstra | Gunakan rute Roblox |
+| [Listing Creator](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Mengonfirmasi detail game publik dan konteks kepemilikan | Bagus untuk referensi |
+| [Panduan Gameplay Publik](https://www.youtube.com/watch?v=MyFbJZW4mXE) | Pembelajaran visual untuk roll dan progresi | Gunakan sebagai bantuan, bukan satu-satunya sumber |
+
+<Callout type="info" title="Keamanan Tautan">
+Hanya percayai link yang mengarah melalui Roblox atau komunitas publik creator. Apa pun yang meminta password, script, atau klaim koin gratis harus langsung diabaikan.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa penggunaan pertama terbaik untuk koin Roll to Defend?",
+    answer: "Gunakan untuk menstabilkan pertahananmu saat ini terlebih dahulu. Jika jalurnya bocor, koin harus memperbaiki damage atau coverage sebelum masuk ke ekspansi."
+  },
+  {
+    question: "Haruskah saya roll unit atau membeli zone dulu?",
+    answer: "Roll dulu jika unit yang lebih kuat jelas akan memperbaiki field-mu. Beli zone hanya setelah setup saat ini dapat menahan tekanan tanpa pengeluaran darurat."
+  },
+  {
+    question: "Bagaimana teman dan bonus grup membantu pertumbuhan koin?",
+    answer: "Mereka membuat sesi roll yang panjang menjadi lebih efisien. Gunakan bonus itu saat kamu sudah memiliki pendapatan tersimpan dan ingin peluang yang lebih baik untuk pull yang lebih kuat."
+  },
+  {
+    question: "Apa yang harus saya lakukan dengan pendapatan offline saat kembali?",
+    answer: "Ambil dulu, identifikasi kelemahan yang mengakhiri run terakhir, lalu investasikan kembali ke masalah itu sebelum mendorong lebih keras."
+  }
+]} />
+
+<Callout type="tip" title="Aturan Akhir">
+Jika koinmu bertambah tetapi pertahananmu tidak stabil, perlambat dan perbaiki run-nya. Jika pertahananmu stabil, belanjakan secara agresif pada upgrade berikutnya yang benar-benar berarti.
+</Callout>
+
+</Section>

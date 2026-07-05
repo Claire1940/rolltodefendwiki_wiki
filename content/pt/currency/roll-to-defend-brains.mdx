@@ -1,0 +1,223 @@
+import { Map, Sparkles, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend brains: Configuração para Iniciantes, Sorte e Zonas",
+  description: "Aprenda a rolar unidades, empilhar sorte, defender ondas e calcular o momento de comprar zonas em roll to defend brains com um caminho limpo para iniciantes e runs mais fortes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Roll+to+Defend+Brains+Guide",
+  date: "2026-07-05",
+  author: "Equipe de Wiki de roll to defend"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **roll to defend brains** começa com uma regra: estabilize sua defesa antes de correr atrás de rolagens chamativas.
+- **Bônus de sorte** importam mais quando você guarda a renda para uma sessão focada, em vez de gastar de forma aleatória.
+- **Compras de zona** devem esperar até que sua rota atual seja limpa sem precisar de reparos de emergência.
+- **Prioridade de melhorias** é dano primeiro, depois cobertura, depois economia quando a run parecer estável.
+- **Puxadas fortes** só têm valor quando realmente seguram o caminho e protegem sua renda.
+</Callout>
+
+<Section icon={Map} title="Loop Principal e os Primeiros Cinco Minutos">
+
+A maneira mais segura de jogar **roll to defend brains** é tratar o início como um loop de sobrevivência, não como uma corrida de gacha. Role por unidades, coloque a melhor imediatamente e garanta que a próxima onda seja algo que sua configuração realmente consiga aguentar. Quando a defesa parar de vazar, sua renda começa a se acumular e cada decisão posterior fica mais fácil.
+
+Um início limpo geralmente é mais importante do que uma puxada perfeita. Se a rota estiver segura, você pode guardar renda, esperar rolagens melhores e expandir em um ritmo que não derrube a run. O objetivo é simples: manter seus primeiros minutos entediantes, controlados e lucrativos.
+
+<CardGrid cols={3}>
+  <Card title="Role Primeiro">
+    - **Coloque uma unidade em campo rapidamente**
+    - Mantenha a melhor puxada visível
+    - Não fique com slots vazios
+  </Card>
+  <Card title="Estabilize em Seguida">
+    - **Pare os vazamentos iniciais**
+    - Cubra o caminho antes de expandir
+    - Gaste só o que resolver o gargalo
+  </Card>
+  <Card title="Reinvista a Renda">
+    - **Transforme sobrevivência em crescimento**
+    - Use a renda para rolagens ou melhorias
+    - Deixe as compras arriscadas para depois
+  </Card>
+</CardGrid>
+
+| Fase | Objetivo | Erro Comum |
+|---|---|---|
+| Início | Colocar um defensor confiável | Guardar por tempo demais e vazar nas primeiras ondas |
+| Loop inicial | Adicionar cobertura e manter as ondas estáveis | Comprar uma zona antes da rota estar pronta |
+| Run estabilizada | Converter renda em progresso mais forte | Espalhar dinheiro em opções fracas demais |
+
+<Callout type="tip" title="Regra Inicial">
+Se sua defesa ainda estiver instável, cada compra extra deve resolver um problema real. Gastos gananciosos só deixam a próxima onda mais barulhenta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Role Melhor Empilhando Sorte Primeiro">
+
+Gerenciar a sorte é onde muitas runs começam a ficar desleixadas. Antes de uma sessão séria de rolagens, configure os bônus aos quais o jogo te dá acesso e então role em um bloco focado, em vez de pingar renda durante toda a sessão. Essa abordagem mantém seus melhores recursos alinhados com sua melhor chance de uma puxada útil.
+
+A rotina mais limpa é fazer da preparação de sorte parte do seu ritual de início. Se você puder ativar bônus de amigos, bônus de grupo ou qualquer outra fonte oficial de sorte antes de rolar, faça isso primeiro. Depois role com um alvo claro: mais dano, mais cobertura ou uma substituição para uma unidade fraca.
+
+<Steps>
+  <Step num="1" title="Prepare a Sessão">
+    Certifique-se de que a onda atual está sob controle antes de começar a gastar pesado. Uma defesa tranquila te dá espaço para tomar decisões melhores nas rolagens.
+  </Step>
+  <Step num="2" title="Ative os Bônus de Sorte">
+    Use todos os aumentos de sorte disponíveis antes do bloco principal de rolagens. Não os desperdice depois que já tiver gasto a renda.
+  </Step>
+  <Step num="3" title="Defina um Alvo">
+    Decida se você precisa de mais dano, mais cobertura ou um carry mais forte. Rolar sem um alvo queima valor rápido.
+  </Step>
+  <Step num="4" title="Gaste em um Bloco">
+    Role em uma sessão focada, em vez de cliques aleatórios e soltos. Isso facilita avaliar o que realmente melhorou.
+  </Step>
+</Steps>
+
+| Fonte de Sorte | Melhor Uso | Prioridade |
+|---|---|---|
+| Amigos | Sessões longas de rolagem e jogo coordenado | Alta |
+| Bônus de grupo | Antes de uma sessão grande de gastos | Alta |
+| Renda offline | Quando você volta e precisa de um reset | Média |
+| Rolagem aleatória | Só depois que a preparação estiver pronta | Baixa |
+
+<Callout type="warning" title="Não Role Sob Pressão">
+Se os zumbis já estiverem rompendo a defesa, conserte a defesa primeiro. Rolar enquanto a base está falhando geralmente transforma uma run ruim em uma pior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Monte uma Defesa que Segura as Ondas">
+
+Sua melhor puxada só é tão boa quanto a rota que ela protege. Uma defesa inicial forte precisa de um carry principal claro, de uma peça que preencha o caminho e de pelo menos uma unidade que cubra os pontos que seu dano principal não alcança. Quando essas peças estão no lugar, a run parece menos aleatória e mais administrável.
+
+Pense em papéis, não só em raridade. Uma unidade chamativa que nunca toca o caminho é valor desperdiçado. Uma unidade de raridade menor que evita vazamentos pode valer muito mais do que parece no papel, especialmente nas ondas iniciais. A chave é manter a rota sob controle até suas puxadas mais fortes aparecerem.
+
+<CardGrid cols={4}>
+  <Card title="Carry Principal">
+    - **Unidade de maior impacto**
+    - Elimina a maior parte das ondas
+    - Substitui primeiro os abertores fracos
+  </Card>
+  <Card title="Unidade de Cobertura">
+    - **Ajuda a rota lateral**
+    - Preenche os espaços que o carry não alcança
+    - Impede que zumbis escapem
+  </Card>
+  <Card title="Unidade de Preenchimento">
+    - **Suporte temporário**
+    - Útil até aparecer uma puxada melhor
+    - Não deve ficar para sempre
+  </Card>
+  <Card title="Slot de Reserva">
+    - **Espaço para melhoria futura**
+    - Segure a próxima opção melhor
+    - Troque quando o valor subir claramente
+  </Card>
+</CardGrid>
+
+| Papel | O que Deve Fazer | Quando Substituir |
+|---|---|---|
+| Carry principal | Limpar ondas e ancorar a run | Quando aparecer uma puxada mais forte |
+| Unidade de cobertura | Parar vazamentos na borda mais fraca | Quando a rota mudar ou houver cobertura melhor |
+| Unidade de preenchimento | Ocupando espaço vazio no início | Assim que uma defesa melhor estiver disponível |
+| Slot de reserva | Preservar opções de melhoria | Quando virar a próxima melhoria óbvia |
+
+<Callout type="success" title="Condição de Vitória do Posicionamento">
+Uma unidade se torna valiosa quando controla ativamente a rota. Se ela não está ajudando o caminho, está só parada no inventário com etapas extras.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cronometre Zonas e Melhorias com Cuidado">
+
+Zonas e melhorias são o ponto em que uma run estável vira uma run boa. O truque é não comprar tudo de uma vez. Primeiro, identifique o gargalo. Se os inimigos sobrevivem tempo demais, você precisa de dano. Se eles escapam pelas bordas, você precisa de cobertura. Se a run está tranquila, então você pode começar a investir em economia, rolagens ou na próxima zona.
+
+A expansão deve parecer uma recompensa pela estabilidade, não uma resposta em pânico à fraqueza. Quando a zona atual é limpa sem problemas, você pode avançar. Quando não é, expandir mais muitas vezes cria mais problemas do que resolve.
+
+<Steps>
+  <Step num="1" title="Estabilize a Zona Atual">
+    Mantenha a onda atual limpa antes de pensar em comprar mais espaço. Limpezas estáveis criam espaço para progresso real.
+  </Step>
+  <Step num="2" title="Encontre o Gargalo">
+    Decida se o problema é dano, cobertura, qualidade da unidade ou velocidade de renda. Melhore exatamente o que falhou.
+  </Step>
+  <Step num="3" title="Corrija o Ponto Mais Fraco">
+    Gaste na peça que remove a pressão que você mais sentiu no último ciclo de ondas.
+  </Step>
+  <Step num="4" title="Compre a Próxima Zona">
+    Expanda só quando ainda houver reserva suficiente para reagir depois do desbloqueio. Não gaste toda a pilha na própria porta.
+  </Step>
+  <Step num="5" title="Reconstrua em Torno do Novo Layout">
+    Depois do desbloqueio, reavalie a rota e garanta que suas unidades mais fortes ainda cobrem o que importa.
+  </Step>
+</Steps>
+
+| Foco da Melhoria | Comprar Quando | Pular Quando |
+|---|---|---|
+| Dano | As ondas demoram demais para morrer | O problema real são falhas de posicionamento |
+| Cobertura | Inimigos escapam pelas bordas | A velocidade de eliminação já é o problema |
+| Qualidade da rolagem | A defesa está estável e a renda está segura | A run já está sob pressão |
+| Desbloqueio de zona | Você ainda tem uma margem de segurança | Desbloquear quebraria a defesa |
+
+<Callout type="info" title="Regra de Progressão">
+Compre a correção que elimina o motivo pelo qual sua última run falhou. Esse único hábito economiza mais renda do que espalhar melhorias por todo lado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e FAQ">
+
+Uma boa run geralmente segue o mesmo padrão: segure a rota, use sorte antes da grande rolagem, corrija o gargalo e então expanda. Se você repetir essa ordem, seu progresso fica muito mais fácil de ler e muito mais difícil de desperdiçar.
+
+Use este checklist antes de cada sessão importante. Ele mantém seu foco em decisões que realmente empurram a run para frente, em vez de ruído, gastos em pânico ou melhorias aleatórias.
+
+<Checklist
+  id="roll-to-defend-brains-goals"
+  title="Checklist da Sessão:"
+  items={[
+    "Mantenha um carry confiável em campo",
+    "Ative os bônus de sorte antes da sessão principal de rolagem",
+    "Compre zonas só depois de limpezas estáveis das ondas",
+    "Gaste a renda recebida primeiro no ponto mais fraco",
+    "Substitua unidades de preenchimento assim que aparecer uma opção melhor"
+  ]}
+/>
+
+| Marco | Como é o Ideal | Próximo Passo |
+|---|---|---|
+| Primeira onda estável | Sem gastos de emergência | Comece a guardar para uma melhoria real |
+| Primeira sessão séria de rolagem | Configuração de sorte ativa | Procure a unidade que corrige a run |
+| Primeiro desbloqueio de zona | A defesa ainda segura | Reconstrua a cobertura ao redor da nova área |
+| Primeiro retorno offline | Renda pronta para gastar | Corrija o gargalo antes de expandir |
+
+<Callout type="tip" title="Lembrete Final">
+Se uma nova zona fizer a run parecer pior, pause o plano de expansão e reconstrua a defesa primeiro. O progresso mais seguro ainda é progresso.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que devo fazer antes da minha primeira sessão séria de rolagem?",
+    answer: "Garanta que a rota esteja estável e então ative qualquer bônus de sorte que você conseguir acessar. Role em um bloco focado com um alvo claro, como mais dano ou cobertura mais forte."
+  },
+  {
+    question: "Devo comprar zonas assim que elas aparecerem?",
+    answer: "Não. Compre zonas quando sua defesa atual conseguir limpar as ondas sem problemas e ainda sobrar renda de reserva depois da compra."
+  },
+  {
+    question: "Uma puxada mais forte é sempre melhor do que uma unidade mais barata?",
+    answer: "Nem sempre. Uma puxada mais forte importa mais quando ela realmente protege a rota. Uma unidade mais barata que evita vazamentos pode ser mais útil do que uma unidade chamativa que nunca cobre o caminho."
+  },
+  {
+    question: "Qual é a maneira mais segura de usar renda offline?",
+    answer: "Colete primeiro, identifique a parte mais fraca da sua última run e gaste nessa falha antes de correr para mais zonas ou rolagens aleatórias."
+  }
+]} />
+
+</Section>

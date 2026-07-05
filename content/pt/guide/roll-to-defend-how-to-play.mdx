@@ -1,0 +1,217 @@
+import { Map, Sparkles, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Como Jogar Roll to Defend: Passo a Passo para Iniciantes e Dicas",
+  description: "Aprenda o loop principal de Roll to Defend, as prioridades iniciais de unidades, o timing das zonas e a ordem de upgrades para que cada run no Roblox estabilize mais rápido e role melhor.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f1b4d/fff?text=Roll+to+Defend+Walkthrough",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como jogar Roll to Defend** começa com rolagens rápidas, boa posição e mantendo seus melhores defensores ativos.
+- **A sorte importa** porque amigos e o grupo D:/Drive melhoram a configuração da sua sessão de rolagem.
+- **As zonas são testes de tempo**; compre-as depois que sua defesa limpar as ondas sem gastar em pânico.
+- **A renda deve ser reinvestida** no gargalo que travou sua última run.
+</Callout>
+
+<Section icon={Map} title="Como Jogar Roll to Defend: Loop Principal">
+
+Como jogar Roll to Defend é construído em torno de um loop simples: rolar unidades, posicioná-las, limpar ondas de zumbis e então transformar a renda em progressão mais segura. O melhor hábito no início não é correr atrás de toda rolagem brilhante. É garantir que cada rolagem realmente melhore seu campo, sua cobertura ou sua capacidade de sobreviver à próxima onda.
+
+| Fase | Prioridade | O que fazer | Resultado |
+|---|---|---|---|
+| Rolagens iniciais | Alta | Role até conseguir uma unidade que valha a pena construir em torno | Estabilização mais rápida |
+| Posicionamento | Alta | Coloque sua unidade mais forte onde ela ataca pelo maior tempo | Melhor controle das ondas |
+| Verificação da onda | Média | Observe onde os zumbis sobrevivem por mais tempo | Gargalos mais claros |
+| Expansão de zona | Média | Compre uma nova zona apenas depois que a configuração atual estiver estável | Crescimento mais seguro |
+
+<CardGrid cols={3}>
+  <Card title="Role Primeiro">
+    - Foque em **unidades utilizáveis**
+    - Evite valor vazio no inventário
+    - Mantenha a melhor rolagem que encontrar
+  </Card>
+  <Card title="Posicione com Inteligência">
+    - Cubra o caminho mais longo
+    - Proteja primeiro as rotas fracas
+    - Deixe as unidades trabalhando o tempo todo
+  </Card>
+  <Card title="Estabilize">
+    - Corrija vazamentos antes de expandir
+    - Reinvista a renda com cuidado
+    - Prepare-se para a próxima onda
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra da Fase Inicial">
+Se sua defesa estiver vazando, gaste primeiro com sobrevivência. Uma zona apressada costuma ser mais fraca do que um campo estável com mais uma boa rolagem.
+</Callout>
+
+| Primeira ação | Por que importa | Bom sinal |
+|---|---|---|
+| Rolar unidades | Cria sua defesa principal | Você consegue uma rolagem que vale a pena manter |
+| Posicionar defensores | Transforma rolagens em dano real | Os zumbis param de chegar à base cedo |
+| Segurar a renda | Evita gastos desperdiçados | Você pode reagir à próxima onda |
+| Expandir depois | Mantém o progresso seguro | As ondas atuais são limpas com facilidade |
+
+</Section>
+
+<Section icon={Sparkles} title="Qualidade da Rolagem, Sorte e Prioridade de Unidades">
+
+A maneira mais rápida de desperdiçar uma boa run é tratar toda rolagem como igual. Uma abordagem melhor é montar a base com a sorte, e então gastar as rolagens com um objetivo claro. A própria descrição do jogo aponta para a sorte de amigos e do grupo, então seus melhores resultados normalmente vêm de sessões planejadas, em vez de rolagens aleatórias em spam.
+
+<Steps>
+  <Step num="1" title="Configure a sorte primeiro">
+    Entre em um servidor com amigos quando possível e use o caminho de sorte do grupo antes de começar sua sessão principal de rolagens.
+  </Step>
+  <Step num="2" title="Mantenha a rolagem visível mais forte">
+    Use primeiro sua unidade de maior valor. Unidades de raridade menor servem como preenchimento, a menos que melhorem claramente a cobertura.
+  </Step>
+  <Step num="3" title="Substitua apenas quando valer a pena">
+    Troque uma unidade somente se a nova rolagem melhorar o dano, a cobertura da rota ou a estabilidade da zona.
+  </Step>
+  <Step num="4" title="Role com um alvo">
+    Decida do que você mais precisa: mais dano, melhor cobertura de rota ou substituição para um espaço fraco.
+  </Step>
+</Steps>
+
+| Tipo de rolagem | Manter? | Melhor uso | Substituir quando |
+|---|---|---|---|
+| Roleragem de maior raridade | Sim | Carry principal ou âncora | Surge uma rolagem claramente mais forte |
+| Unidade inicial estável | Sim, no início | Preencher rotas e impedir vazamentos | Ela deixa de limpar as ondas bem |
+| Rolagem fraca duplicada | Talvez | Cobertura temporária | Ela agrega pouco ou nenhum valor |
+| Melhor rolagem de suporte | Sim | Melhorar o controle do caminho | Ela para de ajudar a build atual |
+
+<Callout type="warning" title="Não Role Demais às Cegas">
+Uma sessão forte de rolagens ainda falha se você posicionar mal as unidades fracas. A sorte ajuda, mas o posicionamento decide se a rolagem realmente importa.
+</Callout>
+
+| Situação | Melhor jogada | Motivo |
+|---|---|---|
+| Você tem uma boa configuração de sorte | Role em um lote focado | Maior chance de converter renda em valor |
+| Sua defesa está fraca | Pare de rolar e conserte a linha | Sobrevivência vem primeiro |
+| Você já tem um carry | Role apenas para upgrades | Evita poluir o campo |
+| Você precisa de uma função que falta | Mire diretamente nessa lacuna | Evita renda desperdiçada |
+
+</Section>
+
+<Section icon={Shield} title="Ondas, Cobertura e Timing das Zonas">
+
+As zonas são progressão, mas não são recompensa para a pressa. O momento mais seguro para expandir é depois que a limpeza das ondas estiver estável e sua defesa puder absorver um pequeno erro. Assim, a nova zona adiciona impulso em vez de expor fraquezas.
+
+| Sinal da zona | Comprar agora? | O que isso indica |
+|---|---|---|
+| As ondas são limpas cedo | Sim | Sua configuração atual tem espaço para crescer |
+| Uma rota vaza com frequência | Não | A cobertura ainda está muito fraca |
+| O carry principal está forte | Normalmente | Você pode apoiar a expansão com confiança |
+| A renda está apertada | Não | Gastar mais pode causar um colapso |
+
+<Callout type="info" title="Regra de Timing da Zona">
+Compre a próxima zona depois de saber qual é seu ponto mais fraco. Se você não consegue nomear o gargalo, provavelmente ainda não está pronto para expandir.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Ondas Estáveis">
+    - Zumbis são eliminados sem pânico
+    - A renda continua disponível
+    - Sua linha está pronta para crescer
+  </Card>
+  <Card title="Muito Cedo">
+    - As ondas parecem mais difíceis imediatamente
+    - O gasto vira obrigação
+    - A nova zona cria pressão
+  </Card>
+  <Card title="Pronto para Avançar">
+    - Um carry está fazendo o trabalho pesado
+    - Unidades de apoio cobrem o caminho
+    - Você ainda tem renda de emergência
+  </Card>
+</CardGrid>
+
+| Sinal de prontidão | O que verificar | Por que importa |
+|---|---|---|
+| Limpeza limpa das ondas | O dano é suficiente | Confirma que seu campo pode respirar |
+| Sem gasto de emergência | A cobertura está funcionando | Significa que a configuração está estável |
+| Renda sobrando | A economia está saudável | Permite reagir depois de comprar zonas |
+| Um gargalo claro foi resolvido | A próxima run fica mais segura | Evita repetir a mesma derrota |
+
+</Section>
+
+<Section icon={Target} title="Upgrades e Reinvestimento de Renda">
+
+Os upgrades devem resolver o problema que realmente acabou com sua última run. Se os zumbis chegaram à base, compre sobrevivência primeiro. Se sua linha segurou, mas parecia lenta, melhore o dano ou a cobertura antes de buscar mais expansão. A renda só se torna poderosa quando é direcionada para o ajuste certo.
+
+<Checklist
+  id="upgrade-path"
+  title="Checklist de Reinvestimento de Renda:"
+  items={[
+    "Colete a renda offline antes de gastar qualquer outra coisa",
+    "Identifique a fraqueza que causou a última derrota",
+    "Gaste primeiro em dano ou cobertura, não em crescimento cosmético",
+    "Use a próxima sessão de rolagem depois que o campo estiver estável",
+    "Compre zonas apenas depois que sua configuração estiver segurando bem as ondas"
+  ]}
+/>
+
+| Gargalo | Gaste primeiro em | Por quê |
+|---|---|---|
+| Problema de dano | Unidade principal mais forte | Limpa as ondas antes que elas se acumulem |
+| Problema de cobertura | Melhor posicionamento ou suporte | Impede vazamentos nas rotas fracas |
+| Problema de economia | Crescimento de renda mais seguro | Dá mais espaço para rolar depois |
+| Problema de expansão | Segure recursos | Evita que uma zona apressada quebre a run |
+
+<Callout type="success" title="Melhor Padrão de Reinvestimento">
+Corrija a fraqueza, role para encontrar uma resposta melhor e depois expanda. Essa ordem geralmente produz progresso mais estável do que dividir a renda entre todas as opções.
+</Callout>
+
+| Estado de retorno | Melhor ação | Próximo passo |
+|---|---|---|
+| Renda offline pronta | Colete imediatamente | Reconstrua o elo mais fraco |
+| A defesa está estável | Role com propósito | Procure um carry melhor |
+| As ondas estão instáveis | Faça upgrade de sobrevivência | Adie o gasto com zonas |
+| O campo está sólido | Prepare a expansão | Avance para a próxima zona com segurança |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Links Oficiais">
+
+Use primeiro a página oficial do jogo no Roblox e depois o caminho da comunidade do criador quando quiser a rota de sorte do grupo. Isso mantém sua configuração alinhada com o jogo real, e não com cópias aleatórias ou dicas desatualizadas.
+
+| Rota oficial | Caso de uso | Verificado |
+|---|---|---|
+| [Página do jogo no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Jogar o game, ler a descrição atual, acessar Store e Servers | 2026-07-05 |
+| [Comunidade D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Caminho de sorte do grupo ligado ao jogo | 2026-07-05 |
+| [Listagem no Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Referência pública rápida da listagem | 2026-07-05 |
+
+<Callout type="tip" title="Ordem Segura para Jogar">
+Abra primeiro a página do Roblox, entre no grupo se quiser o bônus de sorte e então construa sua run em torno da unidade mais forte que conseguir manter ativa.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de aprender como jogar Roll to Defend?",
+    answer: "Comece rolando, depois posicione sua unidade mais forte e então observe onde os zumbis sobrevivem por mais tempo. Corrija esse gargalo antes de comprar zonas."
+  },
+  {
+    question: "Devo gastar a renda primeiro em rolagens ou em zonas?",
+    answer: "Gaste na fraqueza que travou sua última run. Se a defesa vazar, corrija a sobrevivência primeiro. Se estiver estável, role ou expanda."
+  },
+  {
+    question: "Quão importante é a sorte em Roll to Defend?",
+    answer: "A sorte importa porque amigos e o caminho do grupo podem melhorar a configuração da sua sessão de rolagens, mas o posicionamento e o timing ainda decidem a run."
+  },
+  {
+    question: "Quando devo comprar uma nova zona?",
+    answer: "Compre uma nova zona depois que as ondas forem limpas com facilidade, sua unidade principal estiver estável e você ainda tiver renda suficiente para reagir após a expansão."
+  }
+]} />
+
+</Section>

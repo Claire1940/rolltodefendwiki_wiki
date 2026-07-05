@@ -1,0 +1,242 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pembaruan roll to defend: Tips Pemula & Progresi 2026",
+  description: "Pelajari alur pembaruan roll to defend saat ini, prioritas unit awal, timing upgrade, perluasan zona, pengaturan luck, dan strategi pendapatan offline.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/2d3748/fff?text=Roll+to+Defend+Update",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **pembaruan roll to defend**: Bangun pertahanan yang stabil terlebih dahulu, lalu ubah income menjadi roll yang lebih kuat dan dorongan zona yang lebih aman.
+- **Prioritas utama**: Tetap tempatkan unit terbaikmu, karena kekuatan yang tidak digunakan tidak akan membersihkan satu pun gelombang zombie.
+- **Jalur progresi terbaik**: Damage, coverage, pengaturan luck, dan income offline harus ditangani dengan urutan itu.
+- **Aturan upgrade**: Hanya belanjakan pada bottleneck yang benar-benar memperlambat run kamu.
+- **Keuntungan tercepat**: Luck teman, luck grup, dan reinvestasi yang konsisten lebih penting daripada belanja acak.
+</Callout>
+
+<Section icon={Map} title="Pembaruan roll to defend: Alur Inti dan Kemenangan Awal">
+
+Panduan pemula bergaya update ini berfokus pada alur yang paling penting: roll unit, tempatkan defender, kalahkan zombie, dan reinvest income tanpa merusak formasi. Jika papanmu tidak stabil, tidak ada roll tambahan yang akan menyelamatkan run.
+
+<Callout type="tip" title="Prioritas Awal">
+Mulailah dengan mengubah pull bagus pertamamu menjadi keberadaan nyata di papan. Unit yang ditempatkan adalah progres; unit yang disimpan hanya inventaris.
+</Callout>
+
+**Sekilas alur inti**
+
+| Tahap | Apa yang dilakukan | Hasil |
+|---|---|---|
+| Roll | Tarik unit sampai kamu punya inti starter yang bisa dipakai | Kamu bisa berhenti bergantung pada slot kosong |
+| Place | Letakkan unit terkuatmu di jalur panjang | Lebih banyak zombie dihapus lebih awal |
+| Bertahan | Tahan gelombang tanpa belanja panik | Income tetap tersedia |
+| Reinvest | Belanjakan pada bagian terlemah dari run | Gelombang berikutnya jadi lebih mudah |
+| Expand | Beli zona setelah stabilitas terbukti | Progres bertumbuh tanpa runtuh |
+
+**Perencanaan tanpa video bekerja paling baik saat kamu memakai urutan yang bisa diulang.** Untuk game ini, urutan paling aman sederhana: atur papan, lihat di mana zombie bocor, lalu putuskan apakah pembelian berikutnya harus roll, upgrade, atau zona.
+
+<Steps>
+  <Step num="1" title="Roll inti starter">
+    Roll sampai kamu punya cukup defender untuk menutup jalur utama. Jangan mengejar inventaris yang mewah jika medanmu masih kosong.
+  </Step>
+  <Step num="2" title="Tempatkan sebelum mengoptimalkan">
+    Taruh unit segera. Penempatan awal lebih penting daripada penempatan sempurna karena itu memulai alur pertahanan.
+  </Step>
+  <Step num="3" title="Stabilkan pola gelombang">
+    Amati di mana zombie bertahan paling lama. Jalur itu memberi tahu apakah kamu butuh damage lebih besar atau coverage yang lebih baik.
+  </Step>
+  <Step num="4" title="Reinvest dengan tujuan">
+    Belanjakan income pada bottleneck yang tepat yang menyebabkan kebocoran terakhir, lalu ulangi alurnya alih-alih menyebar sumber daya terlalu tipis.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kesalahan Umum">
+Jangan membeli progres yang membuat papan terasa lebih kaya tetapi kurang stabil. Jika sebuah pembelian tidak meningkatkan daya tahan, biasanya itu terlalu cepat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioritas Build: Unit, Coverage, dan Nilai">
+
+Cara paling aman membaca meta saat ini adalah lewat peran, bukan hype. Kamu butuh satu unit yang membawa damage, satu lapisan yang melindungi coverage, dan satu aturan untuk menentukan apa yang harus diganti.
+
+<Callout type="info" title="Aturan Unit">
+Simpan pull dengan dampak tertinggi, lalu bangun di sekitarnya. Pengisi rarity lebih rendah oke di awal, tetapi jangan dibiarkan lebih lama dari yang diperlukan.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Inti Damage">
+    - **Tujuan**: Menghapus zombie dengan cepat
+    - **Penggunaan terbaik**: Tekanan jalur utama
+    - **Ganti ketika**: Ada pull yang lebih kuat
+  </Card>
+  <Card title="Lapisan Coverage">
+    - **Tujuan**: Menangkap kebocoran dan tekanan samping
+    - **Penggunaan terbaik**: Jalur panjang dan titik sempit
+    - **Ganti ketika**: Tidak lagi meningkatkan daya tahan
+  </Card>
+  <Card title="Slot Ekonomi">
+    - **Tujuan**: Mendukung roll dan upgrade berikutnya
+    - **Penggunaan terbaik**: Saat papan sudah stabil
+    - **Ganti ketika**: Menghambat lonjakan kekuatan berikutnya
+  </Card>
+</CardGrid>
+
+**Matriks prioritas**
+
+| Situasi | Fokus terbaik | Kenapa unggul |
+|---|---|---|
+| Gelombang awal terasa lambat | Inti damage | Clear lebih cepat membuka income yang lebih aman |
+| Zombie lolos di satu jalur | Lapisan coverage | Kamu memperbaiki titik tekanan yang sebenarnya |
+| Papan stabil | Slot ekonomi | Kamu bisa menyiapkan lonjakan berikutnya |
+| Muncul pull yang lebih kuat | Ganti filler dulu | Inventaris harus mendukung papan |
+| Zona baru akan datang | Pertahankan unit yang paling andal | Stabilitas lebih penting daripada gaya |
+
+Urutan build yang rapi mencegah run kamu menjadi tumpukan upgrade setengah jadi. Jika sebuah unit tidak mengubah hasil gelombang, unit itu tidak boleh mengalahkan hal yang benar-benar mengubahnya.
+
+<Callout type="success" title="Tanda Bagus">
+Saat jalur terlemahmupun bertahan tanpa perhatian terus-menerus, roll berikutnya menjadi upgrade sungguhan, bukan sekadar upaya penyelamatan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Timing Upgrade dan Urutan Belanja">
+
+Timing upgrade adalah titik di mana sebagian besar run menjadi lebih cepat atau justru macet. Metode terbaik bukan “beli semuanya.” Melainkan “beli hal yang menghilangkan kegagalan saat ini.”
+
+<Callout type="warning" title="Belanja dengan Hati-hati">
+Jika kamu tidak bisa menyebutkan masalahnya, jangan belanja dulu. Pembelian acak sering terasa produktif sambil diam-diam menurunkan kualitas run kamu.
+</Callout>
+
+**Tabel timing upgrade**
+
+| Masalah | Beli dulu | Tunda |
+|---|---|---|
+| Zombie mencapai base | Upgrade damage | Zona baru |
+| Satu jalur lebih dulu jebol | Bantuan coverage atau penempatan | Roll tambahan |
+| Pull lemah mendominasi inventaris | Pengaturan sesi roll yang lebih baik | Belanja kosmetik |
+| Run stabil | Ekonomi atau pertumbuhan jangka panjang | Upgrade panik |
+| Kembali dengan income offline | Perbaiki bottleneck run terakhir | Ekspansi buta |
+
+**Aturan belanja praktis**
+
+1. Perbaiki survival terlebih dahulu.
+2. Tingkatkan kualitas roll kedua.
+3. Perluas zona hanya setelah papan tenang.
+4. Belanjakan sisa income pada mata rantai terlemah, bukan yang paling ramai.
+5. Simpan satu kebiasaan cadangan agar gelombang buruk tidak menghabiskan seluruh saldo kamu.
+
+**Cara memutuskan dalam 30 detik**
+
+| Pertanyaan | Jika ya | Jika tidak |
+|---|---|---|
+| Apakah zombie bocor? | Beli kekuatan pertahanan | Tetap menabung |
+| Apakah jalurnya tertutup? | Tingkatkan efisiensi | Reposisi dulu |
+| Apakah papan stabil? | Roll atau ekspansi | Tunda pembelian |
+| Apakah gelombang terakhir mengungkap kelemahan? | Target kelemahan itu | Evaluasi ulang sebelum belanja |
+
+<Steps>
+  <Step num="1" title="Identifikasi bottleneck">
+    Tentukan apakah masalah saat ini adalah damage, coverage, kualitas roll, atau timing zona.
+  </Step>
+  <Step num="2" title="Beli perbaikan terkecil yang berhasil">
+    Beli upgrade yang langsung menyelesaikan kebocoran, bukan mengejar peningkatan yang lebih besar tetapi tidak terkait.
+  </Step>
+  <Step num="3" title="Uji gelombang berikutnya">
+    Amati apakah kegagalan yang sama terulang. Jika ya, perbaikannya belum lengkap.
+  </Step>
+  <Step num="4" title="Kunci pola baru">
+    Setelah run stabil, ulangi urutan belanja yang sama sampai bottleneck berikutnya muncul.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Kebiasaan Terbaik">
+Gunakan upgrade untuk menghilangkan friksi, bukan untuk pamer. Jalur progresi terkuat adalah yang menjaga papanmu tetap tenang.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zona, Luck, dan Income Offline">
+
+Alur progresi saat ini menjadi jauh lebih mulus ketika kamu memperlakukan zona, luck, dan income offline sebagai sistem yang saling terhubung. Kamu tidak perlu memaksakan ketiganya sekaligus, tetapi kamu harus selalu tahu mana yang sedang aktif.
+
+<Callout type="success" title="Alur Progresi">
+Stabilkan papan, kumpulkan luck, lalu belanjakan income offline pada kelemahan yang menghentikan run terakhir kamu.
+</Callout>
+
+**Titik masuk resmi**
+
+| Sumber | Gunakan untuk | Diakses |
+|---|---|---|
+| [Halaman game Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Meluncurkan pengalaman dan memeriksa entri game langsung | 2026-07-05 |
+| [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur grup kreator yang terkait bonus sosial | 2026-07-05 |
+| [Daftar Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Meninjau konteks listing publik dan detail kepemilikan | 2026-07-05 |
+
+**Apa yang harus dilakukan tiap sistem untuk run kamu**
+
+| Sistem | Penggunaan terbaik | Risiko jika dipaksakan |
+|---|---|---|
+| Zona | Membuka ruang progresi baru | Kamu memaksakan pertahanan terlalu cepat |
+| Luck | Meningkatkan kualitas roll sebelum sesi besar | Kamu membuang income bagus pada timing yang buruk |
+| Income offline | Pulih dan reinvest setelah istirahat | Kamu belanja tanpa memperbaiki kelemahan terakhir |
+
+**Checklist untuk sesi kembali yang bersih**
+
+<Checklist
+  id="return-session"
+  title="Checklist Sesi Kembali:"
+  items={[
+    "Kumpulkan income offline sebelum membuat pilihan lain",
+    "Periksa jalur atau unit mana yang gagal terakhir kali",
+    "Gunakan pengaturan luck sebelum sesi roll yang panjang",
+    "Beli zona hanya jika papan sudah terasa stabil",
+    "Simpan satu pembelian cadangan untuk perbaikan darurat"
+  ]}
+/>
+
+Zona hanya berguna ketika pertahanan bisa menahan tekanan yang menyertainya. Jika area berikutnya memaksa belanja darurat, langkah yang sebenarnya adalah menghentikan ekspansi dan membangun ulang inti terlebih dahulu.
+
+<Callout type="info" title="Aturan Praktis">
+Luck membantu saat kamu siap untuk roll. Income offline membantu saat kamu siap memperbaiki. Zona membantu saat papan sudah membuktikan bahwa ia bisa bertahan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Fokus FAQ">
+Gunakan jawaban ini agar tetap selaras dengan alur progresi roll-to-defend saat ini, bukan mengejar upgrade acak.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa langkah pertama terbaik dalam pembaruan roll to defend?",
+    answer: "Roll cukup unit untuk membuat inti starter yang nyata, lalu tempatkan segera. Tujuan pertama adalah stabilitas papan, bukan inventaris yang sempurna."
+  },
+  {
+    question: "Haruskah saya membeli zona segera setelah terbuka?",
+    answer: "Biasanya tidak. Beli zona setelah pertahanan saat ini membersihkan gelombang dengan bersih dan kamu masih punya income tersisa untuk bereaksi jika tekanan naik."
+  },
+  {
+    question: "Bagaimana saya harus membelanjakan income offline?",
+    answer: "Gunakan untuk memperbaiki kelemahan yang mengakhiri sesi terakhir kamu. Jika damage yang bermasalah, upgrade damage dulu. Jika coverage lemah, perbaiki tata letak jalur dulu."
+  },
+  {
+    question: "Apa yang lebih penting daripada roll acak?",
+    answer: "Papan yang stabil, penempatan yang baik, dan urutan belanja yang jelas lebih penting daripada roll buta. Pull yang kuat hanya menjadi bernilai saat pertahanan benar-benar bisa memakainya."
+  }
+]} />
+
+<Callout type="warning" title="Pengingat Akhir">
+Jangan perlakukan setiap jalur reward secara sama. Sesi yang bagus dimulai dengan survival, berlanjut ke pengaturan luck, dan diakhiri dengan reinvestasi yang cerdas.
+</Callout>
+
+</Section>

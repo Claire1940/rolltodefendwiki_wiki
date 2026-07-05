@@ -1,0 +1,231 @@
+import { Coins, Shield, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Monedas de Rodar para defender: ingresos, tiradas y orden de mejoras",
+  description: "Aprende a generar ingresos de monedas en Roll to Defend, gastarlas en las mejoras correctas y sincronizar tiradas y zonas sin desperdiciar progreso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f1147/fff?text=Coins+Income+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Rodar para defender"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las monedas de Roll to Defend** crecen más rápido cuando primero proteges los ingresos y gastas después de oleadas estables.
+- **El mejor hábito inicial** es tirar, colocar y limpiar antes de comprar zonas extra.
+- **Los бонусes de suerte** de amigos y del grupo D:/Drive mejoran las sesiones largas de tiradas.
+- **Los ingresos fuera de línea** deben recogerse antes de tomar tu próxima decisión de gasto.
+- **Evita la sobreexpansión** cuando tu defensa aún tenga fugas visibles.
+</Callout>
+
+<Section icon={Coins} title="Monedas de Roll to Defend: fundamentos de la economía">
+
+En esta guía, **monedas** significa los ingresos gastables que conviertes en tiradas, mejoras y progreso de zonas. La economía más fuerte no es la que más gasta; es la que mantiene las oleadas bajo control mientras cada dólar extra empuja el siguiente pico de poder.
+
+Roll to Defend recompensa un bucle simple: tirar unidades, colocarlas, sobrevivir a la oleada y luego reinvertir. Si gastas demasiado pronto, ralentizas tu propia progresión. Si esperas demasiado, pierdes la oportunidad de convertir una partida estable en mejores unidades y más ingresos.
+
+**Destacados del video:**
+- Genera ingresos antes de buscar expansión
+- Usa los bonos de suerte antes de sesiones largas de tiradas
+- Arregla las fugas antes de comprar la siguiente zona
+- Gasta los ingresos fuera de línea en el punto más débil
+
+<CardGrid cols={3}>
+  <Card title="Primero los ingresos">
+    - Protege la limpieza de tu oleada actual
+    - Convierte cada ronda segura en más poder de gasto
+    - No compres progreso solo porque está disponible
+  </Card>
+  <Card title="Después la colocación">
+    - Una unidad fuerte solo importa cuando está en el campo
+    - Una buena cobertura reduce el gasto de emergencia
+    - Una mala colocación desperdicia incluso las tiradas raras
+  </Card>
+  <Card title="La expansión al final">
+    - Las zonas son útiles cuando la defensa ya es estable
+    - Las nuevas áreas deben mejorar el progreso, no crear pánico
+    - Expande después de que tu carril principal esté cubierto de forma constante
+  </Card>
+</CardGrid>
+
+| Fuente de monedas | Qué hace | Mejor uso |
+|---|---|---|
+| Ingresos por oleada | Financia tiradas y mejoras | Después de cada limpieza segura |
+| Ingresos fuera de línea | Devuelve valor mientras estás ausente | Al inicio de una sesión |
+| Suerte de amigos | Mejora las sesiones largas de tiradas | Cuando estás ahorrando para un gran gasto |
+| Suerte de grupo | Añade un bono de preparación fiable | Antes de tirar por unidades más fuertes |
+
+<Callout type="tip" title="Regla de economía temprana">
+Si tu defensa aún tiene fugas, cada moneda extra debe ir a la supervivencia, no a la expansión. Una partida estable crea más valor futuro que una vistosa pero tambaleante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor orden para gastar monedas">
+
+El orden de gasto más seguro es simple: arregla primero la supervivencia, mejora la calidad de las unidades en segundo lugar y compra zonas solo cuando la partida ya se sienta controlada. Ese orden evita que tu moneda quede atrapada en la mejora equivocada en el momento equivocado.
+
+Cuando te sientas atascado, hazte una pregunta: **¿qué detuvo la última partida?** Si la respuesta es daño, gasta en daño. Si la respuesta es cobertura, refuerza la colocación o el apoyo. Si la respuesta son malas tiradas, guarda para una mejor ventana de tiradas.
+
+<Steps>
+  <Step num="1" title="Estabiliza la oleada actual">
+    Asegúrate de que los zombies no se estén colando por tu línea. No trates ninguna moneda como sobrante hasta que la defensa pueda limpiar el carril sin gastar en pánico.
+  </Step>
+  <Step num="2" title="Arregla el verdadero cuello de botella">
+    Gasta en el problema que realmente causó la fuga. Los problemas de daño y los de cobertura son distintos, así que evita gastar de forma indiscriminada.
+  </Step>
+  <Step num="3" title="Tira durante una buena ventana de suerte">
+    Usa la suerte de amigos y el bono del grupo creador antes de una sesión larga de tiradas. Ese es el momento más limpio para convertir ingresos ahorrados en unidades más fuertes.
+  </Step>
+  <Step num="4" title="Compra zonas después de la estabilidad">
+    Expande solo cuando tu configuración actual pueda soportar la presión. Una nueva zona debe mejorar el progreso, no obligarte a reparaciones de emergencia.
+  </Step>
+</Steps>
+
+| Opción de gasto | Mejor momento | Cuándo saltársela |
+|---|---|---|
+| Mejora de defensa | Los zombies duran demasiado | El problema es una mala colocación, no un daño débil |
+| Tirada de unidad | Tienes ingresos ahorrados y la suerte está activa | Tu oleada actual ya está fallando |
+| Compra de zona | La defensa es estable y los ingresos están sanos | La zona drenaría todo tu presupuesto |
+| Ahorrar monedas | Aún no has identificado el cuello de botella | Ya sabes exactamente qué debe mejorar |
+
+<Callout type="warning" title="No compres de más">
+Una nueva zona puede parecer progreso, pero si deja al descubierto una defensa débil, gastarás aún más monedas en corregir el error. Retrasa la expansión hasta que el bucle actual esté limpio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="¿Tirar, mejorar o abrir zona?">
+
+Una vez que entiendes la economía, la verdadera pregunta es a dónde deberían ir tus monedas después. La respuesta cambia según el estado de la partida, pero la lógica sigue siendo la misma: elige la compra que elimine el mayor bloqueo.
+
+Usa **tiradas** cuando unas unidades más fuertes mejorarían claramente tu campo. Usa **mejoras** cuando la configuración actual ya sea buena, pero aún no lo suficiente. Usa **zonas** cuando la defensa existente sea estable y quieras más espacio de progresión.
+
+| Opción | Para qué sirve | Riesgo principal | Veredicto |
+|---|---|---|---|
+| Tirar | Buscar unidades más fuertes | Tiradas de poco valor | Mejor cuando tu defensa ya puede sobrevivir |
+| Mejorar | Corregir un carril débil o un hueco de daño | Gastar demasiado pronto | Mejor primera corrección cuando hay fugas en las oleadas |
+| Zona | Impulsar el progreso | Extender demasiado tu presupuesto | Solo es mejor cuando ya se probó la estabilidad |
+| Ahorrar | Esperar una mejor decisión | Crecimiento más lento a corto plazo | Inteligente cuando el cuello de botella no está claro |
+
+<CardGrid cols={3}>
+  <Card title="Tira con inteligencia">
+    - Tira cuando tus ingresos puedan sostener la sesión
+    - Busca una mejora visible en el campo
+    - No tires solo por sentirte ocupado
+  </Card>
+  <Card title="Mejora con inteligencia">
+    - Mejora la unidad o el carril que ya importa más
+    - Trata las mejoras como una solución, no como una apuesta
+    - Evita repartir valor entre demasiados puntos débiles
+  </Card>
+  <Card title="Zona con inteligencia">
+    - Compra zonas cuando la defensa esté lista para sostenerlas
+    - Mantén un margen para que la siguiente oleada no te aplaste
+    - Deja que la expansión siga a la fuerza, no la reemplace
+  </Card>
+</CardGrid>
+
+| Problema de la última partida | Mejor movimiento con monedas | Por qué funciona |
+|---|---|---|
+| Los zombies se colaron por un carril | Mejora la cobertura | Corrige la brecha real |
+| La unidad actual se sentía demasiado débil | Tira por una unidad más fuerte | Las mejores unidades elevan el techo |
+| Las oleadas eran estables pero lentas | Ahorra para una sesión mayor | Más valor viene de la sincronización |
+| La defensa estaba lista para más espacio | Compra una zona | Ahora el progreso es seguro |
+
+<Callout type="info" title="Regla de decisión">
+Si puedes nombrar el cuello de botella en una sola frase, tu próximo gasto de monedas probablemente está claro. Si no puedes, ahorra y reevalúa antes de comprar nada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Una ruta de farmeo más segura para conseguir más monedas">
+
+La mejor ruta de farmeo es un bucle repetible, no un estallido único. Empieza recogiendo los ingresos fuera de línea, luego tira con tu mejor configuración de suerte y después gasta solo cuando la defensa demuestre que puede aguantar. Ese ritmo evita que tu economía se estanque entre sesiones.
+
+Este enfoque funciona porque Roll to Defend tiene un sistema de ritmo incorporado: las oleadas, la presión de zona, el valor de las tiradas y la ganancia fuera de línea se alimentan entre sí. Cuando una parte es débil, toda la partida se siente más lenta. Cuando una parte es fuerte, cada moneda rinde más.
+
+| Fase de farmeo | Acción | Objetivo |
+|---|---|---|
+| Inicio | Recoge ingresos fuera de línea | Empezar con poder de gasto total |
+| Mitad | Tira después de activar los bonos de suerte | Mejorar la calidad de las unidades de forma eficiente |
+| Tarde | Reinvertir en el punto más débil | Evitar que la partida se derrumbe |
+| Impulso | Compra zonas solo si la defensa sigue estable | Convertir la fuerza en progreso |
+
+<Steps>
+  <Step num="1" title="Empieza con ingresos fuera de línea">
+    Reclama primero el valor que te han devuelto. Eso te da el presupuesto más limpio para el resto de la sesión.
+  </Step>
+  <Step num="2" title="Revisa el último punto de fallo">
+    Decide si el último problema fue daño, cobertura o calidad de unidad. Eso te dirá dónde deben ir tus monedas.
+  </Step>
+  <Step num="3" title="Activa tu configuración de suerte">
+    Usa a los amigos y al grupo D:/Drive antes de una sesión larga de tiradas para que tu moneda vaya a mejores tiradas.
+  </Step>
+  <Step num="4" title="Gasta solo después de la estabilidad">
+    Si la defensa está aguantando, tira o expande. Si está fallando, corrige primero el fallo.
+  </Step>
+</Steps>
+
+<Checklist
+  id="coin-farming-checklist"
+  title="Lista de verificación para farmear monedas"
+  items={[
+    "Recoge los ingresos fuera de línea antes de gastar nada",
+    "Tira después de activar la suerte de amigos y del grupo",
+    "Mantén tu unidad más fuerte colocada y cubriendo el carril principal",
+    "Retrasa la compra de zonas si la última oleada fue inestable",
+    "Reinvierte las monedas en el cuello de botella exacto que frenó la partida"
+  ]}
+/>
+
+<Callout type="success" title="Bucle repetible">
+Una buena ruta de farmeo debería sentirse aburrida en el buen sentido. Recoge, tira, estabiliza, reinvierte y luego expande. Así es como tus monedas se mantienen productivas durante varias sesiones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Enlaces oficiales y FAQ">
+
+Mantén limpio tu punto de partida. Usa primero la página de Roblox, luego la comunidad del creador y después cualquier listado público o ruta de guía en la que confíes. Eso mantiene tu planificación de monedas vinculada al mismo lugar donde realmente vive el juego.
+
+| Enlace oficial | Mejor uso | Notas |
+|---|---|---|
+| [Página del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Iniciar el juego, revisar la experiencia y acceder a las pestañas nativas de Roblox | Punto de entrada más seguro |
+| [Comunidad D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Unirte a la ruta del grupo del creador vinculada a suerte extra | Usa la ruta de Roblox |
+| [Listado del creador](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Confirmar detalles públicos del juego y contexto de propiedad | Útil como referencia |
+| [Guía pública de jugabilidad](https://www.youtube.com/watch?v=MyFbJZW4mXE) | Aprendizaje visual sobre tiradas y progresión | Úsala como apoyo, no como única fuente |
+
+<Callout type="info" title="Seguridad de enlaces">
+Confía solo en enlaces que pasen por Roblox o por la comunidad pública del creador. Cualquier cosa que pida contraseñas, scripts o prometa moneda gratis debe ignorarse de inmediato.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor primer uso de las monedas en Roll to Defend?",
+    answer: "Úsalas primero para estabilizar tu defensa actual. Si el carril tiene fugas, las monedas deben corregir daño o cobertura antes de ir a la expansión."
+  },
+  {
+    question: "¿Debo tirar unidades o comprar zonas primero?",
+    answer: "Tira primero si unas unidades más fuertes mejorarán claramente tu campo. Compra zonas solo después de que tu configuración actual pueda soportar la presión sin gastar en emergencias."
+  },
+  {
+    question: "¿Cómo ayudan los amigos y los bonos de grupo al crecimiento de monedas?",
+    answer: "Hacen más eficientes las sesiones largas de tiradas. Usa esos bonos cuando ya tengas ingresos ahorrados y quieras una mejor oportunidad de conseguir tiradas más fuertes."
+  },
+  {
+    question: "¿Qué debo hacer con los ingresos fuera de línea cuando vuelva?",
+    answer: "Recógelos primero, identifica la debilidad que terminó tu última partida y reinvierte en ese problema antes de presionar más."
+  }
+]} />
+
+<Callout type="tip" title="Regla final">
+Si tus monedas crecen pero tu defensa es inestable, baja el ritmo y corrige la partida. Si tu defensa es estable, gasta con fuerza en la siguiente mejora importante.
+</Callout>
+
+</Section>

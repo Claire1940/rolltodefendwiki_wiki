@@ -1,0 +1,200 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Role para Defender: como melhorar unidades — Melhor caminho de evolução",
+  description: "Aprenda o melhor caminho de evolução em Role para Defender, incluindo correções de gargalo, tempo de zona, configuração de sorte e reinvestimento da renda offline.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Upgrade+Path",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Role para Defender"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As melhorias em **Role para Defender** funcionam melhor quando você corrige o gargalo atual, e não todos os sistemas de uma vez.
+- **Dano principal** geralmente deve vir primeiro se os zumbis estiverem furando sua defesa.
+- **Melhorias de cobertura** importam mais quando as rotas sobrevivem por tempo demais ou deixam pontos cegos.
+- **Sorte e renda** devem apoiar as melhorias, e não substituir um plano de defesa estável.
+</Callout>
+
+<Section icon={Map} title="Prioridades de Melhoria em Role para Defender">
+
+Comece tratando as melhorias como uma ferramenta de controle de danos. Em Role para Defender, a melhor compra é aquela que impede sua última partida de desmoronar de novo. Se os zumbis estão chegando à base, a resposta não é um setup mais bonito; é um mais forte.
+
+<CardGrid cols={3}>
+  <Card title="Dano Principal">
+    - **Melhor quando** as ondas demoram demais para cair
+    - **Objetivo**: matar zumbis mais rápido
+    - **Prioridade**: primeira na maioria das partidas que estão falhando
+  </Card>
+  <Card title="Cobertura">
+    - **Melhor quando** as rotas vazam
+    - **Objetivo**: cobrir mais tempo de trajeto
+    - **Prioridade**: segunda quando o problema é posicionamento
+  </Card>
+  <Card title="Configuração de Rolagem">
+    - **Melhor quando** a defesa está estável
+    - **Objetivo**: melhorar os próximos pulls
+    - **Prioridade**: depois que a sobrevivência estiver garantida
+  </Card>
+</CardGrid>
+
+| Foco da melhoria | Quando comprar | Melhor resultado | Pular quando |
+|---|---|---|---|
+| Dano principal | Os zumbis sobrevivem tempo suficiente para ameaçar a base | Limpezas mais rápidas, menos salvamentos de emergência | As rotas estão falhando porque as unidades estão mal posicionadas |
+| Cobertura | Uma unidade forte está indo bem, mas o caminho ainda vaza | Melhor controle de rota, ondas mais estáveis | As ondas básicas já sobrecarregam seu dano |
+| Configuração de rolagem | Sua defesa está estável e a renda está fluindo | Melhores pulls futuros e sessões mais fortes | Você ainda está perdendo para ondas fáceis |
+| Investimento pronto para zona | As ondas atuais limpam com segurança, sem gastar no desespero | Expansão mais segura para novas áreas | Uma nova zona exporia uma defesa fraca |
+
+<Callout type="tip" title="Regra de Prioridade">
+Se a partida estiver falhando, compre primeiro a melhoria que resolve a sobrevivência. Se a partida estiver estável, compre a melhoria que fortalece sua próxima sessão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Diagnosticar o Gargalo">
+
+A forma mais rápida de desperdiçar renda é melhorar a camada errada. Uma unidade forte atrás de um posicionamento ruim ainda entrega menos do que poderia. Da mesma forma, mais zonas não consertam uma linha de frente fraca. Diagnostique a falha antes de gastar.
+
+| Sintoma | O Que Normalmente Significa | Melhor Correção |
+|---|---|---|
+| Zumbis chegam à base rapidamente | O dano principal está baixo demais | Melhore primeiro a principal fonte de dano |
+| Uma rota está sempre fraca | A cobertura está desigual | Melhore o posicionamento ou adicione unidades de suporte |
+| As ondas começam bem, depois desmoronam | A economia está muito apertada | Segure a renda por mais tempo e melhore o gargalo |
+| A nova zona parece pior imediatamente | A expansão veio cedo demais | Pause a compra de zonas e estabilize a defesa |
+| As rolagens parecem improdutivas | O setup ainda não está pronto | Use bônus de sorte antes da próxima sessão de rolagem |
+
+<Callout type="warning" title="Erro Comum">
+Não compre uma nova zona só porque já pode pagar. Se o setup atual está instável, expandir só torna a pressão mais difícil de administrar.
+</Callout>
+
+**Use este filtro simples antes de cada compra:**
+- **Problema de dano**: os zumbis vivem tempo demais
+- **Problema de cobertura**: as rotas vazam ou as unidades perdem tempo no caminho
+- **Problema de rolagem**: seus pulls atuais estão te segurando
+- **Problema de progressão**: a defesa está estável, então o objetivo é crescer
+
+| Problema | Gastar em | Por que funciona |
+|---|---|---|
+| Problema de dano | Ataque mais forte ou o melhor pull de carry disponível | Encurta as ondas e reduz a pressão |
+| Problema de cobertura | Posicionamento, suporte ou controle de rota | Aumenta o tempo de atuação efetiva de cada unidade |
+| Problema de rolagem | Setup de sorte e melhor timing | Melhora o valor das rolagens futuras |
+| Problema de progressão | Zonas ou reinvestimento de renda | Transforma estabilidade em crescimento de longo prazo |
+
+</Section>
+
+<Section icon={Shield} title="Melhor Ordem de Melhoria por Fase da Partida">
+
+Depois que o gargalo estiver claro, siga uma escada de melhorias consistente. A ordem muda um pouco de acordo com a fase, mas a lógica continua a mesma: estabilize primeiro, amplifique depois, expanda por último.
+
+<Steps>
+  <Step num="1" title="Estabilize a onda atual">
+    Gaste na melhoria que impede vazamentos agora. Se sua defesa estiver falhando, sobreviver vem antes de tudo.
+  </Step>
+  <Step num="2" title="Fixe sua melhor unidade">
+    Mantenha o pull visível mais forte em campo e construa em torno dele em vez de espalhar recursos por preenchimentos fracos.
+  </Step>
+  <Step num="3" title="Corrija a cobertura da rota">
+    Depois que o dano estiver suficiente, invista no controle do caminho para que uma unidade forte não carregue o mapa inteiro sozinha.
+  </Step>
+  <Step num="4" title="Prepare a sessão de rolagem">
+    Quando a partida estiver estável, use a sorte de amigos e a sorte de grupo antes de rolar de novo, para que a renda vá para pulls melhores.
+  </Step>
+  <Step num="5" title="Só então expanda">
+    Compre a próxima zona depois que o setup atual limpar com segurança e ainda deixar renda suficiente para reagir.
+  </Step>
+</Steps>
+
+| Fase da partida | Gasto principal | Gasto secundário | Evite |
+|---|---|---|---|
+| Início do jogo | Dano principal | Cobertura básica | Correr atrás de zonas cedo demais |
+| Meio do jogo | Melhores carries | Estabilidade da rota | Melhorar em excesso unidades de preenchimento |
+| Fim do jogo | Melhores upgrades de pull | Reinvestimento de renda | Gastar todas as melhorias na mesma camada |
+| Recuperação após uma partida ruim | O gargalo que falhou | Nada até isso ser corrigido | Repetir cegamente a mesma build |
+
+<Callout type="info" title="Escada de Melhorias">
+Uma partida estável deve ir de dano, para cobertura, para rolagens apoiadas por sorte, e então para expansão de zonas. Essa sequência mantém cada nova compra útil.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zonas, Sorte e Renda Offline">
+
+Role para Defender adiciona valor extra por meio de sorte social e renda offline, então o timing das melhorias não depende só da força de combate. As melhores sessões começam com o setup certo e terminam com um ciclo de reinvestimento mais limpo.
+
+| Sistema | O Que Fazer | Por Que Importa |
+|---|---|---|
+| Sorte com amigos | Role com amigos em sessões planejadas | Isso apoia pulls melhores quando você estiver gastando renda guardada |
+| Sorte de grupo | Curta o jogo e entre no grupo do criador | Isso adiciona mais uma rota confirmada de sorte antes de rolar |
+| Renda offline | Colete quando voltar | Isso dá um orçamento novo para melhorias sem recomeçar do zero |
+| Tempo de zona | Compre zonas só depois da estabilidade | Isso evita que a expansão crie um problema maior |
+
+**Links oficiais que valem a pena usar primeiro:**
+- [Role para Defender no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend)
+- [Comunidade D:/Drive Roblox](https://www.roblox.com/communities/861213399/D-Drive)
+
+| Se você tiver isso | Melhor próximo passo | Motivo |
+|---|---|---|
+| Defesa estável e renda guardada | Role com bônus de sorte ativos | Pulls melhores criam uma próxima partida mais forte |
+| Unidades fortes, mas cobertura ruim | Melhore posicionamento ou suporte | Bom dano ainda precisa de tempo no alvo |
+| Renda cheia depois de uma pausa | Corrija primeiro o último gargalo | A renda offline é melhor gasta na fraqueza que encerrou a partida |
+| Ondas seguras e recursos sobrando | Avance para a próxima zona | Expandir é mais seguro quando a base está calma |
+
+<Callout type="success" title="Melhor Momento">
+Use sorte antes de rolar, depois use a renda offline ao retornar, e só então decida se as zonas são o próximo passo certo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e FAQ">
+
+Se você quer uma rotina de melhorias limpa, mantenha a próxima sessão simples. Refaça a mesma lógica em toda partida: identifique a fraqueza, compre a correção e pare de gastar quando a defesa ficar estável.
+
+<Callout type="tip" title="Verificação Final">
+Antes de sair de uma sessão, garanta que a próxima visita comece com um plano claro: dano primeiro, cobertura depois, expansão por último.
+</Callout>
+
+<Checklist
+  id="upgrade-goals"
+  title="Checklist da Sessão de Melhorias:"
+  items={[
+    "Identifique o gargalo atual antes de gastar",
+    "Mantenha o pull disponível mais forte em uso ativo",
+    "Compre cobertura só depois que o dano principal estiver estável",
+    "Ative a sorte de amigos e a sorte de grupo antes de grandes rolagens",
+    "Gaste a renda offline na fraqueza que encerrou a última partida"
+  ]}
+/>
+
+| Decisão | Sinal bom | Sinal ruim |
+|---|---|---|
+| Melhorar dano | As ondas agora estão sendo limpas com segurança | Você ainda não consegue segurar a pressão básica |
+| Melhorar cobertura | As rotas param de vazar | Você está trocando um problema por outro |
+| Melhorar o setup de sorte | Você está planejando uma sessão real de rolagem | Você está rolando aleatoriamente, sem alvo |
+| Comprar uma zona | A defesa já está calma | A próxima onda exporia pontos fracos |
+
+<FAQ items={[
+  {
+    question: "O que devo melhorar primeiro em Role para Defender?",
+    answer: "Comece pelo gargalo. Na maioria das partidas que estão falhando, isso significa primeiro o dano principal, depois a cobertura e, por fim, as rolagens apoiadas por sorte."
+  },
+  {
+    question: "Devo comprar zonas antes de melhorar as unidades?",
+    answer: "Só se a defesa atual já estiver estável. Se os zumbis estiverem vazando, corrija a partida antes de expandir."
+  },
+  {
+    question: "Como a sorte de amigos e a sorte de grupo entram nas melhorias?",
+    answer: "Use as duas antes de uma sessão planejada de rolagem para que sua renda guardada vá para pulls mais fortes em vez de gastos aleatórios."
+  },
+  {
+    question: "Qual é o melhor uso da renda offline?",
+    answer: "Gaste-a na fraqueza que encerrou sua última partida e, depois, volte para as rolagens ou para a progressão de zonas quando a defesa estiver segura."
+  }
+]} />
+
+</Section>

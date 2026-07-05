@@ -1,0 +1,209 @@
+import { Map, Shield, Target, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend all zones: Zones, Units & Progression Guide",
+  description: "Learn how to pace zones, protect lanes, and spend income in roll to defend all zones so every unlock strengthens your Roblox defense loop.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Zones+Guide",
+  date: "2026-07-05",
+  author: "roll to defend Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **roll to defend all zones** works best when you stabilize waves before unlocking the next area.
+- **Zone timing** matters more than rushing; weak pushes usually cost more income than they save.
+- **Damage, coverage, and economy** should be checked after every expansion.
+- **Best progress** comes from spending only after you know which bottleneck is slowing the run.
+</Callout>
+
+<Section icon={Map} title="roll to defend all zones: How Zone Flow Works">
+
+In **roll to defend all zones**, progression is less about speed and more about control. Every new area should make your run safer, richer, or easier to defend. If a zone creates more pressure than your current setup can handle, the unlock is too early.
+
+The cleanest mindset is simple: clear the current wave pattern, identify the weakest lane, then decide whether the next zone actually improves your run. That keeps your income from getting drained by emergency fixes.
+
+| Zone Stage | Main Goal | What to Watch | Good Signal |
+|---|---|---|---|
+| Early | Build a stable first defense | Weak pulls, open lanes, slow income | Zombies die before reaching the base |
+| Mid | Expand without breaking the core | Split coverage, poor placement, rushed unlocks | One strong damage source carries the wave |
+| Late | Convert income into safer growth | Overexpansion, wasted rolls, thin defense | Each new zone improves control, not chaos |
+
+<Callout type="info" title="Core Rule">
+If a new zone makes the board harder to read, pause expansion and fix the lane that is leaking first.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="When to Buy the Next Zone">
+
+A good zone purchase should solve a problem, not create a new one. In practice, that means you want enough damage to clear the current wave, enough coverage to hold the path, and enough income left over to recover after the unlock.
+
+<CardGrid cols={3}>
+  <Card title="Buy Now">
+    - **Current waves are stable**
+    - You still have backup income
+    - The next zone adds useful space or value
+  </Card>
+  <Card title="Wait">
+    - Zombies are still leaking
+    - Your best unit is doing all the work
+    - A new unlock would stretch your budget
+  </Card>
+  <Card title="Farm First">
+    - Income is too slow for expansion
+    - Your placement still needs cleanup
+    - One more cycle would make the next unlock safer
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Practical Timing Tip">
+If you cannot answer why the next zone helps your current run, keep farming and improve the setup first.
+</Callout>
+
+| Situation | Buy Zone? | Why | Next Move |
+|---|---|---|---|
+| Stable wave clear | Yes | Expansion is unlikely to break the defense | Unlock, then recheck lane coverage |
+| Minor leaks only | Maybe | You may need a small upgrade before expanding | Fix the weakest lane first |
+| Constant leaks | No | The next zone will likely compound the problem | Spend on defense and retry later |
+| Strong income, weak board | No | Money is ahead of your combat power | Roll or upgrade before buying |
+
+</Section>
+
+<Section icon={Target} title="Best Zone Priority Order">
+
+Zone priority is easier when you think in terms of pressure. The best route is usually the one that gives you the most breathing room for the lowest risk. That often means avoiding the flashy unlock and taking the area that supports your current defense pattern.
+
+<Callout type="warning" title="Don’t Rush the Map">
+A bigger board is not automatically a better board. If your placements become awkward, your defense can get worse even while your map gets larger.
+</Callout>
+
+| Priority | Zone Type | Why It Matters | Common Mistake |
+|---|---|---|---|
+| 1 | Stabilizing zone | Helps you hold the current wave pattern | Buying it without fixing leaks |
+| 2 | Income-friendly zone | Supports more rolls and better growth | Spending the gain too early |
+| 3 | Coverage-friendly zone | Gives your units better lane control | Ignoring placement spacing |
+| 4 | High-pressure zone | Better only when your core is already strong | Expanding before your defense is ready |
+
+<CardGrid cols={3}>
+  <Card title="Stability First">
+    Keep the lane clear, then expand.
+  </Card>
+  <Card title="Income Second">
+    Let the economy support the next push.
+  </Card>
+  <Card title="Pressure Last">
+    Take risky zones only when your defense is already solid.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="zone-priority-checklist"
+  title="Zone Priority Checklist"
+  items={[
+    "Check whether the current lane is fully stable",
+    "Keep a small income reserve after every unlock",
+    "Make sure your best unit still covers the most dangerous path",
+    "Only buy the next zone if it improves the run, not just the map"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Zone Progression">
+
+Use this sequence when you want smoother progress and fewer wasted purchases. The idea is to protect your momentum instead of forcing a bigger zone before the setup is ready.
+
+<Callout type="success" title="Best Progress Pattern">
+Stabilize first, expand second, then reinvest the new income into the weakest part of the defense.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Secure the current lane">
+    Place your strongest defenders where they can cover the longest section of the path. Do not chase the next area until the current one clears cleanly.
+  </Step>
+  <Step num="2" title="Measure the bottleneck">
+    Decide whether your problem is damage, coverage, or economy. That one decision should guide your next purchase.
+  </Step>
+  <Step num="3" title="Buy the most useful zone">
+    Choose the unlock that improves control or income, not the one that merely looks larger or more advanced.
+  </Step>
+  <Step num="4" title="Rebuild after expansion">
+    Recheck the lane layout after the purchase. New zones can change where your units matter most.
+  </Step>
+</Steps>
+
+| Resource | Use First | Use Second | Use Later |
+|---|---|---|---|
+| Income | Fix leaks | Prepare the next unlock | Smooth out weak coverage |
+| Rolls | Improve your carry | Replace filler units | Chase luxury upgrades |
+| Space | Protect the main lane | Extend safe coverage | Set up the next zone |
+| Time | Stabilize waves | Farm a reserve | Push when the board is ready |
+
+</Section>
+
+<Section icon={Sparkles} title="Resource Split for Safer Zone Progression">
+
+Good zone play is really a budgeting problem. If you spend everything on expansion, you lose the flexibility to recover from bad waves. If you spend everything on rolls, you may delay progress longer than necessary. The sweet spot is a balanced loop.
+
+<Callout type="tip" title="Simple Budget Rule">
+Keep enough income to respond after a bad wave, then spend the rest on the problem that slows your run the most.
+</Callout>
+
+| Run State | Best Use of Income | What to Avoid |
+|---|---|---|
+| Early game | Core units and lane coverage | Buying zones too quickly |
+| Mid game | One strong upgrade path | Spreading money across every option |
+| Late game | Reliable defense and selective expansion | Overcommitting to a weak zone |
+| Recovery run | Fixing the last failure point | Repeating the same mistake with a bigger budget |
+
+<Checklist
+  id="resource-split-checklist"
+  title="Before You Spend:"
+  items={[
+    "Leave enough income for one recovery purchase",
+    "Improve the bottleneck that actually failed the last wave",
+    "Avoid expanding if your defense still needs patching",
+    "Use new income to make the next push safer, not just larger"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Official Links">
+
+<Callout type="info" title="FAQ Focus">
+These answers keep the plan simple: hold the current zone, expand only when stable, and use each unlock to make the run easier.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the safest way to play roll to defend all zones?",
+    answer: "Hold the current lane until waves clear reliably, then buy the next zone only if it improves defense or income without breaking your setup."
+  },
+  {
+    question: "Should I buy every zone as soon as I can?",
+    answer: "Not usually. Early expansion can make your defense awkward if you do not have enough damage, coverage, or reserve income."
+  },
+  {
+    question: "What should I fix first after a bad wave?",
+    answer: "Start with the bottleneck that caused the leak. That is usually damage, placement, or an overextended economy."
+  },
+  {
+    question: "How do I know a zone is worth it?",
+    answer: "A good zone gives you better control, safer progression, or stronger income. If it only makes the map bigger, wait."
+  }
+]} />
+
+| Official Route | Use Case | Link |
+|---|---|---|
+| Roblox experience page | Play the game and access the live interface | https://www.roblox.com/games/129559579789369/Roll-to-Defend |
+| D:/Drive community | Check the creator group route tied to the experience | https://www.roblox.com/communities/861213399/D-Drive |
+| Creator listing | Review the public game listing details | https://creatorexchange.io/roblox-game/10168931576/roll-to-defend |
+
+</Section>

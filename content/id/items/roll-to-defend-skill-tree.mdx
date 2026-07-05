@@ -1,0 +1,213 @@
+import { Map, Swords, Sparkles, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Panduan Setup Pemula & Prioritas Tier",
+  description: "Gunakan panduan pohon skill Roll to Defend ini untuk memprioritaskan unit awal, upgrade, zone, peningkatan luck, dan pendapatan offline agar run Roblox lebih stabil.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Perencanaan pohon skill Roll to Defend** paling efektif saat kamu menstabilkan pertahanan sebelum mengejar roll yang lebih besar.
+- **Pertahankan pull dengan rarity tertinggi** di field terlebih dahulu; unit pengisi hanya menutup celah.
+- **Gunakan upgrade untuk bottleneck**: damage, coverage, lalu kualitas roll dan zone.
+- **Tumpuk luck lebih awal** bersama teman dan bonus grup sebelum sesi rolling yang panjang.
+- **Ambil pendapatan offline terlebih dahulu** saat kembali, lalu perbaiki kelemahan yang menyebabkan run terakhir gagal.
+</Callout>
+
+<Section icon={Map} title="Pohon Skill Roll to Defend: Jalur Setup Awal">
+
+Perencanaan pohon skill Roll to Defend paling efektif jika menit pertama kamu perlakukan seperti corong: roll untuk kekuatan, tempatkan unit dengan cepat, lalu baru pikirkan ekspansi. Jalur awal yang paling aman sederhana: bangun pertahanan yang cukup untuk bertahan hidup, lalu ubah setiap gelombang menjadi pendapatan tambahan.
+
+**Rangkaian awal inti**
+- Roll sampai kamu punya lini depan yang bisa dipakai.
+- Tempatkan defender terbaikmu di jalur terpanjang.
+- Amati gelombang pertama dan catat titik di mana musuh lolos.
+- Putar kembali pendapatan ke survivability sebelum membeli zone baru.
+
+<Steps>
+  <Step num="1" title="Roll untuk lini depan yang bisa dipakai">
+    Mulailah dengan mencari pull terkuat yang terlihat dan bisa segera kamu pasang. Tujuannya bukan kesempurnaan; tujuannya adalah menghentikan gelombang awal agar tidak makin menggila.
+  </Step>
+  <Step num="2" title="Tempatkan unit di jalur terpanjang">
+    Letakkan defender di tempat yang memberi mereka waktu serang paling lama. Cakupan jalur yang lebih baik sering kali mengalahkan unit mencolok yang berada di posisi salah.
+  </Step>
+  <Step num="3" title="Perbaiki kebocoran sebelum ekspansi">
+    Jika zombie berhasil lolos, anggap itu pertama-tama sebagai masalah penempatan atau damage. Ekspansi bisa menunggu sampai basis mampu bertahan stabil.
+  </Step>
+  <Step num="4" title="Putar kembali pendapatan ke keuntungan berikutnya">
+    Setelah field stabil, ubah pendapatan menjadi roll berikutnya, upgrade berikutnya, atau zone berikutnya. Progres seharusnya terasa berantai, bukan acak.
+  </Step>
+</Steps>
+
+| Prioritas | Yang dilakukan | Mengapa penting |
+|---|---|---|
+| Pertahanan awal | Tempatkan unit terkuat terlebih dahulu | Defender yang hidup langsung menciptakan nilai |
+| Coverage | Isi jalur yang lemah dengan unit cadangan | Coverage mengurangi kebocoran dan belanja panik |
+| Pendapatan | Simpan sebagian hasil untuk reroll | Membuat upgrade berikutnya lebih fleksibel |
+| Ekspansi | Beli zone setelah gelombang stabil | Ekspansi tanpa stabilitas bisa memperlambat progres |
+
+<Callout type="tip" title="Aturan Awal">
+Jika gelombang yang sama terus bocor, perbaiki penempatan sebelum menghabiskan lebih banyak roll acak. Koreksi layout kecil sering kali menghemat lebih banyak pendapatan daripada pembelian berisiko lainnya.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Unit Roll to Defend: Pertahankan, Cadangkan, Ganti">
+
+Aturan unit yang paling rapi tetap yang paling lama: pertahankan pull terbaik yang terlihat, cadangkan yang biasa saja, dan ganti unit pengisi segera setelah opsi yang lebih kuat muncul. Pendekatan ini membuat pertahananmu tetap ramping, mudah dibaca, dan lebih mudah di-upgrade.
+
+<CardGrid cols={3}>
+  <Card title="Carry Pull">
+    - **Pertahankan segera**
+    - Sumber damage utama
+    - Penyangga field jangka panjang
+  </Card>
+  <Card title="Support Pull">
+    - **Pertahankan jika berguna**
+    - Menutup jalur yang lemah
+    - Membantu menstabilkan gelombang
+  </Card>
+  <Card title="Filler Pull">
+    - **Hanya sementara**
+    - Unit cakupan awal
+    - Ganti saat unit yang lebih baik datang
+  </Card>
+</CardGrid>
+
+| Tipe Pull | Dipertahankan? | Penggunaan Terbaik |
+|---|---|---|
+| Rarity tinggi | **Ya** | Damage utama dan pertahanan jangka panjang |
+| Rarity menengah | **Biasanya** | Menambal jalur dan menstabilkan gelombang |
+| Rarity rendah | **Sementara** | Cakupan awal sampai pull yang lebih kuat datang |
+| Duplikat yang lebih baik | **Ya** | Gantikan versi yang lebih lemah |
+
+Kebiasaan yang paling berguna adalah membandingkan unit berdasarkan apa yang mereka lakukan di jalur, bukan hanya dari seberapa mencolok tampilannya. Unit dengan cakupan jalur yang solid bisa mengungguli pull yang lebih eksotis jika pull eksotis itu meninggalkan celah terbuka.
+
+<Callout type="info" title="Prioritas Unit">
+Jangan menilai unit hanya dari rarity. Pull yang terlihat lebih lemah tetap bisa mendapat slot jika ia melindungi jalur yang lebih panjang atau menghentikan kebocoran berulang.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrade Roll to Defend: Belanjakan dengan Urutan yang Tepat">
+
+Upgrade seharusnya menyelesaikan bottleneck yang menjatuhkan run terakhir, bukan menaikkan semua stat sekaligus. Secara praktik, itu berarti damage lebih dulu saat zombie bertahan terlalu lama, coverage lebih dulu saat mereka lolos, dan kualitas roll atau belanja zone hanya ketika field sudah stabil.
+
+| Situasi | Upgrade Pertama | Tunda Dulu | Hasil yang Diharapkan |
+|---|---|---|---|
+| Zombie terlalu lama hidup | **Damage** | Zone tambahan | Clear lebih cepat dan momen panik lebih sedikit |
+| Musuh lolos di tepi | **Coverage** | Reroll lebih banyak | Jalur lebih bersih dan konsistensi lebih baik |
+| Roll terasa lemah | **Setup luck** | Ekspansi mahal | Sesi mendatang lebih kuat |
+| Pendapatan terasa lambat | **Investasikan kembali hasil** | Pembelian kosmetik | Pemulihan ekonomi lebih cepat |
+
+| Bottleneck | Perbaikan Terbaik | Kebiasaan Buruk yang Harus Dihindari |
+|---|---|---|
+| Celah damage | Perkuat unit clear utama | Menyebar upgrade ke banyak unit lemah |
+| Celah penempatan | Bangun ulang coverage jalur | Terlalu cepat menyalahkan RNG |
+| Celah ekonomi | Simpan pendapatan untuk sesi terfokus | Menghabiskan setiap koin seketika |
+| Celah waktu | Tunda ekspansi sampai stabil | Membeli zone sebelum pertahanan siap |
+
+<Callout type="warning" title="Disiplin Upgrade">
+Jika kamu tidak bisa menyebut bottleneck-nya, berhenti sejenak dan periksa gelombang terakhir yang gagal sebelum membeli apa pun. Belanja acak biasanya menutupi masalah sebenarnya, bukan menyelesaikannya.
+</Callout>
+
+Jalur upgrade yang baik terasa membosankan dengan cara yang positif. Ia membuat pertahanan tetap hidup cukup lama agar pembelian berikutnya terasa berarti, dan itulah persis yang seharusnya dilakukan pohon progresi yang bagus.
+
+</Section>
+
+<Section icon={Shield} title="Zone, Luck, dan Pendapatan Offline Roll to Defend">
+
+Zone, luck, dan pendapatan offline membentuk loop midgame. Gunakan luck dari teman dan bonus grup sebelum sesi panjang, lalu beli zone baru hanya setelah setup saat ini bertahan dengan bersih. Itu menjaga progres tetap bergerak tanpa mengubah run menjadi kekacauan.
+
+<Steps>
+  <Step num="1" title="Atur luck terlebih dahulu">
+    Bergabunglah dengan server yang tepat, bermainlah bersama teman bila memungkinkan, dan aktifkan bonus sosialmu sebelum memulai sesi roll yang serius.
+  </Step>
+  <Step num="2" title="Stabilkan pendapatan">
+    Bangun pendapatan yang cukup agar gelombang berikutnya tidak memaksa belanja darurat. Pendapatan yang stabil membuat sisa jalur jauh lebih mudah dikendalikan.
+  </Step>
+  <Step num="3" title="Beli zone pada waktu yang tepat">
+    Ekspansi hanya saat pertahanan saat ini mampu membersihkan gelombang dengan nyaman. Zone baru seharusnya membuka progres, bukan menambah kebakaran baru.
+  </Step>
+  <Step num="4" title="Ambil pendapatan offline terlebih dahulu">
+    Saat kembali, klaim pendapatan yang tersimpan sebelum roll atau ekspansi. Itu memberi fleksibilitas paling besar di awal sesi.
+  </Step>
+</Steps>
+
+| Sumber | Yang diberikan | Waktu terbaik |
+|---|---|---|
+| Teman | Luck lebih besar saat roll | Sebelum sesi roll yang direncanakan |
+| Grup D:/Drive | Jalur luck tambahan | Sebelum farming serius |
+| Pendapatan offline | Mengembalikan resource saat kamu tidak bermain | Di awal sesi |
+| Pendapatan tersimpan | Fleksibilitas untuk upgrade | Setelah gelombang stabil |
+
+<Checklist
+  id="luck-income"
+  title="Checklist midgame:"
+  items={[
+    "Bergabung dengan komunitas resmi creator sebelum sesi panjang",
+    "Roll setelah setup luck aktif",
+    "Simpan sebagian pendapatan untuk bottleneck berikutnya",
+    "Ambil pendapatan offline sebelum membeli zone baru"
+  ]}
+/>
+
+<Callout type="success" title="Rutin Kembali Terbaik">
+Ambil pendapatan, perbaiki kelemahan, lalu dorong zone berikutnya. Urutan ini menjaga progres tetap stabil dan membuat setiap sesi lebih mudah dikelola.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kesalahan, Link, dan FAQ Roll to Defend">
+
+Cara tercepat untuk kehilangan tempo adalah menghabiskan sesuatu pada hal yang salah. Kesalahan-kesalahan ini mudah diperbaiki jika kamu menangkapnya lebih awal, dan link yang tepat membantu kamu tetap berada di jalur resmi.
+
+| Kesalahan Umum | Perbaikan | Hasil yang Diharapkan |
+|---|---|---|
+| Membeli zone terlalu awal | Stabilkan pertahanan dulu | Gelombang panik lebih sedikit |
+| Mengabaikan celah penempatan | Bangun ulang coverage jalur | Kebocoran lebih bersih dan clear lebih baik |
+| Menghabiskan semua koin segera | Tahan sebagian pendapatan | Upgrade lebih fleksibel |
+| Terlalu lama mempertahankan filler lemah | Ganti setelah pull yang lebih baik muncul | Field keseluruhan lebih kuat |
+| Roll sebelum setup luck | Aktifkan bonus dulu | Nilai sesi lebih baik |
+
+| Link Resmi | URL | Penggunaan |
+|---|---|---|
+| Halaman game Roblox | [Buka Roll to Defend](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Mulai dari sini untuk bermain, update, dan tab |
+| Komunitas creator | [Gabung D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Ikuti jalur bonus grup yang tercantum |
+| Daftar publik | [Entri Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Periksa detail listing game publik |
+
+<Callout type="tip" title="Aturan Link">
+Gunakan halaman game Roblox sebagai titik awal, lalu ikuti rute yang terhubung ke creator untuk bonus grup dan jalur masuk resmi.
+</Callout>
+
+<FAQ
+  items={[
+    {
+      question: "Apa yang harus saya lakukan pertama kali dalam perencanaan pohon skill Roll to Defend?",
+      answer: "Stabilkan pertahananmu dulu. Roll untuk lini depan yang bisa dipakai, tempatkan di jalur terpanjang, dan baru setelah itu mulai mendorong zone atau mengoptimalkan pendapatan."
+    },
+    {
+      question: "Haruskah saya membeli zone lebih awal?",
+      answer: "Hanya jika setup saat ini sudah bisa membersihkan gelombang dengan nyaman. Jika musuh masih bocor, belanjakan untuk damage atau coverage sebelum ekspansi."
+    },
+    {
+      question: "Apakah luck lebih penting daripada damage?",
+      answer: "Tidak. Luck membantu sesi roll-mu, tetapi damage dan penempatan tetap menentukan apakah field bertahan. Anggap luck sebagai dorongan, bukan pengganti."
+    },
+    {
+      question: "Apa rutinitas paling aman setelah mendapat pendapatan offline?",
+      answer: "Ambil pendapatannya dulu, perbaiki bottleneck yang menyebabkan kegagalan terakhir, lalu putuskan apakah akan roll, upgrade, atau ekspansi."
+    }
+  ]}
+/>
+
+</Section>

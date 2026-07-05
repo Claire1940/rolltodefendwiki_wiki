@@ -1,0 +1,193 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Farming de Roll to Defend: Sorte, Renda e Zonas",
+  description: "Guia de farming de Roll to Defend para construir um ciclo mais forte: role de forma mais inteligente, acumule sorte, sincronize os upgrades de zona e transforme a renda offline em progresso mais rápido.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Roll+to+Defend+Farming+Guide",
+  date: "2026-07-05",
+  author: "Equipe do Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **guia de farming de Roll to Defend** gira em torno de um ciclo: rolar, estabilizar e reinvestir antes de correr atrás de expansão.
+- **Configuração de sorte** funciona melhor antes de sessões longas, especialmente quando os bônus de amigos e de grupo estão ativos.
+- **Renda offline** deve corrigir o gargalo que encerrou sua última run, não bancar gastos aleatórios.
+- **Tempo das zonas** é mais seguro quando sua defesa atual limpa as ondas sem compras no desespero.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas de Farming em Roll to Defend">
+
+Farming em Roll to Defend não é sobre rolar sem parar. As runs mais fortes seguem um padrão simples: coloque um defensor útil em campo, mantenha os zumbis sob controle e, depois, transforme a renda no próximo upgrade que realmente faz a run avançar. Se você gastar cedo demais com expansão, normalmente cria mais pressão do que valor.
+
+<CardGrid cols={3}>
+  <Card title="Rolar">
+    - **Objetivo principal**
+    - Montar um núcleo de unidades mais forte
+    - Evitar gastar o inventário à toa
+  </Card>
+  <Card title="Segurar">
+    - **Objetivo principal**
+    - Manter as ondas estáveis
+    - Proteger seu fluxo de renda
+  </Card>
+  <Card title="Reinvestir">
+    - **Objetivo principal**
+    - Colocar dinheiro no próximo gargalo
+    - Melhorar a eficiência futura do farming
+  </Card>
+</CardGrid>
+
+| Parte do Ciclo | O Que Faz | Melhor Momento |
+|---|---|---|
+| Rolar unidades | Cria o núcleo da sua defesa | No início de cada sessão |
+| Posicionar defensores | Cobre os caminhos dos zumbis | Logo após uma boa rolagem |
+| Reinvestir renda | Melhora o progresso futuro | Depois de um ciclo de ondas estável |
+| Comprar zonas | Expande a progressão | Só depois que a defesa estiver estável |
+
+<Callout type="tip" title="Farme o Ciclo, Não o Lobby">
+Se sua defesa estiver instável, continue farmando primeiro a área atual. Uma run estável normalmente gera mais valor do que um desbloqueio apressado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="O Que Farmar Primeiro">
+
+A melhor prioridade de farming depende do estado da sua run. O progresso inicial deve proteger sua sobrevivência. O meio do jogo deve melhorar cobertura e dano. O fim do jogo pode migrar para rolagens mais fortes, melhor valor de zona e reinvestimento mais limpo da renda offline. O objetivo é consistência, não gastos chamativos.
+
+| Fase do Jogo | Foco Ideal | Evite | Por Que Isso Importa |
+|---|---|---|---|
+| Início | Qualidade da rolagem e posicionamento | Comprar zonas cedo demais | Você precisa de uma base estável antes de expandir |
+| Meio | Dano, cobertura e timing | Espalhar a renda demais | Um upgrade forte vale mais do que três fracos |
+| Fim | Renda offline e reinvestimento direcionado | Rerolls aleatórios | Eficiência importa mais do que volume |
+
+| Situação | Gastar Em | Deixar Para Depois |
+|---|---|---|
+| Zumbis atravessam as rotas | Cobertura ou dano | Novas zonas |
+| As ondas são limpas com facilidade | Rolagens melhores | Gastos no desespero |
+| A renda está acumulando offline | Correção de gargalo | Escolhas cosméticas |
+| Você já tem um núcleo estável | Expansão controlada | Comprar poder demais |
+
+<Callout type="warning" title="Não Farme Longe Demais">
+Se cada upgrade recebe um pouco de dinheiro, nenhum deles recebe o suficiente. Foque primeiro na parte mais fraca da run.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Farming Passo a Passo">
+
+Use esta rota quando quiser um padrão de farming limpo e repetível. A sequência importa porque cada passo sustenta o próximo. Se você mudar a ordem cedo demais, normalmente paga com crescimento mais lento ou defesa mais fraca.
+
+<Steps>
+  <Step num="1" title="Comece com uma Boa Rolagem">
+    Role até conseguir um defensor que realmente mude as ondas iniciais. Não fique parado com a renda inicial enquanto os zumbis já estão pressionando a rota.
+  </Step>
+  <Step num="2" title="Posicione as Unidades para Cobertura Máxima">
+    Coloque sua melhor unidade onde ela possa atingir o caminho mais longo ou mais movimentado. Um bom posicionamento costuma importar tanto quanto a própria rolagem.
+  </Step>
+  <Step num="3" title="Estabilize o Ciclo Atual de Ondas">
+    Observe onde os inimigos sobrevivem por mais tempo. Esse ponto fraco mostra se você precisa de mais dano, melhor cobertura ou um upgrade mais inteligente.
+  </Step>
+  <Step num="4" title="Reinvista no Gargalo">
+    Gaste a renda no problema que atrasou sua última run. Se sua defesa vazou, corrija isso primeiro antes de rolar novamente.
+  </Step>
+  <Step num="5" title="Compre Zonas Só Depois da Estabilidade">
+    Expanda quando a configuração atual limpar as ondas com tranquilidade. Se a nova área exigir gastos de emergência, você expandiu cedo demais.
+  </Step>
+</Steps>
+
+| Etapa | Sinal de Sucesso | Falha Comum |
+|---|---|---|
+| Rolar | Defensor melhor em campo | Correr atrás de rolagens demais |
+| Posicionar | Cobertura por toda a rota | Posicionamento agrupado ou desperdiçado |
+| Estabilizar | Ondas são limpas com folga | Reparos constantes de vazamento |
+| Reinvestir | Gargalo mais claro | Gastos espalhados |
+| Expandir | Nova zona parece administrável | Desbloquear antes de estar pronto |
+
+<Callout type="success" title="Regra Simples">
+Se a run estiver estável, acelere. Se a run estiver vazando, reduza o ritmo e corrija o vazamento antes de farmar mais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sorte, Renda Offline e Tempo das Zonas">
+
+Roll to Defend recompensa jogadores que se preparam antes do grande gasto. Bônus de sorte, renda offline e timing das zonas funcionam melhor quando fazem parte de um único plano, e não de ações separadas. Trate a sorte como um impulso para uma boa configuração, não como substituta dela.
+
+| Fonte de Farming | O Que Ajuda | Melhor Momento para Usar |
+|---|---|---|
+| Bônus de amigos | Sessões de rolagem mais fortes | Antes de blocos longos de farming |
+| Bônus de grupo | Valor extra de sorte | Antes de uma sessão planejada de reroll |
+| Renda offline | Mais dinheiro ao retornar | No início do seu próximo login |
+| Defesa estável | Reinvestimento mais seguro | Antes de desbloquear zonas |
+
+| Estado da Run | Melhor Movimento | Movimento Ruim |
+|---|---|---|
+| Sem vazamentos | Economize e planeje o próximo upgrade | Comprar todas as opções sem critério |
+| Vazando | Corrija cobertura ou dano | Correr para uma nova zona |
+| Nova zona estável | Reforce e expanda com cuidado | Encadear desbloqueios rápido demais |
+| Voltando do offline | Colete a renda primeiro | Gastar antes de verificar o gargalo |
+
+| Ponto de Partida Oficial | Uso |
+|---|---|
+| https://www.roblox.com/games/129559579789369/Roll-to-Defend | Inicie a experiência e confira a página atual do jogo |
+| https://www.roblox.com/communities/861213399/D-Drive | Entre na rota da comunidade do criador ligada a sorte extra |
+
+<Callout type="tip" title="Timing Vence o Impulso">
+Uma sessão de rolagem melhor começa antes de você clicar para rolar. Configure a sorte, verifique a defesa e então gaste com propósito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Erros Comuns, Checklist e FAQ">
+
+Os maiores erros de farming costumam ser simples: gastar de forma espalhada demais, expandir cedo demais e ignorar o verdadeiro gargalo. Farming limpo é sobre proteger o ritmo. Se você mantiver a run estável, o próximo upgrade fica mais fácil de alcançar.
+
+<Callout type="info" title="Checklist Pré-Farming">
+Garanta que estes pontos sejam verdadeiros antes de uma sessão longa:
+</Callout>
+
+<Checklist
+  id="farm-session-checklist"
+  title="Checklist de Pronto para a Sessão:"
+  items={[
+    "Você tem um defensor em campo que consegue segurar as ondas iniciais",
+    "Sua cobertura atual de rota está estável o suficiente para evitar gastos no desespero",
+    "Sua configuração de sorte está ativa antes da próxima grande sessão de rolagem",
+    "Você sabe se o gargalo real é dano, cobertura ou zonas"
+  ]}
+/>
+
+| Erro | Correção Melhor |
+|---|---|
+| Comprar zonas cedo demais | Estabilize primeiro a defesa atual |
+| Gastar em todas as opções | Direcione a renda para um problema real |
+| Rolar novamente sem preparação | Use bônus de sorte antes de grandes sessões |
+| Ignorar a renda offline | Reinvista-a no último ponto fraco |
+
+<FAQ items={[
+  {
+    question: "O que devo farmar primeiro em Roll to Defend?",
+    answer: "Comece com um defensor estável e, depois, proteja seu fluxo de renda. A melhor escolha de farming no início é o upgrade que impede os zumbis de forçarem gastos de emergência."
+  },
+  {
+    question: "Devo comprar zonas ou rolar mais unidades primeiro?",
+    answer: "Role e estabilize primeiro. Compre zonas depois que sua defesa atual limpar as ondas de forma consistente, porque expandir é mais seguro quando seu núcleo já está funcionando."
+  },
+  {
+    question: "A renda offline importa para o farming?",
+    answer: "Sim. A renda offline é mais forte quando corrige a fraqueza que encerrou sua última run. Colete-a primeiro e gaste antes de expandir."
+  },
+  {
+    question: "Como os bônus de sorte ajudam no farming?",
+    answer: "Os bônus de sorte ajudam mais durante sessões planejadas de rolagem. Use-os depois que sua defesa estiver estável, para que o valor extra vá para uma rolagem útil."
+  }
+]} />
+
+</Section>

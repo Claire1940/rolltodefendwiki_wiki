@@ -1,0 +1,209 @@
+import { Map, Shield, Target, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend all zones: Guía de zonas, unidades y progresión",
+  description: "Aprende a marcar el ritmo de las zonas, proteger los carriles y gastar ingresos en roll to defend all zones para que cada desbloqueo fortalezca tu ciclo de defensa en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Zones+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de roll to defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **roll to defend all zones** funciona mejor cuando estabilizas las oleadas antes de desbloquear la siguiente área.
+- El **momento de la zona** importa más que correr; los empujes débiles suelen costar más ingresos de los que ahorran.
+- **Daño, cobertura y economía** deben revisarse después de cada expansión.
+- El **mejor progreso** viene de gastar solo después de saber qué cuello de botella está frenando la partida.
+</Callout>
+
+<Section icon={Map} title="roll to defend all zones: Cómo funciona el flujo de zonas">
+
+En **roll to defend all zones**, la progresión tiene menos que ver con la velocidad y más con el control. Cada nueva área debería hacer tu partida más segura, más rentable o más fácil de defender. Si una zona genera más presión de la que tu configuración actual puede soportar, el desbloqueo es demasiado temprano.
+
+La mentalidad más limpia es simple: limpia el patrón actual de oleadas, identifica el carril más débil y luego decide si la siguiente zona realmente mejora tu partida. Eso evita que tus ingresos se agoten en arreglos de emergencia.
+
+| Etapa de la zona | Objetivo principal | Qué vigilar | Señal positiva |
+|---|---|---|---|
+| Temprana | Construir una primera defensa estable | Tirones débiles, carriles abiertos, ingresos lentos | Los zombis mueren antes de llegar a la base |
+| Media | Expandirse sin romper el núcleo | Cobertura dividida, mala colocación, desbloqueos apresurados | Una fuente fuerte de daño sostiene la oleada |
+| Tardía | Convertir ingresos en crecimiento más seguro | Sobreexpansión, rollos desperdiciados, defensa endeble | Cada nueva zona mejora el control, no el caos |
+
+<Callout type="info" title="Regla central">
+Si una nueva zona hace que el tablero sea más difícil de leer, pausa la expansión y arregla primero el carril que está filtrando.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cuándo comprar la siguiente zona">
+
+Una buena compra de zona debe resolver un problema, no crear uno nuevo. En la práctica, eso significa que quieres suficiente daño para limpiar la oleada actual, suficiente cobertura para sostener el camino y suficientes ingresos restantes para recuperarte después del desbloqueo.
+
+<CardGrid cols={3}>
+  <Card title="Comprar ahora">
+    - **Las oleadas actuales son estables**
+    - Todavía tienes ingresos de respaldo
+    - La siguiente zona añade espacio o valor útil
+  </Card>
+  <Card title="Esperar">
+    - Los zombis siguen filtrándose
+    - Tu mejor unidad está haciendo todo el trabajo
+    - Un nuevo desbloqueo estiraría demasiado tu presupuesto
+  </Card>
+  <Card title="Farmear primero">
+    - Los ingresos son demasiado lentos para expandirse
+    - Tu colocación aún necesita limpieza
+    - Un ciclo más haría más segura la siguiente apertura
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo práctico de sincronización">
+Si no puedes responder por qué la siguiente zona ayuda a tu partida actual, sigue farmeando y mejora primero la configuración.
+</Callout>
+
+| Situación | ¿Comprar zona? | Por qué | Siguiente paso |
+|---|---|---|---|
+| Limpieza estable de oleadas | Sí | Es poco probable que la expansión rompa la defensa | Desbloquea y luego vuelve a revisar la cobertura del carril |
+| Solo fugas menores | Tal vez | Puede que necesites una pequeña mejora antes de expandirte | Arregla primero el carril más débil |
+| Fugas constantes | No | La siguiente zona probablemente agravará el problema | Invierte en defensa y vuelve a intentarlo más tarde |
+| Buenos ingresos, tablero débil | No | El dinero va por delante de tu poder de combate | Tira o mejora antes de comprar |
+
+</Section>
+
+<Section icon={Target} title="Mejor orden de prioridad de zonas">
+
+La prioridad de zonas es más fácil cuando piensas en términos de presión. La mejor ruta suele ser la que te da más margen con el menor riesgo. Eso a menudo significa evitar el desbloqueo llamativo y elegir el área que apoye tu patrón de defensa actual.
+
+<Callout type="warning" title="No corras por el mapa">
+Un tablero más grande no es automáticamente un tablero mejor. Si tu colocación se vuelve incómoda, tu defensa puede empeorar aunque tu mapa crezca.
+</Callout>
+
+| Prioridad | Tipo de zona | Por qué importa | Error común |
+|---|---|---|---|
+| 1 | Zona de estabilización | Te ayuda a sostener el patrón actual de oleadas | Comprarla sin arreglar fugas |
+| 2 | Zona favorable para ingresos | Permite más rollos y mejor crecimiento | Gastar la ganancia demasiado pronto |
+| 3 | Zona favorable para cobertura | Da a tus unidades mejor control de carril | Ignorar el espaciado de colocación |
+| 4 | Zona de alta presión | Solo es mejor cuando tu núcleo ya es fuerte | Expandirse antes de que tu defensa esté lista |
+
+<CardGrid cols={3}>
+  <Card title="Primero la estabilidad">
+    Mantén el carril limpio y luego expándete.
+  </Card>
+  <Card title="Segundo los ingresos">
+    Deja que la economía respalde el siguiente empuje.
+  </Card>
+  <Card title="La presión al final">
+    Toma zonas arriesgadas solo cuando tu defensa ya sea sólida.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="zone-priority-checklist"
+  title="Lista de verificación de prioridad de zonas"
+  items={[
+    "Comprueba si el carril actual está completamente estable",
+    "Mantén una pequeña reserva de ingresos después de cada desbloqueo",
+    "Asegúrate de que tu mejor unidad siga cubriendo el camino más peligroso",
+    "Compra la siguiente zona solo si mejora la partida, no solo el mapa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de zonas paso a paso">
+
+Usa esta secuencia cuando quieras un progreso más fluido y menos compras desperdiciadas. La idea es proteger tu impulso en lugar de forzar una zona más grande antes de que la configuración esté lista.
+
+<Callout type="success" title="Mejor patrón de progreso">
+Estabiliza primero, expándete después y luego reinvierte los nuevos ingresos en la parte más débil de la defensa.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Asegura el carril actual">
+    Coloca a tus defensores más fuertes donde puedan cubrir la sección más larga del camino. No persigas la siguiente área hasta que la actual se limpie con claridad.
+  </Step>
+  <Step num="2" title="Mide el cuello de botella">
+    Decide si tu problema es daño, cobertura o economía. Esa única decisión debe guiar tu próxima compra.
+  </Step>
+  <Step num="3" title="Compra la zona más útil">
+    Elige el desbloqueo que mejore el control o los ingresos, no el que simplemente parezca más grande o más avanzado.
+  </Step>
+  <Step num="4" title="Reconstruye tras expandirte">
+    Revisa de nuevo la disposición del carril después de la compra. Las nuevas zonas pueden cambiar dónde importan más tus unidades.
+  </Step>
+</Steps>
+
+| Recurso | Usar primero | Usar segundo | Usar después |
+|---|---|---|---|
+| Ingresos | Arreglar fugas | Preparar el siguiente desbloqueo | Suavizar una cobertura débil |
+| Rollos | Mejorar tu carry | Reemplazar unidades de relleno | Buscar mejoras de lujo |
+| Espacio | Proteger el carril principal | Extender la cobertura segura | Preparar la siguiente zona |
+| Tiempo | Estabilizar oleadas | Farmear una reserva | Avanzar cuando el tablero esté listo |
+
+</Section>
+
+<Section icon={Sparkles} title="Reparto de recursos para una progresión de zonas más segura">
+
+Jugar bien las zonas es, en realidad, un problema de presupuesto. Si gastas todo en expansión, pierdes la flexibilidad para recuperarte de malas oleadas. Si gastas todo en rollos, puedes retrasar el progreso más de lo necesario. El punto ideal es un ciclo equilibrado.
+
+<Callout type="tip" title="Regla simple de presupuesto">
+Mantén suficientes ingresos para responder después de una mala oleada y luego gasta el resto en el problema que más frena tu partida.
+</Callout>
+
+| Estado de la partida | Mejor uso de los ingresos | Qué evitar |
+|---|---|---|
+| Juego temprano | Unidades núcleo y cobertura de carril | Comprar zonas demasiado rápido |
+| Juego medio | Una ruta fuerte de mejora | Repartir el dinero entre todas las opciones |
+| Juego tardío | Defensa fiable y expansión selectiva | Comprometerse demasiado con una zona débil |
+| Partida de recuperación | Arreglar el último punto de fallo | Repetir el mismo error con un presupuesto mayor |
+
+<Checklist
+  id="resource-split-checklist"
+  title="Antes de gastar:"
+  items={[
+    "Deja suficientes ingresos para una compra de recuperación",
+    "Mejora el cuello de botella que realmente falló la última oleada",
+    "Evita expandirte si tu defensa todavía necesita parches",
+    "Usa los nuevos ingresos para hacer el siguiente empuje más seguro, no solo más grande"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y enlaces oficiales">
+
+<Callout type="info" title="Enfoque de las preguntas frecuentes">
+Estas respuestas mantienen el plan simple: sostén la zona actual, expándete solo cuando esté estable y usa cada desbloqueo para hacer la partida más fácil.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más segura de jugar roll to defend all zones?",
+    answer: "Mantén el carril actual hasta que las oleadas se limpien de forma fiable; luego compra la siguiente zona solo si mejora la defensa o los ingresos sin romper tu configuración."
+  },
+  {
+    question: "¿Debería comprar todas las zonas en cuanto pueda?",
+    answer: "Normalmente no. La expansión temprana puede volver incómoda tu defensa si no tienes suficiente daño, cobertura o ingresos de reserva."
+  },
+  {
+    question: "¿Qué debo arreglar primero después de una mala oleada?",
+    answer: "Empieza por el cuello de botella que causó la fuga. Por lo general, es el daño, la colocación o una economía demasiado extendida."
+  },
+  {
+    question: "¿Cómo sé si una zona vale la pena?",
+    answer: "Una buena zona te da mejor control, una progresión más segura o mayores ingresos. Si solo hace más grande el mapa, espera."
+  }
+]} />
+
+| Ruta oficial | Caso de uso | Enlace |
+|---|---|---|
+| Página del juego en Roblox | Jugar y acceder a la interfaz en vivo | https://www.roblox.com/games/129559579789369/Roll-to-Defend |
+| Comunidad D:/Drive | Revisar la ruta del grupo creador vinculada a la experiencia | https://www.roblox.com/communities/861213399/D-Drive |
+| Lista del creador | Ver los detalles públicos de la ficha del juego | https://creatorexchange.io/roblox-game/10168931576/roll-to-defend |
+
+</Section>

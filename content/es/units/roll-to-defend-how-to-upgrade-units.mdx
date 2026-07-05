@@ -1,0 +1,200 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend cómo mejorar las unidades: mejor ruta de mejoras",
+  description: "Aprende la mejor ruta de mejoras en roll to defend, incluidas las correcciones de cuellos de botella, el momento de expansión de zonas, la configuración de suerte y la reinversión de ingresos fuera de línea.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Upgrade+Path",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de roll to defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **roll to defend** funciona mejor cuando corriges el cuello de botella actual, no todos los sistemas a la vez.
+- El **daño principal** suele ir primero si los zombis están atravesando tu defensa.
+- Las **mejoras de cobertura** importan más cuando las rutas duran demasiado o dejan puntos ciegos.
+- La **suerte y los ingresos** deben apoyar las mejoras, no reemplazar un plan de defensa estable.
+</Callout>
+
+<Section icon={Map} title="Prioridades de mejora en roll to defend">
+
+Empieza tratando las mejoras como una herramienta para controlar daños. En roll to defend, la mejor compra es la que evita que tu última partida se derrumbe otra vez. Si los zombis están llegando a la base, la respuesta no es una configuración más bonita; es una más fuerte.
+
+<CardGrid cols={3}>
+  <Card title="Daño principal">
+    - **Mejor cuando** las oleadas duran demasiado
+    - **Objetivo**: matar zombis más rápido
+    - **Prioridad**: primero en la mayoría de las partidas fallidas
+  </Card>
+  <Card title="Cobertura">
+    - **Mejor cuando** las rutas tienen fugas
+    - **Objetivo**: cubrir más tiempo de recorrido
+    - **Prioridad**: segunda cuando el problema es la colocación
+  </Card>
+  <Card title="Configuración de tiradas">
+    - **Mejor cuando** la defensa es estable
+    - **Objetivo**: mejorar las próximas tiradas
+    - **Prioridad**: después de que la supervivencia esté asegurada
+  </Card>
+</CardGrid>
+
+| Enfoque de mejora | Cuándo comprarlo | Mejor resultado | Cuándo omitirlo |
+|---|---|---|---|
+| Daño principal | Los zombis sobreviven el tiempo suficiente para amenazar la base | Limpiezas más rápidas, menos salvadas de emergencia | Las rutas fallan porque las unidades están mal colocadas |
+| Cobertura | Una unidad fuerte rinde bien, pero la ruta aún tiene fugas | Mejor control de rutas, oleadas más estables | Las oleadas básicas ya superan tu daño |
+| Configuración de tiradas | Tu defensa es estable y los ingresos fluyen | Mejores tiradas futuras y sesiones más fuertes | Sigues perdiendo contra oleadas fáciles |
+| Inversión lista para zona | Las oleadas actuales se limpian con claridad sin gastar en pánico | Expansión más segura hacia nuevas áreas | Una nueva zona expondría una defensa débil |
+
+<Callout type="tip" title="Regla de prioridad">
+Si la partida está fallando, compra primero la mejora que resuelva la supervivencia. Si la partida es estable, compra la mejora que mejore tu siguiente sesión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo diagnosticar el cuello de botella">
+
+La forma más rápida de desperdiciar ingresos es mejorar la capa equivocada. Una unidad fuerte colocada detrás de una mala ubicación sigue rindiendo por debajo de lo esperado. Del mismo modo, más zonas no arreglan una primera línea débil. Diagnostica el fallo antes de gastar.
+
+| Síntoma | Qué suele significar | Mejor solución |
+|---|---|---|
+| Los zombis llegan rápido a la base | El daño principal es demasiado bajo | Mejora primero la fuente principal de daño |
+| Una ruta siempre es débil | La cobertura es desigual | Mejora la colocación o añade unidades de apoyo |
+| Las oleadas empiezan bien, pero luego colapsan | La economía es demasiado escasa | Retén los ingresos más tiempo y mejora el cuello de botella |
+| Una nueva zona se siente peor al instante | La expansión llegó demasiado pronto | Pausa la compra de zonas y estabiliza la defensa |
+| Las tiradas se sienten improductivas | La configuración no está lista | Usa bonificaciones de suerte antes de la siguiente sesión de tiradas |
+
+<Callout type="warning" title="Error común">
+No compres una nueva zona solo porque puedes permitirte hacerlo. Si la configuración actual es inestable, expandirse solo hace que la presión sea más difícil de manejar.
+</Callout>
+
+**Usa este filtro simple antes de cada compra:**
+- **Problema de daño**: los zombis viven demasiado tiempo
+- **Problema de cobertura**: las rutas tienen fugas o las unidades no aprovechan el tiempo de recorrido
+- **Problema de tiradas**: tus tiradas actuales te están frenando
+- **Problema de progresión**: la defensa es estable, así que el objetivo es crecer
+
+| Problema | Gasta en | Por qué funciona |
+|---|---|---|
+| Problema de daño | Un ataque más fuerte o la mejor tirada de carry disponible | Acorta las oleadas y reduce la presión |
+| Problema de cobertura | Colocación, apoyo o control de rutas | Aumenta el tiempo efectivo de actividad de cada unidad |
+| Problema de tiradas | Configuración de suerte y mejor momento | Mejora el valor de las tiradas futuras |
+| Problema de progresión | Zonas o reinversión de ingresos | Convierte la estabilidad en crecimiento a largo plazo |
+
+</Section>
+
+<Section icon={Shield} title="Mejor orden de mejoras según la fase de la partida">
+
+Una vez que el cuello de botella está claro, sigue una escalera de mejoras consistente. El orden cambia un poco según la fase, pero la lógica se mantiene: estabilizar primero, potenciar después, expandir al final.
+
+<Steps>
+  <Step num="1" title="Estabiliza la oleada actual">
+    Gasta en la mejora que evite fugas ahora mismo. Si tu defensa está fallando, sobrevivir vence a todo lo demás.
+  </Step>
+  <Step num="2" title="Consolida tu mejor unidad">
+    Mantén en el campo la tirada visible más fuerte y construye alrededor de ella en lugar de repartir recursos entre rellenos débiles.
+  </Step>
+  <Step num="3" title="Corrige la cobertura de las rutas">
+    Cuando el daño ya sea suficiente, invierte en control del recorrido para que una sola unidad fuerte no tenga que cargar con todo el mapa.
+  </Step>
+  <Step num="4" title="Prepara la sesión de tiradas">
+    Cuando la partida sea estable, usa la suerte de amigos y la suerte de grupo antes de volver a tirar, para que los ingresos vayan a mejores tiradas.
+  </Step>
+  <Step num="5" title="Solo entonces expande">
+    Compra la siguiente zona cuando la configuración actual limpie con seguridad y todavía deje ingresos suficientes para reaccionar.
+  </Step>
+</Steps>
+
+| Fase de la partida | Gasto principal | Gasto secundario | Evita |
+|---|---|---|---|
+| Inicio | Daño principal | Cobertura básica | Perseguir zonas demasiado pronto |
+| Mitad | Mejores carries | Estabilidad de rutas | Sobremejorar unidades de relleno |
+| Final | Mejores mejoras de tirada | Reinversión de ingresos | Gastar cada mejora en la misma capa |
+| Recuperación tras una mala partida | El cuello de botella que falló | Nada más hasta arreglarlo | Repetir a ciegas la misma construcción |
+
+<Callout type="info" title="Escalera de mejoras">
+Una partida estable debería pasar de daño, a cobertura, a tiradas respaldadas por suerte, y luego a la expansión de zonas. Esa secuencia mantiene útil cada nueva compra.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zonas, suerte e ingresos fuera de línea">
+
+roll to defend añade valor extra mediante la suerte social y los ingresos fuera de línea, así que el momento de mejorar no depende solo de la fuerza en combate. Las mejores sesiones empiezan con la configuración adecuada y terminan con un ciclo de reinversión más limpio.
+
+| Sistema | Qué hacer | Por qué importa |
+|---|---|---|
+| Suerte de amigos | Tira con amigos durante sesiones planificadas | Favorece mejores tiradas cuando estás gastando ingresos ahorrados |
+| Suerte de grupo | Dale like al juego y únete al grupo del creador | Añade otra vía confirmada de suerte antes de tirar |
+| Ingresos fuera de línea | Recolectarlos al regresar | Te da un presupuesto fresco de mejoras sin empezar desde cero |
+| Momento de las zonas | Compra zonas solo después de estabilizarte | Evita que la expansión cree un problema más difícil |
+
+**Enlaces oficiales que conviene usar primero:**
+- [Roll to Defend en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend)
+- [Comunidad D:/Drive Roblox](https://www.roblox.com/communities/861213399/D-Drive)
+
+| Si tienes esto | Mejor siguiente movimiento | Motivo |
+|---|---|---|
+| Defensa estable e ingresos guardados | Tira con las bonificaciones de suerte activas | Mejores tiradas crean una partida siguiente más fuerte |
+| Unidades fuertes pero poca cobertura | Mejora la colocación o el apoyo | Un buen daño sigue necesitando tiempo sobre el objetivo |
+| Ingresos completos tras un descanso | Corrige primero el último cuello de botella | Los ingresos fuera de línea se aprovechan mejor en la debilidad que terminó la partida |
+| Oleadas seguras y recursos sobrantes | Empuja la siguiente zona | Expandirse es más seguro cuando la base está tranquila |
+
+<Callout type="success" title="Mejor momento">
+Usa la suerte antes de tirar, luego usa los ingresos fuera de línea al volver, y solo entonces decide si las zonas son el siguiente paso correcto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y FAQ">
+
+Si quieres una rutina de mejoras limpia, mantén simple la siguiente sesión. Reconstruye la misma lógica en cada partida: identifica la debilidad, compra la solución y deja de gastar cuando la defensa se vuelva estable.
+
+<Callout type="tip" title="Comprobación final">
+Antes de cerrar una sesión, asegúrate de que la próxima visita empiece con un plan claro: daño primero, cobertura después, expansión al final.
+</Callout>
+
+<Checklist
+  id="upgrade-goals"
+  title="Lista de verificación de la sesión de mejoras:"
+  items={[
+    "Identifica el cuello de botella actual antes de gastar",
+    "Mantén en uso activo la tirada más fuerte disponible",
+    "Compra cobertura solo después de que el daño principal sea estable",
+    "Activa la suerte de amigos y la suerte de grupo antes de grandes tiradas",
+    "Gasta los ingresos fuera de línea en la debilidad que terminó la última partida"
+  ]}
+/>
+
+| Decisión | Buena señal | Mala señal |
+|---|---|---|
+| Mejorar daño | Las oleadas ahora se limpian con seguridad | Todavía no puedes aguantar la presión básica |
+| Mejorar cobertura | Las rutas dejan de tener fugas | Estás cambiando un problema por otro |
+| Mejorar la configuración de suerte | Estás planificando una sesión real de tiradas | Estás tirando al azar sin un objetivo |
+| Comprar una zona | La defensa ya está tranquila | La siguiente oleada expondría puntos débiles |
+
+<FAQ items={[
+  {
+    question: "¿Qué debería mejorar primero en roll to defend?",
+    answer: "Empieza por el cuello de botella. En la mayoría de las partidas fallidas, eso significa primero el daño principal, luego la cobertura y después las tiradas respaldadas por suerte."
+  },
+  {
+    question: "¿Debería comprar zonas antes de mejorar las unidades?",
+    answer: "Solo si la defensa actual ya es estable. Si los zombis están atravesando tu defensa, arregla la partida antes de expandirte."
+  },
+  {
+    question: "¿Cómo encajan la suerte de amigos y la suerte de grupo en las mejoras?",
+    answer: "Usa ambas antes de una sesión planificada de tiradas para que tus ingresos ahorrados vayan a mejores tiradas en lugar de gasto aleatorio."
+  },
+  {
+    question: "¿Cuál es el mejor uso de los ingresos fuera de línea?",
+    answer: "Gástalos en la debilidad que terminó tu última partida y luego vuelve a tirar o a avanzar por zonas una vez que la defensa esté segura."
+  }
+]} />
+
+</Section>

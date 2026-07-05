@@ -1,0 +1,198 @@
+import { Map, Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panduan zona roll to defend: waktu membeli, tips progresi",
+  description: "Pelajari kapan harus membeli zona di Roll to Defend, cara menstabilkan pertahanan terlebih dahulu, dan cara menghindari pemborosan pendapatan saat ekspansi yang tergesa-gesa.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/312e81/fff?text=Zone+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **panduan zona roll to defend**: Beli zona hanya setelah pertahanan saat ini membersihkan gelombang tanpa belanja panik.
+- **Waktu terbaik**: Ekspansi saat Anda punya pendapatan cadangan, cakupan yang stabil, dan jalan pemulihan yang jelas.
+- **Kesalahan umum**: Terlalu cepat mendorong zona bisa membuka kerusakan yang lemah dan cakupan jalur yang tipis.
+- **Prioritas cerdas**: Perbaiki hambatan dari percobaan terakhir sebelum Anda membuka area berikutnya.
+- **Aturan cepat**: Jika tim Anda masih kebobolan musuh, zona itu belum siap.
+</Callout>
+
+<Section icon={Map} title="Panduan zona roll to defend: Dasar Waktu Membeli">
+
+Zona di Roll to Defend seharusnya terasa seperti hadiah atas stabilitas, bukan solusi putus asa untuk run yang goyah. Ekspansi terbaik terjadi setelah susunan saat ini membersihkan gelombang dengan cukup bersih sehingga Anda bisa berhenti sejenak, berpikir, dan membelanjakan sumber daya dengan sengaja.
+
+Langkah zona yang bagus menjaga pertahanan Anda terus berkembang tanpa memaksa reset pada aliran sumber daya. Jika area baru akan membuat Anda kekurangan upgrade, kualitas unit, atau opsi pemulihan, tahan wilayah saat ini dan bangun fondasi yang lebih kuat terlebih dahulu.
+
+<CardGrid cols={3}>
+  <Card title="Tahan Zona Saat Ini">
+    - **Pembersihan stabil**
+    - Lebih banyak waktu untuk menabung pendapatan
+    - Terbaik saat jalur Anda masih terkendali
+  </Card>
+  <Card title="Beli Zona Berikutnya">
+    - **Tekanan gelombang masih bisa dikelola**
+    - Nilai progresi tambahan
+    - Terbaik saat Anda bisa pulih setelah belanja
+  </Card>
+  <Card title="Tunda Ekspansi">
+    - **Pertahanan bocor**
+    - Pendapatan terlalu tipis
+    - Terbaik saat run terakhir berakhir dengan panik
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Aturan Terbaik">
+Anggap setiap pembelian zona seperti checkpoint. Jika Anda tidak bisa menyebutkan hambatan yang menggagalkan run terakhir Anda, kemungkinan besar Anda belum siap untuk ekspansi.
+</Callout>
+
+| Keputusan | Terbaik Saat | Risiko Utama | Hasil yang Diharapkan |
+| --- | --- | --- | --- |
+| Tahan | Gelombang dibersihkan dengan mulus | Akses peta lebih lambat | Simpanan yang lebih kuat untuk dorongan berikutnya |
+| Beli | Anda punya buffer pendapatan cadangan | Tekanan baru bisa membuka titik lemah | Progresi lebih baik jika pertahanan bertahan |
+| Tunggu | Anda masih menambal kebocoran | Tertinggal dalam pertumbuhan | Stabilitas run jangka panjang yang lebih aman |
+
+</Section>
+
+<Section icon={Target} title="Cara Menentukan Zona Berikutnya">
+
+Gunakan proses yang bisa diulang, bukan menebak-nebak. Zona berikutnya harus menjadi langkah yang direncanakan sesuai kualitas pertahanan Anda, bukan reaksi terhadap satu gelombang buruk.
+
+<Steps>
+  <Step num="1" title="Stabilkan Jalur Saat Ini">
+    Pastikan susunan Anda saat ini membersihkan jalur utama tanpa belanja darurat. Jika Anda masih kewalahan, zona harus tetap terkunci untuk sementara.
+  </Step>
+  <Step num="2" title="Identifikasi Hambatan">
+    Tentukan apakah masalahnya ada pada damage, cakupan, atau kecepatan pendapatan. Perbaikan yang tepat bergantung pada apa yang benar-benar memperlambat run.
+  </Step>
+  <Step num="3" title="Periksa Buffer Pemulihan">
+    Simpan cukup pendapatan cadangan untuk bereaksi setelah membeli zona. Unlock yang bersih tetap butuh ruang untuk satu gelombang buruk.
+  </Step>
+  <Step num="4" title="Ekspansi dan Seimbangkan Ulang">
+    Beli zona, lalu segera evaluasi ulang penempatan dan pengeluaran. Peta berubah, jadi prioritas pertahanan Anda mungkin ikut bergeser.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Jangan Tergesa-gesa">
+Jika Anda membuka zona hanya karena mampu membelinya, Anda mungkin menukar progres jangka pendek dengan siklus pertahanan yang lebih lemah. Ekspansi untuk kekuatan, bukan untuk meredakan tekanan.
+</Callout>
+
+| Titik Pemeriksaan | Tanda Siap | Tanda Belum Siap |
+| --- | --- | --- |
+| Pembersihan gelombang | Zombie tumbang sebelum mencapai jarak kritis | Musuh terus lolos |
+| Pengeluaran | Anda masih punya uang setelah upgrade | Setiap pembelian membuat Anda bangkrut |
+| Penempatan | Unit menutupi jalur penting | Celah tetap ada setelah setiap gelombang |
+| Pemulihan | Satu kesalahan masih bisa bertahan | Satu kebocoran meruntuhkan run |
+
+</Section>
+
+<Section icon={Shield} title="Bangun Pertahanan yang Siap untuk Zona">
+
+Rencana zona yang kuat dimulai dari bentuk pertahanan. Sebelum memikirkan unlock berikutnya, pastikan susunan Anda saat ini bisa menyerap tekanan ekstra yang biasanya mengikuti ekspansi.
+
+Pendekatan paling andal itu sederhana: perkuat apa yang sudah bekerja, lalu isi celah di sekitarnya. Itu biasanya lebih baik daripada menyebar sumber daya ke terlalu banyak opsi yang lemah.
+
+<CardGrid cols={3}>
+  <Card title="Damage">
+    - **Membersihkan gelombang lebih sulit**
+    - Mengurangi risiko kebocoran
+    - Terbaik saat musuh bertahan terlalu lama
+  </Card>
+  <Card title="Cakupan">
+    - **Menutupi jalur**
+    - Melindungi jalur yang lemah
+    - Terbaik saat zombie lolos di celah
+  </Card>
+  <Card title="Pendapatan">
+    - **Mendukung pembelian di masa depan**
+    - Mendorong siklus upgrade berikutnya
+    - Terbaik saat pertahanan sudah terasa stabil
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="zone-ready-checklist"
+  title="Daftar Cek Siap Zona"
+  items={[
+    "Gelombang saat ini dibersihkan tanpa belanja panik terus-menerus",
+    "Unit terkuat atau susunan jalur Anda sepenuhnya menjalankan tugasnya",
+    "Anda tahu hambatan mana yang menggagalkan run terakhir",
+    "Anda masih punya cukup pendapatan untuk bereaksi setelah membeli zona",
+    "Penempatan Anda tetap masuk akal setelah peta meluas"
+  ]}
+/>
+
+<Callout type="info" title="Logika Upgrade">
+Belanjakan terlebih dahulu untuk kelemahan yang menyebabkan kegagalan terakhir. Jika musuh masih bertahan, tingkatkan damage. Jika mereka lolos di sekitar susunan Anda, tingkatkan cakupan.
+</Callout>
+
+| Prioritas | Belanja Terlebih Dahulu | Belanja Kemudian | Tujuan |
+| --- | --- | --- | --- |
+| 1 | Perbaikan damage | Upgrade kosmetik | Hentikan kebocoran |
+| 2 | Perbaikan cakupan | Pembelian kenyamanan tambahan | Kendalikan jalur |
+| 3 | Pertumbuhan pendapatan | Terlalu cepat membeli berlebihan | Mendukung zona berikutnya |
+| 4 | Ekspansi | Belanja pemulihan panik | Jaga progres tetap stabil |
+
+</Section>
+
+<Section icon={Swords} title="Atur Kecepatan Ekspansi Mengikuti Gelombang">
+
+Progres zona bekerja paling baik saat keputusan Anda cocok dengan ritme gelombang. Jika game menekan Anda dengan keras, pelankan dan perkuat. Jika gelombang sudah terkendali, gunakan ruang bernapas itu untuk maju.
+
+Tujuannya bukan membuka setiap zona secepat mungkin. Tujuannya adalah membuat setiap unlock tetap berguna. Jalur yang lebih lambat dan lebih bersih sering kali mengalahkan rantai pembelian buruk yang tergesa-gesa dan memaksa Anda membangun ulang dua kali.
+
+<Callout type="success" title="Progresi yang Lebih Bersih">
+Pendakian zona yang lebih stabil biasanya memberi hasil lebih baik karena setiap unlock terjadi setelah pertahanan Anda siap memanfaatkannya.
+</Callout>
+
+| Situasi Gelombang | Langkah yang Disarankan | Mengapa Ini Efektif |
+| --- | --- | --- |
+| Gelombang awal terasa mudah | Menabung dan bersiap | Membangun buffer unlock yang lebih aman |
+| Gelombang tengah mulai bocor | Tahan zona | Memungkinkan Anda memperbaiki masalah sebenarnya |
+| Gelombang stabil dan cepat | Beli zona berikutnya | Mengubah keamanan menjadi progres |
+| Zona baru terasa keras | Hentikan ekspansi | Mencegah siklus sumber daya yang rusak |
+
+Kebiasaan yang berguna adalah membelanjakan dari puncak hambatan ke bawah. Mulailah dari masalah yang membuat run terasa tidak stabil, lalu lanjutkan ke upgrade yang memperbaiki dorongan berikutnya. Ini menjaga rute zona tetap efisien dan mencegah pemborosan.
+
+Saat ragu, tanyakan satu pertanyaan: apakah pembelian zona ini membuat lima menit berikutnya lebih mudah, atau hanya membuat peta lebih besar? Jika jawabannya hanya lebih besar, tunggu dan bangun dulu.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ Panduan Zona Roll to Defend">
+
+<Callout type="tip" title="Jawaban Cepat">
+Gunakan jawaban di bawah ini untuk menjaga keputusan zona Anda tetap konsisten dari satu run ke run berikutnya.
+</Callout>
+
+| Pertanyaan | Jawaban Singkat |
+| --- | --- |
+| Kapan saya harus membeli zona baru? | Beli setelah pertahanan Anda saat ini membersihkan dengan rapi dan Anda masih punya pendapatan pemulihan tersisa. |
+| Bagaimana jika saya sudah mampu membeli zona sekarang? | Mampu membeli saja tidak cukup; periksa dulu apakah pertahanan Anda stabil. |
+| Harus upgrade atau ekspansi dulu? | Perbaiki hambatan yang menyebabkan kebocoran terakhir sebelum mendorong area baru. |
+| Apa aturan paling aman untuk diikuti? | Jika Anda masih belanja panik, zona itu belum siap. |
+
+<FAQ items={[
+  {
+    question: "Apa tempo terbaik untuk panduan zona roll to defend?",
+    answer: "Tempo terbaik adalah progresi yang terkendali. Bersihkan gelombang saat ini, perbaiki bagian terlemah dari susunan Anda, lalu beli zona berikutnya saat pertahanan Anda masih bisa bernapas setelah belanja."
+  },
+  {
+    question: "Apakah saya pernah boleh membeli zona lebih awal?",
+    answer: "Kadang-kadang, tetapi hanya jika pertahanan Anda saat ini sudah stabil dan Anda masih punya cukup sumber daya untuk pulih. Ekspansi lebih awal berisiko saat garis pertahanan Anda masih goyah."
+  },
+  {
+    question: "Apa yang harus saya upgrade sebelum ekspansi?",
+    answer: "Upgrade bagian susunan yang menyebabkan kegagalan terakhir. Itu biasanya damage, cakupan, atau dukungan pendapatan, tergantung pada apa yang terungkap oleh tekanan gelombang."
+  },
+  {
+    question: "Bagaimana saya tahu zona dibuka terlalu cepat?",
+    answer: "Jika unlock berikutnya memaksa belanja panik, menimbulkan kebocoran, atau tidak menyisakan buffer untuk kesalahan, berarti itu terlalu cepat. Zona yang bagus harus meningkatkan progres, bukan mengacaukannya."
+  }
+]} />
+
+</Section>

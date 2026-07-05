@@ -1,0 +1,207 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Role para Defender do noob ao pro: guia de configuração passo a passo",
+  description: "Aprenda a rota inicial mais rápida em Role para Defender, desde os primeiros giros e posicionamento de unidades até o timing das zonas, configuração de sorte e planejamento de renda offline.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Noob+to+Pro+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Role para Defender"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Role para Defender do noob ao pro** começa com posicionamento estável de unidades, não com gastos aleatórios.
+- **Gire primeiro, posicione depois** seus defensores mais fortes antes de correr atrás de novas zonas.
+- **Sorte de amigos, sorte de grupo e renda offline** influenciam muito uma progressão mais suave.
+- **Melhore o gargalo** que realmente está causando vazamentos, não todo menu de uma vez.
+- **Compre zonas tarde o suficiente** para que sua defesa atual consiga sobreviver à próxima onda.
+</Callout>
+
+<Section icon={Map} title="Loop Principal e Suas Primeiras Prioridades">
+
+Comece pelo loop que realmente faz o progresso andar: gire unidades, posicione-as, elimine zumbis, construa renda e só então expanda. Essa ordem mantém a partida estável. Se você gastar cedo demais com zonas ou sistemas secundários, acaba com um campo fraco e sem dinheiro para consertá-lo.
+
+A abertura mais segura é simples: garanta um defensor forte, cubra o caminho principal e deixe o jogo gerar renda suficiente para a próxima decisão. Se sua defesa não consegue sobreviver às ondas básicas, o próximo giro ou compra de zona provavelmente é cedo demais.
+
+| Primeira Ação | Por Que Importa | Como É o Ideal |
+|---|---|---|
+| Girar unidades | Dá seu primeiro pico real de poder | Você consegue um defensor útil rapidamente |
+| Posicionar unidades | Converte sorte bruta em defesa real | Os zumbis começam a cair antes de chegar à base |
+| Guardar renda | Evita desperdício no loop inicial | Você mantém fundos suficientes para a próxima melhoria |
+| Observar vazamentos | Mostra o gargalo real | Você sabe se o problema é dano ou posicionamento |
+
+<CardGrid cols={3}>
+  <Card title="Girar">
+    - **Prioridade:** alta
+    - Procure a melhor unidade que você consiga manter no início
+    - Evite queimar renda em ganhos pequenos
+  </Card>
+  <Card title="Posicionar">
+    - **Prioridade:** máxima
+    - Coloque os defensores onde eles atinjam o caminho por mais tempo
+    - Uma unidade forte sem agir é valor desperdiçado
+  </Card>
+  <Card title="Guardar">
+    - **Prioridade:** alta
+    - Economize para a próxima melhoria real
+    - Não compre tudo só porque está disponível
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra do Início de Jogo">
+Se uma nova compra não melhorar a sobrevivência de forma perceptível, guarde o dinheiro. Limpezas estáveis valem mais do que gastos chamativos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Monte uma Defesa Inicial Estável">
+
+Sua defesa inicial deve fazer uma coisa: impedir vazamentos sem gastar em pânico o tempo todo. Isso significa cobertura primeiro, depois dano, e por fim melhorias que fortaleçam a rota mais fraca. O erro que a maioria dos jogadores comete é correr atrás de mais giros enquanto o tabuleiro atual ainda está mal montado.
+
+Use as próximas ondas para testar se a sua configuração realmente está segurando. Se os zumbis estiverem sobrevivendo tempo demais, o problema normalmente é posicionamento ruim ou uma unidade fraca, não a falta de uma zona. Corrija isso primeiro.
+
+| Escolha de Defesa | Melhor Uso | Força | Risco |
+|---|---|---|---|
+| Um carry forte | Dano na rota principal | Jeito mais rápido de estabilizar | Pode falhar se a cobertura for muito limitada |
+| Posicionamento equilibrado | Controle geral das ondas | Mais seguro para novos jogadores | Pode parecer mais lento no começo |
+| Unidades extras de preenchimento | Cobertura emergencial | Jeito barato de tapar buracos | Fica obsoleto depois |
+| Foco em melhoria cedo | Corrige o gargalo | Bom para partidas com vazamentos | Ruim se você melhorar a coisa errada |
+
+<Steps>
+  <Step num="1" title="Garanta o caminho">
+    Coloque sua melhor unidade onde ela possa atacar por mais tempo. Cobertura importa mais do que posicionamento perfeito.
+  </Step>
+  <Step num="2" title="Teste a pressão das ondas">
+    Deixe algumas ondas passarem antes de mudar tudo. Você precisa ver o que realmente está quebrando.
+  </Step>
+  <Step num="3" title="Corrija a fraqueza real">
+    Se os inimigos vazam, descubra se o problema é dano, alcance ou pouca cobertura.
+  </Step>
+  <Step num="4" title="Pare de investir demais">
+    Não melhore três coisas fracas ao mesmo tempo. Faça a correção que resolve mais problemas.
+  </Step>
+  <Step num="5" title="Reavalie depois da próxima onda">
+    Cada onda estável dá uma leitura mais clara do que fazer em seguida.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Não trate cada onda como uma nova ida às compras. Se o tabuleiro já está perdendo, gastar mais aleatoriamente normalmente piora a situação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decisões de Giro: Manter, Trocar e Guardar">
+
+A boa progressão em Role para Defender vem de saber o que manter. Um pull mais forte só vale a pena se ele mudar o tabuleiro de forma relevante. Mantenha as unidades que melhoram a sobrevivência, troque as que já não entregam valor, e guarde quando a configuração atual já estiver estável.
+
+Pense no seu inventário como uma escalação viva, não como uma estante de troféus. Uma unidade que parecia ótima antes pode virar um peso morto quando sua defesa melhora. O objetivo não é coletar tudo; o objetivo é manter as peças que ajudam a partida a durar mais e limpar mais rápido.
+
+| Decisão | Quando Usar | Objetivo do Jogador | Resultado |
+|---|---|---|---|
+| Manter | A unidade é claramente melhor do que o seu preenchimento atual | Construir um núcleo melhor | Ondas mais limpas e menos pânico |
+| Trocar | Um pull mais novo cumpre o mesmo papel melhor | Melhorar a eficiência | Mais poder por espaço |
+| Guardar | O tabuleiro já sobrevive com conforto | Preservar recursos | Mais flexibilidade para giros futuros |
+| Adiar | O próximo passo enfraqueceria a defesa | Evitar se comprometer demais | Menos partidas fracassadas |
+
+| Qualidade do Pull | Manter ou Trocar? | Por Quê |
+|---|---|---|
+| Pull raro de alto impacto | **Manter** | Normalmente melhora o tabuleiro imediatamente |
+| Unidade de preenchimento do início | **Trocar mais tarde** | Útil agora, mais fraca com a progressão |
+| Cópia de um papel mais fraco | **Condicional** | Mantenha só se realmente melhorar a cobertura |
+| Pull forte sem uso | **Manter e posicionar** | Valor só existe quando está ativo |
+
+<Callout type="info" title="Mentalidade de Escalação">
+Uma unidade mais forte só importa quando está em campo. Mantenha suas melhores peças ativas e deixe as mais fracas se aposentarem no momento certo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sorte, Renda Offline e Sessões Melhores">
+
+Configurar a sorte faz parte da partida, não é um bônus para pensar depois. Se o jogo oferece sorte social e sorte baseada em grupo, use esses sistemas antes das maiores sessões de giros. A ideia é somar suas vantagens antes de gastar uma grande parte da renda em pulls.
+
+A renda offline também deve ser tratada como uma ferramenta de planejamento. Quando você voltar, colete primeiro, identifique o gargalo da última partida e gaste com propósito. Isso evita que a próxima sessão repita a mesma falha.
+
+| Sistema | Melhor Momento de Uso | Principal Benefício | Bom Hábito |
+|---|---|---|---|
+| Sorte de amigos | Antes de uma grande sessão de giros | Melhor configuração de giros | Entre com amigos antes de gastar |
+| Sorte de grupo | Antes de giros repetidos | Valor extra de progressão | Use no começo da sessão |
+| Renda offline | Ao voltar para o login | Reinvestimento imediato | Corrija primeiro o ponto mais fraco |
+| Renda guardada | Depois de uma onda estável | Flexibilidade | Gire só quando o tabuleiro estiver pronto |
+
+| Ordem de Gastos | Prioridade | Motivo |
+|---|---|---|
+| Corrigir a sobrevivência | **1** | Evita vazamentos fáceis |
+| Melhorar a cobertura | **2** | Torna o tabuleiro mais confiável |
+| Girar para melhorias | **3** | Melhor quando a defesa já está estável |
+| Avançar zonas | **4** | Funciona melhor depois que o tabuleiro está pronto |
+
+<Callout type="success" title="Melhor Fluxo de Sessão">
+Colete a renda offline, ative sua configuração de sorte, corrija o ponto fraco e então gire com um objetivo claro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Timing de Zonas, Checklist e FAQ">
+
+Comprar zonas deve parecer uma recompensa pela estabilidade, não um movimento desesperado. Se o seu tabuleiro atual ainda vaza, uma nova zona pode tornar a próxima etapa mais difícil, não mais fácil. O movimento mais seguro é expandir só depois que sua defesa tiver fôlego suficiente para lidar com a próxima onda sem gastos emergenciais.
+
+Isso não quer dizer que você nunca deva comprar zonas cedo. Quer dizer que a zona deve apoiar sua progressão, não expor um tabuleiro fraco. Se desbloquear uma zona melhorar a renda ou der um posicionamento melhor, vale a pena quando sua defesa principal já estiver fazendo o trabalho.
+
+| Timing da Zona | Sinal | Ação |
+|---|---|---|
+| Cedo demais | Vazamentos ainda são frequentes | Segure a compra |
+| Pronto | As ondas são limpas | Compre a próxima zona |
+| Pós-desbloqueio | A pressão sobe, mas continua administrável | Refaça o posicionamento |
+| Exagerado | A defesa piora após a expansão | Pause e conserte o tabuleiro |
+
+<Checklist
+  id="noob-to-pro-core"
+  title="Checklist de Progressão do Noob ao Pro:"
+  items={[
+    "Gire o suficiente para colocar um defensor de verdade em campo",
+    "Posicione sua melhor unidade onde ela possa atacar por mais tempo",
+    "Acompanhe se o problema dos vazamentos é dano ou cobertura",
+    "Use sorte de amigos e sorte de grupo antes de grandes sessões de giros",
+    "Colete a renda offline e gaste no ponto mais fraco",
+    "Compre zonas só depois que sua defesa estiver estável"
+  ]}
+/>
+
+| Link Oficial | Melhor Uso |
+|---|---|
+| [Página do Jogo no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Iniciar a experiência e conferir a página principal |
+| [Comunidade D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Encontrar o grupo ligado ao bônus de sorte |
+| [Listagem do Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Ver detalhes públicos da listagem e da propriedade |
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de ir de noob a pro em Role para Defender?",
+    answer: "Siga o loop principal: gire uma unidade utilizável, posicione-a imediatamente, estabilize a pressão das ondas e depois reinvista a renda na parte mais fraca do tabuleiro."
+  },
+  {
+    question: "Devo comprar zonas assim que puder?",
+    answer: "Normalmente não. Compre uma zona quando sua defesa atual estiver estável o suficiente para sobreviver à pressão que vem depois da expansão."
+  },
+  {
+    question: "Como devo gastar a renda offline?",
+    answer: "Use-a para corrigir o gargalo que fez sua última partida sofrer e só então gire ou expanda quando o tabuleiro estiver firme."
+  },
+  {
+    question: "O que importa mais no começo: giros ou posicionamento?",
+    answer: "Posicionamento. Um pull forte mal posicionado faz quase nada, enquanto uma configuração sólida consegue carregar unidades mais fracas por mais tempo."
+  }
+]} />
+
+<Callout type="tip" title="Regra Final">
+Se o tabuleiro estiver falhando, resolva a falha primeiro. Se o tabuleiro estiver estável, então gaste com giros, zonas ou crescimento de longo prazo.
+</Callout>
+
+</Section>

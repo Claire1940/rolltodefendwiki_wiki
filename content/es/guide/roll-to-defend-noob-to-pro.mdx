@@ -1,0 +1,207 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend de novato a pro: guía paso a paso de configuración",
+  description: "Aprende el bucle para principiantes más rápido de Roll to Defend, desde las primeras tiradas y la colocación de unidades hasta el momento de comprar zonas, la configuración de la suerte y la planificación de ingresos fuera de línea.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Noob+to+Pro+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **roll to defend de novato a pro** empieza con una colocación estable de unidades, no con gastar al azar.
+- **Tira primero, luego coloca** a tus mejores defensores antes de ir a por nuevas zonas.
+- **La suerte de amigos, la suerte de grupo y los ingresos fuera de línea** importan para una progresión más fluida.
+- **Mejora el cuello de botella** que realmente está causando fugas, no todos los menús a la vez.
+- **Compra zonas lo bastante tarde** como para que tu defensa actual pueda sobrevivir a la siguiente oleada.
+</Callout>
+
+<Section icon={Map} title="Bucle principal y tus primeras prioridades">
+
+Empieza con el bucle que realmente impulsa el progreso: tira unidades, colócalas, elimina zombis, genera ingresos y solo entonces expande. Ese orden mantiene la partida estable. Si gastas demasiado pronto en zonas o sistemas secundarios, terminas con un campo débil y sin dinero para arreglarlo.
+
+La apertura más segura es simple: asegura un defensor fuerte, cubre el camino principal y deja que el juego te dé suficientes ingresos para la siguiente decisión. Si tu defensa no puede sobrevivir a las oleadas básicas, la siguiente tirada o compra de zona probablemente sea prematura.
+
+| Primera acción | Por qué importa | Cómo se ve bien |
+|---|---|---|
+| Tirar unidades | Te da tu primer gran pico de poder | Consigues un defensor útil rápidamente |
+| Colocar unidades | Convierte la suerte bruta en defensa real | Los zombis empiezan a morir antes de llegar a la base |
+| Guardar ingresos | Evita desperdicios durante el bucle inicial | Conservas fondos suficientes para la siguiente mejora |
+| Vigilar fugas | Muestra el verdadero cuello de botella | Sabes si falla el daño o la colocación |
+
+<CardGrid cols={3}>
+  <Card title="Tirar">
+    - **Prioridad:** alta
+    - Busca la mejor tirada que puedas conservar al principio
+    - Evita quemar ingresos en mejoras pequeñas
+  </Card>
+  <Card title="Colocar">
+    - **Prioridad:** máxima
+    - Pon a los defensores donde golpeen el camino durante más tiempo
+    - Una unidad fuerte sin hacer nada es valor desperdiciado
+  </Card>
+  <Card title="Guardar">
+    - **Prioridad:** alta
+    - Ahorra para la siguiente mejora real
+    - No compres cada opción solo porque esté disponible
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla del juego temprano">
+Si una nueva compra no mejora de forma notable la supervivencia, guarda el dinero. Las limpiezas estables valen más que el gasto vistoso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construye una defensa temprana estable">
+
+Tu defensa temprana debe hacer una sola cosa: evitar fugas sin gastar en pánico todo el tiempo. Eso significa que quieres cobertura, luego daño, y después mejoras que refuercen la línea más débil. El error que comete la mayoría de los jugadores es buscar más tiradas mientras el tablero actual sigue poco desarrollado.
+
+Usa las siguientes oleadas para comprobar si tu configuración actual realmente se mantiene. Si los zombis sobreviven demasiado tiempo, el problema suele ser una mala colocación o una unidad débil, no una zona que falte. Arregla eso primero.
+
+| Opción de defensa | Mejor uso | Fortaleza | Riesgo |
+|---|---|---|---|
+| Un carry fuerte | Daño en la línea principal | La forma más rápida de estabilizar | Puede fallar si la cobertura es demasiado estrecha |
+| Colocación equilibrada | Control general de oleadas | Más segura para nuevos jugadores | Puede parecer más lenta al principio |
+| Unidades de relleno extra | Cobertura de emergencia | Forma barata de tapar huecos | Queda superada más adelante |
+| Enfoque temprano en mejoras | Arregla el cuello de botella | Bueno para partidas con fugas | Malo si mejoras lo incorrecto |
+
+<Steps>
+  <Step num="1" title="Asegura el camino">
+    Coloca tu mejor unidad donde pueda atacar durante más tiempo. La cobertura importa más que la posición perfecta.
+  </Step>
+  <Step num="2" title="Prueba la presión de la oleada">
+    Deja correr unas cuantas oleadas antes de cambiarlo todo. Necesitas ver qué es lo que realmente se rompe.
+  </Step>
+  <Step num="3" title="Arregla la debilidad real">
+    Si los enemigos se cuelan, decide si el problema es el daño, el alcance o una cobertura insuficiente.
+  </Step>
+  <Step num="4" title="Deja de sobregastar">
+    No mejores tres cosas débiles a la vez. Impulsa la única corrección que resuelva más problemas.
+  </Step>
+  <Step num="5" title="Vuelve a comprobar tras la siguiente oleada">
+    Cada oleada estable te da una lectura más clara de qué hacer después.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error común">
+No trates cada oleada como una nueva ronda de compras. Si el tablero ya está perdiendo, gastar al azar suele empeorar la situación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decisiones de tirada: conservar, reemplazar y guardar">
+
+Una buena progresión en Roll to Defend viene de saber qué conservar. Una tirada mejor solo vale la pena si cambia el tablero de forma significativa. Conserva las unidades que mejoran la supervivencia, reemplaza las que ya no aportan lo suficiente y guarda cuando la configuración actual ya sea estable.
+
+Piensa en tu inventario como una plantilla activa, no como una vitrina de trofeos. Una unidad que antes parecía excelente puede convertirse en un lastre cuando tu tablero mejora. El objetivo no es coleccionarlo todo; el objetivo es conservar las piezas que ayudan a la partida a sobrevivir más tiempo y a limpiar más rápido.
+
+| Decisión | Cuándo usarla | Objetivo del jugador | Resultado |
+|---|---|---|---|
+| Conservar | La unidad es claramente mejor que tu relleno actual | Construir un núcleo mejor | Oleadas más limpias y menos pánico |
+| Reemplazar | Una tirada más reciente cubre mejor el mismo rol | Mejorar la eficiencia | Más poder por espacio |
+| Guardar | El tablero ya sobrevive con comodidad | Preservar recursos | Tiradas futuras más flexibles |
+| Esperar | El siguiente movimiento debilitaría la defensa | Evitar comprometerte de más | Menos partidas fallidas |
+
+| Calidad de la tirada | ¿Conservar o reemplazar? | Por qué |
+|---|---|---|
+| Tirada rara de alto impacto | **Conservar** | Normalmente mejora el tablero al instante |
+| Unidad de relleno temprana | **Reemplazar más adelante** | Útil ahora, más débil a medida que avanza la progresión |
+| Duplicado de un rol más débil | **Condicional** | Conservar solo si mejora claramente la cobertura |
+| Tirada fuerte sin usar | **Conservar y colocar** | El valor solo importa cuando está activa |
+
+<Callout type="info" title="Mentalidad de plantilla">
+Una unidad más fuerte solo importa cuando está en el campo. Mantén activas tus mejores piezas y deja que las más débiles se retiren a tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Suerte, ingresos fuera de línea y mejores sesiones">
+
+La configuración de la suerte forma parte de la partida, no es un extra en el que piensas después. Si el juego te da suerte de amigos y suerte de grupo, usa esos sistemas antes de tus sesiones de tiradas más grandes. La idea es acumular ventajas antes de gastar una gran parte de tus ingresos en tiradas.
+
+Los ingresos fuera de línea también deben tratarse como una herramienta de planificación. Cuando vuelvas, recógelos primero, identifica el cuello de botella de la última partida y gasta con un propósito. Así evitas que la siguiente sesión repita el mismo fallo.
+
+| Sistema | Mejor momento para usarlo | Beneficio principal | Buen hábito |
+|---|---|---|---|
+| Suerte de amigos | Antes de una gran sesión de tiradas | Mejor preparación para tirar | Únete a amigos antes de gastar |
+| Suerte de grupo | Antes de tiradas repetidas | Valor extra de progresión | Úsala al principio de la sesión |
+| Ingresos fuera de línea | Al volver a iniciar sesión | Reinversión inmediata | Arregla primero el último punto débil |
+| Ingresos guardados | Después de una oleada estable | Flexibilidad | Tira solo cuando el tablero esté listo |
+
+| Orden de gasto | Prioridad | Motivo |
+|---|---|---|
+| Arreglar la supervivencia | **1** | Evita fugas fáciles |
+| Mejorar la cobertura | **2** | Hace el tablero más fiable |
+| Tirar para mejoras | **3** | Funciona mejor cuando la defensa ya es estable |
+| Impulsar zonas | **4** | Rinde mejor después de que el tablero esté listo |
+
+<Callout type="success" title="Mejor flujo de sesión">
+Recoge los ingresos fuera de línea, activa tu configuración de suerte, arregla el punto débil y luego tira con un propósito claro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Momento de comprar zonas, lista de verificación y preguntas frecuentes">
+
+Comprar zonas debería sentirse como una recompensa por la estabilidad, no como una jugada desesperada. Si tu tablero actual todavía deja pasar enemigos, una nueva zona puede hacer que el siguiente tramo sea más difícil en vez de más fácil. El movimiento más seguro es expandirse solo después de que tu defensa tenga suficiente margen para manejar la siguiente oleada sin gastar en emergencias.
+
+Eso no significa que nunca debas comprar zonas pronto. Significa que la zona debe apoyar tu progresión, no exponer un tablero débil. Si desbloquear una zona mejora los ingresos o te da una mejor colocación, merece la pena una vez que tu defensa principal ya esté haciendo su trabajo.
+
+| Momento de comprar zonas | Señal | Acción |
+|---|---|---|
+| Demasiado pronto | Las fugas siguen siendo comunes | Mantén la compra en espera |
+| Listo | Las oleadas se limpian sin problemas | Compra la siguiente zona |
+| Después del desbloqueo | La presión sube pero sigue siendo manejable | Reajusta la colocación |
+| Demasiado extendido | La defensa empeora tras expandirte | Pausa y arregla el tablero |
+
+<Checklist
+  id="noob-to-pro-core"
+  title="Lista de verificación de progresión de novato a pro:"
+  items={[
+    "Tira lo suficiente para conseguir un defensor real en el campo",
+    "Coloca tu mejor unidad donde pueda atacar durante más tiempo",
+    "Comprueba si el daño o la cobertura están causando fugas",
+    "Usa la suerte de amigos y la suerte de grupo antes de grandes sesiones de tiradas",
+    "Recoge los ingresos fuera de línea y gástalos en el punto más débil",
+    "Compra zonas solo después de que tu defensa sea estable"
+  ]}
+/>
+
+| Enlace oficial | Mejor uso |
+|---|---|
+| [Página del juego en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Inicia la experiencia y revisa la página principal |
+| [Comunidad D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Encuentra el grupo vinculado al bono de suerte |
+| [Ficha en Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Consulta los detalles públicos de la ficha y la propiedad |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de pasar de novato a pro en Roll to Defend?",
+    answer: "Sigue el bucle principal: tira una unidad útil, colócala de inmediato, estabiliza la presión de la oleada y luego reinvierte los ingresos en la parte más débil del tablero."
+  },
+  {
+    question: "¿Debería comprar zonas en cuanto pueda?",
+    answer: "Normalmente no. Compra una zona cuando tu defensa actual sea lo bastante estable como para sobrevivir a la presión que llega tras expandirte."
+  },
+  {
+    question: "¿Cómo debo gastar los ingresos fuera de línea?",
+    answer: "Úsalos para arreglar el cuello de botella que hizo sufrir tu última partida y luego tira o expande solo después de que el tablero esté firme."
+  },
+  {
+    question: "¿Qué importa más al principio: las tiradas o la colocación?",
+    answer: "La colocación. Una tirada fuerte mal colocada hace casi nada, mientras que una configuración sólida puede sostener unidades más débiles durante más tiempo."
+  }
+]} />
+
+<Callout type="tip" title="Regla final">
+Si el tablero está fallando, soluciona primero el fallo. Si el tablero está estable, entonces gasta en tiradas, zonas o crecimiento a largo plazo.
+</Callout>
+
+</Section>

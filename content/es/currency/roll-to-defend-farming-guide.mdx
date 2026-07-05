@@ -1,0 +1,193 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de farmeo de Rodar para defender: suerte, ingresos y zonas",
+  description: "Guía de farmeo de Rodar para defender para construir un ciclo más fuerte: tira con más inteligencia, acumula suerte, calcula las mejoras de zona y convierte los ingresos offline en progreso más rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Roll+to+Defend+Farming+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Rodar para defender"
+}
+
+<Callout type="info" title="Guía rápida">
+- **la guía de farmeo de Rodar para defender** se centra en un solo ciclo: tirar, estabilizar y reinvertir antes de perseguir la expansión.
+- **La configuración de suerte** funciona mejor antes de sesiones largas, especialmente cuando están activos los bonos de amigos y de grupo.
+- **Los ingresos offline** deben solucionar el cuello de botella que terminó tu última partida, no financiar gastos aleatorios.
+- **El momento de las zonas** es más seguro cuando tu defensa actual limpia oleadas sin compras de pánico.
+</Callout>
+
+<Section icon={Map} title="Fundamentos del farmeo en Rodar para defender">
+
+Farnear en Rodar para defender no consiste en tirar sin parar. Las mejores partidas siguen un patrón simple: consigue un defensor útil en el campo, mantén a los zombies bajo control y luego convierte los ingresos en la siguiente mejora que realmente haga avanzar la partida. Si gastas demasiado pronto en expansión, normalmente generas más presión que valor.
+
+<CardGrid cols={3}>
+  <Card title="Tirada">
+    - **Objetivo principal**
+    - Construir un núcleo de unidades más fuerte
+    - Evitar gastar en el inventario vacío
+  </Card>
+  <Card title="Mantener">
+    - **Objetivo principal**
+    - Mantener estables las oleadas
+    - Proteger tu flujo de ingresos
+  </Card>
+  <Card title="Reinvertir">
+    - **Objetivo principal**
+    - Poner el dinero en el siguiente cuello de botella
+    - Mejorar la eficiencia futura de farmeo
+  </Card>
+</CardGrid>
+
+| Parte del ciclo | Qué hace | Mejor momento |
+|---|---|---|
+| Tirar unidades | Crea tu núcleo de defensa | Al inicio de cada sesión |
+| Colocar defensores | Cubre los caminos de los zombies | Justo después de una tirada fuerte |
+| Reinvertir ingresos | Mejora el progreso futuro | Después de un ciclo de oleadas estable |
+| Comprar zonas | Amplía el progreso | Solo cuando la defensa sea estable |
+
+<Callout type="tip" title="Farmea el ciclo, no el lobby">
+Si tu defensa está inestable, sigue farmeando primero la zona actual. Una partida estable suele generar más valor que un desbloqueo apresurado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Qué conviene farmear primero">
+
+La mejor prioridad de farmeo depende del estado de tu partida. El progreso temprano debe proteger tu supervivencia. La fase media debe mejorar la cobertura y el daño. La fase avanzada puede orientarse hacia mejores tiradas, más valor de zona y una reinversión más limpia de los ingresos offline. El objetivo es la consistencia, no gastar de forma llamativa.
+
+| Fase del juego | Enfoque principal | Evita | Por qué importa |
+|---|---|---|---|
+| Temprano | Calidad de tirada y colocación | Comprar zonas demasiado pronto | Necesitas una base estable antes de expandirte |
+| Medio | Daño, cobertura y sincronización | Dispersar demasiado los ingresos | Una mejora fuerte supera a tres débiles |
+| Tarde | Ingresos offline y reinversión dirigida | Tiradas repetidas aleatorias | La eficiencia importa más que el volumen |
+
+| Situación | Gasta en | Deja para después |
+|---|---|---|
+| Los zombies se cuelan por los carriles | Cobertura o daño | Nuevas zonas |
+| Las oleadas se limpian con comodidad | Mejores tiradas | Gastos de pánico |
+| Los ingresos se acumulan offline | Solución de cuellos de botella | Opciones cosméticas |
+| Ya tienes un núcleo estable | Expansión controlada | Comprar poder en exceso |
+
+<Callout type="warning" title="No farmees demasiado disperso">
+Si a cada mejora le das un poco de dinero, ninguna recibe suficiente. Céntrate primero en la parte más débil de la partida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de farmeo paso a paso">
+
+Usa esta ruta cuando quieras un patrón de farmeo limpio y repetible. El orden importa porque cada paso apoya al siguiente. Si cambias el orden demasiado pronto, normalmente lo pagas con un crecimiento más lento o una defensa más débil.
+
+<Steps>
+  <Step num="1" title="Empieza con una tirada fuerte">
+    Tira hasta que consigas un defensor que realmente cambie las oleadas iniciales. No te quedes con los ingresos tempranos mientras los zombies ya están presionando el carril.
+  </Step>
+  <Step num="2" title="Coloca las unidades para lograr la máxima cobertura">
+    Pon tu mejor unidad donde pueda golpear el camino más largo o más transitado. Una buena colocación suele importar tanto como la tirada en sí.
+  </Step>
+  <Step num="3" title="Estabiliza el ciclo actual de oleadas">
+    Observa dónde sobreviven más tiempo los enemigos. Ese punto débil te dirá si necesitas más daño, mejor cobertura o una mejora más inteligente.
+  </Step>
+  <Step num="4" title="Reinvierte en el cuello de botella">
+    Gasta los ingresos en el problema que frenó tu última partida. Si tu defensa tuvo fugas, arregla eso primero antes de volver a tirar.
+  </Step>
+  <Step num="5" title="Compra zonas solo cuando haya estabilidad">
+    Expándete cuando la configuración actual limpie las oleadas con limpieza. Si la nueva zona te obliga a gastar de emergencia, te expandiste demasiado pronto.
+  </Step>
+</Steps>
+
+| Paso | Señal de éxito | Fallo común |
+|---|---|---|
+| Tirar | Mejor defensor en el campo | Perseguir demasiadas tiradas |
+| Colocar | Cobertura por todo el carril | Colocación agrupada o desperdiciada |
+| Estabilizar | Las oleadas se limpian con margen | Reparaciones constantes de fugas |
+| Reinvertir | Cuello de botella más claro | Gastos dispersos |
+| Expandir | La nueva zona se siente manejable | Desbloquear antes de estar listo |
+
+<Callout type="success" title="Regla simple">
+Si la partida es estable, acelera. Si la partida tiene fugas, baja el ritmo y arregla la fuga antes de farmear más fuerte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Suerte, ingresos offline y momento de las zonas">
+
+Rodar para defender recompensa a los jugadores que se preparan antes del gran gasto. Los bonos de suerte, los ingresos offline y el momento de las zonas funcionan mejor cuando forman parte de un mismo plan en lugar de acciones separadas. Trata la suerte como un impulso para una buena configuración, no como un sustituto de ella.
+
+| Fuente de farmeo | En qué ayuda | Mejor momento para usarla |
+|---|---|---|
+| Bono de amigos | Sesiones de tiradas más fuertes | Antes de bloques de farmeo largos |
+| Bono de grupo | Valor extra de suerte | Antes de una sesión de tiradas planificada |
+| Ingresos offline | Más dinero al volver | Al inicio de tu siguiente inicio de sesión |
+| Defensa estable | Reinversión más segura | Antes de desbloquear zonas |
+
+| Estado de la partida | Mejor movimiento | Mal movimiento |
+|---|---|---|
+| Sin fugas | Ahorra y planifica la siguiente mejora | Comprar en exceso todas las opciones |
+| Con fugas | Arregla la cobertura o el daño | Correr a por una nueva zona |
+| Nueva zona estable | Refuerza y expande con cuidado | Encadenar desbloqueos demasiado rápido |
+| Volviendo desde offline | Recoge primero los ingresos | Gastar antes de revisar el cuello de botella |
+
+| Punto de partida oficial | Uso |
+|---|---|
+| https://www.roblox.com/games/129559579789369/Roll-to-Defend | Inicia la experiencia y revisa la página actual del juego |
+| https://www.roblox.com/communities/861213399/D-Drive | Únete a la ruta de la comunidad del creador vinculada a suerte extra |
+
+<Callout type="tip" title="El momento supera al impulso">
+Una mejor sesión de tiradas empieza antes de pulsar tirar. Prepara la suerte, revisa la defensa y luego gasta con un propósito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Errores comunes, lista de verificación y FAQ">
+
+Los mayores errores de farmeo suelen ser simples: gastar demasiado disperso, expandirse demasiado pronto e ignorar el verdadero cuello de botella. Un buen farmeo consiste en proteger el impulso. Si mantienes la partida estable, la siguiente mejora será más fácil de alcanzar.
+
+<Callout type="info" title="Lista de verificación previa al farmeo">
+Asegúrate de que esto sea cierto antes de una sesión larga:
+</Callout>
+
+<Checklist
+  id="farm-session-checklist"
+  title="Lista de verificación para una sesión lista:"
+  items={[
+    "Tienes un defensor en el campo que puede sostener las primeras oleadas",
+    "La cobertura actual de tu carril es lo bastante estable como para evitar compras de pánico",
+    "Tu configuración de suerte está activa antes de la siguiente sesión de tiradas importante",
+    "Sabes si el verdadero cuello de botella es el daño, la cobertura o las zonas"
+  ]}
+/>
+
+| Error | Mejor solución |
+|---|---|
+| Comprar zonas demasiado pronto | Estabiliza primero la defensa actual |
+| Gastar en todas las opciones | Canaliza los ingresos hacia un solo problema real |
+| Volver a tirar sin preparación | Usa los bonos de suerte antes de las sesiones grandes |
+| Ignorar los ingresos offline | Reinviértelos en el último punto débil |
+
+<FAQ items={[
+  {
+    question: "¿Qué debería farmear primero en Rodar para defender?",
+    answer: "Empieza con un defensor estable y luego protege tu flujo de ingresos. La mejor elección de farmeo temprano es la mejora que evita que los zombies te obliguen a gastar de emergencia."
+  },
+  {
+    question: "¿Debería comprar zonas o tirar más unidades primero?",
+    answer: "Primero tira y estabiliza. Compra zonas después de que tu defensa actual limpie oleadas de forma constante, porque expandirse es más seguro cuando tu núcleo ya funciona."
+  },
+  {
+    question: "¿Importan los ingresos offline para farmear?",
+    answer: "Sí. Los ingresos offline son más valiosos cuando corrigen la debilidad que terminó tu última partida. Recógelos primero y luego gasta antes de expandirte."
+  },
+  {
+    question: "¿Cómo ayudan los bonos de suerte al farmeo?",
+    answer: "Los bonos de suerte ayudan más durante sesiones de tiradas planificadas. Úsalos cuando tu defensa ya esté estable para que el valor extra vaya a una tirada útil."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,233 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Panduan Penyiapan Langkah demi Langkah untuk Pemula",
+  description: "Gunakan panduan penyiapan Roll to Defend ini untuk menguasai loop awal, prioritas roll, waktu upgrade, bonus keberuntungan, zona, dan perencanaan sesi kembali.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/111827/fff?text=Roll+to+Defend+Setup+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Roll to Defend** bekerja paling baik saat Anda membangun loop roll-and-defend yang stabil sebelum mengejar ekspansi.
+- **Kemajuan awal** datang dari menempatkan defender terkuat Anda dan menghentikan kebocoran zombie terlebih dahulu.
+- **Pembelian zona** sebaiknya ditunda sampai susunan saat ini bisa membersihkan gelombang tanpa pengeluaran darurat.
+- **Bonus keberuntungan** paling kuat saat Anda menumpuknya sebelum sesi roll yang terfokus.
+- **Pendapatan offline** paling berharga saat Anda menginvestasikannya kembali ke bagian terlemah dari run Anda.
+</Callout>
+
+<Section icon={Map} title="Loop Inti Roll to Defend">
+
+Roll to Defend adalah game yang sederhana di atas kertas dan ternyata cukup rewel dalam praktiknya. Tugas Anda adalah me-roll unit, menempatkan unit itu di tempat yang benar-benar bisa bekerja, menghentikan gelombang zombie, dan mengubah pendapatan menjadi run berikutnya yang lebih baik. Jika Anda melewatkan bagian pertahanan dan hanya mengejar roll, ekonomi Anda akan terlihat sibuk sementara markas runtuh.
+
+Pola pikir paling aman adalah memperlakukan setiap sesi sebagai sebuah loop, bukan dorongan satu kali. Roll untuk kekuatan, tempatkan untuk cakupan, bertahan untuk stabilitas, lalu investasikan kembali. Ritme itu mencegah Anda membuang pendapatan pada upgrade yang tidak menyelesaikan masalah saat ini.
+
+**Ringkasan Loop Inti**
+
+| Fase | Tujuan Utama | Dibuat Untuk | Hindari |
+|---|---|---|---|
+| Awal | Menempatkan defender di lapangan | Roll berguna pertama, penempatan dasar | Menabung terlalu lama tanpa pertahanan |
+| Stabilisasi | Menghentikan kebocoran dan merapikan tekanan gelombang | Cakupan lebih baik, slot lebih kuat | Membeli zona terlalu dini |
+| Pertumbuhan | Meningkatkan kecepatan run secara keseluruhan | Lebih banyak roll, upgrade yang lebih cerdas | Menyebar pendapatan ke semuanya |
+| Sesi kembali | Memulihkan momentum dengan cepat | Memperbaiki bottleneck terlemah | Mengulang kesalahan yang sama |
+
+<CardGrid cols={4}>
+  <Card title="Awal">
+    - **Tempatkan lebih dulu**
+    - Hentikan kebocoran awal
+    - Gunakan pendapatan dengan hati-hati
+  </Card>
+  <Card title="Stabilisasi">
+    - **Tutup jalur**
+    - Rilekskan tekanan gelombang
+    - Perkuat jalur yang lemah
+  </Card>
+  <Card title="Pertumbuhan">
+    - **Investasikan kembali pendapatan**
+    - Tingkatkan kualitas roll
+    - Siapkan untuk zona berikutnya
+  </Card>
+  <Card title="Sesi Kembali">
+    - **Perbaiki bottleneck**
+    - Gunakan pendapatan offline dengan baik
+    - Kembali ke momentum dengan cepat
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Prioritas Editor">
+Jika pertahanan Anda bocor, pembelian berikutnya yang terbaik biasanya adalah yang menyelesaikan masalah bertahan hidup, bukan yang paling menarik di menu.
+</Callout>
+
+| Sinyal Awal | Biasanya Artinya | Respons Terbaik |
+|---|---|---|
+| Zombie mencapai markas | Ada celah cakupan atau garis depan lemah | Posisikan ulang defender, tambahkan dukungan |
+| Gelombang selesai tapi lambat | Masalah damage | Tingkatkan slot serangan terkuat Anda |
+| Pendapatan naik tetapi progres mandek | Urutan pengeluaran buruk | Hentikan pembelian upgrade acak |
+| Zona baru terasa lebih sulit | Anda terlalu cepat berekspansi | Stabilkan dulu sebelum membeli lagi |
+
+</Section>
+
+<Section icon={Swords} title="Prioritas Roll dan Penempatan Unit">
+
+Roll bukan hanya soal mendapatkan sesuatu yang langka. Nilai sesungguhnya datang dari roll dengan rencana, lalu menempatkan hasilnya di tempat yang bisa memengaruhi jalur gelombang selama mungkin. Unit yang lebih kuat tetapi berada di posisi yang salah hanyalah inventaris yang punya sikap.
+
+Gunakan sistem prioritas, bukan roll secara impulsif. Pertama tentukan apakah Anda butuh lebih banyak damage, cakupan lebih luas, atau stabilitas zona yang lebih baik. Lalu roll dengan target itu di pikiran agar pendapatan Anda mendukung kelemahan tepat yang sedang menahan run.
+
+<Steps>
+  <Step num="1" title="Roll dengan Tujuan yang Jelas">
+    Putuskan apa yang Anda butuhkan sebelum mengeluarkan pendapatan. Jika masalahnya damage, cari nilai ofensif yang lebih kuat. Jika masalahnya cakupan, fokus pada penempatan yang menahan jalur lebih lama.
+  </Step>
+  <Step num="2" title="Simpan Opsi Terkuat yang Terlihat">
+    Jangan memperlakukan setiap pull secara setara. Simpan unit atau opsi yang paling banyak meningkatkan pertahanan Anda saat ini, bahkan jika bukan hasil yang paling mencolok.
+  </Step>
+  <Step num="3" title="Tempatkan untuk Kontrol Jalur">
+    Letakkan defender di tempat mereka bisa menyerang selama rentang terpanjang. Kontrol jalur penting karena zombie hanya butuh satu jalur terbuka untuk merusak seluruh run.
+  </Step>
+  <Step num="4" title="Periksa Ulang Setelah Setiap Gelombang">
+    Setelah gelombang berakhir, cari kebocoran, pembersihan yang lambat, atau ruang kosong. Penyesuaian kecil sekarang menyelamatkan lebih banyak pendapatan daripada perbaikan panik nanti.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kesalahan Penempatan yang Harus Dihindari">
+Pull berkualitas tinggi tidak otomatis menyelamatkan tata letak yang lemah. Jika jalurnya tertutup dengan buruk, unit terbaik Anda tetap bisa tampil kurang optimal.
+</Callout>
+
+| Situasi | Prioritas | Tindakan | Hasil |
+|---|---|---|---|
+| Kebocoran cepat | Cakupan | Pindahkan penempatan dan isi celah | Lebih sedikit zombie yang lolos |
+| Pembersihan lambat | Damage | Tingkatkan penyerang utama | Pembersihan gelombang lebih cepat |
+| Tekanan campuran | Keseimbangan | Tambahkan lapisan pertahanan kedua | Bertahan lebih konsisten |
+| Ekspansi terlalu dini | Stabilitas | Jeda dan bangun ulang dulu | Kesiapan zona lebih baik |
+
+| Keputusan Roll | Simpan atau Re-roll | Alasan |
+|---|---|---|
+| Meningkatkan bertahan hidup sekarang | Simpan | Menyelesaikan bottleneck saat ini |
+| Menambah kekuatan tetapi tanpa cakupan | Biasanya simpan hanya jika stabil | Damage lebih penting setelah kebocoran diperbaiki |
+| Hampir tidak mengubah susunan | Re-roll nanti | Penggunaan pendapatan lebih baik di tempat lain |
+| Menciptakan kelemahan jalur baru | Ganti | Pertahanan harus makin aman, bukan makin berantakan |
+
+</Section>
+
+<Section icon={Trophy} title="Upgrade, Zona, dan Pendapatan">
+
+Upgrade adalah tempat banyak run diam-diam berjalan salah. Pemain sering mengeluarkan uang karena mereka bisa mengeluarkan uang, bukan karena run membutuhkannya. Kebiasaan yang lebih baik adalah membeli hal yang menghilangkan bottleneck saat ini. Itu biasanya berarti damage lebih dulu ketika gelombang terlalu lama bertahan, cakupan lebih dulu ketika zombie lolos, dan ekspansi hanya saat pertahanan sudah tenang.
+
+Zona juga sama ceritanya. Zona baru bisa meningkatkan progres jangka panjang, tetapi juga menambah tekanan pada susunan Anda saat ini. Jika pertahanan Anda sudah goyah, membeli zona bisa membuat masalah lebih keras, bukan lebih baik.
+
+<Callout type="success" title="Aturan Pengeluaran Terbaik">
+Gunakan pendapatan untuk masalah yang mengakhiri gelombang terakhir Anda, lalu roll atau ekspansi hanya setelah kelemahan itu terkendali.
+</Callout>
+
+| Fokus Upgrade | Kapan Paling Penting | Beli Sekarang? | Mengapa |
+|---|---|---|---|
+| Damage inti | Zombie bertahan terlalu lama | Ya | Membersihkan gelombang lebih cepat |
+| Cakupan | Musuh lolos melalui celah | Ya | Menstabilkan jalur |
+| Penyiapan kualitas roll | Pertahanan sudah stabil | Mungkin | Membantu pull masa depan lebih dari bertahan hidup |
+| Penanganan duplikat | Ada salinan yang lebih kuat | Mungkin | Berguna hanya jika memperbaiki tata letak aktif |
+| Investasi siap zona | Gelombang terasa mulus | Ya, dengan hati-hati | Mempersiapkan dorongan berikutnya |
+
+| Waktu Zona | Sinyal Kesiapan | Tindakan Terbaik |
+|---|---|---|
+| Terlalu dini | Gelombang masih terasa menegangkan | Tahan dulu dan bangun ulang |
+| Siap ekspansi | Gelombang saat ini selesai dengan bersih | Beli zona berikutnya |
+| Tekanan pasca-ekspansi | Area baru memperlihatkan kelemahan | Hentikan ekspansi dan perbaiki pertahanan |
+| Stabil setelah terbuka | Pendapatan mendukung pertumbuhan | Lanjutkan progres |
+
+<Steps>
+  <Step num="1" title="Identifikasi Bottleneck">
+    Tanyakan apa yang benar-benar gagal: damage, cakupan, kualitas roll, atau timing. Jawaban itu harus mengendalikan pengeluaran Anda.
+  </Step>
+  <Step num="2" title="Beli Solusinya, Bukan Keributannya">
+    Tingkatkan bagian susunan yang langsung menyelesaikan kegagalan. Pengeluaran acak biasanya menunda progres.
+  </Step>
+  <Step num="3" title="Uji Gelombang Berikutnya">
+    Biarkan run membuktikan apakah upgrade berhasil. Jika masalah yang sama kembali, bottleneck belum sepenuhnya terselesaikan.
+  </Step>
+  <Step num="4" title="Ekspansi Hanya Setelah Stabil">
+    Beli zona saat susunan saat ini tenang. Ekspansi harus memperkuat progres Anda, bukan membuka kelemahan Anda.
+  </Step>
+</Steps>
+
+| Sumber Pendapatan | Penggunaan Terbaik | Waktu |
+|---|---|---|
+| Pendapatan gelombang | Perbaikan pertahanan segera | Selama progres aktif |
+| Pendapatan yang disimpan | Sesi roll yang lebih besar | Saat susunan Anda stabil |
+| Pendapatan offline | Pemulihan dan mengejar ketertinggalan | Di awal sesi kembali |
+
+</Section>
+
+<Section icon={Sparkles} title="Keberuntungan, Grup, dan Sesi Kembali">
+
+Keberuntungan penting di sini karena meningkatkan seberapa efisien sesi roll terasa. Waktu terbaik untuk menumpuk keberuntungan adalah sebelum jendela pengeluaran yang direncanakan, bukan setelah Anda sudah menghabiskan pendapatan. Dengan begitu, roll yang lebih baik dan pertahanan yang lebih kuat saling mendukung alih-alih bersaing memperebutkan sumber daya.
+
+Pendapatan offline mengikuti logika yang sama. Uangnya berguna, tetapi baru menjadi kuat saat Anda menggunakannya untuk menghapus kelemahan tepat yang menghentikan run terakhir Anda. Jika Anda hanya membelanjakannya untuk apa pun yang tersedia, Anda akan terus mengulang perlambatan yang sama.
+
+<Callout type="info" title="Urutan Sesi">
+Perbaiki pertahanan, tumpuk keberuntungan, roll dengan rencana, lalu gunakan pendapatan offline untuk menambal kelemahan berikutnya.
+</Callout>
+
+| Sumber Keberuntungan | Efek Praktis | Waktu Terbaik untuk Digunakan | Catatan |
+|---|---|---|---|
+| Bermain bersama teman | Kondisi roll lebih baik | Sebelum sesi roll panjang | Paling baik saat run sudah stabil |
+| Bergabung dengan grup kreator | Jalur keberuntungan ekstra | Sebelum Anda membelanjakan pendapatan yang disimpan | Paling efektif sebagai langkah penyiapan |
+| Kembali setelah waktu offline | Lebih banyak uang untuk diinvestasikan kembali | Di awal sesi | Gunakan sebelum berekspansi |
+| Jendela roll terfokus | Penggunaan sumber daya lebih rapi | Setelah penyiapan selesai | Menghindari roll yang terbuang |
+
+<Checklist
+  id="roll-to-defend-session-checklist"
+  title="Daftar Periksa Sesi Kembali:"
+  items={[
+    "Kumpulkan pendapatan offline sebelum membelanjakan apa pun.",
+    "Periksa apakah damage, cakupan, atau timing zona yang menyebabkan kegagalan terakhir.",
+    "Aktifkan penyiapan keberuntungan Anda sebelum sesi roll yang panjang.",
+    "Simpan pull terkuat yang berguna, bukan mengejar variasi acak.",
+    "Beli zona hanya setelah pertahanan saat ini stabil."
+  ]}
+/>
+
+| Langkah Sesi Kembali | Mengapa Ini Membantu |
+|---|---|
+| Kumpulkan pendapatan lebih dulu | Memberi Anda anggaran penuh untuk digunakan |
+| Periksa bottleneck | Mencegah kesalahan berulang |
+| Roll saat keberuntungan aktif | Meningkatkan nilai sesi Anda |
+| Bangun ulang sebelum berekspansi | Menjaga zona berikutnya tetap terkendali |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="tip" title="Fokus FAQ">
+Jawaban-jawaban ini dibangun di sekitar kebiasaan awal game yang paling aman: stabilkan dulu, roll dengan tujuan, lalu ekspansi dengan sengaja.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa yang harus saya lakukan pertama kali di Roll to Defend?",
+    answer: "Mulailah dengan roll yang cukup untuk menempatkan defender kuat di lapangan, lalu tempatkan mereka di tempat yang bisa menutup jalur selama waktu terlama. Stabilitas awal lebih penting daripada mengejar pull yang mencolok."
+  },
+  {
+    question: "Kapan saya harus membeli zona baru?",
+    answer: "Beli zona hanya setelah susunan saat ini membersihkan gelombang tanpa pengeluaran panik. Jika pertahanan masih terasa goyah, perbaiki bottleneck dulu dan ekspansi nanti."
+  },
+  {
+    question: "Bagaimana saya harus menggunakan pendapatan offline?",
+    answer: "Gunakan pendapatan offline di awal sesi kembali untuk menyelesaikan masalah yang mengakhiri run terakhir Anda. Itu biasanya berarti damage, cakupan, atau stabilitas sebelum apa pun yang lain."
+  },
+  {
+    question: "Apakah keberuntungan penting di Roll to Defend?",
+    answer: "Ya, tetapi hanya saat Anda menumpuknya sebelum sesi roll yang direncanakan. Keberuntungan dari teman dan grup kreator paling berguna saat pertahanan Anda sudah stabil dan Anda membelanjakan pendapatan dengan tujuan yang jelas."
+  }
+]} />
+
+<Callout type="warning" title="Aturan Akhir">
+Jika Anda hanya mengingat satu hal, ingat ini: belanjakan untuk bertahan hidup terlebih dahulu, untuk tumbuh kedua, dan untuk ekspansi ketiga.
+</Callout>
+
+</Section>

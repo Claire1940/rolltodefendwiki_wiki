@@ -1,0 +1,223 @@
+import { Map, Sparkles, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend Brains: Configuración para principiantes, suerte y zonas",
+  description: "Aprende a invocar unidades, acumular suerte, defender oleadas y calcular el momento para comprar zonas en roll to defend brains con una ruta clara para principiantes y partidas más fuertes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Roll+to+Defend+Brains+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **roll to defend brains** empieza con una regla: estabiliza tu defensa antes de perseguir tiradas llamativas.
+- Los **bonos de suerte** importan más cuando guardas ingresos para una sesión enfocada en lugar de gastarlos al azar.
+- Las **compras de zonas** deben esperar hasta que tu carril actual limpie con fluidez, sin reparaciones de emergencia.
+- La **prioridad de mejoras** es primero daño, luego cobertura y después economía cuando la partida ya se siente estable.
+- Las **buenas tiradas** solo valen la pena cuando realmente sostienen el camino y protegen tus ingresos.
+</Callout>
+
+<Section icon={Map} title="Bucle principal y primeros cinco minutos">
+
+La forma más segura de jugar a **roll to defend brains** es tratar la apertura como un bucle de supervivencia, no como una carrera de gacha. Tira por unidades, coloca de inmediato la mejor, y asegúrate de que la siguiente oleada sea algo que tu configuración pueda manejar de verdad. Cuando la defensa deja de filtrar enemigos, tus ingresos empiezan a acumularse y cada decisión posterior se vuelve más fácil.
+
+Una apertura limpia suele ser más importante que una tirada perfecta. Si el carril está seguro, puedes ahorrar ingresos, esperar mejores resultados y expandirte a un ritmo que no derrumbe la partida. El objetivo es simple: mantener tus primeros minutos aburridos, controlados y rentables.
+
+<CardGrid cols={3}>
+  <Card title="Primero tirar">
+    - **Consigue rápido una unidad en el campo**
+    - Quédate con la mejor tirada visible
+    - No dejes espacios vacíos
+  </Card>
+  <Card title="Estabiliza después">
+    - **Detén las fugas tempranas**
+    - Cubre el camino antes de expandirte
+    - Gasta solo lo que resuelva el cuello de botella
+  </Card>
+  <Card title="Reinvierte los ingresos">
+    - **Convierte la supervivencia en crecimiento**
+    - Usa los ingresos en tiradas o mejoras
+    - Deja las compras arriesgadas para más tarde
+  </Card>
+</CardGrid>
+
+| Fase | Objetivo | Error común |
+|---|---|---|
+| Apertura | Colocar un defensor fiable | Ahorrar demasiado tiempo y dejar pasar las primeras oleadas |
+| Bucle temprano | Añadir cobertura y mantener estables las oleadas | Comprar una zona antes de que el carril esté listo |
+| Partida estabilizada | Convertir los ingresos en un progreso más fuerte | Repartir el dinero entre demasiadas opciones débiles |
+
+<Callout type="tip" title="Regla temprana">
+Si tu defensa sigue inestable, cada compra extra debería resolver un problema real. Gastar por avaricia solo hace que la siguiente oleada suene más fuerte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tira mejor acumulando suerte primero">
+
+La gestión de la suerte es donde muchas partidas se vuelven descuidadas. Antes de una sesión seria de tiradas, prepara los bonos a los que el juego te da acceso y luego tira en un bloque enfocado en vez de ir gastando ingresos durante toda la sesión. Ese enfoque mantiene tus mejores recursos alineados con tu mejor oportunidad de conseguir algo útil.
+
+La rutina más limpia es convertir la preparación de suerte en parte de tu ritual inicial. Si puedes activar bonos de amigos, bonos de grupo o cualquier otra fuente oficial de suerte antes de tirar, hazlo primero. Después tira con un objetivo claro: más daño, más cobertura o reemplazar una unidad débil.
+
+<Steps>
+  <Step num="1" title="Prepara la sesión">
+    Asegúrate de que tu oleada actual esté bajo control antes de empezar a gastar fuerte. Una defensa tranquila te da margen para tomar mejores decisiones al tirar.
+  </Step>
+  <Step num="2" title="Activa los bonos de suerte">
+    Usa todos los aumentos de suerte disponibles antes del bloque principal de tiradas. No los desperdicies después de haber gastado ya los ingresos.
+  </Step>
+  <Step num="3" title="Marca un objetivo">
+    Decide si necesitas más daño, más cobertura o un carry más fuerte. Tirar sin objetivo quema valor rápidamente.
+  </Step>
+  <Step num="4" title="Gasta en un bloque">
+    Tira en una sola sesión enfocada en lugar de hacer clics sueltos al azar. Así es más fácil juzgar qué mejoró de verdad.
+  </Step>
+</Steps>
+
+| Fuente de suerte | Mejor uso | Prioridad |
+|---|---|---|
+| Amigos | Sesiones largas de tiradas y juego coordinado | Alta |
+| Bono de grupo | Antes de una gran sesión de gasto | Alta |
+| Ingresos fuera de línea | Cuando vuelves y necesitas reiniciar | Media |
+| Tiradas aleatorias | Solo cuando la preparación ya está lista | Baja |
+
+<Callout type="warning" title="No tires bajo presión">
+Si los zombis ya están rompiendo la defensa, arregla primero la defensa. Tirar mientras la base está fallando suele convertir una mala partida en una peor.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construye una defensa que aguante las oleadas">
+
+Tu mejor tirada solo es tan buena como el carril que protege. Una defensa temprana sólida necesita un carry principal claro, una pieza que llene el camino y al menos una unidad que cubra los puntos a los que tu daño principal no llega. Una vez que esas piezas están en su sitio, la partida se siente menos aleatoria y más manejable.
+
+Piensa en roles, no solo en rareza. Una unidad llamativa que nunca toca el camino es valor desperdiciado. Una unidad de rareza menor que evita fugas puede valer mucho más de lo que parece sobre el papel, especialmente en las primeras oleadas. La clave es mantener el carril bajo control hasta que lleguen tus tiradas más fuertes.
+
+<CardGrid cols={4}>
+  <Card title="Carry principal">
+    - **Unidad de mayor impacto**
+    - Limpia la mayor parte de las oleadas
+    - Reemplaza primero los comienzos débiles
+  </Card>
+  <Card title="Unidad de cobertura">
+    - **Ayuda al carril lateral**
+    - Llena los huecos que el carry no cubre
+    - Evita que los zombis se cuelen
+  </Card>
+  <Card title="Unidad de relleno">
+    - **Apoyo temporal**
+    - Útil hasta que aparezca una mejor tirada
+    - No debería quedarse para siempre
+  </Card>
+  <Card title="Espacio de banca">
+    - **Espacio para una mejora futura**
+    - Guarda la siguiente mejor opción
+    - Cámbiala cuando el valor aumente claramente
+  </Card>
+</CardGrid>
+
+| Rol | Qué debe hacer | Cuándo reemplazar |
+|---|---|---|
+| Carry principal | Limpiar oleadas y anclar la partida | Cuando aparezca una tirada más fuerte |
+| Unidad de cobertura | Detener fugas en el borde más débil | Cuando cambie el camino o exista una mejor cobertura |
+| Unidad de relleno | Rellenar espacio vacío al principio | En cuanto haya una mejor defensa disponible |
+| Espacio de banca | Conservar opciones de mejora | Cuando se convierta en la próxima mejora obvia |
+
+<Callout type="success" title="Condición para ganar con la colocación">
+Una unidad se vuelve valiosa cuando controla activamente el carril. Si no ayuda al camino, solo está ocupando espacio en el inventario con pasos extra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Compra zonas y mejoras con cuidado">
+
+Las zonas y las mejoras son el punto en el que una partida estable se convierte en una buena partida. El truco no es comprarlo todo a la vez. Primero, identifica el cuello de botella. Si los enemigos sobreviven demasiado tiempo, necesitas daño. Si se cuelan por los bordes, necesitas cobertura. Si la partida está tranquila, entonces puedes empezar a empujar economía, tiradas o la siguiente zona.
+
+La expansión debería sentirse como una recompensa por la estabilidad, no como una reacción de pánico ante la debilidad. Cuando la zona actual se limpia con fluidez, puedes permitirte avanzar. Cuando no lo hace, expandirse más a menudo crea más problemas de los que resuelve.
+
+<Steps>
+  <Step num="1" title="Estabiliza la zona actual">
+    Mantén limpia la oleada actual antes de pensar en comprar más espacio. Las limpiezas estables crean margen para avanzar de verdad.
+  </Step>
+  <Step num="2" title="Encuentra el cuello de botella">
+    Decide si el problema es daño, cobertura, calidad de unidad o velocidad de ingresos. Mejora lo que realmente falló.
+  </Step>
+  <Step num="3" title="Arregla el punto más débil">
+    Gasta en la pieza que elimine la presión que más sentiste durante el último ciclo de oleadas.
+  </Step>
+  <Step num="4" title="Compra la siguiente zona">
+    Expándete solo cuando todavía tengas suficiente reserva para reaccionar después del desbloqueo. No gastes toda la pila en la propia puerta.
+  </Step>
+  <Step num="5" title="Reconstruye alrededor del nuevo diseño">
+    Tras el desbloqueo, revisa de nuevo el camino y asegúrate de que tus unidades más fuertes sigan cubriendo lo importante.
+  </Step>
+</Steps>
+
+| Enfoque de mejora | Cuándo comprar | Cuándo omitir |
+|---|---|---|
+| Daño | Las oleadas tardan demasiado en caer | El problema real son los huecos de colocación |
+| Cobertura | Los enemigos se cuelan por los bordes | La velocidad de eliminación ya es el problema |
+| Calidad de tiradas | La defensa es estable y los ingresos son seguros | La partida ya está bajo presión |
+| Desbloqueo de zona | Todavía tienes un margen de seguridad | Desbloquear rompería la defensa |
+
+<Callout type="info" title="Regla de progresión">
+Compra la solución que elimine la razón por la que falló tu última partida. Ese solo hábito ahorra más ingresos que repartir mejoras por todas partes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y preguntas frecuentes">
+
+Una buena partida suele seguir el mismo patrón: asegurar el carril, usar la suerte antes de la gran tirada, arreglar el cuello de botella y luego expandirse. Si repites ese orden, tu progreso será mucho más fácil de leer y mucho más difícil de desperdiciar.
+
+Usa esta lista de verificación antes de cada sesión importante. Mantiene tu atención en decisiones que realmente hacen avanzar la partida, en lugar de ruido, gasto por pánico o mejoras aleatorias.
+
+<Checklist
+  id="roll-to-defend-brains-goals"
+  title="Lista de verificación de la sesión:"
+  items={[
+    "Mantén una carry fiable en el campo",
+    "Activa los bonos de suerte antes de la sesión principal de tiradas",
+    "Compra zonas solo después de limpiar oleadas con estabilidad",
+    "Gasta los ingresos obtenidos en el punto más débil primero",
+    "Reemplaza las unidades de relleno en cuanto aparezca una mejor opción"
+  ]}
+/>
+
+| Hito | Cómo se ve cuando va bien | Siguiente paso |
+|---|---|---|
+| Primera oleada estable | Sin gasto de emergencia | Empieza a ahorrar para una mejora real |
+| Primera sesión seria de tiradas | La preparación de suerte está activa | Busca la unidad que arregle la partida |
+| Primer desbloqueo de zona | La defensa sigue aguantando | Reconstruye la cobertura alrededor de la nueva área |
+| Primer regreso fuera de línea | Los ingresos están listos para gastarse | Arregla el cuello de botella antes de expandirte |
+
+<Callout type="tip" title="Recordatorio final">
+Si una nueva zona hace que la partida se sienta peor, pausa el plan de expansión y reconstruye primero la defensa. El progreso más seguro sigue siendo progreso.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer antes de mi primera sesión seria de tiradas?",
+    answer: "Asegúrate de que el carril esté estable y luego activa todos los bonos de suerte a los que puedas acceder. Tira en un solo bloque enfocado con un objetivo claro, como más daño o mejor cobertura."
+  },
+  {
+    question: "¿Debo comprar zonas en cuanto aparezcan?",
+    answer: "No. Compra zonas cuando tu defensa actual pueda limpiar oleadas con fluidez y aún te quede ingreso de reserva después de la compra."
+  },
+  {
+    question: "¿Siempre es mejor una tirada más fuerte que una unidad más barata?",
+    answer: "No siempre. Una tirada más fuerte importa sobre todo cuando realmente protege el carril. Una unidad más barata que evita fugas puede ser más útil que una unidad llamativa que nunca cubre el camino."
+  },
+  {
+    question: "¿Cuál es la forma más segura de usar los ingresos fuera de línea?",
+    answer: "Primero recógelos, identifica la parte más débil de tu última partida y gástalos en ese cuello de botella antes de lanzarte a más zonas o a tiradas aleatorias."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Target, Shield, Sparkles, Trophy, AlertTriangle, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cara Membeli Zona di Roll to Defend: Panduan Zona Langkah demi Langkah",
+  description: "Pelajari kapan harus membeli zona di Roll to Defend, cara melindungi pendapatan sebelum memperluas, dan urutan progres paling aman untuk run yang stabil.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/3b2f7a/fff?text=Zone+Buying+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Cara membeli zona di Roll to Defend** paling efektif saat pertahanan saat ini bisa bertahan di gelombang berikutnya tanpa pengeluaran darurat.
+- **Beli zona setelah stabil** supaya pendapatan, penempatan, dan pembersihan gelombang tetap berada di depan tekanan baru.
+- **Lindungi dana cadangan** sebelum memperluas; pembelian zona tidak boleh menghabiskan saldo.
+- **Perbaiki hambatan utama terlebih dahulu**: damage, jangkauan, atau timing harus meningkat sebelum kamu membuka lebih banyak ruang.
+- **Perluas, lalu bangun ulang** formasi kamu di sekitar area baru, bukan terburu-buru mengejar pembelian berikutnya.
+</Callout>
+
+<Section icon={Map} title="Cara Membeli Zona di Roll to Defend: Timing Inti">
+
+Cara membeli zona di Roll to Defend sebenarnya hanya mengikuti satu aturan sederhana: perluas hanya setelah susunan saat ini sanggup menghadapi gelombang berikutnya tanpa pengeluaran panik. Pembelian zona harus membuat run kamu lebih baik, bukan memaksa kamu masuk ke misi penyelamatan dua gelombang kemudian. Jika pertahananmu masih butuh tambal sulam terus-menerus, langkah yang lebih aman adalah menahan pendapatan dan menstabilkan dulu.
+
+<CardGrid cols={3}>
+  <Card title="Beli Sekarang">
+    - **Pembersihan gelombang stabil**
+    - Kamu punya pendapatan sisa
+    - Jalur utama masih bertahan
+  </Card>
+  <Card title="Tunggu">
+    - Satu upgrade bisa memperbaiki kebocoran
+    - Jangkauan sudah dekat, tapi belum aman
+    - Kamu butuh buffer cadangan
+  </Card>
+  <Card title="Jangan Beli">
+    - Saldo terlalu rendah
+    - Zombie sudah mencapai base
+    - Ekspansi akan merusak susunanmu
+  </Card>
+</CardGrid>
+
+| Sinyal | Artinya | Langkah Terbaik |
+|---|---|---|
+| Pembersihan stabil | Gelombang selesai dengan sisa ruang | Beli zona berikutnya |
+| Kebocoran lambat | Pertahanan sudah dekat, tapi belum sepenuhnya aman | Perbaiki damage atau penempatan dulu |
+| Pengeluaran darurat | Kamu bereaksi, bukan berkembang | Tahan pendapatan dan pulihkan |
+| Cadangan ekstra | Kamu bisa menahan gelombang buruk setelah ekspansi | Buka zona dengan percaya diri |
+
+<Callout type="tip" title="Aturan Timing Zona">
+Jika pembelian zona memaksamu menjual damage inti atau membiarkan satu jalur terbuka, berarti timing-nya salah. Pertahankan dulu susunan yang sekarang.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Alur Pembelian Zona yang Bisa Kamu Ulang">
+
+Gunakan urutan yang sama setiap kali kamu memutuskan apakah perlu membeli zona. Ini mencegah kamu memperluas terlalu cepat dan membantu mengubah satu run yang stabil menjadi run yang lebih kuat. Tujuannya bukan untuk terburu-buru membuka map; tujuannya adalah membuat setiap unlock meningkatkan ritme jangka panjangmu.
+
+<Steps>
+  <Step num="1" title="Selesaikan gelombang saat ini dengan bersih">
+    Tunggu sampai pertahananmu menangani zombie tanpa klik panik terus-menerus. Jika kamu masih bereaksi terhadap kebocoran, zona saat ini belum siap untuk ekspansi.
+  </Step>
+  <Step num="2" title="Identifikasi hambatan sebenarnya">
+    Tentukan apakah masalahnya ada pada damage, jangkauan, kualitas unit, atau timing. Beli zona setelah titik terlemah sudah mulai membaik, bukan sebelumnya.
+  </Step>
+  <Step num="3" title="Jaga pendapatan cadangan tetap tersedia">
+    Sisakan cukup mata uang untuk pulih jika gelombang berikutnya menghantam lebih keras dari perkiraan. Pembelian zona tidak boleh menguras seluruh saldo.
+  </Step>
+  <Step num="4" title="Buka zona dan bangun ulang dengan cepat">
+    Setelah membeli, cek ulang penempatan dan jangkauan. Ruang baru hanya membantu jika para defender masih mengarah ke jalur yang benar.
+  </Step>
+</Steps>
+
+| Pemeriksaan Kesiapan | Lulus/Gagal | Mengapa Penting |
+|---|---|---|
+| Gelombang saat ini selesai dengan aman | Lulus | Kamu tidak membeli karena panik |
+| Jalur utama punya jangkauan cadangan | Lulus | Tekanan baru tidak akan membuka celah |
+| Kamu masih punya pendapatan cadangan | Lulus | Kamu bisa pulih setelah unlock |
+| Satu upgrade sudah menyelesaikan masalah terakhir | Lulus | Ekspansi dibangun di atas stabilitas |
+| Zombie masih bocor di setiap gelombang | Gagal | Perbaiki pertahanan sebelum ekspansi |
+
+<Callout type="warning" title="Jangan Terburu-buru Membeli">
+Jangan pernah membeli zona hanya karena opsinya tersedia. Munculnya menu bukan sinyal itu sendiri; pertahanan yang stabil adalah sinyal yang sebenarnya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Apa yang Harus Dibeli Sebelum dan Sesudah Kamu Membeli">
+
+Uangmu harus mendukung zona, bukan lenyap ke dalamnya. Sebelum memperluas, pembelian terbaik biasanya adalah yang memperbaiki kegagalan terakhir. Setelah memperluas, pembelian terbaik adalah yang mengembalikan kendali gelombang dengan bersih dan menjaga ekonomi tetap maju.
+
+| Prioritas Pengeluaran | Sebelum Beli Zona | Sesudah Beli Zona |
+|---|---|---|
+| 1 | Damage inti | Bangun ulang jalur utama |
+| 2 | Jangkauan dan penempatan | Tambahkan jangkauan cadangan |
+| 3 | Pendapatan cadangan | Siapkan dana darurat |
+| 4 | Pembelian zona | Stabilkan area baru |
+| 5 | Roll ekstra atau upgrade | Tingkatkan siklus berikutnya |
+
+| Situasi | Fokus Pengeluaran | Hindari |
+|---|---|---|
+| Zombie bocor lewat satu jalur | Jangkauan | Membeli map yang lebih besar terlalu cepat |
+| Gelombang terlalu lama bertahan | Damage | Mengejar zona baru terlebih dahulu |
+| Pertahanan sudah stabil | Ekspansi zona | Menimbun mata uang selamanya |
+| Zona baru terbuka | Posisikan ulang unit | Membiarkan susunan lama tidak berubah |
+
+Kebiasaan yang berguna adalah berpikir dalam rasio. Simpan nilai yang cukup dalam pertahanan untuk bertahan di gelombang berikutnya, cukup cadangan untuk bereaksi, lalu baru ubah sisanya menjadi progres. Dengan begitu, setiap unlock zona terasa pantas didapat, bukan dipaksakan.
+
+<Callout type="info" title="Prioritas Ekonomi">
+Jika zona berikutnya cukup murah untuk dibeli tetapi membuatmu tidak sanggup bertahan di gelombang setelahnya, berarti itu masih terlalu mahal untuk kondisi saat ini.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kesalahan Umum Saat Membeli Zona">
+
+Banyak run yang lemah gagal karena alasan yang sama: pemain membeli zona terlalu cepat, lalu menghabiskan sisa sesi untuk memperbaiki kerusakan dari keputusan itu. Solusinya biasanya sederhana. Perlambat tempo, simpan cadangan, dan biarkan pertahanan saat ini membuktikan bahwa ia bisa menahan langkah berikutnya.
+
+| Kesalahan | Hasil | Perbaikan |
+|---|---|---|
+| Membeli begitu pendapatan muncul | Pertahanan menjadi tipis | Tunggu sampai pembersihan gelombang stabil |
+| Menghabiskan setiap koin untuk ekspansi | Tidak ada ruang pemulihan | Simpan dana cadangan |
+| Mengabaikan celah jangkauan | Zombie lolos | Posisikan ulang sebelum membeli |
+| Memperluas setelah satu gelombang bagus | Percaya diri palsu | Uji dua atau tiga gelombang bersih |
+| Bangun ulang terlalu lambat setelah unlock | Zona baru tetap tidak stabil | Tugas ulang defender segera |
+
+Jika kamu ingin acuan langsung untuk gamenya, gunakan halaman pengalaman resmi Roblox: [Roll to Defend on Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend).
+
+<Callout type="success" title="Pola Pemulihan yang Aman">
+Jika sebuah zona membuat run kamu lebih buruk, itu bukan berarti ekspansi itu buruk. Artinya pembelian berikutnya harus dilakukan setelah pertahanan dibangun ulang, bukan sebelumnya.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Pembelian Zona dan FAQ">
+
+Sebelum kamu mengklik zona berikutnya, jalankan checklist ini. Ini menjaga progres tetap rapi dan membantu kamu menghindari membuang waktu pada unlock yang terlalu dini untuk susunan saat ini.
+
+<Checklist
+  id="zone-buying-checklist"
+  title="Checklist Pembelian Zona:"
+  items={[
+    "Gelombang saat ini selesai tanpa pengeluaran darurat",
+    "Kamu bisa menyebutkan hambatan sebenarnya dalam pertahananmu",
+    "Kamu masih punya pendapatan cadangan setelah membeli",
+    "Jalur utama masih punya jangkauan cadangan",
+    "Kamu bisa membangun ulang penempatan segera setelah unlock"
+  ]}
+/>
+
+| Status Zona | Tindakan Terbaik | Risiko |
+|---|---|---|
+| Stabil dan menguntungkan | Beli zona | Risiko rendah |
+| Stabil tapi cadangannya tipis | Menabung sedikit lebih lama | Risiko sedang |
+| Bocor atau kacau | Perbaiki pertahanan dulu | Risiko tinggi |
+| Area yang baru terbuka | Bangun ulang segera | Risiko sedang |
+| Pulih setelah gelombang berat | Uji ulang sebelum membeli | Risiko sedang |
+
+<Callout type="tip" title="Aturan Akhir">
+Pembelian zona terbaik adalah yang membuat lima gelombang berikutnya lebih mudah, bukan yang terlihat menarik saat itu juga.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Kapan saya harus membeli zona di Roll to Defend?",
+    answer: "Beli zona setelah pertahanan saat ini membersihkan gelombang dengan bersih, jalur utama tertutup, dan kamu masih punya pendapatan cadangan setelah pembelian."
+  },
+  {
+    question: "Haruskah saya membeli zona segera setelah mampu?",
+    answer: "Tidak selalu. Jika pembelian menguras saldo dan melemahkan pertahananmu, lebih baik tunggu sampai susunanmu stabil."
+  },
+  {
+    question: "Apa yang harus saya perbaiki sebelum memperluas?",
+    answer: "Perbaiki dulu hambatan yang menghentikan run terakhirmu. Biasanya itu berarti damage, jangkauan, atau penempatan unit sebelum ekspansi zona."
+  },
+  {
+    question: "Apa kebiasaan paling aman saat membeli zona?",
+    answer: "Simpan cadangan, uji pembersihan gelombang yang stabil, beli zona, lalu segera bangun ulang formasi di sekitar ruang baru."
+  }
+]} />
+
+</Section>

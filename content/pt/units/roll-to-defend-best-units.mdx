@@ -1,0 +1,237 @@
+import { Shield, Swords, Target, Trophy, Sparkles, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Melhores unidades de Role para Defender: escolhas S-Tier e dicas de upgrade",
+  description: "Compare as melhores unidades de Role para Defender, identifique o valor S-Tier e aprenda quando manter, posicionar, melhorar e substituir unidades para runs mais tranquilas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Best+Units+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de roll to defend"
+}
+
+<Callout type="info" title="Guia rápido">
+- **melhores unidades de Role para Defender** geralmente são suas invocações de maior raridade, especialmente qualquer uma que já segure uma rota.
+- **Valor de manter** depende do dano, da cobertura e de quão bem a unidade estabiliza sua zona atual.
+- **Ordem de upgrade** deve corrigir primeiro o gargalo e, depois, gastar o lucro extra em rolls ou expansão.
+- **Configuração de sorte** funciona melhor quando você faz rolls com amigos e com o bônus do grupo do criador ativo.
+</Callout>
+
+<Section icon={Shield} title="Melhores Unidades de Role para Defender: o que manter primeiro">
+
+A forma mais segura de lidar com as **melhores unidades de Role para Defender** é manter a invocação visível mais forte, colocá-la cedo e substituir o preenchimento só depois que sua defesa estiver estável. Este jogo recompensa cobertura clara de rotas mais do que capturas chamativas do inventário.
+
+<Callout type="tip" title="Regra de manter">
+Trate a raridade como seu primeiro filtro e, depois, compare quanta pressão uma unidade remove do caminho dos zumbis.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Invocações Divinas">
+    - **Prioridade máxima de manter**
+    - Melhor valor de longo prazo
+    - Normalmente vale a pena construir em torno delas
+  </Card>
+  <Card title="Invocação Atual de Maior Raridade">
+    - **Melhor slot disponível**
+    - Âncora forte no início e no meio do jogo
+    - Substitua primeiro os preenchimentos de raridade menor
+  </Card>
+  <Card title="Invocação que Estabiliza a Zona">
+    - **Melhor para progressão**
+    - Ajuda uma nova área a permanecer segura
+    - Muitas vezes é mais útil do que dano bruto sozinho
+  </Card>
+</CardGrid>
+
+| Situação | Ação | Por que funciona |
+|---|---|---|
+| Você consegue uma invocação Divina | Mantenha-a | Raridade alta normalmente dá o melhor retorno de longo prazo |
+| Você só tem uma unidade forte | Coloque-a imediatamente | Poder não usado não faz nada contra ondas de zumbis |
+| Uma unidade mais fraca não segura mais uma rota | Substitua-a | Cobertura e sobrevivência importam mais do que apego |
+| Uma invocação estabiliza uma nova zona | Priorize-a | A segurança da zona apoia renda e rolls futuros |
+| Uma duplicata supera sua unidade ativa | Troque por ela | Melhor valor em campo deve sempre vencer |
+
+Comece pela [página oficial do jogo no Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) e pela [comunidade do criador D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) quando quiser o caminho mais seguro e ligado ao jogo.
+
+</Section>
+
+<Section icon={Trophy} title="Lógica de tiers: classifique unidades por valor, não por hype">
+
+Uma boa lista de tiers de unidades tem menos a ver com empolgação bruta e mais com o quanto uma invocação muda sua run. A jogabilidade pública mostra pelo menos uma invocação nomeada de alta raridade, **Stellar Pirate**, como um exemplo marcante do tipo de unidade que vale a pena manter.
+
+<Callout type="info" title="Regra de tier">
+Classifique as unidades por controle de rota, valor de fase e por quanto tempo elas continuam relevantes depois que você desbloqueia zonas mais fortes.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="S-Tier">
+    - **Carregador principal**
+    - Mantém as runs estáveis
+    - Vale a pena construir em torno dele
+  </Card>
+  <Card title="A-Tier">
+    - **Defesa principal**
+    - Forte o suficiente para segurar ondas
+    - Bom para a maioria das sessões
+  </Card>
+  <Card title="B-Tier">
+    - **Segurar no início**
+    - Útil enquanto a renda cresce
+    - Substitua quando chegarem invocações melhores
+  </Card>
+  <Card title="C-Tier">
+    - **Preenchimento temporário**
+    - Apenas para espaço vazio
+    - Troque o quanto antes
+  </Card>
+</CardGrid>
+
+| Tier | Exemplo | Melhor uso | Manter? |
+|---|---|---|---|
+| S | Stellar Pirate, invocações Divinas | Carregador de longo prazo e controle de rota | Sim |
+| A | Invocação atual de maior raridade | Defesa principal durante a progressão normal | Sim |
+| B | Invocação de dano inicial | Limpeza de ondas no começo e preparação | Às vezes |
+| C | Preenchimento ultrapassado | Apenas cobertura de slot vazio | Não, se houver opções melhores |
+
+| Fator | O que procurar | Peso |
+|---|---|---|
+| Dano | Elimina zumbis antes que vazem | Alto |
+| Cobertura | Segura mais do caminho | Alto |
+| Raridade | Melhor teto de longo prazo | Médio |
+| Valor de zona | Continua útil após a expansão | Alto |
+| Reinvestimento | Ajuda em rolls ou upgrades futuros | Médio |
+
+<Callout type="warning" title="Erro comum">
+Não mantenha uma unidade mais fraca só porque foi sua primeira boa invocação. Se ela não resolve mais um problema real, é peso morto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Caminho de upgrade: onde gastar a renda primeiro">
+
+A renda em Role para Defender deve ir para o ponto mais fraco que realmente causou o vazamento da sua última run. Se os zumbis estão chegando à base, corrija dano ou cobertura antes de buscar mais rolls ou uma nova zona.
+
+<Callout type="warning" title="Ordem de gasto">
+Se a onda atual estiver instável, upgrades vêm antes da expansão. Comprar uma zona cedo demais pode levar sua configuração além do limite.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Identifique o gargalo">
+    Decida se a run falhou por dano, cobertura, qualidade do roll ou por um timing ruim de zona.
+  </Step>
+  <Step num="2" title="Corrija a defesa ativa">
+    Gaste na unidade ou no posicionamento que já elimina mais zumbis e, depois, conserte a rota que vaza.
+  </Step>
+  <Step num="3" title="Role com propósito">
+    Guarde renda para uma sessão de rolls focada depois que sua defesa estiver estável e sua configuração de sorte estiver ativa.
+  </Step>
+  <Step num="4" title="Expanda só depois da estabilidade">
+    Compre a próxima zona quando a configuração atual limpar com segurança e você ainda tiver renda suficiente para reagir.
+  </Step>
+</Steps>
+
+| Foco do upgrade | Prioridade | Comprar quando | Adiar quando |
+|---|---|---|---|
+| Dano principal | Alta | Os zumbis sobrevivem tempo demais | Os vazamentos são causados por mau posicionamento |
+| Cobertura | Alta | As rotas escapam por brechas | O dano principal ainda é fraco demais |
+| Configuração de qualidade de roll | Média | Você já guardou renda e os bônus de sorte estão ativos | A onda atual já está falhando |
+| Tratamento de duplicatas | Média | A nova cópia melhora claramente o campo | Ela remove uma cobertura útil |
+| Gastos prontos para zona | Média | As ondas limpam sem gasto em pânico | A expansão deixaria a próxima onda mais קשה |
+
+Uma regra prática: corrija a sobrevivência primeiro e, depois, melhore o ciclo de economia. Isso mantém suas invocações mais fortes úteis em vez de deixá-las presas atrás de um padrão ruim de gastos.
+
+</Section>
+
+<Section icon={Sparkles} title="Sorte, renda e timing de zona">
+
+Role para Defender oferece algumas vantagens simples para empilhar antes de uma sessão séria: jogue com amigos, entre no grupo do criador e use a renda offline para reiniciar depois de uma pausa. Esses sistemas são mais fortes quando você os usa na ordem certa.
+
+<Callout type="success" title="Melhor ordem de sessão">
+Colete primeiro a renda offline, ative sua configuração de sorte e, então, faça rolls com um objetivo claro para a run.
+</Callout>
+
+| Sistema | Melhor momento | Erro a evitar |
+|---|---|---|
+| Sorte com amigos | Antes de uma longa sessão de rolls | Fazer rolls primeiro e configurar depois |
+| Sorte do grupo | Antes de julgar a qualidade da sua invocação | Ignorar o bônus do grupo do criador |
+| Renda offline | No início da sessão | Gastar antes de verificar o gargalo |
+| Compra de zona | Depois de limpezas estáveis | Expandir com a defesa instável |
+| Reinvestimento | Depois que o ponto fraco for corrigido | Dividir a renda em tudo |
+
+Use esta checklist antes de uma run séria:
+
+<Checklist
+  id="roll-to-defend-session-checklist"
+  title="Checklist da sessão:"
+  items={[
+    "Entre no mesmo servidor que seus amigos se quiser o bônus de sorte ativo.",
+    "Dê like no jogo e entre na comunidade D:/Drive antes de fazer muitos rolls.",
+    "Colete primeiro a renda offline para saber qual é o seu orçamento real.",
+    "Gaste na fraqueza que encerrou sua última run.",
+    "Compre a próxima zona só depois que sua defesa limpar com segurança."
+  ]}
+/>
+
+O melhor padrão de economia é simples: sobreviva, role e, então, expanda. Se você inverter essa ordem com muita frequência, sua unidade mais forte ainda acaba sustentando uma run ruim em vez de carregá-la.
+
+</Section>
+
+<Section icon={Map} title="Regras práticas de unidades para progredir mais rápido">
+
+A melhor escolha de unidade depende da fase da sua run. No começo, você quer um segurador confiável. No meio do jogo, você quer um carregador de verdade. Mais tarde, você quer a invocação que impede as novas zonas de desmoronar no momento em que são desbloqueadas.
+
+<Callout type="tip" title="Regra de fase">
+Uma unidade que parece mediana no papel ainda pode ser sua melhor escolha se ela evitar vazamentos exatamente no ponto que importa.
+</Callout>
+
+| Fase do jogo | O que priorizar | O que evitar | Melhor resultado |
+|---|---|---|---|
+| Início do jogo | Cobertura do caminho, colocação fácil | Investir demais em invocações chamativas | Primeiras ondas limpas |
+| Meio do jogo | Maior raridade visível | Encher o tabuleiro de unidades fracas | Núcleo de defesa estável |
+| Avanço de zona | Estabilidade e controle de rota | Comprar uma zona cedo demais | Expansão mais segura |
+| Sessão de retorno | Corrigir gargalos antigos | Gastar toda a renda em rolls | Recuperação mais rápida |
+| Fim do jogo | Valor de manter no longo prazo | Substituir unidades boas cedo demais | Melhor eficiência da run |
+
+| Tipo de unidade | Função | Manter ou substituir |
+|---|---|---|
+| Invocação Divina | Carregador principal | Manter |
+| Invocação atual de maior raridade | Âncora confiável | Manter |
+| Invocação de dano inicial | Suporte temporário | Substituir depois |
+| Preenchimento ultrapassado | Cobertura de slot vazio | Substituir |
+| Invocação que estabiliza a zona | Suporte à expansão | Manter se proteger a run |
+
+Se quiser uma regra de decisão limpa, use isto: mantenha a unidade que melhora a pior parte da sua defesa, não a que apenas parece mais rara isoladamente.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="Perguntas comuns">
+Use estas respostas como um filtro rápido de decisão quando não tiver certeza de qual unidade manter.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores unidades em Role para Defender?",
+    answer: "As melhores unidades geralmente são suas invocações de maior raridade e qualquer unidade que estabilize claramente uma rota. Uma invocação Divina ou uma forte estabilizadora de zona normalmente vale mais a pena manter do que preenchimento."
+  },
+  {
+    question: "Raridade Divina é sempre a melhor escolha?",
+    answer: "Nem sempre em toda situação, mas Divina é o filtro inicial mais seguro. Se uma unidade de raridade menor resolver melhor seu problema atual de rota, mantenha a melhor em desempenho até substituí-la."
+  },
+  {
+    question: "Quando devo comprar a próxima zona?",
+    answer: "Compre a próxima zona depois que sua defesa atual limpar com segurança, sem gastos em pânico. Se a onda ainda estiver instável, corrija dano ou cobertura primeiro."
+  },
+  {
+    question: "O que devo fazer com a renda offline?",
+    answer: "Colete-a no início da sessão, corrija a fraqueza que encerrou sua última run e só então gaste o restante em rolls ou expansão."
+  }
+]} />
+
+</Section>

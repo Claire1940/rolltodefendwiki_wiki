@@ -1,0 +1,198 @@
+import { Map, Shield, Sparkles, Target, Trophy, AlertTriangle, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "roll to defend max luck: Panduan Pengaturan untuk Roll yang Lebih Baik",
+  description: "Maksimalkan luck di Roll to Defend dengan menumpuk bonus teman dan grup, mengatur timing roll setelah offline income, dan menghindari upgrade yang boros serta pembelian zona terlalu dini.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Max+Luck+Setup+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend max luck** dimulai dengan bonus teman dan grup sebelum kamu menghabiskan income untuk roll.
+- **Offline income** paling baik digunakan untuk memperbaiki lapisan pertahanan terlemah sebelum dorongan berikutnya.
+- **Waktu roll** lebih penting daripada spam acak; siapkan dulu, lalu roll dalam batch.
+- **Pembelian zona** sebaiknya ditunda sampai pertahananmu bisa membersihkan gelombang tanpa pengeluaran darurat.
+- **Hasil terbaik** datang dari menumpuk luck, lalu menginvestasikannya kembali ke unit dan coverage.
+</Callout>
+
+<Section icon={Sparkles} title="Sumber Max Luck di Roll to Defend">
+
+Cara paling bersih untuk meningkatkan **Roll to Defend max luck** adalah memperlakukan luck sebagai lapisan setup, bukan bonus acak. Deskripsi publik game ini menunjukkan tiga sumber praktis yang bisa kamu kendalikan: bermain bersama teman, bergabung dengan grup D:/Drive setelah menyukai game, dan menggunakan offline income untuk mendanai sesi roll yang lebih kuat.
+
+Buka dulu [halaman resmi Roll to Defend di Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend), lalu verifikasi komunitas kreatornya melalui [grup Roblox D:/Drive](https://www.roblox.com/communities/861213399/D-Drive). Jaga urutannya tetap sederhana: siapkan luck, roll, lalu gunakan hasilnya untuk mengatasi hambatan berikutnya.
+
+<Callout type="tip" title="Apa yang benar-benar meningkatkan luck efektifmu">
+Fokus pada bonus yang terlihat dan bisa diulang. Luck dari teman dan grup membantu sesi roll-mu. Offline income membantumu datang dengan lebih banyak mata uang, yang berarti lebih banyak kesempatan untuk roll unit yang lebih baik.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Luck Teman">
+    - **Penggunaan terbaik:** sesi roll yang direncanakan
+    - **Kekuatan:** mudah diaktifkan
+    - **Risiko:** tidak ada jika kamu sudah punya tim
+  </Card>
+  <Card title="Luck Grup">
+    - **Penggunaan terbaik:** setiap sesi serius
+    - **Kekuatan:** langkah setup yang sederhana
+    - **Risiko:** diabaikan oleh pemain yang langsung terburu-buru roll
+  </Card>
+  <Card title="Offline Income">
+    - **Penggunaan terbaik:** sesi comeback
+    - **Kekuatan:** memberi lebih banyak mata uang untuk digunakan
+    - **Risiko:** terbuang jika kamu membeli zona terlalu cepat
+  </Card>
+</CardGrid>
+
+| Sumber Luck | Fungsinya | Waktu Terbaik untuk Digunakan | Prioritas |
+|---|---|---|---|
+| Bonus teman | Meningkatkan sesi roll bersama teman | Sebelum batch roll yang panjang | **Tinggi** |
+| Bonus grup | Menambahkan lapisan luck ekstra yang bisa diulang | Setiap sesi setelah bergabung dengan grup | **Tinggi** |
+| Offline income | Mengembalikan mata uang saat kamu pergi | Saat login, sebelum upgrade atau roll | **Tinggi** |
+| Roll acak | Memberimu pull tanpa setup | Hanya setelah stack luck aktif | **Sedang** |
+
+<Callout type="warning" title="Jangan balik urutannya">
+Kalau kamu roll dulu lalu memperbaiki setup belakangan, biasanya kamu menghabiskan lebih banyak mata uang untuk hasil yang sama. Bangun stack luck dulu, lalu biarkan roll bekerja untukmu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cara Menumpuk Luck Sebelum Roll">
+
+Sesi roll terbaik dimulai sebelum klik pertama. Perlakukan run-mu seperti loop persiapan singkat: selesaikan tekanan yang sedang terjadi, kumpulkan income, aktifkan sumber luck, dan baru habiskan roll. Urutan itu membuat sesi lebih efisien dan mengurangi risiko menghabiskan mata uang saat pertahananmu masih tidak stabil.
+
+<Callout type="info" title="Aturan sesi">
+Saat board-mu goyah, bonus luck tidak sepenting bertahan hidup. Stabilkan dulu, lalu kejar pull yang lebih baik.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Kumpulkan Hasilmu">
+    Login, klaim offline income, dan cek apakah run terakhir gagal karena damage, coverage, atau timing yang buruk.
+  </Step>
+  <Step num="2" title="Aktifkan Setup Luck">
+    Main bersama teman saat memungkinkan, dan pastikan kamu sudah bergabung dengan grup kreator yang terkait dengan game.
+  </Step>
+  <Step num="3" title="Stabilkan Board">
+    Pertahankan unit yang sudah ditempatkan dan awasi titik bocor. Pertahanan yang stabil melindungi income yang akan segera kamu habiskan.
+  </Step>
+  <Step num="4" title="Habiskan Roll dalam Batch">
+    Roll dengan tujuan yang jelas, seperti mengganti unit yang lemah atau menemukan core pull yang lebih kuat untuk zona berikutnya.
+  </Step>
+</Steps>
+
+| Langkah | Tindakan | Mengapa Penting | Tanda Gagal |
+|---|---|---|---|
+| 1 | Kumpulkan offline income | Memberimu lebih banyak percobaan roll | Kamu mengabaikan mata uang yang kembali |
+| 2 | Aktifkan bonus teman dan grup | Meningkatkan setup rolling-mu | Kamu roll solo tanpa persiapan |
+| 3 | Stabilkan pertahanan | Mencegah bocor menghabiskan sumber daya | Zombie sering mencapai base |
+| 4 | Roll dalam batch | Menjaga keputusan tetap fokus | Kamu spam roll tanpa target |
+
+<Callout type="tip" title="Batch rolling bekerja lebih baik">
+Habiskan roll dalam blok yang terkontrol, bukan pull panik satu per satu. Lebih mudah menilai apakah setup-mu membaik ketika sesi punya awal dan akhir yang jelas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Habiskan Income Tanpa Memboroskan Luck-mu">
+
+Luck hanya terasa kuat ketika pertahananmu bisa bertahan cukup lama untuk menggunakan pull baru itu. Itulah sebabnya urutan penggunaan income itu penting. Jika zombie berhasil menembus, pengeluaran pertamamu biasanya harus memperbaiki damage atau coverage. Jika board stabil, barulah kamu bisa mendorong ke roll yang lebih kuat atau zona baru.
+
+<Callout type="success" title="Logika pengeluaran terbaik">
+Perbaiki bottleneck yang membuat run terakhir gagal. Aturan itu menjaga luck agar tidak terbuang pada jalur upgrade yang salah.
+</Callout>
+
+| Situasi | Pengeluaran Pertama | Pengeluaran Kedua | Hindari |
+|---|---|---|---|
+| Zombie bocor sejak awal | Upgrade damage | Penempatan yang lebih baik | Pembelian zona baru |
+| Coverage jalur lemah | Perbaikan support atau placement | Sesi roll tambahan | Terlalu fokus pada satu lane |
+| Pertahanan stabil | Lebih banyak roll | Core unit yang lebih baik | Upgrade kecil acak |
+| Kamu baru kembali | Reinvestasi offline income | Roll berbasis luck | Panic spending untuk semuanya |
+
+Aturan praktisnya adalah memperlakukan income sebagai jembatan antar sesi. Jika run terakhir gagal karena kamu kurang kuat, alihkan lebih banyak mata uang ke unit yang benar-benar membawa gelombang. Jika run gagal karena field-mu terlalu tipis, tingkatkan coverage sebelum mengejar pull langka.
+
+| Prioritas Reinvestasi | Pilihan Terbaik | Kapan Ditunda |
+|---|---|---|
+| 1 | Core damage | Saat masalahnya adalah coverage lane |
+| 2 | Coverage dan placement | Saat kamu masih belum bisa membersihkan gelombang dasar |
+| 3 | Ekspansi sesi roll | Saat board sudah stabil |
+| 4 | Pertumbuhan zona | Saat area berikutnya akan menyebabkan kebocoran |
+
+<Callout type="warning" title="Pembelian zona bisa menurunkan efisiensi">
+Membeli zona terlalu cepat bisa membuat pertahananmu terlalu terbentang sebelum siap. Jika setup saat ini masih bocor, pembelian itu sering memperlambat kemajuan, bukan mempercepatnya.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kesalahan yang Menurunkan Luck Efektifmu">
+
+Kebanyakan pemain tidak kehilangan luck; mereka kehilangan efisiensi. Mereka roll sebelum menyiapkan bonus, membeli zona sebelum memperbaiki gelombang yang lemah, atau menghabiskan income yang kembali untuk masalah yang salah. Bereskan kebiasaan itu dan hasilmu akan membaik tanpa perlu asumsi berisiko.
+
+<Callout type="info" title="Gunakan checklist ini sebelum setiap sesi roll">
+Cek setup-mu dengan urutan yang sama setiap kali. Konsistensi membuat stack luck lebih mudah diulang.
+</Callout>
+
+<Checklist
+  id="luck-session-checklist"
+  title="Checklist Pra-Roll"
+  items={[
+    "Klaim offline income sebelum menghabiskan apa pun",
+    "Pastikan luck teman aktif jika memungkinkan",
+    "Bergabunglah dengan grup D:/Drive yang terkait dengan game",
+    "Stabilkan pertahanan saat ini sebelum roll",
+    "Habiskan roll hanya setelah kamu tahu targetmu"
+  ]}
+/>
+
+| Kesalahan | Mengapa Merugikan | Perbaikan yang Lebih Baik |
+|---|---|---|
+| Roll terlalu cepat | Kamu membuang mata uang sebelum setup | Siapkan sesi dulu |
+| Mengabaikan offline income | Kamu kehilangan nilai reinvestasi gratis | Klaim saat login |
+| Membeli zona terlalu cepat | Kamu membuka lapisan pertahanan yang lemah | Ekspansi hanya setelah clear yang stabil |
+| Upgrade terlalu menyebar | Tidak ada yang menjadi cukup kuat | Selesaikan bottleneck utama dulu |
+| Roll tanpa target | Kamu tidak bisa menilai progres | Pilih satu tujuan per sesi |
+
+Kesalahan umum lainnya adalah menganggap luck sebagai pengganti pertahanan. Bukan begitu. Luck membantumu mendapatkan pull yang lebih kuat, tetapi pull itu tetap membutuhkan board yang stabil dan income yang cukup agar berarti. Jika pertahanan runtuh sebelum upgrade memberi hasil, sesi itu memang tidak pernah benar-benar disiapkan.
+
+<Callout type="warning" title="Luck tidak memperbaiki struktur yang buruk">
+Roll yang lebih kuat memang bagus, tetapi tidak bisa menyelamatkan board yang sudah runtuh. Bangun pertahanan, lalu biarkan stack luck menjalankan tugasnya.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<Callout type="tip" title="Baca bagian ini setelah beberapa sesi pertamamu">
+Jawaban di bawah paling berguna saat kamu membandingkannya dengan kegagalan wave dan alur sumber daya milikmu sendiri.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan setup roll terbaik di roll to defend max luck?",
+    answer: "Mulailah dengan bonus teman dan grup, lalu kumpulkan offline income sebelum kamu roll. Urutan itu memberimu lebih banyak percobaan dan sesi yang lebih bersih."
+  },
+  {
+    question: "Haruskah saya membeli zona sebelum roll untuk mendapatkan unit yang lebih baik?",
+    answer: "Hanya jika pertahananmu sudah stabil. Jika board saat ini masih bocor, habiskan dulu untuk damage atau coverage, bukan ekspansi."
+  },
+  {
+    question: "Apa yang harus saya lakukan saat kembali dengan offline income?",
+    answer: "Klaim segera, identifikasi kelemahan yang mengacaukan run terakhir, lalu reinvestasikan sebelum mengejar sesi roll berikutnya."
+  },
+  {
+    question: "Apakah solo roll buruk untuk roll to defend max luck?",
+    answer: "Solo roll masih bisa dipakai, tetapi biasanya lebih lemah daripada sesi yang disiapkan dengan luck teman dan bonus grup yang aktif."
+  }
+]} />
+
+<Callout type="success" title="Poin utama">
+Jika kamu ingin roll yang lebih baik, pikirkan dalam lapisan: setup dulu, pertahanan kedua, roll ketiga, ekspansi terakhir. Urutan itu menjaga stack luck tetap efisien.
+</Callout>
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Beginner Guide, Upgrades, Zones & Tips",
+  description: "Build stronger runs in Roll to Defend with a clear first-session loop, smart upgrade order, zone timing, luck setup, and offline income planning.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/24184d/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "roll to defend Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roll to Defend** starts with rolling units, placing defenders, and stabilizing zombie waves before chasing expansion.
+- **Best early value** comes from one strong setup, not random spending across every menu.
+- **Zone timing matters**; expand after your defense clears cleanly and your income can absorb the next push.
+- **Luck bonuses** from friends and the group are best used before a long roll session.
+- **Offline income** should be spent on the weakness that ended your last run.
+</Callout>
+
+<Section icon={Map} title="Roll to Defend Core Loop and First Setup">
+
+Roll to Defend rewards a simple loop: roll units, place defenders, clear zombies, then turn income back into stronger progress. If you try to do everything at once, the run usually gets messy fast.
+
+<Callout type="tip" title="First Priority">
+Build a stable board before you chase perfect pulls. A usable defender on the field is worth more than a better unit sitting unused.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Roll First">
+    Start by rolling until you have a defender that can actually hold the lane. The goal is stability, not gambling for perfection.
+  </Card>
+  <Card title="Place Immediately">
+    Put your strongest unit where it can shoot for the longest time. An active unit beats a better one that never attacks.
+  </Card>
+  <Card title="Reinvest Fast">
+    Use early income to keep the loop moving. More uptime usually beats over-saving for a single big purchase.
+  </Card>
+</CardGrid>
+
+| First 10 Minutes | What to Do | Goal | Avoid |
+| --- | --- | --- | --- |
+| Opening roll | Get one or two usable defenders | Stop early leaks | Burning all income on rerolls |
+| First placement | Cover the longest path section | Maximize damage time | Clumping units where they overlap too much |
+| Early waves | Watch for weak lanes | Find the real bottleneck | Ignoring leaks until the base is pressured |
+| First spend cycle | Reinvest after the board is stable | Keep progress steady | Saving too long with no board upgrade |
+| First zone decision | Expand only if clears feel safe | Keep momentum | Buying a zone before defense is ready |
+
+</Section>
+
+<Section icon={Shield} title="Placement, Waves, and Defense Priorities">
+
+Most players lose tempo by placing units without a clear lane plan. The safer approach is to think about wave control first and unit variety second.
+
+<Callout type="warning" title="Defense Rule">
+If zombies are leaking, fix coverage or damage before you start chasing a new zone or another random roll.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Map the lane">
+    Put your best defender where it can attack for the longest stretch. Long attack time is usually better than flashy placement.
+  </Step>
+  <Step num="2" title="Cover the choke">
+    Add support where zombies slow down or bunch up. That spot gives you the most value from each unit.
+  </Step>
+  <Step num="3" title="Hold a reserve">
+    Do not spend every coin the moment you get it. Keep enough income to react if the next wave hits harder.
+  </Step>
+  <Step num="4" title="Replace weak slots">
+    Once a stronger unit appears, swap out the weakest filler first. Clean boards are easier to manage than crowded ones.
+  </Step>
+</Steps>
+
+| Game Phase | Best Focus | What Matters Most | Common Mistake |
+| --- | --- | --- | --- |
+| Early game | Basic survival | One stable attacker and clean coverage | Building too wide too soon |
+| Mid game | Wave efficiency | Better damage per slot and smarter placement | Keeping weak units for too long |
+| Late game | Board quality | Strong defenders with minimal dead space | Expanding before the core line is ready |
+
+<Callout type="success" title="Good Rule of Thumb">
+A unit that improves lane control is usually more valuable than a unit that only looks stronger on paper.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrades and Zone Timing">
+
+Upgrades should solve the thing that actually stopped your last run. If damage was the issue, raise damage. If zombies slipped through, improve coverage. If both were fine, then look at zones and economy.
+
+<Callout type="success" title="Upgrade Order">
+Spend on the bottleneck first. That keeps your run moving instead of spreading income across every option at once.
+</Callout>
+
+| Bottleneck | Buy First | Why It Helps | Delay It When |
+| --- | --- | --- | --- |
+| Low damage | Core attack upgrades | Clears waves faster | Leaks are caused by bad placement, not weak hits |
+| Weak coverage | Placement or support improvements | Stops zombies from slipping through gaps | Your main unit already kills waves quickly |
+| Slow rolls | Roll-session setup and income support | Improves the quality of future pulls | The current wave still needs direct defense |
+| Poor scaling | Better zone-ready investment | Helps long-term progress | The base is unstable right now |
+
+| Zone Signal | Buy the Zone? | Reason | Best Follow-Up |
+| --- | --- | --- | --- |
+| Waves clear cleanly | Yes, usually | Your defense can absorb the expansion | Rebuild placement around the new area |
+| Income is comfortable | Maybe | You can recover after the unlock | Keep a reserve for emergencies |
+| Leaks are frequent | No | A new zone can make pressure worse | Fix damage or coverage first |
+| Board is stable and flexible | Yes | Expansion has a better chance to pay off | Push the next progression step |
+
+<Callout type="info" title="Zone Timing">
+A new zone should feel like a reward for stability, not a patch for instability.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Luck, Offline Income, and Session Prep">
+
+The game’s social bonuses and offline earnings are most useful when they are planned, not treated like random extras. Set them up before a long session, then spend the returns with a clear purpose.
+
+<Callout type="info" title="Session Planning">
+Use luck bonuses before you roll heavily, and use offline income to repair the problem that ended your last session.
+</Callout>
+
+<Checklist
+  id="session-prep"
+  title="Pre-Roll Checklist:"
+  items={[
+    "Join a server with friends before a serious roll session",
+    "Like the game and join the creator group for the extra luck path",
+    "Clear the current defense so you are not rolling under pressure",
+    "Save enough income to react after a bad pull",
+    "Decide whether you need damage, coverage, or zone progress"
+  ]}
+/>
+
+| Source | Effect | Best Time to Use | Note |
+| --- | --- | --- | --- |
+| Friends | Better luck for rolling sessions | Before spending saved income | Works best when you are ready to roll in bulk |
+| Creator group | Extra luck path tied to the game’s social setup | Before a major progression push | Join before judging your pull quality |
+| Offline income | Earn while away | When you return to the game | Spend it on the weakness that blocked progress |
+| Return session | Immediate recovery window | Right after logging back in | Fix defense first, then roll or expand |
+
+<Callout type="tip" title="Practical Order">
+Damage problem first, coverage problem second, expansion third. That order keeps the economy from collapsing.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Fast Reference">
+
+<Callout type="tip" title="Fast Reference">
+If you only remember one thing, remember this: stabilize the board, then spend income on the next bottleneck.
+</Callout>
+
+| Mistake | Better Move | Why It Works |
+| --- | --- | --- |
+| Rolling too early with no defense | Place a usable unit first | You get value from every wave while building income |
+| Buying a zone too soon | Wait for stable clears | Expansion is safer when the board already holds |
+| Keeping weak filler forever | Replace low-impact units first | Cleaner boards are easier to scale |
+| Ignoring social luck setup | Prepare friends and group bonuses first | Better rolls are easier when the session is planned |
+| Letting offline income sit unused | Reinvest on return | The returned cash should fix the last bottleneck |
+
+<FAQ
+  items={[
+    {
+      question: "What should I do first in Roll to Defend?",
+      answer: "Roll for at least one usable defender, place it on the longest lane, and make sure the first waves are under control before chasing anything else."
+    },
+    {
+      question: "Should I buy zones as soon as I can?",
+      answer: "Not usually. Buy a zone after your current defense is stable and your income can survive the extra pressure."
+    },
+    {
+      question: "Are friends and group luck worth setting up?",
+      answer: "Yes, especially before a long roll session. Use those bonuses when you are ready to spend saved income on meaningful pulls."
+    },
+    {
+      question: "How should I spend offline income?",
+      answer: "Use it to fix the weakness that ended your last run. If damage failed, raise damage. If zombies leaked through, improve coverage."
+    }
+  ]}
+/>
+
+</Section>

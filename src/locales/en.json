@@ -10,7 +10,16 @@
       "twitterDescription": "Roll to Defend Wiki tracks codes, units, upgrades, zones, luck, and zombie defense tips for the Roblox roll-based defense simulator."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "units": "Units",
+    "luck": "Luck",
+    "rebirth": "Rebirth",
+    "currency": "Currency",
+    "zones": "Zones",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -603,125 +612,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Roll to Defend Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced zombie defense strategies. Master rolling, upgrading, and zone progression.",
-      "metaTitle": "Roll to Defend Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Roll to Defend guides covering beginner tips, rolling units, zombie defense strategies, and expert tactics for mastering the Roblox simulator.",
+    "codes": {
+      "title": "Roll to Defend Codes",
+      "description": "Track active and expired Roll to Defend codes, redemption steps, and the official sources to watch for new code drops.",
+      "metaTitle": "Roll to Defend Codes - Active Codes & Redemption Guide",
+      "metaDescription": "Get the latest Roll to Defend codes, redemption steps, and official sources for new code drops. Learn which rewards to claim and how to redeem each code.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Roll to Defend codes are redeemable rewards released by the D:/Drive creators. Each code can grant rolls, luck boosts, coins, brains, or other in-game value, and the in-game code menu is the place to redeem them.",
+      "why": "Why use codes?",
+      "whySteps": {
+        "step1Title": "Free Early Advantage",
+        "step1Description": "Codes give free rolls, currency, or boosts when your defense is still being built",
+        "step2Title": "Official Rewards",
+        "step2Description": "Codes come straight from the creators, so every reward you redeem through the in-game menu is safe to use",
+        "step3Title": "Stay Ahead of Drops",
+        "step3Description": "Watching the official Roblox page and D:/Drive community keeps you ready for the next code release"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Roll to Defend Guide",
+      "description": "Complete Roll to Defend guides covering the core loop, beginner setup, best strategies, and pro tactics for rolling units and clearing zombie waves.",
+      "metaTitle": "Roll to Defend Guide - Beginner to Pro Strategies",
+      "metaDescription": "Master Roll to Defend with complete guides on the core loop, rolling units, placing defenders, clearing zombies, and progressing through zones and luck.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, zombie defense strategies, and the rolling system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What is the Roll to Defend Guide?",
+      "whatIsDescription": "Roll to Defend guides walk through the full gameplay loop: roll units, place defenders, clear zombie waves, buy zones, stack luck with friends and the D:/Drive group, and reinvest offline income into stronger runs.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the rolling system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to clear zombie waves and grow income",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for zones, luck, and unit placement"
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Understand how rolling, defending, and spending income connect into one repeatable rhythm",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow proven beginner-to-pro paths that stabilize waves and grow income without wasted spending",
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Skip the habits that stall runs, like chasing zones before your defense can clear the current waves"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Roll to Defend Upgrades",
-      "description": "Master the upgrade system with priority paths, roll timing, and income reinvestment strategies for stronger defenses.",
-      "metaTitle": "Roll to Defend Upgrades - Upgrade Paths & Priorities",
-      "metaDescription": "Master Roll to Defend upgrade priorities. Learn which upgrades to buy first, when to reinforce damage versus coverage, and how to reinvest income efficiently.",
-      "categoryLabel": "UPGRADE SYSTEM",
-      "whatIs": "What are Upgrades?",
-      "whatIsDescription": "The upgrade system lets you spend income on stronger defenses, better coverage, and improved roll quality. Plan upgrades around the bottleneck that ended your last run.",
-      "why": "Why master upgrades?",
-      "whySteps": {
-        "step1Title": "Strengthen Defense",
-        "step1Description": "Reinforce damage and coverage before pushing into new zones",
-        "step2Title": "Spend Income Smartly",
-        "step2Description": "Put income into the next clear bottleneck instead of spreading it",
-        "step3Title": "Prepare Zone Pushes",
-        "step3Description": "Stabilize your defense before buying the next zone"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Upgrade Guides"
-    },
-    "items": {
+    "units": {
       "title": "Roll to Defend Units",
-      "description": "Detailed unit guides covering rarities, roles, placement, and best uses for clearing zombie waves and holding zones.",
-      "metaTitle": "Roll to Defend Units - Rarities, Roles & Best Uses",
-      "metaDescription": "Complete Roll to Defend unit database including rarities, roles, and placement tips. Learn which pulls to keep and how to use every unit effectively.",
-      "categoryLabel": "UNITS & PULLS",
+      "description": "Browse Roll to Defend unit guides covering rarities, roles, the strongest pulls, the unit tier list, and how to upgrade and get better units.",
+      "metaTitle": "Roll to Defend Units - Best Pulls, Tier List & Upgrade Tips",
+      "metaDescription": "Complete Roll to Defend units coverage: best units, tier list, how to get better units, upgrade priorities, and the strongest army builds for clearing zombies.",
+      "categoryLabel": "UNITS",
       "whatIs": "What are Units?",
-      "whatIsDescription": "Comprehensive guides for units and pulls. Learn rarities, roles, placement strategies, and how to build a defense around your strongest units.",
-      "why": "Why check unit guides?",
+      "whatIsDescription": "Units in Roll to Defend are the defenders you roll, place, and upgrade to fight zombie waves. Each pull has a rarity and role that shapes how well it clears lanes, holds zones, and scales into later runs.",
+      "why": "Why study units?",
       "whySteps": {
-        "step1Title": "Know Your Pulls",
-        "step1Description": "Identify which units to keep based on rarity and role",
+        "step1Title": "Know Which Pulls to Keep",
+        "step1Description": "Rarity and lane impact decide which units stay in your defense and which get replaced",
         "step2Title": "Place Defenders Smartly",
-        "step2Description": "Choose the best placement for clearing zombie paths",
-        "step3Title": "Build Strong Defenses",
-        "step3Description": "Combine units to hold zones and stabilize waves"
+        "step2Description": "Match each unit to the zombie path it clears best for longer survival and stable income",
+        "step3Title": "Upgrade the Right Units",
+        "step3Description": "Spend income on units that already clear the most zombies instead of spreading it thin"
       },
       "featured": "Featured & Essential",
       "all": "All Units"
     },
-    "biomes": {
-      "title": "Roll to Defend Zones",
-      "description": "Explore zone progression, unlock timing, income scaling, and defense placement tips for each new area.",
-      "metaTitle": "Roll to Defend Zones - Unlock Timing & Progression",
-      "metaDescription": "Explore Roll to Defend zones including unlock timing, income scaling, and defense placement. Buy new zones at the right time and keep your runs stable.",
-      "categoryLabel": "ZONES & PROGRESSION",
-      "whatIs": "What are Zones?",
-      "whatIsDescription": "Guides to zone progression, unlock timing, and defense placement. Learn when to expand and how to stabilize a new area after buying it.",
-      "why": "Why understand zones?",
-      "whySteps": {
-        "step1Title": "Time Your Unlocks",
-        "step1Description": "Buy zones after your current defense is stable",
-        "step2Title": "Stabilize New Areas",
-        "step2Description": "Rebuild placement around the new zone pressure",
-        "step3Title": "Scale Income",
-        "step3Description": "Use new zones to fund more rolls and upgrades"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Zone Guides"
-    },
-    "building": {
+    "luck": {
       "title": "Roll to Defend Luck",
-      "description": "Master luck sources, friend bonuses, group perks, and roll session preparation to pull stronger units.",
-      "metaTitle": "Roll to Defend Luck - Friend Luck, Group Luck & Roll Sessions",
-      "metaDescription": "Master Roll to Defend luck mechanics. Learn how friend luck, group extra luck, and roll session preparation improve your pulls on Roblox.",
-      "categoryLabel": "LUCK & ROLLS",
+      "description": "Learn how Roll to Defend luck works, including friend luck, group luck, max luck strategies, jackpot spins, and VIP perks for better unit pulls.",
+      "metaTitle": "Roll to Defend Luck - Max Luck, Friend Luck & Group Luck",
+      "metaDescription": "Master Roll to Defend luck mechanics: friend luck, group luck from D:/Drive, max luck setup, jackpot spin timing, and VIP perks for stronger rolls.",
+      "categoryLabel": "LUCK",
       "whatIs": "What is Luck?",
-      "whatIsDescription": "Luck improves your rolls. Roll to Defend gives luck through playing with friends and joining the D:/Drive creator group. Stack luck before longer roll sessions.",
+      "whatIsDescription": "Luck in Roll to Defend improves the quality of your unit rolls. The game points to playable luck sources like playing with friends, liking the game and joining the D:/Drive group, and using jackpot spins and VIP perks during prepared roll sessions.",
       "why": "Why stack luck?",
       "whySteps": {
-        "step1Title": "Add Friends",
-        "step1Description": "Play with friends for extra luck on every roll",
-        "step2Title": "Join the Group",
-        "step2Description": "Like the game and join D:/Drive for group luck",
-        "step3Title": "Plan Roll Sessions",
-        "step3Description": "Roll with luck active to chase stronger units"
+        "step1Title": "Better Pulls Per Roll",
+        "step1Description": "Higher luck raises your chance of seeing stronger, higher-rarity units when rolling",
+        "step2Title": "Friend and Group Bonuses",
+        "step2Description": "Play with friends and join the D:/Drive group for extra luck before long roll sessions",
+        "step3Title": "Time Your Roll Sessions",
+        "step3Description": "Stack luck, collect offline income, then roll in batches toward your biggest weakness"
       },
       "featured": "Featured & Essential",
       "all": "All Luck Guides"
     },
-    "support": {
-      "title": "Roll to Defend Income",
-      "description": "Offline income, money reinvestment, and roll-cost management for steady long-term progression.",
-      "metaTitle": "Roll to Defend Income - Offline Earnings & Reinvestment",
-      "metaDescription": "Get the most out of Roll to Defend income. Learn how offline earnings work, when to reinvest, and how to balance rolls, upgrades, and zone purchases.",
-      "categoryLabel": "INCOME & ECONOMY",
-      "whatIs": "What is Income?",
-      "whatIsDescription": "Income funds your rolls, upgrades, and zones. Roll to Defend keeps earning income offline, so returning players can immediately reinvest in their next run.",
-      "why": "Why manage income?",
+    "rebirth": {
+      "title": "Roll to Defend Rebirth",
+      "description": "Complete Roll to Defend rebirth guides covering how to rebirth, the best rebirth strategy, the fastest rebirth path, and when rebirth accelerates long-term progress.",
+      "metaTitle": "Roll to Defend Rebirth - How to Rebirth & Best Strategy",
+      "metaDescription": "Learn how Roll to Defend rebirth works, when to rebirth, the best rebirth strategy, and the fastest way to rebirth for stronger long-term runs and better units.",
+      "categoryLabel": "REBIRTH",
+      "whatIs": "What is Rebirth?",
+      "whatIsDescription": "Rebirth in Roll to Defend resets parts of your run in exchange for long-term progression rewards. A well-timed rebirth multiplies future income, luck, or unit quality, making each new cycle stronger than the last.",
+      "why": "Why rebirth?",
       "whySteps": {
-        "step1Title": "Collect Offline Income",
-        "step1Description": "Claim offline earnings first when you return",
-        "step2Title": "Fix the Bottleneck",
-        "step2Description": "Spend returned income on the weakness that ended your last run",
-        "step3Title": "Reinvest Smartly",
-        "step3Description": "Balance spending between rolls, upgrades, and zones"
+        "step1Title": "Long-Term Power Growth",
+        "step1Description": "Rebirth converts a stable run into permanent multipliers that make every future cycle stronger",
+        "step2Title": "Faster Income Cycles",
+        "step2Description": "Plan rebirth around income peaks so the next run rebuilds faster than the last",
+        "step3Title": "Better Roll Outcomes",
+        "step3Description": "Stack rebirth bonuses with luck and offline income for higher-quality unit pulls"
       },
       "featured": "Featured & Essential",
-      "all": "All Income Guides"
+      "all": "All Rebirth Guides"
+    },
+    "currency": {
+      "title": "Roll to Defend Currency",
+      "description": "Roll to Defend currency guides covering coins, brains, farming strategies, and the best ways to earn and spend every currency for stronger runs.",
+      "metaTitle": "Roll to Defend Currency - Coins, Brains & Farming Guide",
+      "metaDescription": "Master Roll to Defend currency: how to get more coins and brains, the best farming guide, and the smartest spend order for rolls, upgrades, and zones.",
+      "categoryLabel": "CURRENCY",
+      "whatIs": "What is Currency?",
+      "whatIsDescription": "Roll to Defend uses currencies like coins and brains to fund rolls, upgrades, zone purchases, and rebirth progress. Smart currency management means earning steadily through stable waves and spending on the bottleneck that limits your current run.",
+      "why": "Why manage currency?",
+      "whySteps": {
+        "step1Title": "Earn Through Stable Waves",
+        "step1Description": "Build income by clearing zombie waves cleanly before chasing expansion or extra rolls",
+        "step2Title": "Spend on the Bottleneck",
+        "step2Description": "Put coins and brains into the weakness that ended your last run instead of spreading them everywhere",
+        "step3Title": "Reinvest Offline Income",
+        "step3Description": "Collect offline earnings first when you return, then reinvest into survival, rolls, or zones"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Currency Guides"
+    },
+    "zones": {
+      "title": "Roll to Defend Zones",
+      "description": "Roll to Defend zones guides covering all zones, how to buy and switch zones, the best zone to unlock next, and the right timing for each expansion.",
+      "metaTitle": "Roll to Defend Zones - Buy, Switch & Best Zone Guide",
+      "metaDescription": "Complete Roll to Defend zones coverage: all zones list, how to buy and switch zones, the best zone to unlock next, and the right expansion timing for stable runs.",
+      "categoryLabel": "ZONES",
+      "whatIs": "What are Zones?",
+      "whatIsDescription": "Zones in Roll to Defend are progression areas you unlock with income. Each new zone expands the battlefield, changes zombie pressure, and grows your income when your defense is stable enough to hold it.",
+      "why": "Why understand zones?",
+      "whySteps": {
+        "step1Title": "Time Your Unlocks",
+        "step1Description": "Buy a new zone only after your current defense clears waves without panic spending",
+        "step2Title": "Stabilize New Areas",
+        "step2Description": "Rebuild placement around the new zone pressure so leaks do not drain your income",
+        "step3Title": "Pick the Best Zone",
+        "step3Description": "Choose the next zone based on income potential and how well your units can hold it"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Zone Guides"
+    },
+    "items": {
+      "title": "Roll to Defend Items",
+      "description": "Roll to Defend items guides covering loot, potions, the skill tree, upgrade paths, game updates, and how to use every item and the official Discord community.",
+      "metaTitle": "Roll to Defend Items - Loot, Potions, Skill Tree & Upgrades",
+      "metaDescription": "Complete Roll to Defend items coverage: loot tables, potions, the skill tree, upgrade paths, the latest game updates, and how to find the official Discord community.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are Items?",
+      "whatIsDescription": "Roll to Defend items cover everything you collect, consume, and invest in beyond units: loot drops, potions, the skill tree, permanent upgrades, and the game updates that reshuffle what is worth chasing.",
+      "why": "Why track items?",
+      "whySteps": {
+        "step1Title": "Use Loot and Potions Wisely",
+        "step1Description": "Spend consumables on the run that needs them most instead of burning them on stable waves",
+        "step2Title": "Invest in the Skill Tree",
+        "step2Description": "Plan skill tree and upgrade paths around the bottleneck that ends your runs",
+        "step3Title": "Follow Game Updates",
+        "step3Description": "Track updates and the official Discord so new items, rebalances, and events keep your runs ahead"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Item Guides"
     }
   }
 }

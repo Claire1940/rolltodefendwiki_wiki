@@ -1,0 +1,233 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Beginner Step-by-Step Setup Guide",
+  description: "Use this Roll to Defend setup guide to master the early loop, roll priorities, upgrade timing, luck bonuses, zones, and return-session planning.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/fff?text=Roll+to+Defend+Setup+Guide",
+  date: "2026-07-05",
+  author: "roll to defend Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roll to Defend** works best when you build a stable roll-and-defend loop before chasing expansion.
+- **Early progress** comes from placing your strongest defenders and stopping zombie leaks first.
+- **Zone purchases** should wait until your current setup clears waves without emergency spending.
+- **Luck bonuses** are strongest when you stack them before a focused roll session.
+- **Offline income** is most valuable when you reinvest it into the weakest part of your run.
+</Callout>
+
+<Section icon={Map} title="Roll to Defend Core Loop">
+
+Roll to Defend is a simple game on paper and a surprisingly picky one in practice. Your job is to roll units, put those units where they can actually work, stop zombie waves, and turn income into a better next run. If you skip the defense part and only chase rolls, your economy starts looking busy while the base falls apart.
+
+The safest mindset is to treat every session as a loop, not a one-time push. Roll for power, place for coverage, defend for stability, then reinvest. That rhythm keeps you from wasting income on upgrades that do not solve the current problem.
+
+**Core Loop Summary**
+
+| Phase | Main Goal | Spend On | Avoid |
+|---|---|---|---|
+| Opening | Get defenders on the field | First useful rolls, basic placement | Saving too long with no defense |
+| Stabilization | Stop leaks and smooth wave pressure | Better coverage, stronger slots | Buying zones too early |
+| Growth | Improve overall run speed | More rolls, smarter upgrades | Spreading income across everything |
+| Return session | Recover momentum fast | Fix the weakest bottleneck | Repeating the same mistake |
+
+<CardGrid cols={4}>
+  <Card title="Opening">
+    - **Place first**
+    - Stop early leaks
+    - Use income carefully
+  </Card>
+  <Card title="Stabilization">
+    - **Cover the path**
+    - Smooth wave pressure
+    - Reinforce weak lanes
+  </Card>
+  <Card title="Growth">
+    - **Reinvest income**
+    - Improve roll quality
+    - Prepare for the next zone
+  </Card>
+  <Card title="Return Session">
+    - **Fix bottlenecks**
+    - Spend offline income well
+    - Resume momentum quickly
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Editor’s Priority">
+If your defense is leaking, the best next purchase is usually the one that solves survival, not the one that looks most exciting on the menu.
+</Callout>
+
+| Early Signal | What It Usually Means | Best Response |
+|---|---|---|
+| Zombies reach the base | Coverage gap or weak front line | Reposition defenders, add support |
+| Waves clear but slowly | Damage problem | Improve your strongest attack slot |
+| Income grows but progress stalls | Poor spending order | Stop buying random upgrades |
+| New zone feels harder | You expanded too early | Stabilize before buying again |
+
+</Section>
+
+<Section icon={Swords} title="Roll Priority and Unit Placement">
+
+Rolling is not just about getting something rare. The real value comes from rolling with a plan, then placing the result where it can influence the wave path for the longest time. A stronger unit sitting in the wrong spot is just inventory with attitude.
+
+Use a priority system instead of rolling on impulse. First decide whether you need more damage, more coverage, or better zone stability. Then roll with that target in mind so your income supports the exact weakness that is holding the run back.
+
+<Steps>
+  <Step num="1" title="Roll With a Clear Goal">
+    Decide what you need before spending income. If the issue is damage, hunt for stronger offensive value. If the issue is coverage, focus on placements that hold the path longer.
+  </Step>
+  <Step num="2" title="Keep the Strongest Visible Option">
+    Do not treat every pull equally. Keep the unit or option that improves your current defense most, even if it is not the flashiest result.
+  </Step>
+  <Step num="3" title="Place for Path Control">
+    Put defenders where they can attack for the longest stretch. Path control matters because zombies only need one open lane to ruin the whole run.
+  </Step>
+  <Step num="4" title="Recheck After Each Wave">
+    After the wave ends, look for leaks, slow clears, or dead space. Small adjustments now save far more income than panic fixes later.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Placement Mistake to Avoid">
+A high-quality pull does not rescue a weak layout by itself. If the path is poorly covered, your best unit may still underperform.
+</Callout>
+
+| Situation | Priority | Action | Result |
+|---|---|---|---|
+| Fast leaks | Coverage | Shift placement and fill gaps | Fewer zombies slipping through |
+| Slow clearing | Damage | Upgrade the main attacker | Faster wave cleanup |
+| Mixed pressure | Balance | Add a second layer of defense | More consistent survival |
+| Early overexpansion | Stability | Pause and rebuild first | Better zone readiness |
+
+| Roll Decision | Keep or Re-roll | Reason |
+|---|---|---|
+| Improves survival now | Keep | Solves the current bottleneck |
+| Adds power but no coverage | Usually keep only if stable | Damage matters more after leaks are fixed |
+| Barely changes the setup | Re-roll later | Better income use elsewhere |
+| Creates a new lane weakness | Replace | Defense should become safer, not messier |
+
+</Section>
+
+<Section icon={Trophy} title="Upgrades, Zones, and Income">
+
+Upgrades are where a lot of runs quietly go wrong. Players often spend because they can spend, not because the run needs it. The better habit is to buy the thing that removes your current bottleneck. That usually means damage first when waves survive too long, coverage first when zombies slip past, and expansion only when the defense is already calm.
+
+Zones are the same story. A new zone can improve your long-term progression, but it also increases the pressure on your current setup. If your defense is already shaky, buying a zone can make the problem louder instead of better.
+
+<Callout type="success" title="Best Spending Rule">
+Spend income on the problem that ended your last wave, then roll or expand only after that weakness is under control.
+</Callout>
+
+| Upgrade Focus | When It Matters Most | Buy Now? | Why |
+|---|---|---|---|
+| Core damage | Zombies survive too long | Yes | Clears waves faster |
+| Coverage | Enemies leak through gaps | Yes | Stabilizes the path |
+| Roll quality setup | Defense is already stable | Maybe | Helps future pulls more than survival |
+| Duplicate handling | A stronger copy exists | Maybe | Useful only if it improves the active layout |
+| Zone-ready investment | Waves are smooth | Yes, with caution | Prepares the next push |
+
+| Zone Timing | Readiness Signal | Best Action |
+|---|---|---|
+| Too early | Waves still feel stressful | Hold off and rebuild |
+| Ready to expand | Current waves clear cleanly | Buy the next zone |
+| Post-expansion strain | New area exposes weakness | Stop expanding and fix defense |
+| Stable after unlock | Income supports growth | Resume progression |
+
+<Steps>
+  <Step num="1" title="Identify the Bottleneck">
+    Ask what actually failed: damage, coverage, roll quality, or timing. That answer should control your spending.
+  </Step>
+  <Step num="2" title="Buy the Fix, Not the Noise">
+    Upgrade the part of the setup that directly solves the failure. Random spending usually delays progress.
+  </Step>
+  <Step num="3" title="Test the Next Wave">
+    Let the run prove whether the upgrade worked. If the same issue returns, the bottleneck was not fully solved.
+  </Step>
+  <Step num="4" title="Expand Only After Stability">
+    Buy a zone when the current setup is calm. Expansion should amplify your progress, not expose your weakness.
+  </Step>
+</Steps>
+
+| Income Source | Best Use | Timing |
+|---|---|---|
+| Wave income | Immediate defense fixes | During active progression |
+| Saved income | Bigger roll sessions | When your setup is stable |
+| Offline income | Recovery and catch-up | At the start of a return session |
+
+</Section>
+
+<Section icon={Sparkles} title="Luck, Groups, and Return Sessions">
+
+Luck matters here because it improves how efficient your rolling sessions feel. The best time to stack luck is before a planned spending window, not after you have already burned through your income. That way, your better rolls and stronger defense support each other instead of competing for resources.
+
+Offline income follows the same logic. The money is useful, but it only becomes powerful when you use it to remove the exact weakness that stalled your last run. If you just spend it on whatever is available, you will keep replaying the same slowdown.
+
+<Callout type="info" title="Session Order">
+Fix the defense, stack luck, roll with a plan, then use offline income to patch the next weakness.
+</Callout>
+
+| Luck Source | Practical Effect | Best Time to Use | Note |
+|---|---|---|---|
+| Playing with friends | Better roll conditions | Before long roll sessions | Best when the run is already stable |
+| Joining the creator group | Extra luck path | Before you spend saved income | Works best as a setup step |
+| Returning after offline time | More money to reinvest | At session start | Use it before expanding |
+| Focused roll window | Cleaner resource use | After setup is complete | Avoids wasted rolls |
+
+<Checklist
+  id="roll-to-defend-session-checklist"
+  title="Return Session Checklist:"
+  items={[
+    "Collect offline income before spending anything else.",
+    "Check whether damage, coverage, or zone timing caused the last failure.",
+    "Activate your luck setup before a long roll session.",
+    "Keep the strongest useful pull instead of chasing random variety.",
+    "Buy a zone only after the current defense is stable."
+  ]}
+/>
+
+| Return Session Step | Why It Helps |
+|---|---|
+| Collect income first | Gives you a full budget to work with |
+| Inspect the bottleneck | Prevents repeat mistakes |
+| Roll with luck active | Improves the value of your session |
+| Rebuild before expanding | Keeps the next zone manageable |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="tip" title="FAQ Focus">
+These answers are built around the safest early-game habits: stabilize first, roll with a goal, then expand with intent.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What should I do first in Roll to Defend?",
+    answer: "Start by rolling enough to put strong defenders on the field, then place them where they can cover the path for the longest time. Early stability matters more than chasing a flashy pull."
+  },
+  {
+    question: "When should I buy a new zone?",
+    answer: "Buy a zone only after your current setup clears waves without panic spending. If the defense still feels shaky, fix the bottleneck first and expand later."
+  },
+  {
+    question: "How should I use offline income?",
+    answer: "Use offline income at the start of your return session to solve the problem that ended your last run. That usually means damage, coverage, or stability before anything else."
+  },
+  {
+    question: "Is luck important in Roll to Defend?",
+    answer: "Yes, but only when you stack it before a planned roll session. Luck from friends and the creator group is most useful when your defense is already stable and you are spending income with a clear goal."
+  }
+]} />
+
+<Callout type="warning" title="Final Rule">
+If you remember only one thing, make it this: spend for survival first, for growth second, and for expansion third.
+</Callout>
+
+</Section>

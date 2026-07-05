@@ -1,0 +1,202 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "roll to defend cara berpindah zona: Panduan Waktu Zona",
+  description: "Pelajari loop pergantian zona paling aman di Roll to Defend: rolling unit yang lebih kuat, mengenali bottleneck, membelanjakan income dengan bijak, dan ekspansi hanya saat pertahanan sudah stabil.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Zone+Luck+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki roll to defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend how to switch zones** paling efektif saat lane kamu saat ini stabil dan cadangan income kamu sehat.
+- **Pergantian zona** harus menyelesaikan bottleneck, bukan menciptakan bottleneck baru untuk garis pertahananmu.
+- **Bonus keberuntungan** dari teman dan grup paling baik dipakai sebelum sesi roll yang terfokus.
+- **Prioritas upgrade** sebaiknya mengikuti masalah yang benar-benar gagal kamu atasi, bukan urutan menu yang acak.
+</Callout>
+
+<Section icon={Map} title="Roll to Defend Cara Berpindah Zona">
+
+Panduan roll to defend cara berpindah zona ini dimulai dengan satu aturan: lakukan ekspansi hanya setelah setup saat ini mampu membersihkan gelombang dengan cukup aman. Jika zombie masih lolos, zona baru biasanya menambah tekanan lebih cepat daripada menambah nilai.
+
+<Callout type="tip" title="Loop Awal">
+Anggap setiap run sebagai satu loop: roll unit, tempatkan defender terbaikmu, tahan garis, lalu beli zona setelah peta stabil.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Roll untuk core yang bisa dipakai">
+    Dapatkan satu atau dua defender yang benar-benar menutupi jalur. Tarikan yang lemah boleh tetap di inventaris; tarikan yang bagus harus segera ditempatkan.
+  </Step>
+  <Step num="2" title="Stabilkan jalur gelombang">
+    Pastikan zombie sudah habis sebelum mencapai titik bahaya. Jika kebocoran terus terjadi, perbaiki penempatan atau damage sebelum ekspansi.
+  </Step>
+  <Step num="3" title="Simpan buffer zona">
+    Sisakan income yang cukup untuk bereaksi setelah pembelian. Membeli zona tidak boleh menguras balance sampai wave berikutnya menjadi panik.
+  </Step>
+  <Step num="4" title="Berpindah zona hanya setelah clear yang bersih">
+    Beli zona berikutnya saat zona saat ini terasa terkendali, bukan saat kamu berharap area baru akan secara ajaib menyelesaikan run.
+  </Step>
+</Steps>
+
+| Tahap | Tujuan Utama | Yang Kamu Lakukan | Sinyal Keluar |
+|---|---|---|---|
+| Roll awal | Membangun core | Roll sampai mendapatkan defender yang layak dipasang | Satu unit bisa menahan satu lane |
+| Stabilkan | Hentikan kebocoran | Perbaiki penempatan dan cakupan | Gelombang selesai dengan waktu sisa |
+| Ekspansi | Dorong progres | Beli zona berikutnya dengan income buffer | Pertahanan masih terasa aman |
+| Investasi ulang | Naikkan output | Belanjakan profit ke bottleneck berikutnya | Zona baru sudah terkendali |
+
+<CardGrid cols={3}>
+  <Card title="Damage Dulu">
+    - Paling baik saat zombie terlalu lama bertahan
+    - Prioritaskan clear yang lebih kuat daripada roll tambahan
+    - Cocok untuk wave yang berat dan tekanan boss
+  </Card>
+  <Card title="Coverage Dulu">
+    - Paling baik saat musuh lolos lewat jalur samping
+    - Perbaiki penempatan sebelum membelanjakan untuk zona tambahan
+    - Kuat saat satu unit memikul terlalu banyak beban
+  </Card>
+  <Card title="Build Seimbang">
+    - Paling baik saat pertahananmu sudah stabil
+    - Gabungkan kualitas roll, penempatan, dan pertumbuhan income
+    - Lebih aman untuk pemain yang ingin progres stabil
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Aturan Timing Zona yang Menjaga Run Tetap Stabil">
+
+<Callout type="warning" title="Jangan Terburu-buru Menekan Tombol Beli">
+Zona baru bisa dengan cepat memperlihatkan coverage yang lemah. Jika pertahananmu saat ini masih butuh pengeluaran darurat, tahan dulu garisnya dan perbaiki itu terlebih dahulu.
+</Callout>
+
+Cara paling aman untuk memikirkan pergantian zona itu sederhana: tanyakan masalah apa yang diselesaikan oleh zona berikutnya. Jika jawabannya adalah “progres lebih cepat” dan bukan “pertahanan saya sekarang sudah stabil,” tunggu sedikit lebih lama.
+
+| Sinyal | Siap? | Artinya |
+|---|---|---|
+| Gelombang selesai lebih awal | Ya | Setup saat ini masih punya ruang bernapas |
+| Zombie sering lolos | Tidak | Damage atau penempatan perlu perhatian |
+| Income menumpuk | Ya | Kamu bisa beli zona tanpa panik |
+| Balance tetap tipis | Tidak | Kamu perlu buffer yang lebih kuat dulu |
+| Unit utama terasa kurang dipakai | Mungkin | Coverage bisa lebih penting daripada power mentah |
+| Setiap gelombang terasa mepet | Tidak | Ekspansi terlalu berisiko saat ini |
+
+| Masalah | Perbaikan Terbaik Sebelum Berpindah | Kenapa Membantu |
+|---|---|---|
+| Damage rendah | Tingkatkan defender terkuatmu | Clear lebih cepat mengurangi tekanan |
+| Coverage lemah | Posisikan ulang unit | Waktu di jalur lebih lama berarti lebih banyak damage |
+| Income rendah | Tunda ekspansi | Kamu butuh buffer yang lebih baik |
+| Timing buruk | Tahan pembelian zona | Ekspansi yang terburu-buru biasanya memperbesar kerugian |
+
+Pergantian zona yang bersih biasanya mengikuti pola yang sama: selesaikan wave saat ini, cek bottleneck, pastikan ada income sisa, lalu beli area berikutnya. Urutan itu menjaga run tetap bergerak tanpa mengubah progres menjadi pekerjaan perbaikan.
+
+</Section>
+
+<Section icon={Sparkles} title="Pengaturan Keberuntungan, Teman, dan Bonus Grup">
+
+<Callout type="info" title="Waktu Terbaik untuk Roll">
+Gunakan sumber keberuntungan sebelum sesi roll yang sudah direncanakan, bukan setelah kamu terlanjur menghabiskan income yang seharusnya dipakai untuk tarikan yang lebih baik.
+</Callout>
+
+Roll to Defend memberi pemain alasan yang jelas untuk bersiap sebelum rolling. Teman menambah luck, jalur grup menambah luck ekstra, dan income offline memberi kamu tumpukan resource baru saat kembali. Susun semuanya dengan rapi dan sesi kamu akan terasa jauh lebih bersih.
+
+| Sumber Keberuntungan | Yang Diberikan | Waktu Terbaik Digunakan |
+|---|---|---|
+| Teman | Lebih banyak luck saat rolling | Sebelum sesi roll panjang |
+| Grup | Luck ekstra dari jalur creator | Sebelum membelanjakan income yang disimpan |
+| Income offline | Income yang didapat saat pergi | Di awal sesi kembali |
+
+| Rencana Sesi | Manfaat | Risiko |
+|---|---|---|
+| Roll langsung | Aksi cepat | Kamu bisa membuang income pada tarikan yang lemah |
+| Siapkan dulu | Nilai roll lebih baik | Awal lebih lambat, hasil lebih bagus |
+| Ekspansi dulu | Progres peta lebih cepat | Bisa membuat pertahanan terlalu tipis |
+
+Mulailah dari halaman game resmi Roblox, lalu gunakan jalur komunitas creator yang terhubung dengan game. Itu menjaga setup kamu tetap bertumpu pada titik masuk paling aman dan menghindari memperlakukan tautan acak seolah-olah bagian dari loop game.
+
+- Mainkan di [halaman game resmi Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend)
+- Cek [komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive)
+- Perlakukan income offline sebagai bonus restart, bukan alasan untuk melewatkan pengecekan pertahanan
+
+</Section>
+
+<Section icon={Target} title="Prioritas Upgrade dan Urutan Pengeluaran">
+
+<Callout type="success" title="Belanjakan dengan Tujuan">
+Upgrade terbaik adalah yang memperbaiki run yang baru saja kamu kalah. Damage, coverage, dan timing harus menentukan ke mana income berikutnya dialokasikan.
+</Callout>
+
+Upgrade di Roll to Defend bekerja paling baik saat mereka mendukung bottleneck, bukan saat mengejar semua opsi sekaligus. Jika musuh mulai menembus pertahanan, jawabannya biasanya damage lebih besar atau coverage yang lebih baik. Jika medan sudah stabil, barulah kamu bisa berinvestasi pada kualitas roll atau progres zona.
+
+| Bottleneck | Pengeluaran Terbaik | Kapan Ditunda |
+|---|---|---|
+| Damage lemah | Perkuat defender utama | Saat kebocoran disebabkan oleh penempatan |
+| Coverage lemah | Perbaiki penempatan unit | Saat wave sudah mati terlalu cepat |
+| Kualitas roll rendah | Simpan untuk sesi roll terfokus | Saat wave saat ini tidak stabil |
+| Timing zona berisiko | Tahan income dan tunggu | Saat zona berikutnya akan membuatmu terlalu melebar |
+| Hasil income buruk | Perkuat lane terlemah | Saat kamu belum mengidentifikasi masalahnya |
+
+<Checklist
+  id="zone-switch-checklist"
+  title="Sebelum Kamu Membeli Zona Berikutnya:"
+  items={[
+    "Wave saat ini selesai tanpa pengeluaran panik",
+    "Kamu tahu apakah damage atau coverage yang benar-benar menjadi bottleneck",
+    "Kamu masih punya income yang cukup untuk bereaksi setelah pembelian",
+    "Defender terbaikmu masih relevan di area berikutnya"
+  ]}
+/>
+
+| Urutan Belanja | Prioritas | Alasan |
+|---|---|---|
+| Perbaiki bertahan hidup | Tinggi | Menjaga run tetap hidup |
+| Tingkatkan coverage | Tinggi | Mencegah kebocoran dari jalur baru |
+| Siapkan roll | Sedang | Membuat tarikan berikutnya lebih efisien |
+| Dorong zona | Sedang | Menambah progres setelah stabil |
+| Investasi ulang income | Tinggi | Menjaga loop tetap berjalan |
+
+Kebiasaan yang baik adalah membelanjakan hanya setelah kamu menjawab satu pertanyaan: apa yang menghentikan clear bersih terakhir? Setelah kamu tahu itu, pembelian berikutnya jadi jauh lebih mudah untuk dibenarkan.
+
+</Section>
+
+<Section icon={Trophy} title="Tautan Resmi dan FAQ">
+
+<Callout type="info" title="Titik Referensi Aman">
+Gunakan halaman resmi yang terhubung ke Roblox terlebih dahulu. Jika sebuah tautan tidak mengarah melalui game atau komunitas creator, perlakukan dengan hati-hati.
+</Callout>
+
+| Tempat Resmi | Kegunaan |
+|---|---|
+| [Halaman game Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Mainkan game, baca deskripsi, akses toko dan server |
+| [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Bergabung dengan jalur grup creator yang terkait dengan luck ekstra |
+| [Daftar Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Verifikasi detail listing publik dan metadata game |
+
+<FAQ items={[
+  {
+    question: "Kapan saya harus berpindah zona di Roll to Defend?",
+    answer: "Pindah zona setelah wave saat ini selesai dengan bersih dan kamu masih punya income yang cukup untuk pulih jika area berikutnya lebih sulit dari yang diperkirakan."
+  },
+  {
+    question: "Apa yang harus saya perbaiki dulu jika zombie terus lolos?",
+    answer: "Perbaiki bottleneck yang menyebabkan kebocoran. Jika damage terlalu rendah, tingkatkan defender utama. Jika jalurnya terbuka, perbaiki coverage sebelum membeli zona lain."
+  },
+  {
+    question: "Haruskah saya roll dulu atau memakai income offline dulu?",
+    answer: "Gunakan income offline untuk memperbaiki kelemahan yang menghentikan run terakhirmu, lalu roll dengan luck dari teman atau grup setelah pertahananmu stabil."
+  },
+  {
+    question: "Apakah bonus teman dan grup penting untuk rolling?",
+    answer: "Ya. Game ini menonjolkan luck dari teman dan luck ekstra dari grup creator, jadi keduanya berguna sebagai langkah persiapan sebelum sesi roll yang terfokus."
+  }
+]} />
+
+</Section>

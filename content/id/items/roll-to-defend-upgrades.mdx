@@ -1,0 +1,183 @@
+import { Map, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Peningkatan roll to defend: Urutan Terbaik, Waktu, dan Tips",
+  description: "Gunakan urutan peningkatan yang tepat di Roll to Defend untuk memperbaiki hambatan damage, coverage, dan pendapatan, lalu atur waktu roll dan dorongan zona agar run berjalan lebih mulus.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Roll+to+Defend+Upgrades",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **peningkatan roll to defend** bekerja paling baik saat mereka menyelesaikan hambatan persis yang sedang memperlambat run Anda saat ini.
+- **Damage lebih dulu** biasanya menang ketika zombie bertahan terlalu lama atau berhasil mencapai garis pertahanan Anda.
+- **Coverage kedua** penting ketika musuh lolos melalui titik buta, bukan karena kekuatan mentah yang kurang.
+- **Ekonomi dan zona** sebaiknya mengikuti hanya setelah pertahanan Anda membersihkan gelombang dengan bersih.
+- **Bonus luck** membantu sesi roll Anda, tetapi tidak menggantikan build yang stabil.
+</Callout>
+
+<Section icon={Shield} title="Mengapa Upgrade Penting di Roll to Defend">
+
+Sistem upgrade bukan aktivitas sampingan di Roll to Defend. Sistem ini adalah katup tekanan yang mencegah run Anda runtuh saat gelombang makin sulit, area Anda makin penuh, atau pendapatan mulai tertinggal dari laju progres. Cara paling sederhana untuk memikirkan upgrade adalah: beli hal yang menghilangkan rintangan terbesar saat ini, bukan hal yang terlihat menarik di atas kertas.
+
+<CardGrid cols={3}>
+  <Card title="Damage">
+    - Membersihkan gelombang lebih cepat
+    - Terbaik untuk zombie yang lolos di akhir
+    - Paling kuat saat barisan Anda sudah dipasang dengan baik
+  </Card>
+  <Card title="Coverage">
+    - Mengisi titik buta
+    - Terbaik untuk jalur yang bocor
+    - Membantu unit yang bagus bekerja lebih lama
+  </Card>
+  <Card title="Ekonomi">
+    - Mendukung lebih banyak roll
+    - Terbaik saat pertahanan sudah stabil
+    - Mengubah run yang bagus menjadi lebih baik
+  </Card>
+</CardGrid>
+
+| Jalur upgrade | Paling baik saat | Lewati saat |
+|---|---|---|
+| Damage | Zombie bertahan terlalu lama | Masalah sebenarnya adalah penempatan yang buruk |
+| Coverage | Musuh lolos melewati satu jalur | Anda masih kalah oleh gelombang dasar |
+| Ekonomi | Pertahanan Anda sudah stabil | Anda butuh pertahanan darurat sekarang juga |
+| Waktu zona | Anda punya pendapatan cadangan dan clear yang bersih | Zona saat ini masih terasa goyah |
+
+<Callout type="tip" title="Aturan Editorial">
+Pegang satu aturan di kepala Anda: upgrade dulu mata rantai terlemah. Jika mata rantai lemah berubah setelah satu gelombang, pembelian berikutnya juga harus berubah.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="roll to defend upgrades: Belanja dengan Urutan yang Tepat">
+
+Urutan upgrade yang paling andal adalah yang mengikuti kondisi run Anda, bukan daftar belanja yang kaku. Saat pertahanan Anda tidak stabil, belanjalah seperti penyintas. Saat pertahanan Anda stabil, belanjalah seperti pembangun. Pembagian itu mencegah Anda membuang pendapatan pada upgrade yang tidak memberi dampak apa pun pada gelombang di depan Anda.
+
+<Steps>
+  <Step num="1" title="Identifikasi hambatannya">
+    Periksa apakah run gagal karena damage, coverage, kecepatan pendapatan, atau timing zona terlalu awal.
+  </Step>
+  <Step num="2" title="Stabilkan gelombang saat ini">
+    Perbaiki jalur yang bocor terlebih dahulu, karena semua upgrade lain menjadi lebih bernilai setelah Anda menghentikan kerugian langsung.
+  </Step>
+  <Step num="3" title="Beli peningkatan jangka pendek terbaik">
+    Upgrade unit atau sistem yang akan mengubah gelombang berikutnya secara terlihat, bukan yang baru terlihat lebih kuat nanti.
+  </Step>
+  <Step num="4" title="Evaluasi ulang setelah clear berikutnya">
+    Jika masalah bergeser dari damage ke coverage, ubah rencana belanja Anda sebelum membeli lagi.
+  </Step>
+  <Step num="5" title="Reinvestasi hanya setelah run stabil">
+    Setelah gelombang bisa dibersihkan dengan mulus, alihkan pendapatan ke roll, zona, atau pertumbuhan ekonomi.
+  </Step>
+</Steps>
+
+| Sinyal masalah | Belanja pertama terbaik | Mengapa efektif |
+|---|---|---|
+| Zombie bertahan terlalu lama | Upgrade damage | Mengakhiri gelombang lebih cepat |
+| Zombie lolos melewati jalur | Upgrade coverage | Mengurangi kebocoran dan belanja panik |
+| Pendapatan terasa terlalu lambat | Upgrade ekonomi | Meningkatkan daya beli di masa depan |
+| Zona baru terasa berisiko | Tahan pendapatan | Ekspansi masih terlalu dini |
+
+<Callout type="warning" title="Disiplin Belanja">
+Jangan membeli upgrade hanya karena pendapatan tersedia. Jika gelombang saat ini masih tidak stabil, pembelian yang mencolok justru bisa memperlambat Anda, bukan menyelamatkan run.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Matriks Prioritas: Damage, Coverage, dan Dukungan">
+
+Rencana upgrade yang bagus di Roll to Defend sebenarnya adalah matriks prioritas. Damage, coverage, luck, pendapatan offline, dan zona semuanya penting, tetapi tidak semuanya sama penting di setiap momen. Pemain paling cerdas memperlakukan masing-masing sebagai alat untuk masalah tertentu.
+
+| Jalur | Apa yang ditingkatkan | Fase terbaik | Risiko utama |
+|---|---|---|---|
+| Damage | Clear lebih cepat | Awal hingga pertengahan run | Terlalu banyak membeli saat jalur masih terbuka |
+| Coverage | Jalur lebih aman | Pertengahan run | Memperbaiki ruang sambil mengabaikan damage yang lemah |
+| Ekonomi | Lebih banyak belanja ke depan | Run yang stabil | Terlalu lama untuk balik modal |
+| Dorongan zona | Progres dan skala | Run stabil di akhir | Membuat gelombang berikutnya terlalu sulit terlalu cepat |
+
+Sistem dukungan bawaan game bisa membantu, tetapi posisinya harus di belakang rencana pertahanan, bukan di depannya. Teman bisa memberi lebih banyak luck saat rolling, dan jalur grup kreator juga menambah luck ekstra. Pendapatan offline juga memberi titik balik yang kuat setelah istirahat, yang berguna karena memungkinkan Anda memulai ulang dengan budget yang lebih baik.
+
+| Sistem dukungan | Membantu apa | Tidak melakukan apa |
+|---|---|---|
+| Luck teman | Sesi roll yang lebih baik | Tidak memperbaiki jalur yang rusak |
+| Luck grup | Setelan rolling yang lebih kuat | Tidak menggantikan upgrade damage |
+| Pendapatan offline | Comeback lebih cepat setelah istirahat | Tidak menjamin dorongan zona yang aman |
+
+<Callout type="info" title="Sistem Dukungan">
+Luck dan pendapatan offline adalah akselerator. Keduanya membantu Anda mencapai upgrade bagus berikutnya lebih cepat, tetapi tidak membuat setelan lemah menjadi kuat dengan sendirinya.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Siklus Sesi yang Rapi untuk Progres yang Lebih Baik">
+
+Siklus progres jangka panjang terbaik cukup sederhana untuk diulang di setiap sesi. Pertama, temukan kebocorannya. Lalu, perbaiki kebocorannya. Setelah itu, roll untuk upgrade yang benar-benar berarti, dan baru kemudian pikirkan zona atau dorongan ekonomi yang lebih besar. Urutan ini menjaga pengeluaran Anda tetap fokus dan melindungi Anda dari jebakan umum berupa ekspansi terlalu dini.
+
+<Checklist
+  id="roll-to-defend-progress-loop"
+  title="Checklist Sesi"
+  items={[
+    "Periksa masalah mana yang sebenarnya menyebabkan gelombang terakhir gagal.",
+    "Belanjakan untuk damage atau coverage sebelum membeli upgrade mewah tambahan.",
+    "Gunakan luck teman dan luck grup sebelum sesi roll yang sudah direncanakan.",
+    "Kumpulkan pendapatan offline terlebih dahulu, lalu putuskan apakah akan roll atau ekspansi.",
+    "Beli zona baru hanya setelah pertahanan Anda saat ini membersihkan gelombang dengan bersih."
+  ]}
+/>
+
+| Kesalahan umum | Kebiasaan yang lebih baik | Hasil |
+|---|---|---|
+| Membeli upgrade secara acak | Perbaiki hambatan saat ini | Peningkatan lebih cepat |
+| Ekspansi terlalu dini | Stabilkan dulu | Progres lebih aman |
+| Roll tanpa tujuan | Roll untuk satu kelemahan spesifik | Lebih sedikit pendapatan terbuang |
+| Mengabaikan pendapatan offline | Reinvestasi segera saat kembali | Comeback lebih kuat |
+
+<Callout type="success" title="Kebiasaan Terbaik">
+Pertahanan yang stabil membuat setiap pembelian di masa depan lebih bernilai. Secara praktis, itu berarti upgrade berikutnya harus meningkatkan daya tahan sebelum meningkatkan ambisi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tautan Resmi dan FAQ">
+
+Per 2026-07-05, cara paling aman untuk memantau Roll to Defend adalah mulai dari jalur yang terhubung ke Roblox terlebih dahulu, lalu gunakan daftar lain hanya sebagai titik referensi. Itu menjaga rencana upgrade Anda tetap berlandaskan game yang sedang aktif, bukan obrolan yang setengah diperbarui.
+
+| Sumber | Kegunaan terbaik | Tautan |
+|---|---|---|
+| Halaman game Roblox | Memainkan experience, memeriksa deskripsi saat ini, dan membuka tab dalam game | [Halaman game Roblox resmi](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Komunitas D:/Drive | Mengikuti jalur grup kreator yang terkait dengan luck ekstra | [Komunitas Roblox resmi](https://www.roblox.com/communities/861213399/D-Drive) |
+| Daftar Creator Exchange | Meninjau detail daftar publik dan label komunitas | [Daftar Roll to Defend](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="info" title="Aturan Referensi">
+Gunakan jalur Roblox resmi terlebih dahulu saat Anda ingin informasi terkini yang terhubung langsung ke game. Itu adalah cara paling bersih untuk menghindari saran upgrade yang sudah usang.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa yang harus saya upgrade terlebih dahulu di Roll to Defend?",
+    answer: "Mulailah dari hambatan yang benar-benar menyebabkan run gagal. Jika zombie bertahan terlalu lama, beli damage. Jika mereka lolos, beli coverage. Itulah aturan inti di balik roll to defend upgrades."
+  },
+  {
+    question: "Haruskah saya belanja zona sebelum upgrade?",
+    answer: "Biasanya tidak. Beli zona hanya setelah pertahanan Anda saat ini membersihkan gelombang dengan bersih dan Anda masih punya cukup pendapatan untuk merespons lonjakan tekanan berikutnya."
+  },
+  {
+    question: "Apakah bonus luck menggantikan rencana upgrade?",
+    answer: "Tidak. Luck teman dan luck grup dapat memperbaiki sesi roll Anda, tetapi tidak memperbaiki jalur yang lemah atau setelan damage rendah."
+  },
+  {
+    question: "Kapan saya harus menggunakan pendapatan offline?",
+    answer: "Gunakan segera setelah Anda kembali, tetapi hanya setelah Anda mengidentifikasi apa yang menahan run terakhir. Pendapatan offline paling kuat saat terlebih dahulu memperbaiki masalah yang sebenarnya."
+  }
+]} />
+
+</Section>

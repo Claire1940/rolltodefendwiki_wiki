@@ -1,0 +1,188 @@
+import { Map, Target, Shield, Sparkles, Trophy, AlertTriangle, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Como Comprar Zonas - Guia Passo a Passo",
+  description: "Aprenda quando comprar zonas em Roll to Defend, como proteger a renda antes de expandir e a ordem de progressão mais segura para runs estáveis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3b2f7a/fff?text=Zone+Buying+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como comprar zonas em Roll to Defend** funciona melhor quando sua defesa atual consegue sobreviver à próxima onda sem gastar em emergência.
+- **Compre zonas após a estabilidade** para que sua renda, posicionamento e limpeza de ondas fiquem sempre à frente da nova pressão.
+- **Proteja os fundos de reserva** antes de expandir; comprar uma zona não deve zerar seu saldo.
+- **Corrija primeiro o gargalo**: dano, cobertura ou timing devem melhorar antes de você desbloquear mais espaço.
+- **Expanda e depois reconstruza** sua formação ao redor da nova área, em vez de correr para a próxima compra.
+</Callout>
+
+<Section icon={Map} title="Roll to Defend: Como Comprar Zonas - Tempo Ideal">
+
+Como comprar zonas em Roll to Defend se resume a uma regra simples: expanda somente depois que sua configuração atual conseguir aguentar a próxima onda sem gastos em pânico. Comprar uma zona deve melhorar sua run, não obrigar você a entrar em uma missão de resgate duas ondas depois. Se sua defesa ainda precisa de remendos constantes, a opção mais segura é segurar a renda e estabilizar primeiro.
+
+<CardGrid cols={3}>
+  <Card title="Comprar Agora">
+    - **A limpeza das ondas está estável**
+    - Você tem renda sobrando
+    - Sua faixa principal ainda se mantém
+  </Card>
+  <Card title="Esperar">
+    - Um upgrade resolveria o vazamento
+    - A cobertura está quase boa, mas ainda não é segura
+    - Você precisa de uma reserva de segurança
+  </Card>
+  <Card title="Não Comprar">
+    - O saldo está baixo demais
+    - Zumbis estão chegando à base
+    - Expandir quebraria sua configuração
+  </Card>
+</CardGrid>
+
+| Sinal | O Que Significa | Melhor Jogada |
+|---|---|---|
+| Limpeza estável | As ondas terminam com folga | Compre a próxima zona |
+| Vazamentos lentos | A defesa está perto, mas ainda não totalmente segura | Corrija o dano ou o posicionamento primeiro |
+| Gastos de emergência | Você está reagindo em vez de progredir | Segure a renda e se recupere |
+| Reserva extra | Você consegue absorver uma onda ruim após expandir | Desbloqueie a zona com confiança |
+
+<Callout type="tip" title="Regra de Tempo da Zona">
+Se comprar uma zona obrigaria você a vender seu dano principal ou deixaria uma faixa exposta, o timing está errado. Mantenha sua configuração atual intacta primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Compra de Zonas que Você Pode Repetir">
+
+Use a mesma sequência sempre que estiver decidindo se deve comprar uma zona. Isso evita expandir cedo demais e ajuda a transformar uma run estável em uma ainda mais forte. O objetivo não é correr pelo mapa; é fazer cada desbloqueio aumentar seu ritmo no longo prazo.
+
+<Steps>
+  <Step num="1" title="Limpe a onda atual com segurança">
+    Espere até sua defesa estar lidando com os zumbis sem cliques de pânico constantes. Se você ainda está reagindo a vazamentos, a zona atual não está pronta para expansão.
+  </Step>
+  <Step num="2" title="Identifique o verdadeiro gargalo">
+    Decida se o problema é dano, cobertura, qualidade das unidades ou timing. Compre zonas depois que o ponto mais fraco já estiver melhorando, não antes.
+  </Step>
+  <Step num="3" title="Mantenha a renda de reserva disponível">
+    Deixe moeda suficiente para se recuperar caso a próxima onda venha mais forte do que o esperado. Comprar uma zona nunca deve zerar seu saldo.
+  </Step>
+  <Step num="4" title="Desbloqueie a zona e reconstrua rápido">
+    Depois da compra, verifique novamente o posicionamento e a cobertura. Mais espaço só ajuda se seus defensores ainda estiverem apontados para o caminho certo.
+  </Step>
+</Steps>
+
+| Verificação de Prontidão | Passou/Falhou | Por Que Importa |
+|---|---|---|
+| As ondas atuais são limpas com segurança | Passou | Você não está comprando por pânico |
+| A faixa principal tem cobertura de apoio | Passou | A nova pressão não abrirá uma brecha |
+| Você ainda tem renda de reserva | Passou | Você pode se recuperar após desbloquear |
+| Um upgrade já resolveu o último problema | Passou | A expansão está se apoiando na estabilidade |
+| Zumbis ainda vazam em toda onda | Falhou | Corrija a defesa antes de expandir |
+
+<Callout type="warning" title="Não Apresse a Compra">
+Nunca compre uma zona só porque a opção está disponível. A abertura do menu não é um sinal por si só; a defesa estável é o sinal real.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="No Que Gastar Antes e Depois de Comprar">
+
+Seu dinheiro deve sustentar a zona, não desaparecer dentro dela. Antes de expandir, a melhor compra geralmente é a que corrige a última falha. Depois de expandir, a melhor compra é a que restaura o controle limpo das ondas e mantém sua economia avançando.
+
+| Prioridade de Gasto | Antes de Comprar a Zona | Depois de Comprar a Zona |
+|---|---|---|
+| 1 | Dano principal | Reconstruir a faixa principal |
+| 2 | Cobertura e posicionamento | Adicionar cobertura de apoio |
+| 3 | Renda de reserva | Manter fundos de emergência prontos |
+| 4 | Compra da zona | Estabilizar a nova área |
+| 5 | Rolagens extras ou upgrades | Melhorar o próximo ciclo |
+
+| Situação | Gastar Em | Evitar |
+|---|---|---|
+| Zumbis vazam por uma faixa | Cobertura | Comprar um mapa maior cedo demais |
+| As ondas demoram demais para morrer | Dano | Correr atrás de uma nova zona primeiro |
+| A defesa está estável | Expansão da zona | Acumular moeda para sempre |
+| Uma nova zona foi desbloqueada | Reposicionar unidades | Deixar a configuração antiga inalterada |
+
+Um hábito útil é pensar em proporções. Mantenha valor suficiente em defesa para sobreviver à próxima onda, reserva suficiente para reagir e só então transforme o restante em progressão. Isso faz cada desbloqueio de zona parecer conquistado, e não forçado.
+
+<Callout type="info" title="Prioridade da Economia">
+Se sua próxima zona é barata o suficiente para comprar, mas te deixa incapaz de sobreviver à onda seguinte, ela ainda está cara demais para o seu estado atual.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Erros Comuns ao Comprar Zonas">
+
+Muitas runs fracas falham pelo mesmo motivo: o jogador compra uma zona cedo demais e depois passa o resto da sessão consertando o dano dessa decisão. A correção normalmente é simples. Vá com mais calma, mantenha uma reserva e deixe a defesa atual provar que consegue sustentar o próximo passo.
+
+| Erro | Resultado | Correção |
+|---|---|---|
+| Comprar assim que a renda aparece | A defesa fica enxuta demais | Espere uma limpeza de ondas estável |
+| Gastar cada moeda em expansão | Sem espaço para recuperação | Mantenha fundos de reserva |
+| Ignorar falhas de cobertura | Zumbis passam | Reposicione antes de comprar |
+| Expandir após uma única boa onda | Falsa confiança | Teste duas ou três ondas limpas |
+| Reconstruir devagar demais após o desbloqueio | A nova zona continua instável | Reatribua os defensores imediatamente |
+
+Se você quiser um ponto de referência ao vivo para o jogo, use a página oficial da experiência no Roblox: [Roll to Defend on Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend).
+
+<Callout type="success" title="Padrão Seguro de Recuperação">
+Se uma zona piora sua run, isso não significa que expandir é ruim. Significa que a próxima compra deve acontecer depois que a defesa for reconstruída, e não antes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e FAQ de Compra de Zonas">
+
+Antes de clicar na próxima zona, faça esta checklist. Ela mantém sua progressão organizada e ajuda você a evitar gastar tempo em desbloqueios que ainda são cedo demais para sua configuração atual.
+
+<Checklist
+  id="zone-buying-checklist"
+  title="Checklist de Compra de Zonas:"
+  items={[
+    "As ondas atuais são limpas sem gastos de emergência",
+    "Você consegue identificar o verdadeiro gargalo da sua defesa",
+    "Você ainda tem renda de reserva após a compra",
+    "Sua faixa principal ainda tem cobertura de apoio",
+    "Você consegue reconstruir o posicionamento logo após desbloquear"
+  ]}
+/>
+
+| Estado da Zona | Melhor Ação | Risco |
+|---|---|---|
+| Estável e lucrativa | Comprar a zona | Risco baixo |
+| Estável, mas com reserva fraca | Economizar um pouco mais | Risco médio |
+| Com vazamentos ou caótica | Corrigir a defesa primeiro | Risco alto |
+| Área recém-desbloqueada | Reconstruir imediatamente | Risco médio |
+| Recuperada após uma onda difícil | Re-testar antes de comprar | Risco médio |
+
+<Callout type="tip" title="Regra Final">
+A melhor compra de zona é aquela que torna as próximas cinco ondas mais fáceis, e não a que parece empolgante no momento.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quando devo comprar zonas em Roll to Defend?",
+    answer: "Compre zonas depois que sua defesa atual limpar as ondas com segurança, sua faixa principal estiver coberta e você ainda tiver renda de reserva após a compra."
+  },
+  {
+    question: "Devo comprar uma zona assim que puder pagar?",
+    answer: "Nem sempre. Se a compra drena seu saldo e enfraquece sua defesa, é melhor esperar até sua configuração estar estável."
+  },
+  {
+    question: "O que devo corrigir antes de expandir?",
+    answer: "Corrija primeiro o gargalo que parou sua última run. Isso normalmente significa dano, cobertura ou posicionamento das unidades antes da expansão da zona."
+  },
+  {
+    question: "Qual é o hábito mais seguro para comprar zonas?",
+    answer: "Mantenha uma reserva, teste limpezas de ondas estáveis, compre a zona e depois reconstrua sua formação ao redor do novo espaço imediatamente."
+  }
+]} />
+
+</Section>

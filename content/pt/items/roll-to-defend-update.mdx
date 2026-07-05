@@ -1,0 +1,242 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atualização de Role para Defender: Dicas para Iniciantes e Progressão de 2026",
+  description: "Aprenda o ciclo atual da atualização de Role para Defender, as prioridades iniciais de unidades, o momento de aprimorar, a expansão de zonas, a configuração de sorte e a estratégia de renda offline.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d3748/fff?text=Roll+to+Defend+Update",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Role para Defender"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **atualização de Role para Defender**: Monte primeiro uma defesa estável e depois converta a renda em rolagens mais fortes e avanços de zona mais seguros.
+- **Prioridade principal**: Mantenha suas melhores unidades posicionadas, porque poder parado nunca limpa uma única onda de zumbis.
+- **Melhor caminho de progressão**: Dano, cobertura, configuração de sorte e renda offline devem ser tratados nessa ordem.
+- **Regra de upgrade**: Gaste apenas no gargalo que realmente está atrasando sua run.
+- **Ganho mais rápido**: sorte de amigos, sorte de grupo e reinvestimento consistente importam mais do que gastos aleatórios.
+</Callout>
+
+<Section icon={Map} title="Atualização de Role para Defender: Loop Principal e Primeiras Vitórias">
+
+Este guia inicial no estilo de atualização foca no loop que mais importa: rolar unidades, posicionar defensores, eliminar zumbis e reinvestir a renda sem quebrar sua formação. Se o seu tabuleiro estiver instável, nenhuma rolagem extra vai salvar a run.
+
+<Callout type="tip" title="Prioridade de Abertura">
+Comece transformando sua primeira boa obtenção em presença real no tabuleiro. Uma unidade colocada é progresso; uma unidade guardada é apenas inventário.
+</Callout>
+
+**Visão geral do loop principal**
+
+| Etapa | O que fazer | Resultado |
+|---|---|---|
+| Rolar | Puxe unidades até ter um núcleo inicial utilizável | Você para de depender de espaços vazios |
+| Posicionar | Coloque suas unidades mais fortes em rotas longas | Mais zumbis são removidos mais cedo |
+| Sobreviver | Segure a onda sem gastar em pânico | A renda continua disponível |
+| Reinvestir | Gaste na parte mais fraca da run | A próxima onda fica mais fácil |
+| Expandir | Compre zonas depois que a estabilidade for comprovada | O progresso cresce sem colapsar |
+
+**O planejamento sem vídeo funciona melhor quando você usa uma ordem repetível.** Para este jogo, a ordem mais segura é simples: monte o tabuleiro, observe onde os zumbis vazam e então decida se a próxima compra deve ser uma rolagem, um upgrade ou uma zona.
+
+<Steps>
+  <Step num="1" title="Role um núcleo inicial">
+    Role até ter defensores suficientes para cobrir a rota principal. Não corra atrás de um inventário chamativo se o seu campo ainda estiver vazio.
+  </Step>
+  <Step num="2" title="Posicione antes de otimizar">
+    Coloque as unidades imediatamente. O posicionamento cedo é mais importante do que o posicionamento perfeito, porque ele inicia o loop de defesa.
+  </Step>
+  <Step num="3" title="Estabilize o padrão das ondas">
+    Observe onde os zumbis sobrevivem por mais tempo. Essa rota mostra se você precisa de mais dano ou de melhor cobertura.
+  </Step>
+  <Step num="4" title="Reinvista com propósito">
+    Gaste a renda no gargalo exato que causou o último vazamento e depois repita o loop em vez de espalhar recursos demais.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Não compre progresso que deixe o tabuleiro mais rico, mas menos estável. Se uma compra não melhora a sobrevivência, geralmente ainda é cedo demais.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridade de Build: Unidades, Cobertura e Valor">
+
+A forma mais segura de ler a meta atual é por função, não por hype. Você quer uma unidade que carregue o dano, uma camada que proteja a cobertura e uma regra para decidir o que será substituído.
+
+<Callout type="info" title="Regra da Unidade">
+Mantenha sua obtenção de maior impacto e construa ao redor dela. Preenchedores de menor raridade são aceitáveis no início, mas não devem permanecer mais do que o necessário.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Núcleo de Dano">
+    - **Objetivo**: Eliminar zumbis rapidamente
+    - **Melhor uso**: Pressão na rota principal
+    - **Substituir quando**: Aparecer uma obtenção mais forte
+  </Card>
+  <Card title="Camada de Cobertura">
+    - **Objetivo**: Cessar vazamentos e pressão lateral
+    - **Melhor uso**: Rotas longas e pontos de estrangulamento
+    - **Substituir quando**: Parar de melhorar a sobrevivência
+  </Card>
+  <Card title="Espaço de Economia">
+    - **Objetivo**: Sustentar futuras rolagens e upgrades
+    - **Melhor uso**: Quando o tabuleiro já estiver estável
+    - **Substituir quando**: Atrasar seu próximo pico de poder
+  </Card>
+</CardGrid>
+
+**Matriz de prioridade**
+
+| Situação | Foco ideal | Por que funciona |
+|---|---|---|
+| As primeiras ondas parecem lentas | Núcleo de dano | Limpezas mais rápidas liberam renda mais segura |
+| Zumbis vazam por uma rota | Camada de cobertura | Você corrige o ponto de pressão real |
+| O tabuleiro está estável | Espaço de economia | Você pode preparar o próximo pico |
+| Aparece uma obtenção mais forte | Substitua primeiro o preenchimento | O inventário deve apoiar o tabuleiro |
+| Uma nova zona está chegando | Mantenha a unidade mais confiável | Estabilidade importa mais do que estilo |
+
+Uma ordem de build limpa impede que sua run vire uma pilha de upgrades pela metade. Se uma unidade não muda o resultado de uma onda, ela não deve ficar acima daquilo que muda.
+
+<Callout type="success" title="Bom Sinal">
+Quando sua rota mais fraca se sustenta sem atenção constante, sua próxima rolagem vira um upgrade de verdade em vez de uma tentativa de resgate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Momento dos Upgrades e Ordem de Gastos">
+
+O timing dos upgrades é onde a maioria das runs acelera ou trava. O melhor método não é “comprar tudo”. É “comprar a coisa que remove a falha atual”.
+
+<Callout type="warning" title="Gaste com Cuidado">
+Se você não consegue nomear o problema, ainda não gaste. Compras aleatórias muitas vezes parecem produtivas enquanto reduzem silenciosamente a qualidade da sua run.
+</Callout>
+
+**Tabela de timing de upgrades**
+
+| Problema | Compre primeiro | Espere por |
+|---|---|---|
+| Zumbis chegam à base | Upgrade de dano | Nova zona |
+| Uma rota quebra primeiro | Ajuda de cobertura ou posicionamento | Rolagens extras |
+| Obtenções fracas dominam o inventário | Melhor configuração da sessão de rolagem | Gastos cosméticos |
+| A run está estável | Crescimento de economia ou longo prazo | Upgrades em pânico |
+| Voltando com renda offline | Corrija o gargalo da última run | Expansão às cegas |
+
+**Regras práticas de gasto**
+
+1. Corrija a sobrevivência primeiro.
+2. Melhore a qualidade da rolagem em segundo.
+3. Expanda zonas só depois que o tabuleiro estiver calmo.
+4. Gaste a renda restante no elo mais fraco, não no mais barulhento.
+5. Mantenha um hábito de reserva para que uma onda ruim não zere todo o seu saldo.
+
+**Como decidir em 30 segundos**
+
+| Pergunta | Se sim | Se não |
+|---|---|---|
+| Há vazamento de zumbis? | Compre poder de defesa | Continue guardando |
+| A rota está coberta? | Melhore a eficiência | Reposicione primeiro |
+| O tabuleiro está estável? | Role ou expanda | Adie a compra |
+| A última onda expôs uma fraqueza? | Mire nessa fraqueza | Reavalie antes de gastar |
+
+<Steps>
+  <Step num="1" title="Identifique o gargalo">
+    Decida se o problema atual é dano, cobertura, qualidade da rolagem ou timing de zona.
+  </Step>
+  <Step num="2" title="Compre o menor ajuste que funcione">
+    Adquira o upgrade que resolve diretamente o vazamento, em vez de correr atrás de uma melhoria maior, mas sem relação.
+  </Step>
+  <Step num="3" title="Teste a próxima onda">
+    Observe se a mesma falha se repete. Se repetir, o ajuste foi incompleto.
+  </Step>
+  <Step num="4" title="Fixe o novo padrão">
+    Quando a run estiver estável, repita a mesma ordem de gastos até o próximo gargalo aparecer.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Melhor Hábito">
+Use upgrades para remover atrito, não para se exibir. O caminho de progressão mais forte é aquele que mantém seu tabuleiro calmo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zonas, Sorte e Renda Offline">
+
+O loop de progressão atual fica muito mais suave quando você trata zonas, sorte e renda offline como sistemas conectados. Você não precisa forçar os três ao mesmo tempo, mas deve sempre saber qual deles está ativo.
+
+<Callout type="success" title="Fluxo de Progressão">
+Estabilize o tabuleiro, empilhe sorte e depois gaste a renda offline na fraqueza que interrompeu sua última run.
+</Callout>
+
+**Pontos oficiais de entrada**
+
+| Fonte | Uso | Acessado em |
+|---|---|---|
+| [Página do jogo Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Iniciar a experiência e verificar a entrada ao vivo do jogo | 2026-07-05 |
+| [Comunidade D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Entrar no caminho do grupo do criador ligado a bônus sociais | 2026-07-05 |
+| [Listagem do Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Revisar o contexto público da listagem e os detalhes de propriedade | 2026-07-05 |
+
+**O que cada sistema deve fazer pela sua run**
+
+| Sistema | Melhor uso | Risco se apressar |
+|---|---|---|
+| Zonas | Desbloquear novo espaço de progressão | Você estica a defesa cedo demais |
+| Sorte | Melhorar a qualidade da rolagem antes de uma sessão grande | Você desperdiça renda boa em um momento ruim |
+| Renda offline | Recuperar e reinvestir depois de uma pausa | Você gasta sem corrigir a última fraqueza |
+
+**Checklist para uma sessão de retorno limpa**
+
+<Checklist
+  id="return-session"
+  title="Checklist da Sessão de Retorno:"
+  items={[
+    "Colete a renda offline antes de qualquer outra escolha",
+    "Verifique qual rota ou unidade falhou da última vez",
+    "Use a configuração de sorte antes de uma longa sessão de rolagem",
+    "Compre uma zona apenas se o tabuleiro já parecer estável",
+    "Mantenha uma compra de reserva disponível para correções de emergência"
+  ]}
+/>
+
+Uma zona só é útil quando a defesa consegue sobreviver à pressão que vem com ela. Se a próxima área exigir gastos de emergência, a jogada certa é pausar a expansão e reconstruir o núcleo primeiro.
+
+<Callout type="info" title="Regra Prática">
+A sorte ajuda quando você está pronto para rolar. A renda offline ajuda quando você está pronto para reparar. As zonas ajudam quando o tabuleiro já prova que consegue sobreviver.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Foco do FAQ">
+Use estas respostas para permanecer alinhado com o loop atual de progressão de Role para Defender, em vez de correr atrás de upgrades aleatórios.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor primeira jogada em atualização de Role para Defender?",
+    answer: "Role unidades suficientes para criar um núcleo inicial real e depois posicione-as imediatamente. O primeiro objetivo é a estabilidade do tabuleiro, não um inventário perfeito."
+  },
+  {
+    question: "Devo comprar zonas assim que elas desbloquearem?",
+    answer: "Geralmente não. Compre zonas depois que sua defesa atual limpar as ondas com facilidade e você ainda tiver renda sobrando para reagir caso a pressão aumente."
+  },
+  {
+    question: "Como devo gastar a renda offline?",
+    answer: "Use-a para corrigir a fraqueza que encerrou sua última sessão. Se o problema foi dano, melhore dano primeiro. Se a cobertura estava fraca, corrija primeiro o layout da rota."
+  },
+  {
+    question: "O que importa mais do que rolagens aleatórias?",
+    answer: "Um tabuleiro estável, bom posicionamento e uma ordem clara de gastos importam mais do que rolar no escuro. Obtenções fortes só viram valiosas quando a defesa consegue realmente usá-las."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+Não trate todos os caminhos de recompensa da mesma forma. Uma boa sessão começa com sobrevivência, entra na configuração de sorte e termina com reinvestimento inteligente.
+</Callout>
+
+</Section>

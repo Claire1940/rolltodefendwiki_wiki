@@ -1,0 +1,187 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Guía para principiantes, mejoras, zonas y consejos",
+  description: "Construye partidas más fuertes en Roll to Defend con un flujo claro para la primera sesión, un orden inteligente de mejoras, buen momento para las zonas, configuración de suerte y planificación de ingresos offline.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/24184d/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Roll to Defend"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Roll to Defend** empieza lanzando unidades, colocando defensores y estabilizando las oleadas de zombis antes de buscar expansión.
+- **El mejor valor inicial** viene de una sola configuración fuerte, no de gastar al azar en cada menú.
+- **El momento de las zonas importa**; expándete después de que tu defensa limpie con seguridad y tu ingreso pueda absorber el siguiente empuje.
+- **Los bonos de suerte** de amigos y del grupo se aprovechan mejor antes de una larga sesión de lanzamientos.
+- **Los ingresos offline** deberían gastarse en la debilidad que terminó tu última partida.
+</Callout>
+
+<Section icon={Map} title="Bucle principal de Roll to Defend y primera configuración">
+
+Roll to Defend recompensa un bucle simple: lanzar unidades, colocar defensores, eliminar zombis y luego convertir los ingresos en un progreso más fuerte. Si intentas hacerlo todo a la vez, la partida suele desordenarse muy rápido.
+
+<Callout type="tip" title="Prioridad principal">
+Construye un tablero estable antes de perseguir lanzamientos perfectos. Un defensor útil en el campo vale más que una mejor unidad sin usar.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Lanza primero">
+    Empieza lanzando hasta tener un defensor que realmente pueda sostener la línea. El objetivo es la estabilidad, no apostar por la perfección.
+  </Card>
+  <Card title="Coloca de inmediato">
+    Pon tu unidad más fuerte donde pueda disparar durante más tiempo. Una unidad activa supera a una mejor que nunca ataca.
+  </Card>
+  <Card title="Reinvierte rápido">
+    Usa los ingresos iniciales para mantener el bucle en marcha. Más tiempo en acción suele superar ahorrar demasiado para una sola compra grande.
+  </Card>
+</CardGrid>
+
+| Primeros 10 minutos | Qué hacer | Objetivo | Evitar |
+| --- | --- | --- | --- |
+| Lanzamiento inicial | Consigue uno o dos defensores útiles | Detener las primeras fugas | Quemar todos los ingresos en reinicios |
+| Primera colocación | Cubre la sección más larga del camino | Maximizar el tiempo de daño | Agrupar unidades donde se solapen demasiado |
+| Primeras oleadas | Vigila las líneas débiles | Encontrar el verdadero cuello de botella | Ignorar fugas hasta que la base esté bajo presión |
+| Primer ciclo de gasto | Reinvierte cuando el tablero esté estable | Mantener un progreso constante | Ahorrar demasiado sin mejorar el tablero |
+| Primera decisión de zona | Expándete solo si las limpiezas se sienten seguras | Mantener el impulso | Comprar una zona antes de que la defensa esté lista |
+
+</Section>
+
+<Section icon={Shield} title="Colocación, oleadas y prioridades de defensa">
+
+La mayoría de los jugadores pierde ritmo al colocar unidades sin un plan claro de carril. El enfoque más seguro es pensar primero en el control de oleadas y después en la variedad de unidades.
+
+<Callout type="warning" title="Regla de defensa">
+Si los zombis se cuelan, corrige la cobertura o el daño antes de empezar a buscar una nueva zona o otro lanzamiento aleatorio.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Mapea el carril">
+    Coloca tu mejor defensor donde pueda atacar durante el tramo más largo. Un tiempo de ataque prolongado suele ser mejor que una colocación llamativa.
+  </Step>
+  <Step num="2" title="Cubre el cuello de botella">
+    Añade apoyo donde los zombis se ralenticen o se agrupen. Ese punto te da el mayor valor de cada unidad.
+  </Step>
+  <Step num="3" title="Mantén un margen">
+    No gastes cada moneda en el momento en que la recibes. Conserva suficientes ingresos para reaccionar si la siguiente oleada pega más fuerte.
+  </Step>
+  <Step num="4" title="Reemplaza los huecos débiles">
+    Una vez que aparezca una unidad más fuerte, sustituye primero el relleno más débil. Los tableros limpios son más fáciles de manejar que los abarrotados.
+  </Step>
+</Steps>
+
+| Fase del juego | Mejor enfoque | Lo que más importa | Error común |
+| --- | --- | --- | --- |
+| Juego temprano | Supervivencia básica | Un atacante estable y una cobertura limpia | Construir demasiado ancho demasiado pronto |
+| Juego medio | Eficiencia de oleadas | Mejor daño por espacio y colocación más inteligente | Mantener unidades débiles demasiado tiempo |
+| Juego tardío | Calidad del tablero | Defensores fuertes con el mínimo espacio muerto | Expandirse antes de que la línea central esté lista |
+
+<Callout type="success" title="Buena regla general">
+Una unidad que mejora el control del carril suele ser más valiosa que una unidad que solo parece más fuerte sobre el papel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras y momento de las zonas">
+
+Las mejoras deberían resolver lo que realmente detuvo tu última partida. Si el problema fue el daño, sube el daño. Si los zombis se colaron, mejora la cobertura. Si ambas cosas estaban bien, entonces mira las zonas y la economía.
+
+<Callout type="success" title="Orden de mejoras">
+Gasta primero en el cuello de botella. Eso mantiene la partida en movimiento en lugar de repartir ingresos entre todas las opciones a la vez.
+</Callout>
+
+| Cuello de botella | Comprar primero | Por qué ayuda | Cuándo posponerlo |
+| --- | --- | --- | --- |
+| Daño bajo | Mejoras principales de ataque | Limpia las oleadas más rápido | Las fugas se deben a mala colocación, no a golpes débiles |
+| Cobertura débil | Mejoras de colocación o apoyo | Evita que los zombis se cuelen por los huecos | Tu unidad principal ya elimina oleadas con rapidez |
+| Lanzamientos lentos | Preparación de la sesión de lanzamientos y apoyo de ingresos | Mejora la calidad de los futuros lanzamientos | La oleada actual todavía necesita defensa directa |
+| Escalado pobre | Mejor inversión lista para zonas | Ayuda al progreso a largo plazo | La base está inestable ahora mismo |
+
+| Señal de zona | ¿Comprar la zona? | Motivo | Siguiente paso ideal |
+| --- | --- | --- | --- |
+| Las oleadas se limpian con facilidad | Sí, normalmente | Tu defensa puede absorber la expansión | Reorganiza la colocación alrededor de la nueva zona |
+| El ingreso es cómodo | Tal vez | Puedes recuperarte tras el desbloqueo | Mantén un margen para emergencias |
+| Las fugas son frecuentes | No | Una nueva zona puede empeorar la presión | Corrige primero el daño o la cobertura |
+| El tablero es estable y flexible | Sí | La expansión tiene más posibilidades de rendir frutos | Avanza al siguiente paso de progresión |
+
+<Callout type="info" title="Momento de las zonas">
+Una nueva zona debería sentirse como una recompensa por la estabilidad, no como un parche para la inestabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Suerte, ingresos offline y preparación de la sesión">
+
+Los bonos sociales del juego y las ganancias offline son más útiles cuando se planifican, no cuando se tratan como extras aleatorios. Prepáralos antes de una sesión larga y luego gasta los resultados con un propósito claro.
+
+<Callout type="info" title="Planificación de la sesión">
+Usa los bonos de suerte antes de lanzar en serio, y usa los ingresos offline para reparar el problema que terminó tu última sesión.
+</Callout>
+
+<Checklist
+  id="session-prep"
+  title="Lista de comprobación antes de lanzar:"
+  items={[
+    "Únete a un servidor con amigos antes de una sesión seria de lanzamientos",
+    "Dale like al juego y únete al grupo del creador para obtener la vía extra de suerte",
+    "Limpia la defensa actual para no lanzar bajo presión",
+    "Guarda suficientes ingresos para reaccionar después de un mal lanzamiento",
+    "Decide si necesitas daño, cobertura o progreso de zona"
+  ]}
+/>
+
+| Fuente | Efecto | Mejor momento para usarla | Nota |
+| --- | --- | --- | --- |
+| Amigos | Mejor suerte para las sesiones de lanzamiento | Antes de gastar ingresos guardados | Funciona mejor cuando estás listo para lanzar en cantidad |
+| Grupo del creador | Vía extra de suerte ligada a la configuración social del juego | Antes de un gran empuje de progresión | Únete antes de juzgar la calidad de tus lanzamientos |
+| Ingresos offline | Gana mientras estás ausente | Cuando vuelves al juego | Gástalos en la debilidad que frenó el progreso |
+| Sesión de regreso | Ventana de recuperación inmediata | Justo después de volver a iniciar sesión | Arregla primero la defensa, luego lanza o expándete |
+
+<Callout type="tip" title="Orden práctico">
+Primero el problema de daño, segundo el de cobertura y tercero la expansión. Ese orden evita que la economía se derrumbe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y referencia rápida">
+
+<Callout type="tip" title="Referencia rápida">
+Si solo recuerdas una cosa, recuerda esto: estabiliza el tablero y luego gasta los ingresos en el siguiente cuello de botella.
+</Callout>
+
+| Error | Mejor opción | Por qué funciona |
+| --- | --- | --- |
+| Lanzar demasiado pronto sin defensa | Coloca primero una unidad útil | Obtienes valor de cada oleada mientras construyes ingresos |
+| Comprar una zona demasiado pronto | Espera a limpiezas estables | La expansión es más segura cuando el tablero ya aguanta |
+| Mantener siempre el relleno débil | Reemplaza primero las unidades de poco impacto | Los tableros limpios son más fáciles de escalar |
+| Ignorar la preparación social de la suerte | Prepara primero a los amigos y los bonos de grupo | Los mejores lanzamientos son más fáciles cuando la sesión está planificada |
+| Dejar sin usar los ingresos offline | Reinvierte al volver | El dinero recuperado debería corregir el último cuello de botella |
+
+<FAQ
+  items={[
+    {
+      question: "¿Qué debo hacer primero en Roll to Defend?",
+      answer: "Lanza hasta obtener al menos un defensor útil, colócalo en el carril más largo y asegúrate de que las primeras oleadas estén bajo control antes de perseguir cualquier otra cosa."
+    },
+    {
+      question: "¿Debería comprar zonas en cuanto pueda?",
+      answer: "Normalmente no. Compra una zona después de que tu defensa actual sea estable y tus ingresos puedan soportar la presión extra."
+    },
+    {
+      question: "¿Vale la pena preparar la suerte de amigos y grupo?",
+      answer: "Sí, especialmente antes de una larga sesión de lanzamientos. Usa esos bonos cuando estés listo para gastar ingresos guardados en lanzamientos que realmente importen."
+    },
+    {
+      question: "¿Cómo debería gastar los ingresos offline?",
+      answer: "Úsalos para arreglar la debilidad que terminó tu última partida. Si falló el daño, sube el daño. Si los zombis se colaron, mejora la cobertura."
+    }
+  ]}
+/>
+
+</Section>

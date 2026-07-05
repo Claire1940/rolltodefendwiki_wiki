@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Sparkles, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rodar para defender: Mejores unidades, mejoras y consejos de zona",
+  description: "Usa esta guía de Rodar para defender para priorizar unidades, sincronizar mejoras, comprar zonas con seguridad, acumular suerte y reciclar los ingresos fuera de línea en partidas más fuertes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Rodar para defender"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Rodar para defender** recompensa más las tiradas inteligentes, la colocación limpia y el control estable de oleadas que el gasto aleatorio.
+- **La mejor regla inicial**: quédate con tu mejor tirada útil y luego construye cobertura antes de ir por una nueva zona.
+- **La prioridad de mejoras** debe seguir el cuello de botella que realmente está causando fugas, no cada opción llamativa.
+- **La suerte y los ingresos fuera de línea** importan más cuando los guardas para sesiones de tiradas enfocadas y una reinversión segura.
+</Callout>
+
+<Section icon={Map} title="Ciclo inicial de Rodar para defender">
+
+Rodar para defender funciona mejor cuando tratas cada sesión como un ciclo simple: tirar, colocar, sobrevivir y luego expandir. Si tus primeras tiradas se quedan sin usar, tu economía se ralentiza y los zombis ganan presión gratis. El objetivo no es gastar todo de inmediato. El objetivo es conseguir un núcleo defensor estable y dejar que los ingresos y las tiradas crezcan a partir de ahí.
+
+<CardGrid cols={3}>
+  <Card title="Tirar primero">
+    - **Empieza con valor**
+    - Quédate con la mejor tirada útil
+    - Evita desperdiciar los ingresos iniciales
+  </Card>
+  <Card title="Colocar de inmediato">
+    - **Usa tus unidades**
+    - Cubre los segmentos más largos del camino
+    - Arregla rápido los carriles vacíos
+  </Card>
+  <Card title="Expandir después">
+    - **Compra zonas con control**
+    - Expándete solo tras ganar estabilidad
+    - Protege los ingresos antes de escalar
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla inicial">
+Si una unidad más fuerte no está en el campo, no está ayudando a tu partida. Coloca la defensa primero y luego preocúpate por la perfección.
+</Callout>
+
+| Primera prioridad | Qué hacer | Por qué importa |
+|---|---|---|
+| Buena tirada | Quédate con la mejor unidad visible | Te da la ruta más rápida hacia limpiezas estables |
+| Cobertura | Coloca unidades donde los zombis permanecen expuestos | Más tiempo activo significa más valor de daño |
+| Ingresos | Guarda lo suficiente para seguir tirando | Tirar demasiado pronto con poco valor puede frenar el progreso |
+| Momento de la zona | Espera hasta que las oleadas se sientan controladas | Expandirse demasiado pronto puede crear fugas evitables |
+
+</Section>
+
+<Section icon={Shield} title="Cómo sobrevivir a las primeras oleadas">
+
+Las primeras oleadas te enseñan el ritmo real del juego. Si los zombis se están colando, normalmente el problema es una de tres cosas: daño débil, mala colocación o comprar demasiado demasiado pronto. Arregla primero el cuello de botella. Ese enfoque mantiene tu partida estable y hace que cada mejora posterior sea más significativa.
+
+<Steps>
+  <Step num="1" title="Tira por un defensor útil">
+    Quédate con la unidad más fuerte que mejore el despeje de la oleada actual. Una unidad provisional de relleno está bien, pero solo si realmente cubre el camino.
+  </Step>
+  <Step num="2" title="Coloca unidades antes de volver a gastar">
+    No persigas otra tirada mientras tu tablero esté vacío. Tu defensa necesita cuerpos en el campo más que otra tirada sin abrir.
+  </Step>
+  <Step num="3" title="Vigila el punto de fuga">
+    Observa dónde sobreviven más tiempo los zombis. Ese carril te dice si necesitas más daño, mejor alcance o un ángulo de colocación distinto.
+  </Step>
+  <Step num="4" title="Reinvierte una vez que la oleada sea estable">
+    Cuando las limpiezas se vean cómodas, convierte los ingresos extra en más tiradas o en la siguiente mejora segura en vez de acapararlos para siempre.
+  </Step>
+  <Step num="5" title="Expándete solo cuando el ciclo aguante">
+    Compra una nueva zona después de que tu configuración actual pueda manejar la presión sin gastar en emergencias todo el tiempo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error común">
+No trates cada pico de corto plazo como una razón para expandirte. Si tu defensa apenas se sostiene, una nueva zona puede empeorar el mismo problema.
+</Callout>
+
+| Situación | Mejor respuesta | Riesgo si lo ignoras |
+|---|---|---|
+| Los zombis se cuelan al principio | Fortalece la colocación o el daño | Pierdes ritmo e ingresos |
+| El tablero se siente vacío | Tirar menos, colocar más | Las buenas tiradas se desperdician |
+| La oleada se limpia con facilidad | Ahorra para la siguiente mejora | Comprar de más reduce la flexibilidad |
+| Nueva zona disponible | Espera a tener estabilidad | La expansión puede exponer una defensa débil |
+
+</Section>
+
+<Section icon={Target} title="Mejores unidades y reglas para conservar">
+
+El consejo más seguro sobre unidades es simple: quédate con lo que mejore la supervivencia, la cobertura o el escalado futuro. No necesitas números ocultos para tomar buenas decisiones. La regla pública más fuerte sigue siendo la más práctica: una tirada de mayor valor con impacto real en el campo de batalla supera siempre a una unidad de relleno más débil.
+
+<CardGrid cols={4}>
+  <Card title="Tiradas de alta rareza">
+    - **Quédate primero con ellas**
+    - Mejor valor a largo plazo
+    - Normalmente vale la pena construir alrededor de ellas
+  </Card>
+  <Card title="Estabilizadores de zona">
+    - **Sostienen terreno nuevo**
+    - Evitan fugas después de expandirte
+    - Más importantes que un daño llamativo
+  </Card>
+  <Card title="Unidades de cobertura del camino">
+    - **Arreglan carriles débiles**
+    - Amplían el tiempo efectivo de actividad
+    - Fuertes en la fase temprana y media
+  </Card>
+  <Card title="Relleno temporal">
+    - **Reemplázalo después**
+    - Sirve para espacios vacíos
+    - No es un ancla a largo plazo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Prioridad para conservar">
+Si tienes dudas, quédate con la unidad que mejor cumpla una de estas funciones: limpiar oleadas, sostener una zona o cubrir un carril expuesto.
+</Callout>
+
+| Tipo de tirada | ¿Conservar? | Mejor uso |
+|---|---|---|
+| Rareza visible más alta | Sí | Construye tu defensa principal alrededor de ella |
+| Cobertura estable del carril | Sí | Evita que los zombis se cuelen |
+| Duplicado débil | Tal vez | Consérvalo solo si aporta valor real |
+| Relleno de bajo impacto | No | Sustitúyelo cuando llegue algo mejor |
+
+| Comprobación de decisión | Pregúntate | Acción |
+|---|---|---|
+| Daño | ¿Esta unidad limpia más rápido? | Consérvala si la respuesta es sí |
+| Cobertura | ¿Protege un carril débil? | Consérvala si la respuesta es sí |
+| Escalado | ¿Seguirá siendo útil más adelante? | Consérvala si la respuesta es sí |
+| Relleno | ¿Solo ocupa espacio? | Sustitúyela |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras, zonas e ingresos">
+
+Las mejoras deben resolver el problema real, no solo consumir moneda. Si falla el daño, mejora el daño. Si los zombis se cuelan por huecos, mejora la cobertura o el valor de colocación. Si las oleadas están estables, dirige los ingresos hacia la siguiente preparación segura o hacia el empuje de zona. Esta es la forma más limpia de evitar desperdiciar recursos.
+
+<Callout type="info" title="Lógica de mejora">
+Gasta en el cuello de botella que detuvo tu última partida. Suele ser más eficiente que repartir el dinero entre todas las opciones a la vez.
+</Callout>
+
+| Enfoque de mejora | Prioridad | Compra cuando | Retén cuando |
+|---|---|---|---|
+| Daño principal | Alta | Los enemigos sobreviven demasiado | El problema real es la cobertura |
+| Cobertura | Alta | Los zombis se cuelan por huecos | El daño ya es demasiado bajo |
+| Preparación de tiradas | Media | Puedes preparar una sesión enfocada | La oleada actual está fallando |
+| Gestión de duplicados | Media | Un duplicado es claramente mejor | Reduce el control del tablero |
+| Gasto de ingresos fuera de línea | Flexible | Regresas con ganancias guardadas | Aún no encontraste el cuello de botella |
+
+| Momento de la zona | Luz verde | Señal de alerta |
+|---|---|---|
+| Oleadas actuales | Se limpian sin pánico | Requieren gasto constante de emergencia |
+| Tablero de defensa | Tiene un núcleo estable | Se siente vacío o sobrecargado |
+| Nivel de ingresos | Deja margen después de comprar | Se agota con la compra de la zona |
+| Siguiente empuje | Mejora el progreso | Hace más probables las fugas |
+
+| Lugares oficiales para revisar | Para qué usarlo | Enlace |
+|---|---|---|
+| Página del juego en Roblox | Jugar, marcar como favorito y abrir la experiencia | [Rodar para defender en Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) |
+| Comunidad D:/Drive | Acceso al grupo y actualizaciones vinculadas al creador | [Comunidad de D:/Drive en Roblox](https://www.roblox.com/communities/861213399/D-Drive) |
+| Lista del creador | Detalles públicos del juego y contexto de propiedad | [Listado de Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) |
+
+<Callout type="tip" title="Consejo económico">
+Si tus ingresos están creciendo pero tu tablero es inestable, deja de expandirte y arregla primero la defensa. La economía solo sirve cuando la partida sobrevive lo suficiente como para gastarla.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preparación de suerte, lista de verificación y FAQ">
+
+La preparación de suerte importa más cuando estás listo para gastar una gran cantidad de ingresos en tiradas. Ahí es cuando los amigos, los bonos de grupo y un reinicio limpio de tus prioridades pueden mejorar de verdad la sesión. Los ingresos fuera de línea deben tratarse igual: recógelos primero y luego úsalos para arreglar lo que rompió tu última partida.
+
+<Checklist
+  id="roll-to-defend-luck-checklist"
+  title="Lista de verificación de la sesión:"
+  items={[
+    "Únete a un servidor amistoso antes de tu sesión principal de tiradas",
+    "Pon like al juego y únete al grupo de D:/Drive si quieres la ruta extra de suerte",
+    "Recoge los ingresos fuera de línea antes de gastar en nuevas tiradas",
+    "Arregla el daño o la cobertura antes de comprar la siguiente zona",
+    "Guarda un poco de moneda para que una mala tirada no frene la partida"
+  ]}
+/>
+
+<Callout type="success" title="Mejor rutina">
+Empieza con estabilidad, activa tu configuración de suerte, tira con propósito y solo entonces convierte los ingresos en el siguiente empuje.
+</Callout>
+
+| Fuente de suerte | Uso práctico | Mejor momento |
+|---|---|---|
+| Amigos | Tira con jugadores de confianza | Antes de una gran sesión |
+| Acceso al grupo | Usa la ruta de suerte vinculada al creador | Antes de gastar ingresos |
+| Ingresos fuera de línea | Reconstruye después de una pausa | Al iniciar la sesión |
+| Moneda guardada | Mantén abiertas tus opciones | Antes de una expansión arriesgada |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la prioridad más segura al empezar en Rodar para defender?",
+    answer: "Quédate con la mejor tirada útil, colócala de inmediato y solo entonces decide si tiras más o compras una zona."
+  },
+  {
+    question: "¿Debería comprar zonas en cuanto se desbloqueen?",
+    answer: "Normalmente no. Compra zonas después de que tu defensa actual sea estable y aún tengas ingresos suficientes para responder si las siguientes oleadas golpean más fuerte."
+  },
+  {
+    question: "¿Qué debería mejorar primero?",
+    answer: "Mejora el cuello de botella que causó el último fallo, normalmente daño o cobertura. No repartas el gasto entre todas las opciones a la vez."
+  },
+  {
+    question: "¿Cómo debería usar los ingresos fuera de línea?",
+    answer: "Recógelos primero, arregla la debilidad que perjudicó tu partida anterior y luego gasta el resto en tiradas o en un progreso seguro."
+  }
+]} />
+
+</Section>

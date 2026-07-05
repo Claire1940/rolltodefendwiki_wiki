@@ -1,0 +1,245 @@
+import { Map, Shield, Target, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Roll to Defend: Panduan Pemula, Kode, Unit & Tips",
+  description: "Panduan pemula Roll to Defend dengan status kode saat ini, unit awal terbaik, prioritas upgrade, waktu yang tepat untuk zona, bonus keberuntungan, dan income offline.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Roll+to+Defend+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki Roll to Defend"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **roll to defend** dimulai dengan loop sederhana: roll unit, tahan gelombang, lalu ubah income menjadi progres yang lebih kuat.
+- **Tidak ada kode publik** yang terverifikasi saat ini, jadi fokus pada luck teman, luck grup, dan income offline.
+- **Pull dengan rarity tertinggi** sebaiknya menggantikan filler lemah terlebih dahulu, terutama saat mereka menutupi jalur zombie lebih lama.
+- **Pembelian zona** paling efektif setelah pertahanan saat ini bisa membersihkan gelombang tanpa belanja panik.
+</Callout>
+
+<Section icon={Map} title="Loop Awal Cepat Roll to Defend">
+
+Roll to Defend paling bagus dimainkan jika kamu memperlakukan setiap run sebagai siklus yang rapi: roll unit, tempatkan defender terkuatmu, habisi zombie, lalu investasikan ulang income sebelum mengejar zona berikutnya. Titik masuk yang paling aman adalah halaman resmi Roblox, lalu jalur grup kreator untuk bonus luck dan pembaruan komunitas.
+
+**Titik awal resmi**
+
+| Source | Use it for | Best action |
+|---|---|---|
+| [Halaman game Roblox](https://www.roblox.com/games/129559579789369/Roll-to-Defend) | Meluncurkan pengalaman, memeriksa deskripsi terbaru | Mulai dari sini sebelum mempercayai tautan eksternal apa pun |
+| [Komunitas D:/Drive](https://www.roblox.com/communities/861213399/D-Drive) | Luck grup dan pembaruan kreator | Bergabunglah dengan grup sebelum sesi roll yang lebih panjang |
+| [Listing Creator Exchange](https://creatorexchange.io/roblox-game/10168931576/roll-to-defend) | Detail listing publik dan pengecekan status | Gunakan sebagai referensi sekunder, bukan pengganti |
+
+<Callout type="tip" title="Prioritas Awal">
+Tempatkan unit sebelum kamu terlalu memikirkan upgrade. Pull kuat yang hanya disimpan di inventori tidak berguna, sedangkan pull lebih lemah di map tetap bisa menahan jalur.
+</Callout>
+
+**Prioritas sesi pertama**
+
+| Priority | What to do | Why it matters |
+|---|---|---|
+| 1 | Roll unit sampai kamu punya defender sungguhan | Kamu butuh inti tempur yang terlihat sebelum progres terasa stabil |
+| 2 | Tempatkan unit terbaik di jalur terpanjang | Waktu aktif yang lebih lama berarti lebih banyak zombie yang dibersihkan |
+| 3 | Perhatikan di mana kebocoran terjadi | Titik bocor memberi tahu apakah kamu butuh damage atau coverage |
+| 4 | Simpan income untuk langkah berarti berikutnya | Belanja acak memperlambat loop |
+| 5 | Perluas hanya setelah stabil | Tekanan zona lebih mudah ditangani saat basis sudah aman |
+
+</Section>
+
+<Section icon={Shield} title="Kode, Reward, dan Status Saat Ini">
+
+Saat ini, Roll to Defend tidak menampilkan kode publik aktif apa pun pada sumber resmi yang tersedia. Itu membuat loop reward saat ini sangat sederhana: gunakan bonus luck bawaan dan income offline, lalu simpan hasil roll-mu untuk sesi yang lebih kuat daripada mengejar daftar kode palsu.
+
+<Callout type="warning" title="Status Kode">
+Tidak ada kode publik aktif atau kedaluwarsa yang terverifikasi saat ini. Jika ada halaman yang mengklaim sebaliknya, bandingkan dulu dengan halaman game Roblox dan komunitas kreator.
+</Callout>
+
+**Status reward**
+
+| Item | Status | Recommended action |
+|---|---|---|
+| Kode aktif | Tidak ada yang terverifikasi | Jangan buang waktu menyalin string kode acak |
+| Kode kedaluwarsa | Tidak ada yang tercantum | Abaikan daftar daur ulang dari game defense yang mirip |
+| Luck teman | Tersedia melalui bermain sosial | Roll bersama teman saat kamu merencanakan sesi yang lebih panjang |
+| Luck grup | Tersedia melalui jalur D:/Drive | Bergabunglah dengan grup sebelum mencoba pull |
+| Income offline | Tersedia | Ambil dulu saat kamu kembali, lalu belanjakan dengan bijak |
+
+**Checklist kebiasaan aman**
+
+| Habit | Result |
+|---|---|
+| Gunakan tautan resmi Roblox terlebih dahulu | Risiko redirect palsu lebih rendah |
+| Periksa halaman game sebelum memasukkan kode | Lebih sedikit percobaan buntu |
+| Simpan daftar coba ulang pribadi | Pengujian lebih cepat jika kode nanti menjadi publik |
+| Perlakukan reward sebagai bahan bakar progresi | Alur resource jangka panjang lebih baik |
+
+Sumber reward saat ini memang tidak mencolok, tetapi bisa diandalkan. Luck teman dan luck grup penting karena meningkatkan nilai sesi rolling kamu, sementara income offline menjaga progres tetap berjalan bahkan saat kamu sedang tidak bermain.
+
+</Section>
+
+<Section icon={Target} title="Rute Pemula: Roll, Tempatkan, Bertahan">
+
+Tujuan pertamamu bukan optimasi sempurna. Tujuan pertamamu adalah bertahan cukup lama untuk membangun momentum. Ikuti loop di bawah secara berurutan, dan jangan lompat ke langkah berikutnya hanya karena pembukaan zona terlihat menggoda.
+
+<Callout type="success" title="Loop Inti">
+Roll untuk mendapatkan defender, tempatkan di jalur, awasi kebocoran, dan baru setelah itu ubah income menjadi upgrade atau zona berikutnya.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Roll Unit Pertamamu">
+    Awali dengan roll sampai kamu mendapatkan unit yang benar-benar bisa menahan gelombang. Game ini dibangun di sekitar sistem roll, jadi milestone pertamamu yang nyata adalah mendapatkan sesuatu yang bisa berdiri di medan, bukan hanya diam di inventori.
+  </Step>
+  <Step num="2" title="Tempatkan Sebelum Memperluas">
+    Letakkan unit terbaikmu di tempat yang memberi waktu serang paling lama. Unit dengan uptime lebih tinggi membersihkan lebih banyak zombie, yang memberi awal yang lebih stabil dan lebih sedikit keputusan darurat.
+  </Step>
+  <Step num="3" title="Lacak Titik Bocor">
+    Perhatikan di mana musuh bertahan paling lama. Jika zombie lolos lebih awal, biasanya itu berarti kamu butuh damage yang lebih baik. Jika mereka bertahan di celah, kamu butuh coverage yang lebih kuat atau penempatan yang lebih baik.
+  </Step>
+  <Step num="4" title="Investasi Ulang dengan Tujuan">
+    Belanjakan income pada bottleneck yang memperlambat gelombang sebelumnya. Jangan membagi resource ke setiap opsi, karena belanja campuran biasanya menunda upgrade yang sebenarnya bisa menyelesaikan run.
+  </Step>
+</Steps>
+
+**Peta kesalahan early-game**
+
+| Mistake | Better move |
+|---|---|
+| Roll sebelum menempatkan apa pun | Letakkan defender di map terlebih dahulu |
+| Membeli zona terlalu cepat | Stabilkan dulu siklus gelombang saat ini |
+| Menghabiskan semua income untuk filler | Simpan untuk upgrade berarti berikutnya |
+| Mengabaikan income offline | Ambil dan gunakan kembali segera setelah kamu kembali |
+
+Rute pemula terbaik memang sengaja membosankan. Membosankan berarti stabil, dan stabil berarti kamu mulai bisa memilih kapan roll, bukan dipaksa roll karena panik.
+
+</Section>
+
+<Section icon={Trophy} title="Unit dan Aturan Nilai Simpan">
+
+Data publik masih terbatas, jadi cara paling aman untuk menilai unit adalah lewat nilai simpan, bukan dengan pura-pura setiap pull punya lembar stat tersembunyi lengkap. Jika kamu melihat pull langka seperti Stellar Pirate dalam gameplay, perlakukan itu sebagai simpanan bernilai tinggi. Jika kamu hanya punya pull dasar, simpan yang terbaik lalu lanjutkan.
+
+<Callout type="tip" title="Aturan Simpan">
+Simpan unit dengan rarity tertinggi yang kamu lihat, lalu ganti filler yang lebih lemah hanya ketika pull baru jelas meningkatkan pertahananmu.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Divine Pulls">
+    - **Simpan segera**
+    - Nilai jangka panjang terbaik
+    - Jadi penopang inti pertahananmu
+  </Card>
+  <Card title="Stellar Pirate">
+    - **Contoh public rarity tinggi**
+    - Kandidat simpan yang kuat
+    - Bangun strategi di sekitarnya saat muncul
+  </Card>
+  <Card title="Pull Tertinggi Saat Ini">
+    - **Pemegang slot terbaik yang tersedia**
+    - Pilihan andal untuk awal dan pertengahan game
+    - Ganti hanya saat ada yang lebih baik
+  </Card>
+  <Card title="Filler Awal">
+    - **Dukungan jalur sementara**
+    - Berguna untuk coverage jangka pendek
+    - Tukar saat pull yang lebih kuat muncul
+  </Card>
+</CardGrid>
+
+**Tingkat nilai simpan**
+
+| Tier | Keep? | Why |
+|---|---|---|
+| S | Ya | Pull level Divine atau rare yang menonjol pantas diprioritaskan segera |
+| A | Biasanya | Pull saat ini kuat, damage stabil, support zona bagus |
+| B | Sementara | Membantu gelombang awal, tetapi tidak boleh bertahan selamanya |
+| C | Ganti nanti | Filler berdampak rendah setelah unit yang lebih baik muncul |
+
+**Yang paling penting**
+
+| Factor | Priority |
+|---|---|
+| Rarity | Tinggi |
+| Coverage | Tinggi |
+| Stabilitas gelombang | Tinggi |
+| Dukungan zona | Sedang |
+| Kegunaan filler | Rendah |
+
+Unit terbaik tidak selalu yang paling mencolok. Unit terbaik adalah yang menjaga gelombang tetap berjalan, income tetap naik, dan keputusan zona berikutnya tetap tenang, bukan terburu-buru.
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrade, Zona, Luck, dan Income">
+
+Di sinilah run mulai terasa seperti sistem, bukan kekacauan. Upgrade seharusnya memperbaiki bottleneck persis yang mengakhiri gelombang sebelumnya. Zona seharusnya dibuka setelah stabil. Luck seharusnya aktif sebelum sesi roll yang panjang. Income offline seharusnya dibelanjakan dengan rencana, bukan dilempar ke tombol apa pun yang terlihat mengilap.
+
+<Callout type="info" title="Urutan Progresi">
+Perbaiki titik terlemah terlebih dahulu, lalu roll saat luck aktif, dan baru perluas ke zona baru ketika pertahanan sudah bisa bernapas.
+</Callout>
+
+**Tabel prioritas upgrade**
+
+| Priority | Focus | Buy when |
+|---|---|---|
+| Tinggi | Damage | Zombie bertahan terlalu lama |
+| Tinggi | Coverage | Musuh lolos melalui celah |
+| Sedang | Pengaturan kualitas roll | Pertahanan stabil dan luck aktif |
+| Sedang | Penanganan duplikat | Salinan baru jelas lebih kuat dari yang lama |
+| Sedang | Investasi siap-zona | Income lebih tinggi daripada tekanan |
+| Fleksibel | Belanja income offline | Kamu baru saja kembali ke game |
+
+**Tabel waktu zona**
+
+| Signal | Expand? | Reason |
+|---|---|---|
+| Gelombang bersih dengan mudah | Ya | Pertahanan punya ruang untuk menyerap tekanan baru |
+| Perlu belanja panik | Tidak | Zona berikutnya akan memperburuk masalah |
+| Gelombang baru membuka kebocoran | Tunda | Perbaiki kebocoran sebelum membayar ruang ekstra |
+| Income tumbuh stabil | Ya | Ekspansi bisa ditopang tanpa runtuh |
+
+**Checklist luck dan income**
+
+<Checklist
+  id="luck-income"
+  title="Checklist Sesi Kembali:"
+  items={[
+    "Ambil income offline terlebih dahulu",
+    "Gabung dengan teman sebelum sesi roll yang panjang",
+    "Like game dan bergabunglah dengan D:/Drive untuk luck grup",
+    "Upgrade bottleneck yang menyebabkan kebocoran terakhir",
+    "Beli zona berikutnya hanya jika pertahanan tetap stabil"
+  ]}
+/>
+
+Luck itu penting karena meningkatkan nilai dari waktu yang sudah kamu habiskan untuk roll. Income offline penting karena mengubah waktu saat tidak bermain menjadi progresi tambahan ketika kamu kembali. Bersama-sama, keduanya membuat loop lebih cepat tanpa memaksamu melakukan belanja nekat.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="warning" title="Catatan FAQ">
+Gunakan jawaban di bawah sebagai aturan praktis saat ini: verifikasi tautan lewat Roblox terlebih dahulu, jaga income-mu, dan perluas hanya setelah pertahanan stabil.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apakah Roll to Defend punya kode publik aktif sekarang?",
+    answer: "Tidak ada kode publik aktif yang terverifikasi saat ini. Fokus pada halaman game resmi, komunitas D:/Drive, serta sistem luck dan income bawaan."
+  },
+  {
+    question: "Apa yang harus aku upgrade lebih dulu?",
+    answer: "Upgrade damage terlebih dahulu jika zombie bertahan terlalu lama. Upgrade coverage terlebih dahulu jika musuh lolos lewat celah. Jawaban sebenarnya adalah bottleneck yang gagal di run terakhir."
+  },
+  {
+    question: "Kapan aku harus membeli zona baru?",
+    answer: "Beli zona setelah gelombang saat ini bersih tanpa belanja panik. Jika area baru membuat pertahanan terasa lebih buruk, tunda dan perbaiki kelemahannya dulu."
+  },
+  {
+    question: "Apakah luck grup layak dipakai?",
+    answer: "Ya. Loop game ini mencakup luck grup dan luck teman, jadi masuk akal untuk mengaktifkan bonus itu sebelum sesi roll yang lebih panjang."
+  }
+]} />
+
+</Section>

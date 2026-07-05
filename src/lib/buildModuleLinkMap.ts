@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  rollToDoDefendCodes: { field: 'cards', nameKey: 'name' },
+  rollToDoDefendBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  rollToDoDefendTierList: { field: 'tiers', nameKey: 'label' },
+  rollToDoDefendBestUnits: { field: 'units', nameKey: 'name' },
+  rollToDoDefendUpgradesGuide: { field: 'items', nameKey: 'upgrade_focus' },
+  rollToDoDefendZonesGuide: { field: 'steps', nameKey: 'title' },
+  rollToDoDefendLuckAndOfflineIncome: { field: 'sections', nameKey: 'heading' },
+  rollToDoDefendOfficialLinks: { field: 'links', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  rollToDoDefendCodes: ['codes', 'redeem', 'active codes', 'expired codes', 'rewards'],
+  rollToDoDefendBeginnerGuide: ['beginner', 'starter', 'how to play', 'tutorial', 'first units', 'tips'],
+  rollToDoDefendTierList: ['tier list', 'rank', 's tier', 'rarity', 'divine', 'stellar pirate', 'best pulls'],
+  rollToDoDefendBestUnits: ['best units', 'op units', 'strongest', 'divine', 'stellar pirate', 'rarity', 'carry', 'defender'],
+  rollToDoDefendUpgradesGuide: ['upgrades', 'upgrade', 'bottleneck', 'damage', 'coverage', 'roll quality', 'income spend'],
+  rollToDoDefendZonesGuide: ['zones', 'zone', 'unlock', 'expansion', 'placement', 'buy zones', 'switch zones', 'all zones'],
+  rollToDoDefendLuckAndOfflineIncome: ['luck', 'friend luck', 'group luck', 'offline income', 'd drive', 'jackpot', 'max luck', 'vip'],
+  rollToDoDefendOfficialLinks: ['official', 'roblox', 'd drive', 'discord', 'community', 'servers', 'youtube', 'trello'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['roll', 'to', 'defend', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text

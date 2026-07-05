@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rolltodefendwiki.wiki'
   const path = '/privacy-policy'
 
   return {
-    title: 'Privacy Policy - Lucid Blocks Wiki',
-    description: 'Lucid Blocks Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
+    title: 'Privacy Policy - Roll to Defend Wiki',
+    description: 'Roll to Defend Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Roblox game resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      siteName: 'Roll to Defend Wiki',
+      title: 'Privacy Policy - Roll to Defend Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
+          alt: 'Roll to Defend Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      title: 'Privacy Policy - Roll to Defend Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 5, 2026
           </p>
         </div>
       </section>
@@ -76,12 +76,12 @@ export default function PrivacyPolicy() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Information Collection</h2>
             <p>
-              Lucid Blocks Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
+              Roll to Defend Wiki (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collects minimal information to provide and improve our services.
               We collect information in the following ways:
             </p>
             <ul>
               <li><strong>Automatically Collected Data:</strong> When you visit our website, we automatically collect certain information about your device, including your IP address, browser type, operating system, and browsing behavior through analytics tools.</li>
-              <li><strong>Language Preferences:</strong> We store your language preference in your browser's local storage to enhance your experience.</li>
+              <li><strong>Language Preferences:</strong> We store your language preference in your browser&apos;s local storage to enhance your experience.</li>
               <li><strong>Cookies:</strong> We use cookies and similar tracking technologies to track activity on our website and store certain information.</li>
             </ul>
 
@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
             </ul>
             <p>
               All data collected is anonymized and does not include personally identifiable information.
-              Learn more about <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--nav-theme-light))] hover:underline">Microsoft's privacy practices</a>.
+              Learn more about <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--nav-theme-light))] hover:underline">Microsoft&apos;s privacy practices</a>.
             </p>
 
             <h3>Managing Cookies</h3>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including Steam, Discord, and social media platforms.
+              Our website may contain links to external websites, including Roblox, YouTube, and social media platforms.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -151,10 +151,10 @@ export default function PrivacyPolicy() {
             <ul>
               <li><strong>Google Analytics:</strong> Web analytics service</li>
               <li><strong>Microsoft Clarity:</strong> Behavioral analytics service</li>
-              <li><strong>Netlify:</strong> Hosting and CDN provider</li>
+              <li><strong>Cloudflare:</strong> Hosting and CDN provider</li>
             </ul>
 
-            <h2>5. Children's Privacy</h2>
+            <h2>5. Children&apos;s Privacy</h2>
             <p>
               Our website is intended for a general audience and does not knowingly collect personal information
               from children under the age of 13. If you are a parent or guardian and believe your child has
@@ -162,7 +162,7 @@ export default function PrivacyPolicy() {
               remove such information.
             </p>
             <p>
-              We comply with the Children's Online Privacy Protection Act (COPPA) and do not knowingly collect,
+              We comply with the Children&apos;s Online Privacy Protection Act (COPPA) and do not knowingly collect,
               use, or disclose personal information from children.
             </p>
 
@@ -202,7 +202,7 @@ export default function PrivacyPolicy() {
             <h2>10. Changes to Privacy Policy</h2>
             <p>
               We reserve the right to update or modify this Privacy Policy at any time. When we make changes, we will
-              update the "Last Updated" date at the top of this page. We encourage you to review this Privacy Policy
+              update the &quot;Last Updated&quot; date at the top of this page. We encourage you to review this Privacy Policy
               periodically to stay informed about how we protect your information.
             </p>
             <p>
@@ -212,8 +212,8 @@ export default function PrivacyPolicy() {
 
             <h2>11. Disclaimer</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Valve Corporation (Steam) or the developers of Lucid Blocks. All game content, trademarks, and assets are
+              Roll to Defend Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
+              with Roblox Corporation or the developers of Roll to Defend. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@rolltodefendwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@rolltodefendwiki.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.

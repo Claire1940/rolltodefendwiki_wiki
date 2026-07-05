@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Roll to Defend Wiki - Codes, Units & Zombie Defense",
+      "description": "Roll to Defend Wiki tracks codes status, units, upgrades, zones, luck, offline income, and zombie defense tips for Roblox players building stronger runs.",
+      "keywords": "Roll to Defend, Roblox, codes, units, upgrades, zones, luck, zombie defense",
+      "ogTitle": "Roll to Defend Wiki - Codes, Units & Zombie Defense",
+      "ogDescription": "Roll to Defend Wiki tracks codes status, units, upgrades, zones, luck, offline income, and zombie defense tips for Roblox players building stronger runs.",
+      "twitterTitle": "Roll to Defend Wiki - Codes, Units & Zombie Defense",
+      "twitterDescription": "Roll to Defend Wiki tracks codes, units, upgrades, zones, luck, and zombie defense tips for the Roblox roll-based defense simulator."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roll-Based Zombie Defense Simulator",
+    "title": "Roll to Defend Wiki",
+    "description": "Roll units, place your strongest defenders, fight zombie waves, unlock zones, stack friend and group luck, and collect offline income to build stronger Roblox runs.",
+    "keywords": "Roll to Defend, Roblox, codes, units, upgrades, zones, luck, zombie defense, offline income",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
+        "value": "7K+",
         "label": "Players Online"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "94%",
+        "label": "User Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "18K+",
+        "label": "Group Members"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2.9K+",
+        "label": "Positive Votes"
       }
     }
   },
@@ -785,26 +786,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Roll and Defend?",
+    "description": "Join the Roll to Defend community on Roblox for codes, unit guides, tier lists, and zombie defense strategies!",
+    "joinCommunity": "Join Roblox Group",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Roll to Defend Wiki",
+    "description": "Your complete resource hub for Roll to Defend codes, units, upgrades, zones, luck, and zombie defense guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Play on Roblox",
+    "twitter": "Roblox Group",
+    "steamCommunity": "YouTube Gameplay",
+    "steamStore": "More on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Roll to Defend Wiki. Not affiliated with the developers of Roll to Defend.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

@@ -7,28 +7,28 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rolltodefendwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 CONTENT_TYPES 一致：codes/guide/units/luck/rebirth/currency/zones/items）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.9, // 兑换码：核心流量入口
+	'guide': 0.9, // 攻略：核心内容
+	'units': 0.8, // 单位图鉴
+	'luck': 0.8, // 幸运机制
+	'rebirth': 0.8, // 转生系统
+	'currency': 0.7, // 货币
+	'zones': 0.7, // 区域
+	'items': 0.7, // 物品
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（codes 每日更新，其余每周）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'units': 'weekly',
+	'luck': 'weekly',
+	'rebirth': 'weekly',
+	'currency': 'weekly',
+	'zones': 'weekly',
 	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

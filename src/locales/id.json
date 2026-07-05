@@ -1,1 +1,776 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Roll to Defend - Kode, Unit & Pertahanan Zombie",
+      "description": "Wiki Roll to Defend melacak status kode, unit, peningkatan, zona, keberuntungan, pendapatan offline, dan tips pertahanan zombie untuk pemain Roblox yang membangun run yang lebih kuat.",
+      "keywords": "Roll to Defend, Roblox, kode, unit, peningkatan, zona, keberuntungan, pertahanan zombie",
+      "ogTitle": "Wiki Roll to Defend - Kode, Unit & Pertahanan Zombie",
+      "ogDescription": "Wiki Roll to Defend melacak status kode, unit, peningkatan, zona, keberuntungan, pendapatan offline, dan tips pertahanan zombie untuk pemain Roblox yang membangun run yang lebih kuat.",
+      "twitterTitle": "Wiki Roll to Defend - Kode, Unit & Pertahanan Zombie",
+      "twitterDescription": "Wiki Roll to Defend melacak kode, unit, peningkatan, zona, keberuntungan, dan tips pertahanan zombie untuk simulator pertahanan berbasis roll di Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "units": "Unit",
+    "luck": "Keberuntungan",
+    "rebirth": "Rebirth",
+    "currency": "Mata Uang",
+    "zones": "Zona",
+    "items": "Item"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Simulator Pertahanan Zombie Berbasis Roll",
+    "title": "Wiki Roll to Defend",
+    "description": "Roll unit, tempatkan unit pertahanan terkuatmu, lawan gelombang zombie, buka zona, tumpuk keberuntungan teman dan grup, serta kumpulkan pendapatan offline untuk membangun run Roblox yang lebih kuat.",
+    "keywords": "Roll to Defend, Roblox, kode, unit, peningkatan, zona, keberuntungan, pertahanan zombie, pendapatan offline",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "7K+",
+        "label": "Pemain Online"
+      },
+      "stat2": {
+        "value": "94%",
+        "label": "Penilaian Pengguna"
+      },
+      "stat3": {
+        "value": "18K+",
+        "label": "Anggota Grup"
+      },
+      "stat4": {
+        "value": "2.9K+",
+        "label": "Suara Positif"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Roll to Defend",
+    "description": "Roll unit, lawan gelombang zombie, beli zona, tumpuk luck dengan teman dan grup D:/Drive, dan investasikan kembali pendapatan offline dalam simulator pertahanan berbasis roll Roblox ini."
+  },
+  "tools": {
+    "title": "Roll to Defend",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang Anda butuhkan untuk me-roll unit, membersihkan gelombang zombie, dan berprogres di Roll to Defend di Roblox.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Kode Roll to Defend",
+        "description": "Kode aktif, kode kedaluwarsa, sumber hadiah, dan langkah penukaran."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Panduan Pemula Roll to Defend",
+        "description": "Roll unit, tempatkan defender, basmi zombie, dan beli zona."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List Roll to Defend",
+        "description": "Simpan, tempatkan, dan bangun strategi di sekitar tarikan terkuat."
+      },
+      {
+        "icon": "Swords",
+        "title": "Unit Terbaik Roll to Defend",
+        "description": "Defender terlangka dan tarikan yang layak disimpan untuk jangka panjang."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Panduan Upgrade Roll to Defend",
+        "description": "Habiskan pendapatan untuk hambatan (bottleneck) berikutnya daripada menyebarkannya ke mana-mana."
+      },
+      {
+        "icon": "Map",
+        "title": "Panduan Zona Roll to Defend",
+        "description": "Beli zona baru hanya setelah pertahanan Anda saat ini dapat membersihkan gelombang zombie."
+      },
+      {
+        "icon": "Clover",
+        "title": "Luck & Pendapatan Offline Roll to Defend",
+        "description": "Tumpuk luck teman dan luck grup, lalu investasikan kembali pendapatan offline di tempat yang penting."
+      },
+      {
+        "icon": "Link2",
+        "title": "Link Resmi Roll to Defend",
+        "description": "Gunakan halaman game Roblox resmi dan komunitas D:/Drive sebelum undangan eksternal lainnya."
+      }
+    ]
+  },
+  "modules": {
+    "rollToDoDefendCodes": {
+      "title": "Kode Roll to Defend",
+      "subtitle": "Periksa status kode Roll to Defend saat ini, hadiah kode, dan tempat resmi untuk memantau rilis baru.",
+      "intro": "Roll to Defend tidak mencantumkan kode publik aktif di halaman game Roblox atau entri Creator Exchange saat ini. Hadiah dalam game yang sebenarnya untuk digunakan hari ini adalah luck tambahan dari bermain dengan teman, luck tambahan dari menyukai dan bergabung dengan grup D:/Drive, dan pendapatan offline untuk lebih banyak roll.",
+      "lastChecked": "2026-07-05",
+      "activeCodes": {
+        "title": "Kode Aktif",
+        "emptyState": "Tidak ada kode Roll to Defend aktif yang tersedia saat ini."
+      },
+      "expiredCodes": {
+        "title": "Kode Kedaluwarsa",
+        "emptyState": "Tidak ada kode Roll to Defend kedaluwarsa yang terdaftar saat ini."
+      },
+      "currentRewards": {
+        "title": "Sumber Hadiah Saat Ini",
+        "cards": [
+          {
+            "name": "Keberuntungan Teman",
+            "reward": "Bermainlah dengan teman untuk mendapatkan lebih banyak keberuntungan saat melakukan roll unit.",
+            "howToGet": "Bergabunglah ke server bersama teman sebelum melakukan roll unit."
+          },
+          {
+            "name": "Keberuntungan Grup",
+            "reward": "Sukai game ini dan bergabunglah dengan D:/Drive untuk keberuntungan ekstra.",
+            "howToGet": "Buka komunitas Roblox D:/Drive dan bergabunglah dengan grup yang terikat dengan Roll to Defend."
+          },
+          {
+            "name": "Pendapatan Offline",
+            "reward": "Pendapatan terus berlanjut saat Anda sedang offline.",
+            "howToGet": "Tinggalkan game setelah membangun pendapatan, lalu kembali lagi nanti dan gunakan pendapatan yang terkumpul untuk roll lebih banyak atau membeli zona."
+          }
+        ]
+      },
+      "redeemSteps": {
+        "title": "Cara Menukarkan Kode",
+        "steps": [
+          "Jalankan Roll to Defend dari halaman game resmi Roblox.",
+          "Gunakan menu kode di dalam game saat kode publik ditambahkan.",
+          "Masukkan satu kode aktif persis seperti yang ditampilkan.",
+          "Klaim hadiahnya, lalu hapus kode dari daftar percobaan Anda jika kode tersebut sudah kedaluwarsa."
+        ],
+        "note": "Hanya kode Roll to Defend yang berlaku di sini; kode dari game defense Roblox dengan nama serupa tidak termasuk."
+      }
+    },
+    "rollToDoDefendBeginnerGuide": {
+      "title": "Panduan Pemula Roll to Defend",
+      "subtitle": "Pelajari siklus dasarnya: roll unit, tempatkan defender, habisi zombie, beli zona, dan ubah pendapatan menjadi pull yang lebih baik.",
+      "intro": "Roll to Defend dibangun di sekitar siklus sederhana yang dapat diulang. Lakukan roll unit, gunakan unit tersebut untuk melawan zombie, gunakan pendapatan untuk menambah kekuatan, buka zona saat pertahanan Anda mampu menanganinya, dan gunakan pendapatan offline untuk terus maju di antara sesi bermain.",
+      "steps": [
+        {
+          "title": "Roll Unit Pertama Anda",
+          "body": "Mulailah dengan melakukan roll unit. Tujuan pertama Anda adalah menempatkan defender di lapangan agar zombie dapat dihabisi sementara pendapatan mulai mengalir.",
+          "playerAction": "Lakukan roll beberapa kali, simpan pull terkuat yang Anda dapatkan, dan hindari menghabiskan semua pendapatan awal sebelum Anda menempatkan unit."
+        },
+        {
+          "title": "Tempatkan Unit Sebelum Mengejar Zona",
+          "body": "Unit harus ada di peta untuk melawan zombie. Pull yang lebih kuat tetapi tidak digunakan tidak akan menghasilkan apa-apa, karena prajurit Roblox pun menghormati logistik dasar.",
+          "playerAction": "Tempatkan unit terbaik Anda di lokasi yang memungkinkan mereka menyerang zombie yang datang dalam waktu yang paling lama."
+        },
+        {
+          "title": "Biarkan Unit Melawan Zombie",
+          "body": "Zombie adalah pengecek tekanan. Jika mereka berhasil lolos, gunakan pendapatan untuk roll lebih banyak atau penempatan yang lebih baik sebelum masuk ke zona baru.",
+          "playerAction": "Perhatikan jalurnya, identifikasi titik lemah, dan perkuat area di mana zombie bertahan paling lama."
+        },
+        {
+          "title": "Ubah Pendapatan Menjadi Lebih Banyak Roll",
+          "body": "Pendapatan mendanai set roll berikutnya. Semakin cepat Anda menstabilkan pertahanan, semakin mudah untuk mengejar unit yang lebih kuat.",
+          "playerAction": "Setelah setiap siklus wave yang stabil, gunakan sebagian pendapatan Anda untuk roll unit lebih banyak."
+        },
+        {
+          "title": "Beli Zona Saat Pertahanan Stabil",
+          "body": "Zona adalah progres, tetapi membeli terlalu dini dapat membebani pengaturan Anda sebelum unit Anda siap.",
+          "playerAction": "Buka zona baru setelah unit Anda saat ini dapat menangani zombie tanpa harus terus-menerus mengeluarkan uang karena panik."
+        },
+        {
+          "title": "Gunakan Bonus Keberuntungan",
+          "body": "Roll to Defend memberikan nilai keberuntungan melalui permainan sosial dan grup kreator.",
+          "playerAction": "Bermainlah dengan teman, sukai gamenya, dan bergabunglah dengan grup D:/Drive sebelum melakukan sesi roll yang lebih lama."
+        },
+        {
+          "title": "Ambil Pendapatan Offline",
+          "body": "Game terus menghasilkan pendapatan saat Anda offline, sehingga pemain yang kembali dapat segera mendanai lebih banyak roll atau progres zona.",
+          "playerAction": "Saat Anda kembali, ambil pendapatan offline terlebih dahulu, lalu tentukan apakah roll atau zona yang memberikan upgrade lebih besar."
+        }
+      ]
+    },
+    "rollToDoDefendTierList": {
+      "title": "Daftar Tier Roll to Defend",
+      "subtitle": "Daftar tier praktis untuk memutuskan unit mana yang harus disimpan, ditempatkan lebih dulu, dan dijadikan andalan selama gelombang zombie.",
+      "intro": "Daftar tier ini memeringkat tarikan unit Roll to Defend berdasarkan nilai kelangkaan yang terlihat, kegunaan dalam membasmi zombie, nilai progres zona, dan performa permainan publik. Daftar ini berfokus pada keputusan yang bisa langsung dilakukan pemain.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Simpan Pertama",
+          "cards": [
+            {
+              "name": "Stellar Pirate",
+              "rarity": "Divine",
+              "role": "Unit carry langka",
+              "bestFor": "Inti pertahanan bernilai tinggi dan layak disimpan untuk jangka panjang",
+              "why": "Video gameplay publik menyoroti Stellar Pirate sebagai unit Divine dengan peluang 1 banding 258.300, menjadikannya unit kelangkaan tinggi bernama yang paling jelas untuk disimpan pertama kali."
+            },
+            {
+              "name": "Unit Divine Apa Pun",
+              "rarity": "Divine",
+              "role": "Kandidat bek utama",
+              "bestFor": "Menggantikan unit kelangkaan rendah dan menahan gelombang yang lebih kuat",
+              "why": "Kelangkaan Divine adalah kategori kelangkaan yang paling kuat dan terlihat secara publik yang terikat dengan gameplay Roll to Defend, dan alur permainan memberi imbalan atas tarikan unit langka yang lebih kuat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Gunakan sebagai Pertahanan Utama",
+          "cards": [
+            {
+              "name": "Unit Kelangkaan Tertinggi Saat Ini",
+              "rarity": "Berbasis inventaris",
+              "role": "Pemegang slot utama",
+              "bestFor": "Pembersihan gelombang awal dan menengah",
+              "why": "Roll to Defend berpusat pada melakukan roll unit dan menggunakan tarikan terkuatmu untuk melawan zombie, jadi unit dengan kelangkaan tertinggi di inventarismu harus ditempatkan sebelum unit pengisi."
+            },
+            {
+              "name": "Unit Penstabil Zona Terbaik",
+              "rarity": "Bervariasi",
+              "role": "Kontrol zona",
+              "bestFor": "Menahan zona baru setelah ekspansi",
+              "why": "Membeli zona adalah bagian dari alur inti, jadi tarikan terbaik yang menjaga zona baru tetap stabil memiliki nilai progres yang tinggi."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Penahan Awal yang Bagus",
+          "cards": [
+            {
+              "name": "Unit Damage Pemula",
+              "rarity": "Bervariasi",
+              "role": "Pembersihan zombie awal",
+              "bestFor": "Pertahanan sesi pertama dan membangun pendapatan",
+              "why": "Unit apa pun yang dapat diandalkan untuk membersihkan zombie awal layak digunakan sampai digantikan oleh unit dengan kelangkaan lebih tinggi."
+            },
+            {
+              "name": "Bek Tambahan yang Ditempatkan",
+              "rarity": "Bervariasi",
+              "role": "Cakupan jalur",
+              "bestFor": "Mengisi titik lemah selagi pendapatan tumbuh",
+              "why": "Unit yang ditempatkan menjaga zombie tetap terkendali sementara kamu mengumpulkan cukup pendapatan untuk roll lebih banyak dan membeli zona."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Ganti Nanti",
+          "cards": [
+            {
+              "name": "Tarikan Awal yang Kalah Saing",
+              "rarity": "Lebih rendah dari yang terbaik saat ini",
+              "role": "Pengisi sementara",
+              "bestFor": "Hanya mengisi ruang kosong sebelum tarikan yang lebih baik tiba",
+              "why": "Setelah kamu melakukan roll untuk unit yang lebih kuat, tarikan lama dengan output rendah harus diganti agar lapanganmu tidak dipenuhi dengan defender yang lemah."
+            }
+          ]
+        }
+      ]
+    },
+    "rollToDoDefendBestUnits": {
+      "title": "Unit Terbaik Roll to Defend",
+      "subtitle": "Unit dan tarikan paling aman untuk disimpan adalah defender langka berdampak tinggi yang meningkatkan pembersihan zombie dan membantumu menembus zona tanpa menyia-nyiakan pendapatan.",
+      "intro": "Roll to Defend adalah game pertahanan berbasis roll, jadi pilihan unit terbaik bergantung pada kelangkaan, dampak di lapangan, dan seberapa baik tarikan membantumu membasmi zombie saat pendapatan tumbuh. Kartu-kartu ini berfokus pada gameplay publik dan informasi yang terlihat di dalam game.",
+      "units": [
+        {
+          "name": "Stellar Pirate",
+          "rarity": "Divine",
+          "use": "Tarikan carry langka dan simpanan jangka panjang",
+          "stage": "Mid game hingga late game",
+          "details": "Simpan Stellar Pirate dibanding tarikan normal dan bangun pertahananmu di sekitarnya saat tersedia. Ini adalah unit bernama dengan kelangkaan tinggi yang paling jelas terlihat dalam gameplay publik Roll to Defend."
+        },
+        {
+          "name": "Tarikan Divine Apa Pun",
+          "rarity": "Divine",
+          "use": "Kandidat defender utama",
+          "stage": "Semua tahap setelah ditarik",
+          "details": "Tarikan Divine harus segera disimpan dan ditempatkan di atas pengisi dengan kelangkaan lebih rendah, karena game ini memberikan hadiah untuk melakukan roll unit yang lebih kuat dan menggunakannya untuk membasmi gelombang zombie."
+        },
+        {
+          "name": "Tarikan Kelangkaan Tertinggi Saat Ini",
+          "rarity": "Berdasarkan inventaris",
+          "use": "Defender terbaik yang tersedia sampai diganti",
+          "stage": "Pemula hingga mid game",
+          "details": "Gunakan kelangkaan terkuat yang terlihat di inventarismu saat ini terlebih dahulu. Ini adalah aturan awal yang paling jelas sebelum tabel damage pasti dipublikasikan di dalam game."
+        },
+        {
+          "name": "Tarikan Penstabil Zona",
+          "rarity": "Bervariasi",
+          "use": "Mempertahankan zona yang baru terbuka",
+          "stage": "Progresi zona",
+          "details": "Setelah membeli zona, simpan tarikan yang paling efektif mencegah kebocoran zombie di area tersebut. Unit yang menstabilkan zona baru bisa lebih berharga daripada tarikan mencolok yang tidak terpakai."
+        },
+        {
+          "name": "Tarikan Cakupan Jalur Awal",
+          "rarity": "Bervariasi",
+          "use": "Isi ruang pertahanan yang kosong selagi pendapatan tumbuh",
+          "stage": "Sesi pertama dan farming pendapatan awal",
+          "details": "Gunakan tarikan awal untuk menutupi jalur zombie sampai roll yang lebih baik tiba. Ganti setelah unit dengan kelangkaan lebih tinggi dapat membersihkan bagian yang sama dengan lebih cepat."
+        }
+      ]
+    },
+    "rollToDoDefendUpgradesGuide": {
+      "eyebrow": "Jalur Upgrade",
+      "title": "Upgrade Roll to Defend: Perbaiki Hambatan yang Menghentikan Run Terakhirmu",
+      "subtitle": "Roll to Defend dibangun di sekitar melakukan roll unit, melawan gelombang zombie, membeli zona, menggunakan keberuntungan teman, dan menginvestasikan kembali pendapatan offline. Habiskan pendapatan untuk hambatan utama berikutnya daripada menyebarkannya ke setiap opsi.",
+      "intro": "Gunakan upgrade sebagai alat bertahan hidup terlebih dahulu dan alat ekonomi kedua. Jika zombie mencapai markas, perkuat damage atau cakupan sebelum membeli zona baru. Jika pertahanan stabil, masukkan pendapatan ke sesi roll yang lebih baik, progresi zona, dan pertumbuhan pendapatan jangka panjang.",
+      "columns": {
+        "focus": "Fokus Upgrade",
+        "priority": "Prioritas",
+        "buyWhen": "Beli Saat",
+        "bestUse": "Penggunaan Terbaik",
+        "delayWhen": "Tunda Jika"
+      },
+      "items": [
+        {
+          "upgrade_focus": "Pemeriksaan opsi peningkatan",
+          "priority": "Tinggi",
+          "buy_when": "Setelah melakukan roll dan menempatkan unit, periksa opsi peningkatan dalam game sebelum menghabiskan semua pendapatan untuk melakukan roll lagi.",
+          "best_use": "Gunakan kontrol peningkatan di dalam pengalaman Roblox dan sesuaikan pembelian dengan target run saat ini.",
+          "delay_when": "Anda belum mengidentifikasi apakah masalah saat ini adalah damage, jangkauan, kualitas roll, atau timing zona."
+        },
+        {
+          "upgrade_focus": "Damage utama",
+          "priority": "Tinggi",
+          "buy_when": "Zombie bertahan cukup lama hingga mencapai pertahanan Anda atau memaksa pengeluaran di detik-detik terakhir.",
+          "best_use": "Perkuat unit atau setup yang sudah paling banyak membasmi zombie.",
+          "delay_when": "Musuh lolos karena celah penempatan, bukan karena kecepatan membunuh yang rendah."
+        },
+        {
+          "upgrade_focus": "Jangkauan dan penempatan",
+          "priority": "Tinggi",
+          "buy_when": "Gerombolan musuh lolos meskipun unit damage utama Anda berkinerja dengan baik.",
+          "best_use": "Tingkatkan cara pertahanan Anda menjangkau jalur zombie sebelum mengejar roll acak lainnya.",
+          "delay_when": "Unit Anda saat ini tidak dapat membasmi wave dasar dengan cukup cepat."
+        },
+        {
+          "upgrade_focus": "Setup kualitas roll",
+          "priority": "Sedang",
+          "buy_when": "Anda telah menghemat pendapatan dan setup keberuntungan teman atau keberuntungan ekstra grup sedang aktif.",
+          "best_use": "Lakukan roll dalam sesi yang sudah dipersiapkan agar lebih banyak pendapatan digunakan untuk mendapatkan unit yang berguna.",
+          "delay_when": "Wave Anda saat ini sudah hampir gagal dan membutuhkan peningkatan pertahanan langsung terlebih dahulu."
+        },
+        {
+          "upgrade_focus": "Penanganan unit duplikat",
+          "priority": "Sedang",
+          "buy_when": "Unit duplikat memberikan peningkatan yang terlihat jelas dibandingkan unit yang sudah ditempatkan.",
+          "best_use": "Pertahankan salinan yang lebih kuat di pertahanan aktif dan gunakan unit ekstra hanya ketika memberikan nilai peningkatan yang jelas.",
+          "delay_when": "Mengganti unit yang berfungsi akan mengurangi jangkauan atau membiarkan jalur terbuka."
+        },
+        {
+          "upgrade_focus": "Investasi siap-zona",
+          "priority": "Sedang",
+          "buy_when": "Wave saat ini tersapu bersih dengan mudah dan pendapatan terkumpul lebih cepat daripada yang dibutuhkan pertahanan Anda.",
+          "best_use": "Bersiaplah untuk zona berikutnya dengan membangun satu sumber damage yang andal dan satu lapisan jangkauan yang stabil.",
+          "delay_when": "Zona baru akan membuat tekanan zombie berikutnya lebih sulit sebelum pertahanan Anda siap."
+        },
+        {
+          "upgrade_focus": "Pengeluaran pendapatan offline",
+          "priority": "Fleksibel",
+          "buy_when": "Anda kembali ke permainan dengan pendapatan offline yang tersedia.",
+          "best_use": "Habiskan pendapatan yang diperoleh untuk mengatasi kelemahan yang mengakhiri run terakhir Anda, lalu mulailah melakukan roll atau menembus zona.",
+          "delay_when": "Anda belum memeriksa apakah damage, jangkauan, kualitas roll, atau timing zona yang menjadi kendala utamanya."
+        }
+      ]
+    },
+    "rollToDoDefendZonesGuide": {
+      "eyebrow": "Progresi Zona",
+      "title": "Zona Roll to Defend: Beli Setelah Pertahanan Anda Stabil",
+      "subtitle": "Zona adalah bagian dari siklus utama Roll to Defend: roll unit, lawan zombie, beli zona, dan buka area baru. Waktu terbaik untuk memperluas area adalah setelah setup Anda saat ini dapat membasmi wave tanpa pengeluaran darurat.",
+      "intro": "Anggap setiap pembelian zona sebagai pos pemeriksaan progres. Zona baru harus membantu pendapatan atau nilai penempatan Anda, tetapi juga dapat mengungkap damage yang lemah, cakupan yang buruk, atau pengaturan roll yang terburu-buru. Atasi tekanan saat ini terlebih dahulu, lalu lakukan perluasan.",
+      "steps": [
+        {
+          "title": "Stabilkan zona saat ini",
+          "action": "Lakukan roll dan tempatkan unit hingga gelombang zombie saat ini bersih tanpa belanja panik.",
+          "whyItMatters": "Pembersihan yang stabil memberi Anda waktu untuk menghemat pendapatan alih-alih terus-menerus menambal kebocoran.",
+          "readySignal": "Zombie dibersihkan sebelum mereka mengancam pangkalan."
+        },
+        {
+          "title": "Periksa titik terlemah Anda",
+          "action": "Tentukan apakah masalah terakhir Anda adalah damage, cakupan, kualitas unit, atau kecepatan pendapatan.",
+          "whyItMatters": "Membeli zona sebelum memperbaiki kelemahan yang sebenarnya membuat area berikutnya lebih sulit dikendalikan.",
+          "readySignal": "Anda dapat menyebutkan hambatan tersebut dan telah memperbaikinya."
+        },
+        {
+          "title": "Beli zona berikutnya dengan pendapatan cadangan",
+          "action": "Beli zona baru setelah pertahanan Anda stabil dan Anda masih memiliki cukup pendapatan untuk bereaksi setelah pembukaan kunci.",
+          "whyItMatters": "Zona mendorong progres, tetapi gelombang pertama setelah perluasan dapat mengungkap pilihan pengeluaran yang lemah.",
+          "readySignal": "Anda tidak menghabiskan seluruh saldo Anda hanya untuk zona tersebut."
+        },
+        {
+          "title": "Bangun kembali penempatan di sekitar area baru",
+          "action": "Periksa kembali jalur perjalanan zombie dan fokuslah pada jalur atau area yang sekarang menghasilkan tekanan paling besar.",
+          "whyItMatters": "Zona baru dapat mengubah unit mana yang terasa berharga, terutama ketika cakupan menjadi lebih penting daripada sekadar melakukan roll.",
+          "readySignal": "Sumber damage terbaik Anda masih memiliki cakupan yang berguna setelah pembukaan zona."
+        },
+        {
+          "title": "Beri makan putaran progres yang lebih tinggi",
+          "action": "Masukkan kembali aliran pendapatan yang meningkat ke dalam roll yang lebih baik, unit yang lebih kuat, dan target zona berikutnya.",
+          "whyItMatters": "Zona bukanlah akhir dari progres; mereka mendukung siklus roll dan pertahanan.",
+          "readySignal": "Pendapatan Anda mendukung peningkatan dan roll tanpa merusak pertahanan."
+        },
+        {
+          "title": "Jeda perluasan setelah pembukaan kunci yang sulit",
+          "action": "Jika zona baru membuat gelombang terasa lebih buruk, berhentilah membeli zona dan perbaiki lapisan pertahanan yang gagal terlebih dahulu.",
+          "whyItMatters": "Menjeda perluasan menjaga pendapatan tetap tersedia untuk masalah damage atau cakupan yang muncul setelah pembukaan kunci.",
+          "readySignal": "Zona baru bersih secara konsisten sebelum Anda merencanakan pembelian berikutnya."
+        }
+      ]
+    },
+    "rollToDoDefendLuckAndOfflineIncome": {
+      "eyebrow": "Keberuntungan & Pendapatan",
+      "title": "Keberuntungan & Pendapatan Offline Roll to Defend: Tumpuk Keberuntungan, Belanjakan Pendapatan dengan Cerdas",
+      "subtitle": "Roll to Defend menyoroti keberuntungan teman, keberuntungan ekstra grup, dan pendapatan offline secara langsung dalam deskripsi gamenya. Atur sistem tersebut sebelum sesi roll yang panjang.",
+      "intro": "Pengaturan keberuntungan dilakukan sebelum sesi roll besar-besaran. Ketika Anda kembali dengan pendapatan offline, kumpulkan, identifikasi bagian terlemah dari putaran terakhir Anda, dan investasikan kembali sebelum membeli zona baru.",
+      "sections": [
+        {
+          "heading": "Keberuntungan teman",
+          "summary": "Bermainlah dengan teman saat Anda bersiap untuk menghabiskan tumpukan pendapatan yang disimpan untuk roll.",
+          "content": "Deskripsi game menyarankan bermain dengan teman untuk mendapatkan lebih banyak keberuntungan. Gunakan bonus itu selama sesi roll yang direncanakan alih-alih langsung menghabiskan setiap pendapatan kecil yang diperoleh.",
+          "checklist": [
+            "Bergabunglah ke server yang sama dengan teman sebelum melakukan banyak roll.",
+            "Simpan pendapatan untuk sesi roll yang terfokus jika memungkinkan.",
+            "Lakukan roll setelah pengaturan keberuntungan aktif."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Keberuntungan ekstra grup",
+          "summary": "Sukai pengalaman ini dan bergabunglah dengan grup pembuat untuk jalur keberuntungan ekstra yang ditunjukkan oleh game.",
+          "content": "Halaman Roblox menyebutkan untuk menyukai game dan bergabung dengan grup untuk mendapatkan keberuntungan ekstra. Anggap ini sebagai langkah pengaturan dasar sebelum menilai apakah roll Anda terasa kuat.",
+          "checklist": [
+            "Buka halaman Roblox Roll to Defend.",
+            "Sukai pengalaman ini.",
+            "Bergabunglah dengan komunitas Roblox D:/Drive yang terhubung dengan game ini."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Persiapan sesi roll",
+          "summary": "Siapkan luck terlebih dahulu, lalu lakukan roll dengan tujuan yang jelas.",
+          "content": "Sesi roll yang berguna dimulai dengan pertahanan yang stabil, sumber luck yang aktif, dan target yang jelas: damage yang lebih baik, jangkauan yang lebih baik, atau pengganti unit yang lemah.",
+          "checklist": [
+            "Selesaikan zona saat ini dengan aman.",
+            "Aktifkan luck teman dan pengaturan ekstra luck grup.",
+            "Gunakan roll untuk mengatasi kelemahan yang paling krusial."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Kembalinya pendapatan offline",
+          "summary": "Kumpulkan pendapatan offline di awal sesi dan ubah menjadi progres instan.",
+          "content": "Roll to Defend menyatakan bahwa Anda terus mendapatkan penghasilan secara offline. Saat Anda kembali, gunakan pendapatan tersebut untuk memperbaiki kendala terakhir sebelum melakukan banyak roll atau membeli zona baru.",
+          "checklist": [
+            "Kumpulkan pendapatan yang kembali terlebih dahulu.",
+            "Tingkatkan damage atau jangkauan jika wave terakhir ada yang lolos.",
+            "Beli zona hanya setelah pertahanan stabil."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Urutan penggunaan pendapatan terbaik setelah kembali",
+          "summary": "Perbaiki pertahanan dulu, roll kedua, ekspansi ketiga.",
+          "content": "Pendapatan offline paling berguna jika dapat mencegah kegagalan di sesi berikutnya karena alasan yang sama. Gunakan untuk pertahanan jika zombie berhasil menembus, lalu lakukan roll atau buka zona setelah pertahanan stabil.",
+          "checklist": [
+            "Masalah damage: perkuat unit penyerang utama.",
+            "Masalah jangkauan: tingkatkan penempatan atau unit pendukung.",
+            "Pertahanan stabil: lakukan roll dengan luck atau siapkan zona berikutnya."
+          ],
+          "defaultOpen": false
+        }
+      ]
+    },
+    "rollToDoDefendOfficialLinks": {
+      "eyebrow": "Sumber Resmi",
+      "title": "Link Resmi Roll to Defend: Mulai dari Halaman Game Roblox",
+      "subtitle": "Titik masuk Roll to Defend yang paling aman adalah halaman pengalaman Roblox dan komunitas kreator D:/Drive. Gunakan jalur yang terhubung dengan Roblox sebelum mempercayai undangan, toko, atau papan eksternal.",
+      "intro": "Mulailah dari Roblox sebelum menggunakan link komunitas apa pun. Halaman game menyediakan titik masuk pengalaman, toko, dan server, sementara komunitas kreator adalah jalur grup yang terikat dengan bonus luck tambahan.",
+      "links": [
+        {
+          "title": "Halaman pengalaman Roblox",
+          "type": "Halaman game",
+          "status": "Terdaftar di Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Mainkan Roll to Defend, baca deskripsi saat ini, favoritkan game, dan buka tab Toko atau Server."
+        },
+        {
+          "title": "Komunitas kreator D:/Drive",
+          "type": "Komunitas Roblox",
+          "status": "Terhubung dari kreator pengalaman Roblox",
+          "href": "https://www.roblox.com/communities/861213399/D-Drive",
+          "useFor": "Bergabunglah dengan jalur grup kreator yang terhubung dengan perintah ekstra luck."
+        },
+        {
+          "title": "Tab Toko",
+          "type": "Bagian halaman Roblox",
+          "status": "Tersedia dari halaman game Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Periksa produk game dari halaman resmi Roblox alih-alih klaim pembelian pihak ketiga."
+        },
+        {
+          "title": "Tab Server",
+          "type": "Bagian halaman Roblox",
+          "status": "Tersedia dari halaman game Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Bergabunglah dengan server publik yang tersedia atau pilih server dari antarmuka Roblox."
+        },
+        {
+          "title": "Daftar Creator Exchange",
+          "type": "Daftar game",
+          "status": "Mencantumkan D:/Drive sebagai pemilik dan Roll to Defend sebagai label komunitas",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Periksa detail daftar publik seperti pemilik, genre, status kode, dan label komunitas yang tercantum."
+        },
+        {
+          "title": "Entri Discord",
+          "type": "Tautan komunitas",
+          "status": "Gunakan hanya dari sumber Roblox, dalam game, atau yang terhubung dengan pembuat",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Hindari halaman undangan yang meminta kata sandi Roblox, skrip, langkah-langkah Robux gratis, atau pengalihan yang tidak terkait."
+        },
+        {
+          "title": "Papan Trello",
+          "type": "Tautan roadmap",
+          "status": "Tidak ada tautan Trello yang ditampilkan di halaman game Roblox yang terlihat",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Gunakan halaman Roblox sebagai sumber utama sampai Trello diposting dari jalur resmi pembuat."
+        },
+        {
+          "title": "Walkthrough YouTube",
+          "type": "Media gameplay",
+          "status": "Konten panduan buatan pemain",
+          "href": "https://www.youtube.com/watch?v=NsJK6rOyUEc",
+          "useFor": "Gunakan video untuk panduan visual, tetapi konfirmasikan tautan dan pembelian melalui Roblox atau grup pembuat."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Roll to Defend di Roblox.",
+    "questions": [
+      {
+        "question": "Apa itu Roll to Defend di Roblox?",
+        "answer": "Roll to Defend adalah simulator pertahanan zombie berbasis roll di Roblox. Anda melakukan roll unit, menempatkan defender untuk melawan gelombang zombie, membeli zona, menumpuk keberuntungan bersama teman dan grup D:/Drive, serta menginvestasikan kembali pendapatan offline untuk membangun run yang lebih kuat."
+      },
+      {
+        "question": "Apakah ada kode Roll to Defend yang aktif saat ini?",
+        "answer": "Roll to Defend tidak menampilkan kode publik yang aktif di halaman game Roblox-nya saat ini. Hadiah dalam game saat ini adalah keberuntungan teman, keberuntungan grup dari menyukai dan bergabung dengan D:/Drive, serta pendapatan offline yang mendanai lebih banyak roll."
+      },
+      {
+        "question": "Bagaimana cara kerja keberuntungan di Roll to Defend?",
+        "answer": "Roll to Defend memberikan keberuntungan melalui permainan sosial dan grup pembuat. Bermainlah dengan teman untuk mendapatkan keberuntungan teman, dan sukai game ini serta bergabunglah dengan grup D:/Drive untuk mendapatkan keberuntungan ekstra sebelum sesi roll yang lebih lama."
+      },
+      {
+        "question": "Apa itu zona di Roll to Defend?",
+        "answer": "Zona di Roll to Defend adalah area progresi yang Anda beli dengan pendapatan. Waktu teraman untuk membuka zona baru adalah setelah pertahanan Anda saat ini dapat mengalahkan gelombang zombie tanpa belanja panik."
+      },
+      {
+        "question": "Apakah Roll to Defend memiliki pendapatan offline?",
+        "answer": "Ya. Roll to Defend terus menghasilkan pendapatan saat Anda offline. Ketika Anda kembali, kumpulkan pendapatan offline terlebih dahulu dan belanjakan untuk mengatasi kelemahan yang mengakhiri run terakhir Anda sebelum membeli zona baru."
+      },
+      {
+        "question": "Di mana saya bisa memainkan Roll to Defend?",
+        "answer": "Anda dapat memainkan Roll to Defend di halaman game resmi Roblox. Komunitas pembuat D:/Drive adalah jalur grup yang terhubung ke prompt keberuntungan ekstra."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Roll dan Bertahan?",
+    "description": "Bergabunglah dengan komunitas Roll to Defend di Roblox untuk mendapatkan kode, panduan unit, tier list, dan strategi pertahanan zombie!",
+    "joinCommunity": "Gabung Grup Roblox",
+    "joinGame": "Main di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Roll to Defend",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, unit, upgrade, zona, keberuntungan, dan panduan pertahanan zombie Roll to Defend.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Main di Roblox",
+    "twitter": "Grup Roblox",
+    "steamCommunity": "Gameplay YouTube",
+    "steamStore": "Lebih Banyak di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki Roll to Defend. Tidak berafiliasi dengan pengembang Roll to Defend.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Roll to Defend",
+      "description": "Pantau kode Roll to Defend yang aktif dan kedaluwarsa, langkah penukaran, dan sumber resmi untuk memantau rilis kode baru.",
+      "metaTitle": "Kode Roll to Defend - Kode Aktif & Panduan Penukaran",
+      "metaDescription": "Dapatkan kode Roll to Defend terbaru, langkah penukaran, dan sumber resmi untuk rilis kode baru. Pelajari hadiah mana yang harus diklaim dan cara menukarkan setiap kode.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode?",
+      "whatIsDescription": "Kode Roll to Defend adalah hadiah yang dapat ditukarkan yang dirilis oleh pencipta D:/Drive. Setiap kode dapat memberikan roll, peningkatan keberuntungan, koin, otak, atau nilai dalam game lainnya, dan menu kode dalam game adalah tempat untuk menukarkannya.",
+      "why": "Mengapa menggunakan kode?",
+      "whySteps": {
+        "step1Title": "Keuntungan Awal Gratis",
+        "step1Description": "Kode memberikan roll, mata uang, atau peningkatan gratis saat pertahanan Anda masih dibangun",
+        "step2Title": "Hadiah Resmi",
+        "step2Description": "Kode datang langsung dari pencipta, jadi setiap hadiah yang Anda tukarkan melalui menu dalam game aman untuk digunakan",
+        "step3Title": "Tetap Terdepan untuk Rilis Kode",
+        "step3Description": "Memantau halaman Roblox resmi dan komunitas D:/Drive membuat Anda siap untuk rilis kode berikutnya"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Roll to Defend",
+      "description": "Panduan lengkap Roll to Defend yang mencakup alur inti, pengaturan pemula, strategi terbaik, dan taktik pro untuk melakukan roll unit dan menyelesaikan gelombang zombie.",
+      "metaTitle": "Panduan Roll to Defend - Strategi Pemula hingga Pro",
+      "metaDescription": "Kuasai Roll to Defend dengan panduan lengkap tentang alur inti, melakukan roll unit, menempatkan defender, membasmi zombie, serta maju melalui zona dan keberuntungan.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan Roll to Defend?",
+      "whatIsDescription": "Panduan Roll to Defend menuntun Anda melalui alur gameplay lengkap: melakukan roll unit, menempatkan defender, membasmi gelombang zombie, membeli zona, menumpuk keberuntungan dengan teman dan grup D:/Drive, serta menginvestasikan kembali pendapatan offline untuk permainan yang lebih kuat.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "Pelajari Core Loop",
+        "step1Description": "Pahami bagaimana roll, bertahan, dan membelanjakan pendapatan terhubung dalam satu ritme yang berulang",
+        "step2Title": "Progres Lebih Cepat",
+        "step2Description": "Ikuti jalur pemula-ke-pro yang terbukti menstabilkan wave dan meningkatkan pendapatan tanpa pengeluaran sia-sia",
+        "step3Title": "Hindari Kesalahan Umum",
+        "step3Description": "Tinggalkan kebiasaan yang menghambat permainan, seperti mengejar zona sebelum pertahananmu bisa menyapu wave saat ini"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "units": {
+      "title": "Unit Roll to Defend",
+      "description": "Telusuri panduan unit Roll to Defend yang mencakup kelangkaan, peran, tarikan terkuat, tier list unit, serta cara meningkatkan dan mendapatkan unit yang lebih baik.",
+      "metaTitle": "Unit Roll to Defend - Tarikan Terbaik, Tier List & Tips Upgrade",
+      "metaDescription": "Cakupan lengkap unit Roll to Defend: unit terbaik, tier list, cara mendapatkan unit yang lebih baik, prioritas upgrade, dan build pasukan terkuat untuk membasmi zombie.",
+      "categoryLabel": "UNIT",
+      "whatIs": "Apa itu Unit?",
+      "whatIsDescription": "Unit dalam Roll to Defend adalah defender yang kamu roll, tempatkan, dan upgrade untuk melawan wave zombie. Setiap tarikan memiliki kelangkaan dan peran yang menentukan seberapa baik unit tersebut menyapu jalur, mempertahankan zona, dan berkembang di permainan selanjutnya.",
+      "why": "Mengapa mempelajari unit?",
+      "whySteps": {
+        "step1Title": "Tahu Tarikan Mana yang Harus Disimpan",
+        "step1Description": "Kelangkaan dan dampak jalur menentukan unit mana yang tetap di pertahananmu dan mana yang diganti",
+        "step2Title": "Tempatkan Defender dengan Cerdas",
+        "step2Description": "Cocokkan setiap unit dengan jalur zombie yang paling efektif mereka sapu untuk bertahan lebih lama dan pendapatan yang stabil",
+        "step3Title": "Upgrade Unit yang Tepat",
+        "step3Description": "Habiskan pendapatan pada unit yang sudah paling banyak membasmi zombie daripada membaginya terlalu sedikit ke banyak unit"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Unit"
+    },
+    "luck": {
+      "title": "Luck Roll to Defend",
+      "description": "Pelajari cara kerja luck Roll to Defend, termasuk friend luck, group luck, strategi max luck, jackpot spin, dan keuntungan VIP untuk tarikan unit yang lebih baik.",
+      "metaTitle": "Luck Roll to Defend - Max Luck, Friend Luck & Group Luck",
+      "metaDescription": "Kuasai mekanik luck Roll to Defend: friend luck, group luck dari D:/Drive, pengaturan max luck, waktu jackpot spin, dan keuntungan VIP untuk roll yang lebih kuat.",
+      "categoryLabel": "LUCK",
+      "whatIs": "Apa itu Luck?",
+      "whatIsDescription": "Luck dalam Roll to Defend meningkatkan kualitas roll unitmu. Game ini memiliki sumber luck yang bisa dimainkan seperti bermain dengan teman, menyukai game dan bergabung dengan grup D:/Drive, serta menggunakan jackpot spin dan keuntungan VIP selama sesi roll yang telah dipersiapkan.",
+      "why": "Mengapa menumpuk luck?",
+      "whySteps": {
+        "step1Title": "Tarikan Lebih Baik Per Roll",
+        "step1Description": "Luck yang lebih tinggi meningkatkan peluangmu mendapatkan unit yang lebih kuat dan langka saat melakukan roll",
+        "step2Title": "Bonus Teman dan Grup",
+        "step2Description": "Bermainlah dengan teman dan bergabunglah dengan grup D:/Drive untuk tambahan luck sebelum sesi roll yang panjang",
+        "step3Title": "Atur Waktu Sesi Roll Kamu",
+        "step3Description": "Tumpuk luck, kumpulkan pendapatan offline, lalu lakukan roll secara massal untuk menutupi kelemahan terbesarmu"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Keberuntungan"
+    },
+    "rebirth": {
+      "title": "Rebirth Roll to Defend",
+      "description": "Panduan lengkap rebirth Roll to Defend yang membahas cara rebirth, strategi rebirth terbaik, jalur rebirth tercepat, dan kapan rebirth mempercepat progres jangka panjang.",
+      "metaTitle": "Rebirth Roll to Defend - Cara Rebirth & Strategi Terbaik",
+      "metaDescription": "Pelajari cara kerja rebirth Roll to Defend, kapan harus rebirth, strategi rebirth terbaik, dan cara tercepat untuk rebirth demi run jangka panjang yang lebih kuat dan unit yang lebih baik.",
+      "categoryLabel": "REBIRTH",
+      "whatIs": "Apa itu Rebirth?",
+      "whatIsDescription": "Rebirth di Roll to Defend menyetel ulang sebagian dari run Anda untuk ditukarkan dengan hadiah progres jangka panjang. Rebirth di waktu yang tepat akan melipatgandakan pendapatan, keberuntungan, atau kualitas unit di masa depan, membuat setiap siklus baru lebih kuat dari sebelumnya.",
+      "why": "Mengapa rebirth?",
+      "whySteps": {
+        "step1Title": "Pertumbuhan Kekuatan Jangka Panjang",
+        "step1Description": "Rebirth mengubah run yang stabil menjadi pengganda permanen yang membuat setiap siklus berikutnya lebih kuat",
+        "step2Title": "Siklus Pendapatan yang Lebih Cepat",
+        "step2Description": "Rencanakan rebirth di sekitar puncak pendapatan agar run berikutnya terbangun lebih cepat daripada yang sebelumnya",
+        "step3Title": "Hasil Roll yang Lebih Baik",
+        "step3Description": "Tumpuk bonus rebirth dengan keberuntungan dan pendapatan offline untuk tarikan unit yang berkualitas lebih tinggi"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Rebirth"
+    },
+    "currency": {
+      "title": "Mata Uang Roll to Defend",
+      "description": "Panduan mata uang Roll to Defend yang membahas koin, otak, strategi farming, serta cara terbaik untuk mendapatkan dan membelanjakan setiap mata uang demi run yang lebih kuat.",
+      "metaTitle": "Mata Uang Roll to Defend - Panduan Koin, Otak & Farming",
+      "metaDescription": "Kuasai mata uang Roll to Defend: cara mendapatkan lebih banyak koin dan otak, panduan farming terbaik, dan urutan belanja paling cerdas untuk roll, upgrade, dan zona.",
+      "categoryLabel": "MATA UANG",
+      "whatIs": "Apa itu Mata Uang?",
+      "whatIsDescription": "Roll to Defend menggunakan mata uang seperti koin dan otak untuk mendanai roll, upgrade, pembelian zona, dan progres rebirth. Manajemen mata uang yang cerdas berarti menghasilkan secara stabil melalui wave yang aman dan membelanjakannya pada hambatan yang membatasi run Anda saat ini.",
+      "why": "Mengapa mengelola mata uang?",
+      "whySteps": {
+        "step1Title": "Dapatkan Melalui Wave yang Stabil",
+        "step1Description": "Bangun pendapatan dengan membersihkan wave zombie secara bersih sebelum mengejar ekspansi atau roll ekstra",
+        "step2Title": "Belanjakan pada Hambatan",
+        "step2Description": "Alokasikan koin dan otak ke bagian kelemahan yang mengakhiri run terakhir Anda daripada menyebarkannya ke mana-mana",
+        "step3Title": "Investasikan Kembali Pendapatan Offline",
+        "step3Description": "Kumpulkan pendapatan offline terlebih dahulu saat Anda kembali, lalu investasikan kembali untuk bertahan hidup, roll, atau zona"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Mata Uang"
+    },
+    "zones": {
+      "title": "Zona Roll to Defend",
+      "description": "Panduan zona Roll to Defend yang membahas semua zona, cara membeli dan berpindah zona, zona terbaik untuk dibuka berikutnya, dan waktu yang tepat untuk setiap ekspansi.",
+      "metaTitle": "Zona Roll to Defend - Panduan Membeli, Berpindah & Zona Terbaik",
+      "metaDescription": "Cakupan lengkap zona Roll to Defend: daftar semua zona, cara membeli dan berpindah zona, zona terbaik untuk dibuka berikutnya, dan waktu ekspansi yang tepat untuk run yang stabil.",
+      "categoryLabel": "ZONA",
+      "whatIs": "Apa itu Zona?",
+      "whatIsDescription": "Zona di Roll to Defend adalah area progres yang Anda buka dengan pendapatan. Setiap zona baru memperluas medan perang, mengubah tekanan zombie, dan meningkatkan pendapatan Anda ketika pertahanan Anda cukup stabil untuk menahannya.",
+      "why": "Mengapa memahami zona?",
+      "whySteps": {
+        "step1Title": "Atur Waktu Unlock Anda",
+        "step1Description": "Beli zona baru hanya setelah pertahanan Anda saat ini berhasil melewati wave tanpa belanja panik",
+        "step2Title": "Stabilkan Area Baru",
+        "step2Description": "Atur ulang penempatan unit di sekitar tekanan zona baru agar kebocoran tidak menguras pendapatan Anda",
+        "step3Title": "Pilih Zona Terbaik",
+        "step3Description": "Pilih zona berikutnya berdasarkan potensi pendapatan dan seberapa baik unit Anda dapat menahannya"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Zona"
+    },
+    "items": {
+      "title": "Item Roll to Defend",
+      "description": "Panduan item Roll to Defend yang mencakup loot, ramuan, skill tree, jalur upgrade, pembaruan game, dan cara menggunakan setiap item serta komunitas resmi Discord.",
+      "metaTitle": "Item Roll to Defend - Loot, Ramuan, Skill Tree & Upgrade",
+      "metaDescription": "Cakupan lengkap item Roll to Defend: tabel loot, ramuan, skill tree, jalur upgrade, pembaruan game terbaru, dan cara menemukan komunitas resmi Discord.",
+      "categoryLabel": "ITEM",
+      "whatIs": "Apa itu Item?",
+      "whatIsDescription": "Item Roll to Defend mencakup semua yang Anda kumpulkan, konsumsi, dan investasikan selain unit: drop loot, ramuan, skill tree, upgrade permanen, dan pembaruan game yang mengubah apa yang layak untuk dikejar.",
+      "why": "Mengapa melacak item?",
+      "whySteps": {
+        "step1Title": "Gunakan Loot dan Ramuan dengan Bijak",
+        "step1Description": "Gunakan item habis pakai pada run yang paling membutuhkannya alih-alih membuangnya pada wave yang stabil",
+        "step2Title": "Investasi di Skill Tree",
+        "step2Description": "Rencanakan skill tree dan jalur upgrade di sekitar hambatan yang mengakhiri run Anda",
+        "step3Title": "Ikuti Pembaruan Game",
+        "step3Description": "Lacak pembaruan dan Discord resmi agar item baru, penyeimbangan ulang, dan event membuat run Anda tetap unggul"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Item"
+    }
+  }
+}

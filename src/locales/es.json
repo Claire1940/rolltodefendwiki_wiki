@@ -1,1 +1,776 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Roll to Defend - Códigos, Unidades y Defensa Zombi",
+      "description": "La Wiki de Roll to Defend rastrea el estado de los códigos, unidades, mejoras, zonas, suerte, ingresos sin conexión y consejos de defensa zombi para jugadores de Roblox que buscan partidas más fuertes.",
+      "keywords": "Roll to Defend, Roblox, códigos, unidades, mejoras, zonas, suerte, defensa zombi",
+      "ogTitle": "Wiki de Roll to Defend - Códigos, Unidades y Defensa Zombi",
+      "ogDescription": "La Wiki de Roll to Defend rastrea el estado de los códigos, unidades, mejoras, zonas, suerte, ingresos sin conexión y consejos de defensa zombi para jugadores de Roblox que buscan partidas más fuertes.",
+      "twitterTitle": "Wiki de Roll to Defend - Códigos, Unidades y Defensa Zombi",
+      "twitterDescription": "La Wiki de Roll to Defend rastrea códigos, unidades, mejoras, zonas, suerte y consejos de defensa zombi para el simulador de defensa basado en tiradas de Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "units": "Unidades",
+    "luck": "Suerte",
+    "rebirth": "Renacimiento",
+    "currency": "Moneda",
+    "zones": "Zonas",
+    "items": "Objetos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de defensa zombi basado en tiradas",
+    "title": "Wiki de Roll to Defend",
+    "description": "Tira por unidades, coloca a tus defensores más fuertes, lucha contra oleadas de zombis, desbloquea zonas, acumula suerte de amigos y de grupo, y obtén ingresos sin conexión para lograr mejores partidas en Roblox.",
+    "keywords": "Roll to Defend, Roblox, códigos, unidades, mejoras, zonas, suerte, defensa zombi, ingresos sin conexión",
+    "getFreeCodesCTA": "Obtén códigos gratuitos",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "7K+",
+        "label": "Jugadores en línea"
+      },
+      "stat2": {
+        "value": "94%",
+        "label": "Calificación de usuarios"
+      },
+      "stat3": {
+        "value": "18K+",
+        "label": "Miembros del grupo"
+      },
+      "stat4": {
+        "value": "2.9K+",
+        "label": "Votos positivos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Roll to Defend",
+    "description": "Consigue unidades, lucha contra oleadas de zombis, compra zonas, acumula suerte con amigos y el grupo D:/Drive, y reinvierte los ingresos offline en este simulador de defensa basado en tiradas de Roblox."
+  },
+  "tools": {
+    "title": "Roll to Defend",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para conseguir unidades, despejar oleadas de zombis y progresar en Roll to Defend en Roblox.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Roll to Defend",
+        "description": "Códigos activos, códigos caducados, fuentes de recompensas y pasos para canjearlos."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía de Roll to Defend para principiantes",
+        "description": "Consigue unidades, coloca defensores, elimina zombis y compra zonas."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Roll to Defend",
+        "description": "Conserva, coloca y crea tu estrategia en torno a las tiradas más fuertes."
+      },
+      {
+        "icon": "Swords",
+        "title": "Mejores unidades de Roll to Defend",
+        "description": "Los defensores más raros y las tiradas que vale la pena conservar a largo plazo."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Guía de mejoras de Roll to Defend",
+        "description": "Gasta tus ingresos en el siguiente cuello de botella evidente en lugar de repartirlos por todas partes."
+      },
+      {
+        "icon": "Map",
+        "title": "Guía de zonas de Roll to Defend",
+        "description": "Compra zonas nuevas solo cuando tu defensa actual pueda despejar las oleadas de zombis."
+      },
+      {
+        "icon": "Clover",
+        "title": "Suerte e ingresos offline en Roll to Defend",
+        "description": "Acumula suerte de amigos y de grupo, y luego reinvierte los ingresos offline donde más importe."
+      },
+      {
+        "icon": "Link2",
+        "title": "Enlaces oficiales de Roll to Defend",
+        "description": "Usa la página oficial del juego en Roblox y la comunidad de D:/Drive antes que cualquier invitación externa."
+      }
+    ]
+  },
+  "modules": {
+    "rollToDoDefendCodes": {
+      "title": "Códigos de Roll to Defend",
+      "subtitle": "Consulta el estado actual de los códigos de Roll to Defend, las recompensas y los sitios oficiales para estar al tanto de nuevos lanzamientos.",
+      "intro": "Roll to Defend no muestra códigos públicos activos en su página de Roblox ni en su entrada de Creator Exchange en este momento. Las recompensas reales para usar hoy son la suerte extra por jugar con amigos, la suerte extra por dar \"me gusta\" y unirse al grupo D:/Drive, y los ingresos offline para conseguir más tiradas.",
+      "lastChecked": "2026-07-05",
+      "activeCodes": {
+        "title": "Códigos activos",
+        "emptyState": "No hay códigos activos de Roll to Defend disponibles en este momento."
+      },
+      "expiredCodes": {
+        "title": "Códigos caducados",
+        "emptyState": "No hay códigos caducados de Roll to Defend listados en este momento."
+      },
+      "currentRewards": {
+        "title": "Fuentes de recompensas actuales",
+        "cards": [
+          {
+            "name": "Suerte de amigos",
+            "reward": "Juega con amigos para tener más suerte al girar unidades.",
+            "howToGet": "Únete a un servidor con amigos antes de girar unidades."
+          },
+          {
+            "name": "Suerte de grupo",
+            "reward": "Dale me gusta al juego y únete a D:/Drive para obtener suerte extra.",
+            "howToGet": "Abre la comunidad de Roblox de D:/Drive y únete al grupo vinculado a Roll to Defend."
+          },
+          {
+            "name": "Ingresos sin conexión",
+            "reward": "Los ingresos continúan mientras estás sin conexión.",
+            "howToGet": "Sal del juego después de acumular ingresos, luego regresa más tarde y gasta los ingresos acumulados en más giros o zonas."
+          }
+        ]
+      },
+      "redeemSteps": {
+        "title": "Cómo canjear códigos",
+        "steps": [
+          "Inicia Roll to Defend desde la página oficial del juego en Roblox.",
+          "Usa el menú de códigos del juego cuando se agreguen códigos públicos.",
+          "Introduce un código activo exactamente como se muestra.",
+          "Reclama la recompensa, luego elimina el código de tu lista de reintentos si pasa a estar expirado."
+        ],
+        "note": "Aquí solo van los códigos de Roll to Defend; no se incluyen los códigos de juegos de defensa de Roblox con nombres similares."
+      }
+    },
+    "rollToDoDefendBeginnerGuide": {
+      "title": "Guía para principiantes de Roll to Defend",
+      "subtitle": "Aprende el ciclo básico: girar unidades, colocar defensores, eliminar zombis, comprar zonas y convertir los ingresos en mejores tiradas.",
+      "intro": "Roll to Defend está diseñado en torno a un ciclo simple y repetible. Gira para obtener unidades, úsalas para luchar contra zombis, gasta tus ingresos en más fuerza, desbloquea zonas cuando tu defensa pueda soportarlo y usa los ingresos sin conexión para seguir progresando entre sesiones.",
+      "steps": [
+        {
+          "title": "Gira tus primeras unidades",
+          "body": "Comienza girando para obtener unidades. Tu primer objetivo es colocar defensores en el campo para eliminar zombis mientras los ingresos empiezan a fluir.",
+          "playerAction": "Gira varias veces, quédate con las mejores tiradas que consigas y evita gastar todos tus ingresos iniciales antes de haber colocado unidades."
+        },
+        {
+          "title": "Coloca unidades antes de buscar nuevas zonas",
+          "body": "Las unidades deben estar en el mapa para luchar contra los zombis. Una tirada más fuerte sin usar no sirve de nada, porque incluso los soldados de Roblox respetan la logística básica.",
+          "playerAction": "Coloca tus mejores unidades visibles donde puedan atacar a los zombis entrantes durante el mayor tiempo posible."
+        },
+        {
+          "title": "Deja que las unidades luchen contra los zombis",
+          "body": "Los zombis son la prueba de presión. Si se están filtrando, gasta tus ingresos en más giros o en una mejor colocación antes de avanzar a una nueva zona.",
+          "playerAction": "Observa el camino, identifica los puntos débiles y refuerza el área donde los zombis sobrevivan más tiempo."
+        },
+        {
+          "title": "Convierte tus ingresos en más giros",
+          "body": "Los ingresos financian la siguiente tanda de giros. Cuanto más rápido estabilices tu defensa, más fácil será buscar unidades más fuertes.",
+          "playerAction": "Después de cada ciclo de oleada estable, gasta parte de tus ingresos en más giros de unidades."
+        },
+        {
+          "title": "Compra zonas cuando la defensa sea estable",
+          "body": "Las zonas representan el progreso, pero comprarlas demasiado pronto puede sobrecargar tu estrategia antes de que tus unidades estén listas.",
+          "playerAction": "Desbloquea una nueva zona una vez que tus unidades actuales puedan encargarse de los zombis sin tener que gastar en pánico constantemente."
+        },
+        {
+          "title": "Usa las bonificaciones de suerte",
+          "body": "Roll to Defend otorga valor de suerte a través del juego social y del grupo del creador.",
+          "playerAction": "Juega con amigos, dale me gusta al juego y únete al grupo de D:/Drive antes de realizar sesiones de giros más largas."
+        },
+        {
+          "title": "Recoge los ingresos sin conexión",
+          "body": "El juego sigue generando ingresos mientras estás sin conexión, por lo que los jugadores que regresan pueden financiar de inmediato más giros o el progreso de las zonas.",
+          "playerAction": "Cuando regreses, recoge primero los ingresos sin conexión y luego decide si los giros o las zonas te ofrecen la mayor mejora."
+        }
+      ]
+    },
+    "rollToDoDefendTierList": {
+      "title": "Tier list de Roll to Defend",
+      "subtitle": "Una lista de niveles práctica para decidir qué tiradas conservar, colocar primero y en torno a las cuales construir durante las oleadas de zombies.",
+      "intro": "Esta lista de niveles clasifica las tiradas de Roll to Defend según su valor de rareza visible, utilidad para eliminar zombies, valor de progresión de zona y rendimiento en partidas públicas. Se centra en decisiones sobre las que los jugadores pueden actuar de inmediato.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Conservar primero",
+          "cards": [
+            {
+              "name": "Stellar Pirate",
+              "rarity": "Divino",
+              "role": "Tirada de daño principal rara",
+              "bestFor": "Núcleo de defensa de gran valor y unidad para conservar a largo plazo",
+              "why": "Un video de juego público destaca al Pirata Estelar como una tirada Divina con una probabilidad de 1 en 258,300, lo que lo convierte en la unidad de alta rareza con nombre más clara para conservar primero."
+            },
+            {
+              "name": "Cualquier tirada Divina",
+              "rarity": "Divino",
+              "role": "Candidato a defensor principal",
+              "bestFor": "Reemplazar unidades de menor rareza y sostener oleadas más fuertes",
+              "why": "La rareza Divina es la categoría de rareza visible públicamente más fuerte vinculada a la jugabilidad de Roll to Defend, y el ciclo de juego recompensa las tiradas raras más fuertes."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Usar como defensa principal",
+          "cards": [
+            {
+              "name": "Tirada actual de mayor rareza",
+              "rarity": "Basado en el inventario",
+              "role": "Ocupante del espacio principal",
+              "bestFor": "Eliminación de oleadas en el juego temprano y medio",
+              "why": "Roll to Defend se centra en realizar tiradas para obtener unidades y usar tus tiradas más fuertes para luchar contra zombies, por lo que la unidad de mayor rareza en tu inventario debería colocarse antes que las unidades de relleno."
+            },
+            {
+              "name": "Mejor tirada para estabilizar zonas",
+              "rarity": "Varía",
+              "role": "Control de zona",
+              "bestFor": "Mantener nuevas zonas después de la expansión",
+              "why": "Comprar zonas es parte del ciclo principal, por lo que la mejor tirada que mantiene estable una nueva zona tiene un alto valor de progresión."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Buenas opciones para conservar al inicio",
+          "cards": [
+            {
+              "name": "Tiradas de daño iniciales",
+              "rarity": "Varía",
+              "role": "Eliminación de zombies iniciales",
+              "bestFor": "Defensa en la primera sesión y generación de ingresos",
+              "why": "Vale la pena usar cualquier unidad que elimine zombies iniciales de manera confiable hasta que una tirada de mayor rareza la reemplace."
+            },
+            {
+              "name": "Defensores colocados adicionales",
+              "rarity": "Varía",
+              "role": "Cobertura del camino",
+              "bestFor": "Cubrir puntos débiles mientras crecen los ingresos",
+              "why": "Las unidades colocadas mantienen a los zombies bajo control mientras generas suficientes ingresos para más tiradas y zonas."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Reemplazar más tarde",
+          "cards": [
+            {
+              "name": "Tiradas iniciales superadas",
+              "rarity": "Inferior a tu mejor unidad actual",
+              "role": "Relleno temporal",
+              "bestFor": "Solo llenan el espacio vacío antes de que lleguen mejores tiradas",
+              "why": "Una vez que consigas unidades más fuertes, las tiradas antiguas de bajo rendimiento deben reemplazarse para que tu campo no se llene de defensores débiles."
+            }
+          ]
+        }
+      ]
+    },
+    "rollToDoDefendBestUnits": {
+      "title": "Mejores unidades de Roll to Defend",
+      "subtitle": "Las unidades y tiradas más seguras para conservar son los defensores raros de alto impacto que mejoran la eliminación de zombis y te ayudan a avanzar de zona sin desperdiciar ingresos.",
+      "intro": "Roll to Defend es un juego de defensa basado en tiradas, por lo que la mejor elección de unidad depende de la rareza, el impacto en el campo y qué tan bien ayuda una tirada a eliminar zombis mientras crecen los ingresos. Estas cartas se centran en el juego público y la información visible en el juego.",
+      "units": [
+        {
+          "name": "Stellar Pirate",
+          "rarity": "Divino",
+          "use": "Tirada carry rara y para conservar a largo plazo",
+          "stage": "Juego medio a juego tardío",
+          "details": "Conserva al Pirata Estelar por encima de las tiradas normales y construye tu defensa a su alrededor cuando esté disponible. Es la unidad de alta rareza con nombre más clara que se muestra en el juego público de Roll to Defend."
+        },
+        {
+          "name": "Cualquier tirada Divina",
+          "rarity": "Divino",
+          "use": "Candidato a defensor principal",
+          "stage": "Todas las etapas después de obtenerlo",
+          "details": "Una tirada Divina debe conservarse de inmediato y colocarse por delante del relleno de menor rareza, ya que el juego recompensa obtener unidades más fuertes y usarlas para limpiar oleadas de zombis."
+        },
+        {
+          "name": "Tirada actual de mayor rareza",
+          "rarity": "Basado en el inventario",
+          "use": "Mejor defensor disponible hasta ser reemplazado",
+          "stage": "Juego inicial a medio",
+          "details": "Usa primero la rareza más fuerte visible en tu inventario actual. Esta es la regla inicial más clara antes de que se publiquen las tablas de daño exactas en el juego."
+        },
+        {
+          "name": "Tirada para estabilizar la zona",
+          "rarity": "Varía",
+          "use": "Mantener zonas recién desbloqueadas",
+          "stage": "Progresión de zonas",
+          "details": "Después de comprar una zona, conserva la tirada que mejor evite que se escapen zombis en esa área. Una unidad que estabiliza una nueva zona puede ser más valiosa que una tirada llamativa sin usar."
+        },
+        {
+          "name": "Tirada de cobertura de camino inicial",
+          "rarity": "Varía",
+          "use": "Llenar el espacio de defensa vacío mientras crecen los ingresos",
+          "stage": "Primera sesión y farmeo de ingresos inicial",
+          "details": "Usa las tiradas iniciales para cubrir el camino de los zombis hasta que lleguen mejores resultados. Reemplázalas una vez que las unidades de mayor rareza puedan limpiar la misma sección más rápido."
+        }
+      ]
+    },
+    "rollToDoDefendUpgradesGuide": {
+      "eyebrow": "Ruta de mejoras",
+      "title": "Mejoras de Roll to Defend: Soluciona el cuello de botella que detuvo tu última partida",
+      "subtitle": "Roll to Defend se basa en obtener unidades, luchar contra oleadas de zombis, comprar zonas, usar la suerte de amigos y reinvertir los ingresos desconectados. Gasta los ingresos en el siguiente cuello de botella evidente en lugar de repartirlos entre todas las opciones.",
+      "intro": "Usa las mejoras primero como herramienta de supervivencia y luego de economía. Si los zombis llegan a la base, refuerza el daño o la cobertura antes de comprar una zona nueva. Si la defensa es estable, invierte los ingresos en mejores sesiones de tiradas, progresión de zonas y crecimiento de ingresos a largo plazo.",
+      "columns": {
+        "focus": "Enfoque de mejoras",
+        "priority": "Prioridad",
+        "buyWhen": "Comprar cuando",
+        "bestUse": "Mejor uso",
+        "delayWhen": "Retrasar cuando"
+      },
+      "items": [
+        {
+          "upgrade_focus": "Verificación de mejoras",
+          "priority": "Alto",
+          "buy_when": "Después de girar y colocar unidades, revisa las opciones de mejora del juego antes de gastar todos los ingresos en más giros.",
+          "best_use": "Usa los controles de mejora dentro de la experiencia de Roblox y mantén las compras vinculadas al objetivo de la partida actual.",
+          "delay_when": "No has identificado si el problema actual es el daño, la cobertura, la calidad de los giros o el momento de cambiar de zona."
+        },
+        {
+          "upgrade_focus": "Daño principal",
+          "priority": "Alto",
+          "buy_when": "Los zombis sobreviven lo suficiente como para llegar a tu defensa o forzar gastos de último segundo.",
+          "best_use": "Refuerza la unidad o configuración que ya elimina a la mayoría de los zombis.",
+          "delay_when": "Los enemigos se están filtrando debido a huecos en la colocación en lugar de una baja velocidad de eliminación."
+        },
+        {
+          "upgrade_focus": "Cobertura y colocación",
+          "priority": "Alto",
+          "buy_when": "Los grupos se escapan a pesar de que tu unidad de daño principal está funcionando bien.",
+          "best_use": "Mejora la forma en que tu defensa cubre el camino de los zombis antes de buscar otro giro aleatorio.",
+          "delay_when": "Tus unidades actuales no pueden eliminar las oleadas básicas lo suficientemente rápido."
+        },
+        {
+          "upgrade_focus": "Configuración de calidad de giros",
+          "priority": "Medio",
+          "buy_when": "Has ahorrado ingresos y la configuración de suerte de amigos o suerte extra de grupo está activa.",
+          "best_use": "Gira en una sesión preparada para que más ingresos se destinen a conseguir unidades útiles.",
+          "delay_when": "Tu oleada actual ya está fallando y necesita mejoras de defensa directas primero."
+        },
+        {
+          "upgrade_focus": "Manejo de unidades duplicadas",
+          "priority": "Medio",
+          "buy_when": "Un duplicado ofrece una mejora visible respecto a la unidad ya colocada.",
+          "best_use": "Mantén la copia más fuerte en la defensa activa y usa las adicionales solo cuando aporten un valor de mejora claro.",
+          "delay_when": "Reemplazar una unidad que funciona reduciría la cobertura o dejaría un carril abierto."
+        },
+        {
+          "upgrade_focus": "Inversión de preparación para la zona",
+          "priority": "Medio",
+          "buy_when": "Las oleadas actuales se superan fácilmente y los ingresos se acumulan más rápido de lo que tu defensa necesita.",
+          "best_use": "Prepárate para la siguiente zona construyendo una fuente de daño confiable y una capa de cobertura estable.",
+          "delay_when": "Una nueva zona haría que la presión de los siguientes zombis fuera más difícil antes de que tu defensa esté lista."
+        },
+        {
+          "upgrade_focus": "Gasto de ingresos sin conexión",
+          "priority": "Flexible",
+          "buy_when": "Regresas al juego con ganancias sin conexión disponibles.",
+          "best_use": "Gasta los ingresos recuperados en la debilidad que puso fin a tu última partida, luego comienza a girar o a avanzar en las zonas.",
+          "delay_when": "No has comprobado si el verdadero cuello de botella es el daño, la cobertura, la calidad de los giros o el momento de cambiar de zona."
+        }
+      ]
+    },
+    "rollToDoDefendZonesGuide": {
+      "eyebrow": "Progresión de zonas",
+      "title": "Zonas de Roll to Defend: compra cuando tu defensa sea estable",
+      "subtitle": "Las zonas son parte del bucle principal de Roll to Defend: girar unidades, luchar contra zombis, comprar zonas y desbloquear nuevas áreas. El mejor momento para expandirse es cuando tu configuración actual pueda superar oleadas sin gastos de emergencia.",
+      "intro": "Trata cada compra de zona como un punto de control de progresión. Una nueva zona debería mejorar tus ingresos o el valor de colocación, pero también puede exponer un daño débil, una cobertura deficiente o una configuración de giros apresurada. Despeja la presión actual primero, luego expándete.",
+      "steps": [
+        {
+          "title": "Estabiliza la zona actual",
+          "action": "Gira y coloca unidades hasta que las oleadas de zombis actuales se despejen sin gastar por pánico.",
+          "whyItMatters": "Las eliminaciones estables te dan tiempo para ahorrar ingresos en lugar de reparar filtraciones constantemente.",
+          "readySignal": "Los zombis son eliminados antes de que amenacen la base."
+        },
+        {
+          "title": "Revisa tu punto más débil",
+          "action": "Decide si tu último problema fue el daño, la cobertura, la calidad de las unidades o la velocidad de los ingresos.",
+          "whyItMatters": "Comprar una zona antes de solucionar la debilidad real hace que la siguiente área sea más difícil de controlar.",
+          "readySignal": "Puedes identificar el cuello de botella y ya lo has mejorado."
+        },
+        {
+          "title": "Compra la siguiente zona con ingresos de respaldo",
+          "action": "Compra una nueva zona después de que tu defensa sea estable y aún tengas suficientes ingresos para reaccionar tras el desbloqueo.",
+          "whyItMatters": "Las zonas impulsan la progresión, pero las primeras oleadas después de expandirse pueden exponer decisiones de gasto deficientes.",
+          "readySignal": "No estás gastando todo tu saldo solo en la zona."
+        },
+        {
+          "title": "Reconstruye la colocación alrededor de la nueva área",
+          "action": "Vuelve a comprobar por dónde viajan los zombis y concéntrate en el carril o área que ahora genera más presión.",
+          "whyItMatters": "Las nuevas zonas pueden cambiar qué unidades se sienten valiosas, especialmente cuando la cobertura se vuelve más importante que los giros puros.",
+          "readySignal": "Tu mejor fuente de daño aún tiene una cobertura útil después de desbloquear la zona."
+        },
+        {
+          "title": "Alimenta el bucle de progresión superior",
+          "action": "Vuelve a invertir el flujo de ingresos mejorado en mejores giros, unidades más fuertes y el objetivo de la siguiente zona.",
+          "whyItMatters": "Las zonas no son el final de la progresión; alimentan el ciclo de girar y defender.",
+          "readySignal": "Tus ingresos respaldan las mejoras y los giros sin romper la defensa."
+        },
+        {
+          "title": "Pausa la expansión después de un desbloqueo difícil",
+          "action": "Si la nueva zona hace que las oleadas se sientan peores, deja de comprar zonas y soluciona primero la capa de defensa que está fallando.",
+          "whyItMatters": "Pausar la expansión mantiene los ingresos disponibles para el problema de daño o cobertura que apareció después del desbloqueo.",
+          "readySignal": "La nueva zona se despeja de manera constante antes de que planifiques la siguiente compra."
+        }
+      ]
+    },
+    "rollToDoDefendLuckAndOfflineIncome": {
+      "eyebrow": "Suerte e ingresos",
+      "title": "Suerte e ingresos sin conexión de Roll to Defend: acumula suerte, gasta los ingresos de forma inteligente",
+      "subtitle": "Roll to Defend destaca la suerte de amigos, la suerte extra de grupo y los ingresos sin conexión directamente en la descripción del juego. Organiza esos sistemas antes de una larga sesión de giros.",
+      "intro": "La configuración de la suerte debe hacerse antes de la racha de giros. Cuando regreses con ingresos sin conexión, recógelos, identifica la parte más débil de tu última partida y vuelve a invertir antes de comprar una nueva zona.",
+      "sections": [
+        {
+          "heading": "Suerte de amigos",
+          "summary": "Juega con amigos cuando te estés preparando para gastar una acumulación de ingresos guardados en giros.",
+          "content": "La descripción del juego menciona jugar con amigos para obtener más suerte. Usa esa bonificación durante las sesiones de giros planificadas en lugar de gastar cada pequeña recaudación de ingresos de inmediato.",
+          "checklist": [
+            "Únete al mismo servidor que tus amigos antes de realizar muchos giros.",
+            "Ahorra ingresos para una sesión de giros enfocada cuando sea posible.",
+            "Gira después de que la configuración de suerte esté activa."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Suerte extra de grupo",
+          "summary": "Dale me gusta a la experiencia y únete al grupo del creador para obtener la ruta de suerte extra que se muestra en el juego.",
+          "content": "La página de Roblox dice que le des me gusta al juego y te unas al grupo para obtener suerte extra. Trata esto como un paso de configuración básico antes de juzgar si tus giros se sienten fuertes.",
+          "checklist": [
+            "Abre la página de Roblox de Roll to Defend.",
+            "Dale me gusta a la experiencia.",
+            "Únete a la comunidad de Roblox de D:/Drive conectada al juego."
+          ],
+          "defaultOpen": true
+        },
+        {
+          "heading": "Preparación de la sesión de tiradas",
+          "summary": "Prepara la suerte primero, luego tira con un objetivo claro.",
+          "content": "Una sesión de tiradas útil comienza con una defensa estable, fuentes de suerte activas y un objetivo claro: mejor daño, mejor cobertura o el reemplazo de una unidad débil.",
+          "checklist": [
+            "Despeja la zona actual de forma segura.",
+            "Activa la suerte de amigos y la configuración de suerte extra de grupo.",
+            "Gasta tiradas en la debilidad que más importe."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Retorno de ingresos sin conexión",
+          "summary": "Recoge los ingresos sin conexión al inicio de la sesión y conviértelos en progreso inmediato.",
+          "content": "Roll to Defend indica que sigues ganando ingresos sin conexión. Cuando regreses, usa esos ingresos para solucionar el último cuello de botella antes de tirar intensamente o comprar una zona nueva.",
+          "checklist": [
+            "Recoge primero los ingresos devueltos.",
+            "Mejora el daño o la cobertura si la última oleada se filtró.",
+            "Compra zonas solo después de que la defensa sea estable."
+          ],
+          "defaultOpen": false
+        },
+        {
+          "heading": "Mejor orden de ingresos al regresar",
+          "summary": "Primero soluciona la supervivencia, segundo tira, tercero expande.",
+          "content": "Los ingresos sin conexión son más útiles cuando evitan que la siguiente partida falle por el mismo motivo. Gasta en supervivencia si los zombis están logrando pasar, luego tira o avanza de zona una vez que la defensa sea estable.",
+          "checklist": [
+            "Problema de daño: fortalece la unidad principal de limpieza.",
+            "Problema de cobertura: mejora el posicionamiento o las unidades de apoyo.",
+            "Defensa estable: tira con suerte o prepara la siguiente zona."
+          ],
+          "defaultOpen": false
+        }
+      ]
+    },
+    "rollToDoDefendOfficialLinks": {
+      "eyebrow": "Fuentes oficiales",
+      "title": "Enlaces oficiales de Roll to Defend: Comienza desde la página del juego en Roblox",
+      "subtitle": "Los puntos de entrada más seguros para Roll to Defend son la página de la experiencia en Roblox y la comunidad de creadores de D:/Drive. Usa rutas vinculadas a Roblox antes de confiar en invitaciones, tiendas o tableros externos.",
+      "intro": "Comienza desde Roblox antes de usar cualquier enlace de la comunidad. La página del juego ofrece los puntos de entrada a la experiencia, la tienda y los servidores, mientras que la comunidad de creadores es la ruta del grupo vinculada a la suerte extra.",
+      "links": [
+        {
+          "title": "Página de la experiencia en Roblox",
+          "type": "Página del juego",
+          "status": "Listado en Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Juega Roll to Defend, lee la descripción actual, marca el juego como favorito y accede a las pestañas de Tienda o Servidores."
+        },
+        {
+          "title": "Comunidad de creadores de D:/Drive",
+          "type": "Comunidad de Roblox",
+          "status": "Vinculado desde el creador de la experiencia en Roblox",
+          "href": "https://www.roblox.com/communities/861213399/D-Drive",
+          "useFor": "Únete a la ruta del grupo de creadores conectada al aviso de suerte extra."
+        },
+        {
+          "title": "Pestaña de Tienda",
+          "type": "Sección de la página de Roblox",
+          "status": "Disponible desde la página del juego en Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Consulta los productos del juego desde la página oficial de Roblox en lugar de reclamos de compra de terceros."
+        },
+        {
+          "title": "Pestaña de Servidores",
+          "type": "Sección de la página de Roblox",
+          "status": "Disponible en la página del juego de Roblox",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Únete a los servidores públicos disponibles o elige un servidor desde la interfaz de Roblox."
+        },
+        {
+          "title": "Ficha de Creator Exchange",
+          "type": "Ficha del juego",
+          "status": "Muestra a D:/Drive como propietario y a Roll to Defend como la etiqueta de la comunidad",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Consulta los detalles de la ficha pública, como el propietario, el género, el estado de los códigos y la etiqueta de la comunidad mostrada."
+        },
+        {
+          "title": "Entrada de Discord",
+          "type": "Enlace de la comunidad",
+          "status": "Úsalo solo desde una fuente de Roblox, dentro del juego o vinculada por el creador.",
+          "href": "https://creatorexchange.io/roblox-game/10168931576/roll-to-defend",
+          "useFor": "Evita las páginas de invitación que soliciten contraseñas de Roblox, scripts, pasos para obtener Robux gratis o redireccionamientos no relacionados."
+        },
+        {
+          "title": "Tablero de Trello",
+          "type": "Enlace de la hoja de ruta",
+          "status": "No se muestra ningún enlace de Trello en la página visible del juego de Roblox.",
+          "href": "https://www.roblox.com/games/129559579789369/Roll-to-Defend",
+          "useFor": "Utiliza la página de Roblox como fuente oficial hasta que se publique un Trello desde una vía oficial del creador."
+        },
+        {
+          "title": "Guías de YouTube",
+          "type": "Contenido multimedia del juego",
+          "status": "Contenido de guías creado por jugadores",
+          "href": "https://www.youtube.com/watch?v=NsJK6rOyUEc",
+          "useFor": "Usa los videos para guías visuales, pero confirma los enlaces y las compras a través de Roblox o el grupo del creador."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Roll to Defend en Roblox.",
+    "questions": [
+      {
+        "question": "¿Qué es Roll to Defend en Roblox?",
+        "answer": "Roll to Defend es un simulador de defensa de zombis basado en tiradas en Roblox. Tiras para obtener unidades, colocas defensores para luchar contra oleadas de zombis, compras zonas, acumulas suerte con amigos y el grupo D:/Drive, y reinviertes los ingresos sin conexión para lograr mejores partidas."
+      },
+      {
+        "question": "¿Hay códigos activos de Roll to Defend en este momento?",
+        "answer": "Roll to Defend no muestra códigos públicos activos en su página de juego de Roblox en este momento. Las recompensas actuales dentro del juego son suerte de amigos, suerte de grupo por dar me gusta y unirse a D:/Drive, e ingresos sin conexión que financian más tiradas."
+      },
+      {
+        "question": "¿Cómo funciona la suerte en Roll to Defend?",
+        "answer": "Roll to Defend otorga suerte a través del juego social y del grupo del creador. Juega con amigos para obtener suerte de amigos, y dale me gusta al juego además de unirte al grupo D:/Drive para obtener suerte adicional antes de sesiones de tiradas más largas."
+      },
+      {
+        "question": "¿Qué son las zonas en Roll to Defend?",
+        "answer": "Las zonas en Roll to Defend son áreas de progresión que compras con tus ingresos. El momento más seguro para desbloquear una nueva zona es después de que tu defensa actual pueda superar oleadas de zombis sin tener que gastar por pánico."
+      },
+      {
+        "question": "¿Tiene Roll to Defend ingresos sin conexión?",
+        "answer": "Sí. Roll to Defend sigue generando ingresos mientras estás sin conexión. Cuando regreses, recoge primero los ingresos sin conexión y gástalos en la debilidad que puso fin a tu última partida antes de comprar una nueva zona."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Roll to Defend?",
+        "answer": "Puedes jugar a Roll to Defend en la página oficial del juego en Roblox. La comunidad de creadores D:/Drive es la ruta del grupo conectada a la bonificación de suerte adicional."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para tirar y defender?",
+    "description": "¡Únete a la comunidad de Roll to Defend en Roblox para obtener códigos, guías de unidades, listas de niveles y estrategias de defensa contra zombis!",
+    "joinCommunity": "Unirse al grupo de Roblox",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Roll to Defend",
+    "description": "Tu centro completo de recursos para códigos, unidades, mejoras, zonas, suerte y guías de defensa zombi de Roll to Defend.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Jugar en Roblox",
+    "twitter": "Grupo de Roblox",
+    "steamCommunity": "Gameplay en YouTube",
+    "steamStore": "Más en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Roll to Defend Wiki. No afiliado con los desarrolladores de Roll to Defend.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Roll to Defend",
+      "description": "Realiza un seguimiento de los códigos activos y expirados de Roll to Defend, los pasos de canje y las fuentes oficiales para estar al tanto de nuevos lanzamientos de códigos.",
+      "metaTitle": "Códigos de Roll to Defend - Códigos activos y guía de canje",
+      "metaDescription": "Obtén los últimos códigos de Roll to Defend, los pasos de canje y las fuentes oficiales para nuevos lanzamientos de códigos. Aprende qué recompensas reclamar y cómo canjear cada código.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de Roll to Defend son recompensas canjeables lanzadas por los creadores de D:/Drive. Cada código puede otorgar giros, potenciadores de suerte, monedas, cerebros u otros objetos de valor dentro del juego, y el menú de códigos del juego es el lugar para canjearlos.",
+      "why": "¿Por qué usar códigos?",
+      "whySteps": {
+        "step1Title": "Ventaja inicial gratuita",
+        "step1Description": "Los códigos otorgan giros, monedas o potenciadores gratuitos cuando tu defensa aún se está construyendo",
+        "step2Title": "Recompensas oficiales",
+        "step2Description": "Los códigos provienen directamente de los creadores, por lo que cada recompensa que canjees a través del menú del juego es segura de usar",
+        "step3Title": "Anticípate a los lanzamientos",
+        "step3Description": "Seguir la página oficial de Roblox y la comunidad de D:/Drive te mantendrá listo para el próximo lanzamiento de códigos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Roll to Defend",
+      "description": "Guías completas de Roll to Defend que cubren el ciclo básico de juego, la configuración para principiantes, las mejores estrategias y tácticas profesionales para obtener unidades y superar oleadas de zombis.",
+      "metaTitle": "Guía de Roll to Defend - Estrategias de principiante a profesional",
+      "metaDescription": "Domina Roll to Defend con guías completas sobre el ciclo básico de juego, obtener unidades, colocar defensores, eliminar zombis y progresar a través de las zonas y la suerte.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué es la guía de Roll to Defend?",
+      "whatIsDescription": "Las guías de Roll to Defend te guían por todo el ciclo de juego: obtener unidades, colocar defensores, superar oleadas de zombis, comprar zonas, acumular suerte con amigos y el grupo de D:/Drive, y reinvertir los ingresos sin conexión en partidas más fuertes.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende el ciclo principal",
+        "step1Description": "Entiende cómo girar, defender y gastar ingresos se conectan en un ritmo repetible",
+        "step2Title": "Progresa más rápido",
+        "step2Description": "Sigue rutas probadas de principiante a pro que estabilizan oleadas y aumentan ingresos sin gastos innecesarios",
+        "step3Title": "Evita errores comunes",
+        "step3Description": "Evita los hábitos que estancan las partidas, como buscar zonas antes de que tu defensa pueda limpiar las oleadas actuales"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "units": {
+      "title": "Unidades de Roll to Defend",
+      "description": "Explora las guías de unidades de Roll to Defend que cubren rarezas, roles, las mejores tiradas, la lista de niveles y cómo mejorar y obtener mejores unidades.",
+      "metaTitle": "Unidades de Roll to Defend - Mejores tiradas, lista de niveles y consejos de mejora",
+      "metaDescription": "Cobertura completa de unidades de Roll to Defend: mejores unidades, lista de niveles, cómo obtener mejores unidades, prioridades de mejora y las formaciones de ejército más fuertes para eliminar zombis.",
+      "categoryLabel": "UNIDADES",
+      "whatIs": "¿Qué son las unidades?",
+      "whatIsDescription": "Las unidades en Roll to Defend son los defensores que obtienes al girar, colocas y mejoras para luchar contra oleadas de zombis. Cada tirada tiene una rareza y un rol que determina qué tan bien limpia carriles, mantiene zonas y escala en partidas avanzadas.",
+      "why": "¿Por qué estudiar las unidades?",
+      "whySteps": {
+        "step1Title": "Sabe qué tiradas conservar",
+        "step1Description": "La rareza y el impacto en el carril deciden qué unidades se quedan en tu defensa y cuáles se reemplazan",
+        "step2Title": "Coloca defensores con inteligencia",
+        "step2Description": "Asigna cada unidad al camino de zombis que mejor limpie para una mayor supervivencia e ingresos estables",
+        "step3Title": "Mejora las unidades correctas",
+        "step3Description": "Gasta los ingresos en unidades que ya eliminan a la mayoría de los zombis en lugar de dispersarlos demasiado"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las unidades"
+    },
+    "luck": {
+      "title": "Suerte en Roll to Defend",
+      "description": "Aprende cómo funciona la suerte en Roll to Defend, incluyendo la suerte de amigos, la suerte de grupo, estrategias de suerte máxima, giros de jackpot y beneficios VIP para mejores tiradas de unidades.",
+      "metaTitle": "Suerte en Roll to Defend - Suerte máxima, suerte de amigos y suerte de grupo",
+      "metaDescription": "Domina las mecánicas de suerte de Roll to Defend: suerte de amigos, suerte de grupo de D:/Drive, configuración de suerte máxima, sincronización de giros de jackpot y beneficios VIP para giros más fuertes.",
+      "categoryLabel": "SUERTE",
+      "whatIs": "¿Qué es la suerte?",
+      "whatIsDescription": "La suerte en Roll to Defend mejora la calidad de tus giros de unidades. El juego ofrece fuentes de suerte como jugar con amigos, dar \"me gusta\" al juego y unirse al grupo D:/Drive, y usar giros de jackpot y beneficios VIP durante sesiones de giro preparadas.",
+      "why": "¿Por qué acumular suerte?",
+      "whySteps": {
+        "step1Title": "Mejores tiradas por giro",
+        "step1Description": "Una mayor suerte aumenta tus posibilidades de ver unidades más fuertes y de mayor rareza al girar",
+        "step2Title": "Bonificaciones de amigos y de grupo",
+        "step2Description": "Juega con amigos y únete al grupo D:/Drive para obtener suerte extra antes de sesiones largas de giros",
+        "step3Title": "Sincroniza tus sesiones de giros",
+        "step3Description": "Acumula suerte, recoge ingresos sin conexión y luego gira en tandas enfocándote en tu mayor debilidad"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de suerte"
+    },
+    "rebirth": {
+      "title": "Renacimiento en Roll to Defend",
+      "description": "Guías completas de renacimiento en Roll to Defend que cubren cómo renacer, la mejor estrategia de renacimiento, la ruta de renacimiento más rápida y cuándo el renacimiento acelera el progreso a largo plazo.",
+      "metaTitle": "Renacimiento en Roll to Defend - Cómo renacer y mejor estrategia",
+      "metaDescription": "Aprende cómo funciona el renacimiento en Roll to Defend, cuándo renacer, la mejor estrategia de renacimiento y la forma más rápida de renacer para lograr partidas a largo plazo más fuertes y mejores unidades.",
+      "categoryLabel": "RENACIMIENTO",
+      "whatIs": "¿Qué es el renacimiento?",
+      "whatIsDescription": "El renacimiento en Roll to Defend reinicia partes de tu partida a cambio de recompensas de progresión a largo plazo. Un renacimiento a tiempo multiplica los ingresos futuros, la suerte o la calidad de las unidades, haciendo que cada nuevo ciclo sea más fuerte que el anterior.",
+      "why": "¿Por qué renacer?",
+      "whySteps": {
+        "step1Title": "Crecimiento de poder a largo plazo",
+        "step1Description": "El renacimiento convierte una partida estable en multiplicadores permanentes que hacen que cada ciclo futuro sea más fuerte",
+        "step2Title": "Ciclos de ingresos más rápidos",
+        "step2Description": "Planifica el renacimiento en torno a los picos de ingresos para que la siguiente partida se reconstruya más rápido que la anterior",
+        "step3Title": "Mejores resultados de rolls",
+        "step3Description": "Acumula bonificaciones de renacimiento con suerte e ingresos sin conexión para obtener tiradas de unidades de mayor calidad"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de renacimiento"
+    },
+    "currency": {
+      "title": "Divisas de Roll to Defend",
+      "description": "Guías de divisas de Roll to Defend que cubren monedas, cerebros, estrategias de farmeo y las mejores formas de ganar y gastar cada divisa para lograr partidas más fuertes.",
+      "metaTitle": "Divisas de Roll to Defend - Guía de monedas, cerebros y farmeo",
+      "metaDescription": "Domina las divisas de Roll to Defend: cómo conseguir más monedas y cerebros, la mejor guía de farmeo y el orden de gasto más inteligente para rolls, mejoras y zonas.",
+      "categoryLabel": "DIVISAS",
+      "whatIs": "¿Qué son las divisas?",
+      "whatIsDescription": "Roll to Defend utiliza divisas como monedas y cerebros para financiar rolls, mejoras, compras de zonas y el progreso de renacimiento. Una gestión inteligente de las divisas significa ganar de forma constante a través de oleadas estables y gastar en el cuello de botella que limita tu partida actual.",
+      "why": "¿Por qué gestionar las divisas?",
+      "whySteps": {
+        "step1Title": "Gana a través de oleadas estables",
+        "step1Description": "Genera ingresos superando oleadas de zombis limpiamente antes de buscar expandirte o conseguir rolls adicionales",
+        "step2Title": "Gasta en el cuello de botella",
+        "step2Description": "Invierte monedas y cerebros en la debilidad que puso fin a tu última partida en lugar de repartirlos por todos lados",
+        "step3Title": "Reinvierte los ingresos sin conexión",
+        "step3Description": "Recoge primero las ganancias sin conexión cuando regreses, luego reinviértelas en supervivencia, rolls o zonas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de divisas"
+    },
+    "zones": {
+      "title": "Zonas de Roll to Defend",
+      "description": "Guías de zonas de Roll to Defend que cubren todas las zonas, cómo comprar y cambiar de zona, la mejor zona para desbloquear a continuación y el momento adecuado para cada expansión.",
+      "metaTitle": "Zonas de Roll to Defend - Guía para comprar, cambiar y la mejor zona",
+      "metaDescription": "Cobertura completa de las zonas de Roll to Defend: lista de todas las zonas, cómo comprar y cambiar de zona, la mejor zona para desbloquear a continuación y el momento adecuado de expansión para partidas estables.",
+      "categoryLabel": "ZONAS",
+      "whatIs": "¿Qué son las zonas?",
+      "whatIsDescription": "Las zonas en Roll to Defend son áreas de progresión que desbloqueas con tus ingresos. Cada nueva zona expande el campo de batalla, cambia la presión de los zombis y aumenta tus ingresos cuando tu defensa es lo suficientemente estable como para resistir.",
+      "why": "¿Por qué entender las zonas?",
+      "whySteps": {
+        "step1Title": "Sincroniza tus desbloqueos",
+        "step1Description": "Compra una nueva zona solo después de que tu defensa actual supere oleadas sin gastar por pánico",
+        "step2Title": "Estabiliza las nuevas áreas",
+        "step2Description": "Reorganiza la colocación en torno a la presión de la nueva zona para que las filtraciones no agoten tus ingresos",
+        "step3Title": "Elige la mejor zona",
+        "step3Description": "Elige la siguiente zona según el potencial de ingresos y qué tan bien puedan defenderla tus unidades"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de zonas"
+    },
+    "items": {
+      "title": "Objetos de Roll to Defend",
+      "description": "Guías de objetos de Roll to Defend que cubren botín, pociones, el árbol de habilidades, rutas de mejora, actualizaciones del juego y cómo usar cada objeto y la comunidad oficial de Discord.",
+      "metaTitle": "Objetos de Roll to Defend - Botín, pociones, árbol de habilidades y mejoras",
+      "metaDescription": "Cobertura completa de objetos de Roll to Defend: tablas de botín, pociones, el árbol de habilidades, rutas de mejora, las últimas actualizaciones del juego y cómo encontrar la comunidad oficial de Discord.",
+      "categoryLabel": "OBJETOS",
+      "whatIs": "¿Qué son los objetos?",
+      "whatIsDescription": "Los objetos de Roll to Defend abarcan todo lo que recolectas, consumes e inviertes más allá de las unidades: recompensas de botín, pociones, el árbol de habilidades, mejoras permanentes y las actualizaciones del juego que cambian lo que vale la pena conseguir.",
+      "why": "¿Por qué hacer un seguimiento de los objetos?",
+      "whySteps": {
+        "step1Title": "Usa el botín y las pociones sabiamente",
+        "step1Description": "Gasta los consumibles en la partida que más los necesite en lugar de desperdiciarlos en oleadas estables",
+        "step2Title": "Invierte en el árbol de habilidades",
+        "step2Description": "Planifica el árbol de habilidades y las rutas de mejora en torno al cuello de botella que pone fin a tus partidas",
+        "step3Title": "Sigue las actualizaciones del juego",
+        "step3Description": "Sigue las actualizaciones y el Discord oficial para que los nuevos objetos, reequilibrios y eventos mantengan tus partidas por delante"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de objetos"
+    }
+  }
+}

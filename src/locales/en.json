@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,242 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Roll to Defend Gameplay",
+    "description": "Roll units, fight zombie waves, buy zones, stack luck with friends and the D:/Drive group, and reinvest offline income in this Roblox roll-based defense simulator."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Roll to Defend",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to roll units, clear zombie waves, and progress through Roll to Defend on Roblox.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Gift",
+        "title": "Roll to Defend Codes",
+        "description": "Active codes, expired codes, reward sources, and redemption steps."
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "GraduationCap",
+        "title": "Roll to Defend Beginner Guide",
+        "description": "Roll units, place defenders, clear zombies, and buy zones."
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Trophy",
+        "title": "Roll to Defend Tier List",
+        "description": "Keep, place, and build around the strongest pulls."
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Swords",
+        "title": "Roll to Defend Best Units",
+        "description": "Rarest defenders and pulls worth keeping long-term."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "rollToDoDefendCodes": {
+      "title": "Roll to Defend Codes",
+      "subtitle": "Check the current Roll to Defend code status, code rewards, and official places to watch for new drops.",
+      "intro": "Roll to Defend does not list any active public codes on its Roblox game page or Creator Exchange entry right now. The real in-game rewards to use today are extra luck from playing with friends, extra luck from liking and joining the D:/Drive group, and offline income for more rolls.",
+      "lastChecked": "2026-07-05",
+      "activeCodes": {
+        "title": "Active Codes",
+        "emptyState": "No active Roll to Defend codes are available right now."
+      },
+      "expiredCodes": {
+        "title": "Expired Codes",
+        "emptyState": "No expired Roll to Defend codes are listed right now."
+      },
+      "currentRewards": {
+        "title": "Current Reward Sources",
+        "cards": [
+          {
+            "name": "Friend Luck",
+            "reward": "Play with friends for more luck when rolling units.",
+            "howToGet": "Join a server with friends before rolling for units."
+          },
+          {
+            "name": "Group Luck",
+            "reward": "Like the game and join D:/Drive for extra luck.",
+            "howToGet": "Open the D:/Drive Roblox community and join the group tied to Roll to Defend."
+          },
+          {
+            "name": "Offline Income",
+            "reward": "Income continues while you are offline.",
+            "howToGet": "Leave the game after building income, then return later and spend the collected income on more rolls or zones."
+          }
+        ]
+      },
+      "redeemSteps": {
+        "title": "How to Redeem Codes",
+        "steps": [
+          "Launch Roll to Defend from the official Roblox game page.",
+          "Use the in-game code menu when public codes are added.",
+          "Enter one active code exactly as shown.",
+          "Claim the reward, then remove the code from your retry list if it moves to expired."
+        ],
+        "note": "Only Roll to Defend codes belong here; codes from similarly named Roblox defense games are not included."
+      }
+    },
+    "rollToDoDefendBeginnerGuide": {
+      "title": "Roll to Defend Beginner Guide",
+      "subtitle": "Learn the basic loop: roll units, place defenders, clear zombies, buy zones, and turn income into better pulls.",
+      "intro": "Roll to Defend is built around a simple repeatable loop. Roll for units, use those units to fight zombies, spend income on more strength, unlock zones when your defense can handle it, and use offline income to keep progressing between sessions.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Roll Your First Units",
+          "body": "Start by rolling for units. Your first goal is to get defenders on the field so zombies are being cleared while income starts moving.",
+          "playerAction": "Roll several times, keep the strongest pulls you see, and avoid spending all early income before you have units placed."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Place Units Before Chasing Zones",
+          "body": "Units need to be on the map to fight zombies. A stronger pull sitting unused does nothing, because even Roblox soldiers respect basic logistics.",
+          "playerAction": "Place your best visible units where they can attack incoming zombies for the longest time."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Let Units Fight Zombies",
+          "body": "Zombies are the pressure check. If they are leaking through, spend income on more rolls or better placement before pushing into a new zone.",
+          "playerAction": "Watch the path, identify weak spots, and reinforce the area where zombies survive the longest."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Turn Income Into More Rolls",
+          "body": "Income funds the next set of rolls. The faster you stabilize your defense, the easier it becomes to chase stronger units.",
+          "playerAction": "After each stable wave cycle, spend part of your income on more unit rolls."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Buy Zones When Defense Is Stable",
+          "body": "Zones are progression, but buying too early can stretch your setup before your units are ready.",
+          "playerAction": "Unlock a new zone after your current units can handle zombies without constant panic spending."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Use Luck Bonuses",
+          "body": "Roll to Defend gives luck value through social play and the creator group.",
+          "playerAction": "Play with friends, like the game, and join the D:/Drive group before doing longer roll sessions."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Collect Offline Income",
+          "body": "The game keeps earning income while you are offline, so returning players can immediately fund more rolls or zone progress.",
+          "playerAction": "When you come back, collect offline income first, then decide whether rolls or zones give the bigger upgrade."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "rollToDoDefendTierList": {
+      "title": "Roll to Defend Tier List",
+      "subtitle": "A practical tier list for deciding which pulls to keep, place first, and build around during zombie waves.",
+      "intro": "This tier list ranks Roll to Defend pulls by visible rarity value, zombie-clearing usefulness, zone progression value, and public gameplay performance. It focuses on decisions players can act on immediately.",
+      "tiers": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Keep First",
+          "cards": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Stellar Pirate",
+              "rarity": "Divine",
+              "role": "Rare carry pull",
+              "bestFor": "High-value defense core and long-term keep",
+              "why": "A public gameplay video highlights Stellar Pirate as a Divine pull with a 1 in 258,300 chance, making it the clearest named high-rarity unit to keep first."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Any Divine Pull",
+              "rarity": "Divine",
+              "role": "Main defender candidate",
+              "bestFor": "Replacing lower-rarity units and anchoring stronger waves",
+              "why": "Divine rarity is the strongest publicly visible rarity category tied to Roll to Defend gameplay, and the game loop rewards stronger rare pulls."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Use as Main Defense",
+          "cards": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Highest-Rarity Current Pull",
+              "rarity": "Inventory-based",
+              "role": "Main slot holder",
+              "bestFor": "Early and mid-game wave clearing",
+              "why": "Roll to Defend centers on rolling units and using your strongest pulls to fight zombies, so the highest-rarity unit in your inventory should be placed before filler units."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Best Zone-Stabilizing Pull",
+              "rarity": "Varies",
+              "role": "Zone control",
+              "bestFor": "Holding new zones after expansion",
+              "why": "Buying zones is part of the core loop, so the best pull that keeps a new zone stable has high progression value."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Good Early Holds",
+          "cards": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Starter Damage Pulls",
+              "rarity": "Varies",
+              "role": "Early zombie clear",
+              "bestFor": "First-session defense and income building",
+              "why": "Any unit that reliably clears early zombies is worth using until a higher-rarity pull replaces it."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Extra Placed Defenders",
+              "rarity": "Varies",
+              "role": "Path coverage",
+              "bestFor": "Filling weak spots while income grows",
+              "why": "Placed units keep zombies under control while you build enough income for more rolls and zones."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "C",
+          "label": "Replace Later",
+          "cards": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Outclassed Early Pulls",
+              "rarity": "Lower than your current best",
+              "role": "Temporary filler",
+              "bestFor": "Only filling empty space before better pulls arrive",
+              "why": "Once you roll stronger units, older low-output pulls should be replaced so your field is not clogged with weak defenders."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "rollToDoDefendBestUnits": {
+      "title": "Roll to Defend Best Units",
+      "subtitle": "The safest units and pulls to keep are rare, high-impact defenders that improve zombie clearing and help you push zones without wasting income.",
+      "intro": "Roll to Defend is a roll-based defense game, so the best unit choice is tied to rarity, field impact, and how well a pull helps you clear zombies while income grows. These cards focus on public gameplay and game-visible information.",
+      "units": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Stellar Pirate",
+          "rarity": "Divine",
+          "use": "Rare carry pull and long-term keep",
+          "stage": "Mid game to late game",
+          "details": "Keep Stellar Pirate over normal pulls and build your defense around it when available. It is the clearest named high-rarity unit shown in public Roll to Defend gameplay."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Any Divine Pull",
+          "rarity": "Divine",
+          "use": "Main defender candidate",
+          "stage": "All stages after pulled",
+          "details": "A Divine pull should be kept immediately and placed ahead of lower-rarity filler, because the game rewards rolling stronger units and using them to clear zombie waves."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Highest-Rarity Current Pull",
+          "rarity": "Inventory-based",
+          "use": "Best available defender until replaced",
+          "stage": "Beginner to mid game",
+          "details": "Use the strongest rarity visible in your current inventory first. This is the cleanest early rule before exact damage tables are published in-game."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "name": "Zone-Stabilizing Pull",
+          "rarity": "Varies",
+          "use": "Hold newly unlocked zones",
+          "stage": "Zone progression",
+          "details": "After buying a zone, keep the pull that best prevents zombie leaks in that area. A unit that stabilizes a new zone can be more valuable than a flashy unused pull."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Early Path-Coverage Pull",
+          "rarity": "Varies",
+          "use": "Fill empty defense space while income grows",
+          "stage": "First session and early income farming",
+          "details": "Use early pulls to cover the zombie path until better rolls arrive. Replace them once higher-rarity units can clear the same section faster."
         }
       ]
     }
@@ -750,31 +296,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Roll to Defend on Roblox.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Roll to Defend on Roblox?",
+        "answer": "Roll to Defend is a Roblox roll-based zombie defense simulator. You roll units, place defenders to fight zombie waves, buy zones, stack luck with friends and the D:/Drive group, and reinvest offline income to build stronger runs."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Are there active Roll to Defend codes right now?",
+        "answer": "Roll to Defend does not show active public codes on its Roblox game page right now. The current in-game rewards are friend luck, group luck from liking and joining D:/Drive, and offline income that funds more rolls."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How does luck work in Roll to Defend?",
+        "answer": "Roll to Defend gives luck through social play and the creator group. Play with friends for friend luck, and like the game plus join the D:/Drive group for extra luck before longer roll sessions."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What are zones in Roll to Defend?",
+        "answer": "Zones in Roll to Defend are progression areas you buy with income. The safest time to unlock a new zone is after your current defense can clear zombie waves without panic spending."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Roll to Defend have offline income?",
+        "answer": "Yes. Roll to Defend keeps earning income while you are offline. When you return, collect the offline income first and spend it on the weakness that ended your last run before buying a new zone."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I play Roll to Defend?",
+        "answer": "You can play Roll to Defend on the official Roblox game page. The D:/Drive creator community is the group route connected to the extra luck prompt."
       }
     ]
   },
@@ -803,124 +349,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Roll to Defend Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced zombie defense strategies. Master rolling, upgrading, and zone progression.",
+      "metaTitle": "Roll to Defend Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Roll to Defend guides covering beginner tips, rolling units, zombie defense strategies, and expert tactics for mastering the Roblox simulator.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, zombie defense strategies, and the rolling system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the rolling system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to clear zombie waves and grow income",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for zones, luck, and unit placement"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Roll to Defend Upgrades",
+      "description": "Master the upgrade system with priority paths, roll timing, and income reinvestment strategies for stronger defenses.",
+      "metaTitle": "Roll to Defend Upgrades - Upgrade Paths & Priorities",
+      "metaDescription": "Master Roll to Defend upgrade priorities. Learn which upgrades to buy first, when to reinforce damage versus coverage, and how to reinvest income efficiently.",
+      "categoryLabel": "UPGRADE SYSTEM",
+      "whatIs": "What are Upgrades?",
+      "whatIsDescription": "The upgrade system lets you spend income on stronger defenses, better coverage, and improved roll quality. Plan upgrades around the bottleneck that ended your last run.",
+      "why": "Why master upgrades?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Strengthen Defense",
+        "step1Description": "Reinforce damage and coverage before pushing into new zones",
+        "step2Title": "Spend Income Smartly",
+        "step2Description": "Put income into the next clear bottleneck instead of spreading it",
+        "step3Title": "Prepare Zone Pushes",
+        "step3Description": "Stabilize your defense before buying the next zone"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Upgrade Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Roll to Defend Units",
+      "description": "Detailed unit guides covering rarities, roles, placement, and best uses for clearing zombie waves and holding zones.",
+      "metaTitle": "Roll to Defend Units - Rarities, Roles & Best Uses",
+      "metaDescription": "Complete Roll to Defend unit database including rarities, roles, and placement tips. Learn which pulls to keep and how to use every unit effectively.",
+      "categoryLabel": "UNITS & PULLS",
+      "whatIs": "What are Units?",
+      "whatIsDescription": "Comprehensive guides for units and pulls. Learn rarities, roles, placement strategies, and how to build a defense around your strongest units.",
+      "why": "Why check unit guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know Your Pulls",
+        "step1Description": "Identify which units to keep based on rarity and role",
+        "step2Title": "Place Defenders Smartly",
+        "step2Description": "Choose the best placement for clearing zombie paths",
+        "step3Title": "Build Strong Defenses",
+        "step3Description": "Combine units to hold zones and stabilize waves"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Units"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Roll to Defend Zones",
+      "description": "Explore zone progression, unlock timing, income scaling, and defense placement tips for each new area.",
+      "metaTitle": "Roll to Defend Zones - Unlock Timing & Progression",
+      "metaDescription": "Explore Roll to Defend zones including unlock timing, income scaling, and defense placement. Buy new zones at the right time and keep your runs stable.",
+      "categoryLabel": "ZONES & PROGRESSION",
+      "whatIs": "What are Zones?",
+      "whatIsDescription": "Guides to zone progression, unlock timing, and defense placement. Learn when to expand and how to stabilize a new area after buying it.",
+      "why": "Why understand zones?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Time Your Unlocks",
+        "step1Description": "Buy zones after your current defense is stable",
+        "step2Title": "Stabilize New Areas",
+        "step2Description": "Rebuild placement around the new zone pressure",
+        "step3Title": "Scale Income",
+        "step3Description": "Use new zones to fund more rolls and upgrades"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Zone Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Roll to Defend Luck",
+      "description": "Master luck sources, friend bonuses, group perks, and roll session preparation to pull stronger units.",
+      "metaTitle": "Roll to Defend Luck - Friend Luck, Group Luck & Roll Sessions",
+      "metaDescription": "Master Roll to Defend luck mechanics. Learn how friend luck, group extra luck, and roll session preparation improve your pulls on Roblox.",
+      "categoryLabel": "LUCK & ROLLS",
+      "whatIs": "What is Luck?",
+      "whatIsDescription": "Luck improves your rolls. Roll to Defend gives luck through playing with friends and joining the D:/Drive creator group. Stack luck before longer roll sessions.",
+      "why": "Why stack luck?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Add Friends",
+        "step1Description": "Play with friends for extra luck on every roll",
+        "step2Title": "Join the Group",
+        "step2Description": "Like the game and join D:/Drive for group luck",
+        "step3Title": "Plan Roll Sessions",
+        "step3Description": "Roll with luck active to chase stronger units"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Luck Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Roll to Defend Income",
+      "description": "Offline income, money reinvestment, and roll-cost management for steady long-term progression.",
+      "metaTitle": "Roll to Defend Income - Offline Earnings & Reinvestment",
+      "metaDescription": "Get the most out of Roll to Defend income. Learn how offline earnings work, when to reinvest, and how to balance rolls, upgrades, and zone purchases.",
+      "categoryLabel": "INCOME & ECONOMY",
+      "whatIs": "What is Income?",
+      "whatIsDescription": "Income funds your rolls, upgrades, and zones. Roll to Defend keeps earning income offline, so returning players can immediately reinvest in their next run.",
+      "why": "Why manage income?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Collect Offline Income",
+        "step1Description": "Claim offline earnings first when you return",
+        "step2Title": "Fix the Bottleneck",
+        "step2Description": "Spend returned income on the weakness that ended your last run",
+        "step3Title": "Reinvest Smartly",
+        "step3Description": "Balance spending between rolls, upgrades, and zones"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Income Guides"
     }
   }
 }

@@ -7,6 +7,7 @@ import {
   BookOpen,
   Check,
   ChevronDown,
+  Clock,
   Coins,
   Clover,
   Crown,
@@ -37,7 +38,6 @@ import {
   Swords,
   Target,
   Ticket,
-  TicketOff,
   Trello,
   Trash2,
   TrendingUp,
@@ -442,7 +442,7 @@ export default function HomePageClient({
               </div>
               <div className="p-5 md:p-6 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center gap-2 mb-3">
-                  <TicketOff className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <Clock className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold">
                     {t.modules.rollToDoDefendCodes.expiredCodes.title}
                   </h3>
